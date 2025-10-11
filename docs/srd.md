@@ -1,5305 +1,7 @@
-# Legal Information
 
-The System Reference Document 5.2.1 ("SRD 5.2.1") is provided to you free of charge by Wizards of the Coast LLC ("Wizards") under the terms of the Creative Commons Attribution 4.0 International License ("CC-BY-4.0"). You are free to use the content in this document in any manner permitted under CC-BY-4.0, provided that you include the following attribution statement in any of your work:
 
-This work includes material from the System Reference Document 5.2.1 ("SRD 5.2.1") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
 
-Please do not include any other attribution to Wizards or its parent or affiliates other than that provided above. You may, however, include a statement on your work indicating that it is "compatible with fifth edition" or "5E compatible."
 
-Section 5 of CC-BY-4.0 includes a Disclaimer of Warranties and Limitation of Liability that limits our liability to you.
-
-
-# Playing the Game
-
-## Rhythm of Play
-
-The three main pillars of D&D play are social interaction, exploration, and combat. Whichever one you're experiencing, the game unfolds according to this basic pattern:
-
-1: The Game Master Describes a Scene. The GM tells the players where their adventurers are and what's around them (how many doors lead out of a room, what's on a table, and so on).  
-2: The Players Describe What Their Characters
-
-Do. Typically, the characters stick together as they travel through a dungeon or another environment. Sometimes different adventurers do different things: one adventurer might search a treasure chest while a second examines a mysterious symbol engraved on a wall and a third keeps watch for monsters. Outside combat, the GM ensures that every character has a chance to act and decides how to resolve their activity. In combat, the characters take turns.
-
-3: The GM Narrates the Results of the Adventurers' Actions. Sometimes resolving a task is easy. If an adventurer walks across a room and tries to open a door, the GM might say the door opens and describe what lies beyond. But the door might be locked, the floor might hide a trap, or some other circumstance might make it challenging for an adventurer to complete a task. In those cases, the GM might ask the player to roll a die to help determine what happens. Describing the results often leads to another decision point, which brings the game back to step 1.
-
-This pattern holds during every game session (each time you sit down to play D&D), whether the
-
-#### EXCEPTIONS SUPERSEDE GENERAL RULES
-
-General rules govern each part of the game. For example, the combat rules tell you that melee attacks use Strength and ranged attacks use Dexterity. That's a general rule, and a general rule is in effect as long as something in the game doesn't explicitly say otherwise.
-
-The game also includes elements—class features, feats, weapon properties, spells, magic items, monster abilities, and the like—that sometimes contradict a general rule. When an exception and a general rule disagree, the exception wins. For example, if a feature says you can make melee attacks using your Charisma, you can do so, even though that statement disagrees with the general rule.
-
-adventurers are talking to a noble, exploring a ruin, or fighting a dragon. In certain situations—particularly combat—the action is more structured, and everyone takes turns.
-
-## The Six Abilities
-
-All creatures—characters and monsters—have six abilities that measure physical and mental characteristics, as shown on the Ability Descriptions table.
-
-Ability Descriptions  
-
-<table><tr><td>Ability</td><td>Score Measures ...</td></tr><tr><td>Strength</td><td>Physical might</td></tr><tr><td>Dexterity</td><td>Agility, reflexes, and balance</td></tr><tr><td>Constitution</td><td>Health and stamina</td></tr><tr><td>Intelligence</td><td>Reasoning and memory</td></tr><tr><td>Wisdom</td><td>Perceptiveness and mental fortitude</td></tr><tr><td>Charisma</td><td>Confidence, poise, and charm</td></tr></table>
-
-### Ability Scores
-
-Each ability has a score from 1 to 20, although some monsters have a score as high as 30. The score represents the magnitude of an ability. The Ability Scores table summarizes what the scores mean.
-
-Ability Scores  
-
-<table><tr><td>Score</td><td>Meaning</td></tr><tr><td>1</td><td>This is the lowest a score can normally go. 
-If an effect reduces a score to 0, that effect explains what happens.</td></tr><tr><td>2–9</td><td>This represents a weak capability.</td></tr><tr><td>10–11</td><td>This represents the human average.</td></tr><tr><td>12–19</td><td>This represents a strong capability.</td></tr><tr><td>20</td><td>This is the highest an adventurer&####x27;s score can go unless a feature says otherwise.</td></tr><tr><td>21–29</td><td>This represents an extraordinary capability.</td></tr><tr><td>30</td><td>This is the highest a score can go.</td></tr></table>
-
-### Ability Modifiers
-
-Each ability has a modifier that you apply whenever you make a D20 Test with that ability (explained in "D20 Tests"). An ability modifier is derived from its score, as shown in the Ability Modifiers table.
-
-#### ROUND DOWN
-
-Whenever you divide or multiply a number in the game, round down if you end up with a fraction, even if the fraction is one-half or greater. Some rules make an exception and tell you to round up.
-
-Ability Modifiers  
-
-<table><tr><td>Score</td><td>Modifier</td><td>Score</td><td>Modifier</td></tr><tr><td>1</td><td>-5</td><td>16–17</td><td>+3</td></tr><tr><td>2–3</td><td>-4</td><td>18–19</td><td>+4</td></tr><tr><td>4–5</td><td>-3</td><td>20–21</td><td>+5</td></tr><tr><td>6–7</td><td>-2</td><td>22–23</td><td>+6</td></tr><tr><td>8–9</td><td>-1</td><td>24–25</td><td>+7</td></tr><tr><td>10–11</td><td>+0</td><td>26–27</td><td>+8</td></tr><tr><td>12–13</td><td>+1</td><td>28–29</td><td>+9</td></tr><tr><td>14–15</td><td>+2</td><td>30</td><td>+10</td></tr></table>
-
-## D20 Tests
-
-When the outcome of an action is uncertain, the game uses a d20 roll to determine success or failure. These rolls are called D20 Tests, and they come in three kinds: ability checks, saving throws, and attack rolls. They follow these steps:
-
-4: Roll 1d20. You always want to roll high. If the roll has Advantage or Disadvantage (described later in "Playing the Game"), you roll two d20s, but you use the number from only one of them—the higher one if you have Advantage or the lower one if you have Disadvantage.  
-5: Add Modifiers. Add these modifiers to the number rolled on the d20:  
-- The Relevant Ability Modifier. "Playing the Game" and "Rules Glossary" explain which ability modifiers to use for various D20 Tests.  
-- Your Proficiency Bonus If Relevant. Each creature has a Proficiency Bonus, a number added when making a D20 Test that uses something, such as a skill, in which the creature has proficiency. See "Proficiency" later in "Playing the Game."  
-- Circumstantial Bonuses and Penalties. A class feature, a spell, or another rule might give a bonus or penalty to the die roll.  
-6: Compare the Total to a Target Number. If the total of the d20 and its modifiers equals or exceeds the target number, the D20 Test succeeds. Otherwise, it fails. The Game Master determines target numbers and tells players whether their rolls are successful. The target number for an ability check or a saving throw is called a Difficulty Class (DC). The target number for an attack roll is called an Armor Class (AC), which appears on a character sheet or in a stat block (see "Rules Glossary").
-
-### Ability Checks
-
-An ability check represents a creature using talent and training to try to overcome a challenge, such as forcing open a stuck door, picking a lock, entertaining a crowd, or deciphering a cipher. The GM and the rules often call for an ability check when a creature attempts something other than an attack that has a chance of meaningful failure. When the outcome is uncertain and narratively interesting, the dice determine the result.
-
-### Ability Modifier
-
-An ability check is named for the ability modifier it uses: a Strength check, an Intelligence check, and so on. Different ability checks are called for in different situations, depending on which ability is most relevant. See the Ability Check Examples table for examples of each check's use.
-
-Ability Check Examples  
-
-<table><tr><td>Ability</td><td>Make a Check To ...</td></tr><tr><td>Strength</td><td>Lift, push, pull, or break something</td></tr><tr><td>Dexterity</td><td>Move nimbly, quickly, or quietly</td></tr><tr><td>Constitution</td><td>Push your body beyond normal limits</td></tr><tr><td>Intelligence</td><td>Reason or remember</td></tr><tr><td>Wisdom</td><td>Notice things in the environment or in creatures’ behavior</td></tr><tr><td>Charisma</td><td>Influence, entertain, or deceive</td></tr></table>
-
-### Proficiency Bonus
-
-Add your Proficiency Bonus to an ability check when the GM determines that a skill or tool proficiency is relevant to the check and you have that proficiency. For example, if a rule refers to a Strength (Acrobatics or Athletics) check, you can add your Proficiency Bonus to the check if you have proficiency in the Acrobatics or Athletics skill. See "Proficiency" later in "Playing the Game" for more information about skill and tool proficiencies.
-
-### Difficulty Class
-
-The Difficulty Class of an ability check represents the task's difficulty. The more difficult the task, the higher its DC. The rules provide DCs for certain checks, but the GM ultimately sets them. The Typical Difficulty Classes table presents a range of possible DCs for ability checks.
-
-Typical Difficulty Classes  
-
-<table><tr><td>Task Difficulty</td><td>DC</td><td>Task Difficulty</td><td>DC</td></tr><tr><td>Very easy</td><td>5</td><td>Very hard</td><td>25</td></tr><tr><td>Easy</td><td>10</td><td>Nearly impossible</td><td>30</td></tr><tr><td>Medium</td><td>15</td><td></td><td></td></tr><tr><td>Hard</td><td>20</td><td></td><td></td></tr></table>
-
-### Saving Throws
-
-A saving throw—also called a save—represents an attempt to evade or resist a threat, such as a fiery explosion, a blast of poisonous gas, or a spell trying to invade your mind. You don't normally choose to make a save; you must make one because your character or a monster (if you're the GM) is at risk. A save's result is detailed in the effect that caused it.
-
-If you don't want to resist the effect, you can choose to fail the save without rolling.
-
-### Ability Modifier
-
-Saving throws are named for the ability modifiers they use: a Constitution saving throw, a Wisdom saving throw, and so on. Different saving throws are used to resist different kinds of effects, as shown on the Saving Throw Examples table.
-
-### Saving Throw Examples
-
-<table><tr><td>Ability</td><td>Make a Save To ...</td></tr><tr><td>Strength</td><td>Physically resist direct force</td></tr><tr><td>Dexterity</td><td>Dodge out of harm’s way</td></tr><tr><td>Constitution</td><td>Endure a toxic hazard</td></tr><tr><td>Intelligence</td><td>Recognize an illusion as fake</td></tr><tr><td>Wisdom</td><td>Resist a mental assault</td></tr><tr><td>Charisma</td><td>Assert your identity</td></tr></table>
-
-#### Proficiency Bonus
-
-You add your Proficiency Bonus to your saving throw if you have proficiency in that kind of save. See "Proficiency" later in "Playing the Game."
-
-#### Difficulty Class
-
-The Difficulty Class for a saving throw is determined by the effect that causes it or by the GM. For example, if a spell forces you to make a save, the DC is determined by the caster's spellcasting ability and Proficiency Bonus. Monster abilities that call for saves specify the DC.
-
-#### Attack Rolls
-
-An attack roll determines whether an attack hits a target. An attack roll hits if the roll equals or exceeds the target's Armor Class. Attack rolls usually occur in battle, described in "Combat" later in "Playing the Game," but the GM might also ask for an attack roll in other situations, such as an archery competition.
-
-#### Ability Modifier
-
-The Attack Roll Abilities table shows which ability modifier to use for different types of attack rolls.
-
-#### Attack Roll Abilities
-
-<table><tr><td>Ability</td><td>Attack Type</td></tr><tr><td>Strength</td><td>Melee attack with a weapon or an Un-armed Strike (see “Rules Glossary”)</td></tr><tr><td>Dexterity</td><td>Ranged attack with a weapon</td></tr><tr><td>Varies</td><td>Spell attack (the ability used is determined by the spellcaster’s spellcasting feature, as explained in “ Spells”)</td></tr></table>
-
-Some features let you use different ability modifiers from those listed. For example, the Finesse property (see "Equipment") lets you use Strength or Dexterity with a weapon that has that property.
-
-#### Proficiency Bonus
-
-You add your Proficiency Bonus to your attack roll when you attack using a weapon you have proficiency with, as well as when you attack with a spell. See "Proficiency" later in "Playing the Game" for more information about weapon proficiencies.
-
-#### Armor Class
-
-A creature's Armor Class represents how well the creature avoids being wounded in combat. The AC of a character is determined at character creation (see "Character Creation"), whereas the AC of a monster appears in its stat block.
-
-Calculating AC. All creatures start with the same base AC calculation:
-
-Base AC = 10 + the creature's Dexterity modifier
-
-A creature's AC can then be modified by armor, magic items, spells, and more.
-
-Only One Base AC. Some spells and class features give characters a different way to calculate their AC. A character with multiple features that give different ways to calculate AC must choose which one to use; only one base calculation can be in effect for a creature.
-
-#### Rolling 20 or I
-
-If you roll a 20 on the d20 (called a "natural 20") for an attack roll, the attack hits regardless of any modifiers or the target's AC. This is called a Critical Hit (see "Combat" later in "Playing the Game").
-
-If you roll a 1 on the d20 (a "natural 1") for an attack roll, the attack misses regardless of any modifiers or the target's AC.
-
-#### Advantage/Disadvantage
-
-Sometimes a D20 Test is modified by Advantage or Disadvantage. Advantage reflects the positive circumstances surrounding a d20 roll, while Disadvantage reflects negative circumstances.
-
-You usually acquire Advantage or Disadvantage through the use of special abilities and actions. The
-
-#### HEROIC INSPIRATION
-
-Sometimes the GM or a rule gives you Heroic Inspiration. If you have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll.
-
-Only One at a Time. You can never have more than one instance of Heroic Inspiration. If something gives you Heroic Inspiration and you already have it, you can give it to a player character in your group who lacks it.
-
-Gaining Heroic Inspiration. Your GM can give you Heroic Inspiration for a variety of reasons. Typically, GMs award it when you do something particularly heroic, in character, or entertaining. It's a reward for making the game more fun for everyone playing.
-
-Other rules might allow your character to gain Heroic Inspiration independent of the GM's decision. For example, Human characters start each day with Heroic Inspiration.
-
-GM can also decide that circumstances grant Advantage or impose Disadvantage.
-
-#### Roll Two D20s
-
-When a roll has either Advantage or Disadvantage, roll a second d20 when you make the roll. Use the higher of the two rolls if you have Advantage, and use the lower roll if you have Disadvantage. For example, if you have Disadvantage and roll an 18 and a 3, use the 3. If you instead have Advantage and roll those numbers, use the 18.
-
-#### They Don't Stack
-
-If multiple situations affect a roll and they all grant Advantage on it, you still roll only two d20s. Similarly, if multiple situations impose Disadvantage on a roll, you roll only two d20s.
-
-If circumstances cause a roll to have both Advantage and Disadvantage, the roll has neither of them, and you roll one d20. This is true even if multiple circumstances impose Disadvantage and only one grants Advantage or vice versa. In such a situation, you have neither Advantage nor Disadvantage.
-
-#### Interactions with Rerolls
-
-When you have Advantage or Disadvantage and something in the game lets you reroll or replace the d20, you can reroll or replace only one die, not both. You choose which one.
-
-For example, if you have Heroic Inspiration (see the sidebar below) and roll a 3 and an 18 on an ability check that has Advantage or Disadvantage, you could expend your Heroic Inspiration to reroll one of those dice, not both of them.
-
-#### Proficiency
-
-Characters and monsters are good at various things. Some are skilled with many weapons, while others can use only a few. Some are better at understanding people's motives, and others are better at unlocking the secrets of the multiverse. All creatures have a Proficiency Bonus, which reflects the impact that training has on the creature's capabilities. A character's Proficiency Bonus increases as the character gains levels (described in "Character Creation"). A monster's Proficiency Bonus is based on its Challenge Rating (see "Rules Glossary"). The Proficiency Bonus table shows how the bonus is determined.
-
-This bonus is applied to a D20 Test when the creature has proficiency in a skill, in a saving throw, or with an item that the creature uses to make the D20 Test. The bonus is also used for spell attacks and for calculating the DC of saving throws for spells.
-
-Proficiency Bonus  
-
-<table><tr><td>Level or CR</td><td>Bonus</td><td>Level or CR</td><td>Bonus</td></tr><tr><td>Up to 4</td><td>+2</td><td>17–20</td><td>+6</td></tr><tr><td>5–8</td><td>+3</td><td>21–24</td><td>+7</td></tr><tr><td>9–12</td><td>+4</td><td>25–28</td><td>+8</td></tr><tr><td>13–16</td><td>+5</td><td>29–30</td><td>+9</td></tr></table>
-
-#### The Bonus Doesn't Stack
-
-Your Proficiency Bonus can't be added to a die roll or another number more than once. For example, if a rule allows you to make a Charisma (Deception or Persuasion) check, you add your Proficiency Bonus if you're proficient in either skill, but you don't add it twice if you're proficient in both skills.
-
-Occasionally, a Proficiency Bonus might be multiplied or divided (doubled or halved, for example) before being added. For example, the Expertise feature (see "Rules Glossary") doubles the Proficiency Bonus for certain ability checks. Whenever the bonus is used, it can be multiplied only once and divided only once.
-
-#### Skill Proficiencies
-
-Most ability checks involve using a skill, which represents a category of things creatures try to do with an ability check. The descriptions of the actions you take (see "Actions" later in "Playing the Game") specify which skill applies if you make an ability check for that action, and many other rules note when a skill is relevant. The GM has the ultimate say on whether a skill is relevant in a situation.
-
-If a creature is proficient in a skill, the creature applies its Proficiency Bonus to ability checks involving that skill. Without proficiency in a skill, a creature can still make ability checks involving
-
-Skills  
-
-<table><tr><td>Skill</td><td>Ability</td><td>Example Uses</td></tr><tr><td>Acrobatics</td><td>Dexterity</td><td>Stay on your feet in a tricky situation, or perform an acrobatic stunt.</td></tr><tr><td>Animal Handling</td><td>Wisdom</td><td>Calm or train an animal, or get an animal to behave in a certain way.</td></tr><tr><td>Arcana</td><td>Intelligence</td><td>Recall lore about spells, magic items, and the planes of existence.</td></tr><tr><td>Athletics</td><td>Strength</td><td>Jump farther than normal, stay afloat in rough water, or break something.</td></tr><tr><td>Deception</td><td>Charisma</td><td>Tell a convincing lie, or wear a disguise convincingly.</td></tr><tr><td>History</td><td>Intelligence</td><td>Recall lore about historical events, people, nations, and cultures.</td></tr><tr><td>Insight</td><td>Wisdom</td><td>Discern a person&####x27;s mood and intentions.</td></tr><tr><td>Intimidation</td><td>Charisma</td><td>Awe or threaten someone into doing what you want.</td></tr><tr><td>Investigation</td><td>Intelligence</td><td>Find obscure information in books, or deduce how something works.</td></tr><tr><td>Medicine</td><td>Wisdom</td><td>Diagnose an illness, or determine what killed the recently slain.</td></tr><tr><td>Nature</td><td>Intelligence</td><td>Recall lore about terrain, plants, animals, and weather.</td></tr><tr><td>Perception</td><td>Wisdom</td><td>Using a combination of senses, notice something that&####x27;s easy to miss.</td></tr><tr><td>Performance</td><td>Charisma</td><td>Act, tell a story, perform music, or dance.</td></tr><tr><td>Persuasion</td><td>Charisma</td><td>Honestly and graciously convince someone of something.</td></tr><tr><td>Religion</td><td>Intelligence</td><td>Recall lore about gods, religious rituals, and holy symbols.</td></tr><tr><td>Sleight of Hand</td><td>Dexterity</td><td>Pick a pocket, conceal a handheld object, or perform legerdemain.</td></tr><tr><td>Stealth</td><td>Dexterity</td><td>Escape notice by moving quietly and hiding behind things.</td></tr><tr><td>Survival</td><td>Wisdom</td><td>Follow tracks, forage, find a trail, or avoid natural hazards.</td></tr></table>
-
-that skill but doesn't add its Proficiency Bonus. For example, if a character tries to climb a cliff, the GM might ask for a Strength (Athletics) check. If the character has Athletics proficiency, the character adds their Proficiency Bonus to the Strength check. If the character lacks that proficiency, they make the check without adding their Proficiency Bonus.
-
-#### Skill List
-
-The skills are shown on the Skills table, which notes example uses for each skill proficiency as well as the ability check the skill most often applies to.
-
-#### Determining Skills
-
-A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in its stat block.
-
-#### Saving Throw Proficiencies
-
-Proficiency in a saving throw lets a character add their Proficiency Bonus to saves that use a particular ability. For example, proficiency in Wisdom saves lets you add your Proficiency Bonus to your Wisdom saves. Some monsters also have saving throw proficiencies, as noted in their stat blocks.
-
-Each class gives proficiency in at least two saving throws, representing that class's training in evading or resisting certain threats. Wizards, for example, are proficient in Intelligence and Wisdom saves; they train to resist mental assault.
-
-#### Equipment Proficiencies
-
-A character gains proficiency with various weapons and tools from their class and background. There are two categories of equipment proficiency:
-
-Weapons. Anyone can wield a weapon, but proficiency makes you better at wielding it. If you have proficiency with a weapon, you add your Proficiency Bonus to attack rolls you make with it.
-
-Tools. If you have proficiency with a tool, you can add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in the skill that's also used with that check, you have Advantage on the check too. This means you can benefit from both skill proficiency and tool proficiency on the same ability check.
-
-#### Actions
-
-When you do something other than moving or communicating, you typically take an action. The Action table lists the game's main actions, which are defined in more detail in "Rules Glossary."
-
-Actions  
-
-<table><tr><td>Action</td><td>Summary</td></tr><tr><td>Attack</td><td>Attack with a weapon or an Unarmed Strike.</td></tr><tr><td>Dash</td><td>For the rest of the turn, give yourself extra movement equal to your Speed.</td></tr><tr><td>Disengage</td><td>Your movement doesn’t provoke Opportunty Attacks for the rest of the turn.</td></tr><tr><td>Dodge</td><td>Until the start of your next turn, attack rolls against you have Disadvantage, and you make Dexterity saving throws with Advantage. You lose this benefit if you have the Incapacitated condition or if your Speed is 0.</td></tr><tr><td>Help</td><td>Help another creature’s ability check or attack roll, or administer first aid.</td></tr><tr><td>Hide</td><td>Make a Dexterity (Stealth) check.</td></tr><tr><td>Influence</td><td>Make a Charisma (Deception, Intimidation, Performance, or Persuasion) or Wisdom (Animal Handling) check to alter a creature’s attitude.</td></tr><tr><td>Magic</td><td>Cast a spell, use a magic item, or use a magical feature.</td></tr><tr><td>Ready</td><td>Prepare to take an action in response to a trigger you define.</td></tr><tr><td>Search</td><td>Make a Wisdom (Insight, Medicine, Perception, or Survival) check.</td></tr><tr><td>Study</td><td>Make an Intelligence (Arcana, History, Investigation, Nature, or Religion) check.</td></tr><tr><td>Utilize</td><td>Use a nonmagical object.</td></tr></table>
-
-Player characters and monsters can also do things not covered by these actions. Many class features and other abilities provide additional action options, and you can improvise other actions. When you describe an action not detailed elsewhere in the rules, the Game Master tells you whether that action is possible and what kind of D20 Test you need to make, if any.
-
-#### One Thing at a Time
-
-The game uses actions to govern how much you can do at one time. You can take only one action at a time. This principle is most important in combat, as explained in "Combat" later in "Playing the Game."
-
-Actions can come up in other situations, too: in a social interaction, you can try to Influence a creature or use the Search action to read the creature's body language, but you can't do both at the same time. And when you're exploring a dungeon, you can't simultaneously use the Search action to look for traps and use the Help action to aid another character who's trying to open a stuck door (with the Utilize action).
-
-#### Bonus Actions
-
-Various class features, spells, and other abilities let you take an additional action on your turn called a Bonus Action. The Cunning Action feature, for
-
-example, allows a Rogue to take a Bonus Action. You can take a Bonus Action only when a special ability, a spell, or another feature of the game states that you can do something as a Bonus Action. You otherwise don't have a Bonus Action to take.
-
-You can take only one Bonus Action on your turn, so you must choose which Bonus Action to use if you have more than one available.
-
-You choose when to take a Bonus Action during your turn unless the Bonus Action's timing is specified. Anything that deprives you of your ability to take actions also prevents you from taking a Bonus Action.
-
-#### Reactions
-
-Certain special abilities, spells, and situations allow you to take a special action called a Reaction. A Reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. The Opportunity Attack, described later in "Playing the Game," is the most common type of Reaction.
-
-When you take a Reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the Reaction.
-
-In terms of timing, a Reaction takes place immediately after its trigger unless the Reaction's description says otherwise.
-
-#### Social Interaction
-
-During their adventures, player characters meet many different people and face some monsters that would rather talk than fight. In those situations, it's time for social interaction, which takes many forms. For example, you might try to convince a burglar to confess to wrongdoing or try to flatter a guard. The Game Master assumes the roles of any nonplayer characters who are participating.
-
-An NPC's attitude toward your character is Friendly, Indifferent, or Hostile, as defined in "Rules Glossary." Friendly NPCs are predisposed to help, and Hostile ones are inclined to hinder.
-
-Social interactions progress in two ways: through roleplaying and ability checks.
-
-#### Roleplaying
-
-Roleplaying is, literally, the act of playing out a role. In this case, it's you as a player determining how your character thinks, acts, and talks. Roleplaying is part of every aspect of the game, and it comes to the fore during social interactions.
-
-As you roleplay, consider whether you prefer an active approach or a descriptive approach.
-
-The GM uses an NPC's personality and your character's actions and attitudes to determine how an
-
-NPC reacts. A cowardly bandit might buckle under threats of imprisonment. A stubborn merchant refuses to help if the characters badger her. A vain dragon laps up flattery.
-
-When interacting with an NPC, pay attention to the GM's portrayal of the NPC's personality. You might be able to learn an NPC's goals and then use that information to influence the NPC.
-
-If you offer NPCs something they want or play on their sympathies, fears, or goals, you can form friendships, ward off violence, or learn a key piece of information. On the other hand, if you insult a proud warrior or speak ill of a noble's allies, your efforts to convince or deceive will likely fail.
-
-#### Ability Checks
-
-Ability checks can be key in determining the outcome of a social interaction. Your roleplaying efforts can alter an NPC's attitude, but there might still be an element of chance if the GM wants dice to play a role in determining an NPC's response to you. In such situations, the GM will typically ask you to take the Influence action.
-
-Pay attention to your skill proficiencies when thinking of how you will interact with an NPC; use an approach that relies on your group's skill proficiencies. For example, if the group needs to trick a guard into letting them into a castle, the Rogue who is proficient in Deception should lead the discussion.
-
-#### Exploration
-
-Exploration involves delving into places that are dangerous and full of mystery. The rules in this section detail some of the ways adventurers interact with the environment in such places.
-
-#### Adventuring Equipment
-
-As adventurers explore, their equipment can help them in many ways. For example, they can reach out-of-the-way places with a Ladder, perceive things they wouldn't otherwise notice with a Torch or another light source, bypass locked doors and containers with Thieves' Tools, and create obstacles for pursuers with Caltrops.
-
-See "Equipment" for rules on many items that are useful on adventures. The items in the "Tools" and "Adventure Gear" sections are especially useful. The weapons in "Equipment" can also be used for more than battle; you could use a Quarterstaff, for example, to push a sinister-looking button that you're reluctant to touch.
-
-#### Vision and Light
-
-Some adventuring tasks—such as noticing danger, hitting an enemy, and targeting certain spells—are affected by sight, so effects that obscure vision can hinder you, as explained below.
-
-#### Obscured Areas
-
-An area might be Lightly or Heavily Obscured. In a Lightly Obscured area—such as an area with Dim Light, patchy fog, or moderate foliage—you have Disadvantage on Wisdom (Perception) checks that rely on sight.
-
-A Heavily Obscured area—such as an area with Darkness, heavy fog, or dense foliage—is opaque. You have the Blinded condition (see “Rules Glossary”) when trying to see something there.
-
-#### Light
-
-The presence or absence of light determines the category of illumination in an area, as defined below.
-
-Bright Light. Bright Light lets most creatures see normally. Even gloomy days provide Bright Light, as do torches, lanterns, fires, and other sources of illumination within a specific radius.
-
-Dim Light. Dim Light, also called shadows, creates a Lightly Obscured area. An area of Dim Light is usually a boundary between Bright Light and surrounding Darkness. The soft light of twilight and dawn also counts as Dim Light. A full moon might bathe the land in Dim Light.
-
-Darkness. Darkness creates a Heavily Obscured area. Characters face Darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon, or in an area of magical Darkness.
-
-#### Special Senses
-
-Some creatures have special senses that help them perceive things in certain situations. "Rules Glossary" defines the following special senses:
-
-Blindsight
-
-Darkvision
-
-Tremorsense
-
-Truesight
-
-#### Hiding
-
-Adventurers and monsters often hide, whether to spy on one another, sneak past a guardian, or set an ambush. The Game Master decides when circumstances are appropriate for hiding. When you try to hide, you take the Hide action.
-
-#### Interacting with Objects
-
-Interacting with objects is often simple to resolve. The player tells the GM that their character is doing something, such as moving a lever or opening
-
-a door, and the GM describes what happens. Sometimes, however, rules govern what you can do with an object, as detailed in the following sections.
-
-#### What Is an Object?
-
-For the purpose of the rules, an object is a discrete, inanimate item like a window, door, sword, book, table, chair, or stone. It isn't a building or a vehicle, which are composed of many objects.
-
-#### Time-Limited Object Interactions
-
-When time is short, such as in combat, interactions with objects are limited: one free interaction per turn. That interaction must occur during a creature's movement or action. Any additional interactions require the Utilize action, as explained in "Combat" later in "Playing the Game."
-
-#### Finding Hidden Objects
-
-When your character searches for hidden things, such as a secret door or a trap, the GM typically asks you to make a Wisdom (Perception) check, provided you describe the character searching in the hidden object's vicinity. On a success, you find the object, other important details, or both.
-
-If you describe your character searching nowhere near a hidden object, a Wisdom (Perception) check won't reveal the object, no matter the check's total.
-
-#### Carrying Objects
-
-You can usually carry your gear and treasure without worrying about the weight of those objects. If you try to haul an unusually heavy object or a massive number of lighter objects, the GM might require you to abide by the rules for carrying capacity in "Rules Glossary."
-
-#### Breaking Objects
-
-As an action, you can automatically break or otherwise destroy a fragile, nonmagical object, such as a glass container or a piece of paper. If you try to damage something more resilient, the GM might use the rules on breaking objects in "Rules Glossary."
-
-#### MARCHING ORDER
-
-The adventurers should establish a marching order while they travel, whether indoors or outdoors. A marching order makes it easier to determine which characters are affected by traps, which ones can spot hidden enemies, and which ones are the closest to those enemies if a fight breaks out. You can change your marching order outside combat and record the order any way you like: write it down, for example, or arrange miniatures to show it.
-
-#### Hazards
-
-Monsters are the main perils characters face, but other dangers await. "Rules Glossary" defines the following hazards:
-
-Burning Falling Suffocation
-
-Dehydration Malnutrition
-
-#### Travel
-
-During an adventure, the characters might travel long distances on trips that could take hours or days. The GM can summarize this travel without calculating exact distances or travel times, or the GM might have you use the travel pace rules below.
-
-If you need to know how fast you can move when every second matters, see the movement rules in "Combat" later in "Playing the Game."
-
-#### Travel Pace
-
-While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a Short or Long Rest before they can move at that increased pace again (see "Equipment" for a selection of mounts for sale). "Gameplay Toolbox" has rules that affect which pace you can choose in certain types of terrain.
-
-Travel Pace  
-
-<table><tr><td colspan="4">Distance Traveled Per ...</td></tr><tr><td>Pace</td><td>Minute</td><td>Hour</td><td>Day</td></tr><tr><td>Fast</td><td>400 feet</td><td>4 miles</td><td>30 miles</td></tr><tr><td>Normal</td><td>300 feet</td><td>3 miles</td><td>24 miles</td></tr><tr><td>Slow</td><td>200 feet</td><td>2 miles</td><td>18 miles</td></tr></table>
-
-Each travel pace has a game effect, as defined below.
-
-Fast. Traveling at a Fast pace imposes Disadvantage on a traveler's Wisdom (Perception or Survival) and Dexterity (Stealth) checks.
-
-Normal. Traveling at a Normal pace imposes Disadvantage on Dexterity (Stealth) checks.
-
-Slow. Traveling at a Slow pace grants Advantage on Wisdom (Perception or Survival) checks.
-
-#### Vehicles
-
-Travelers in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel, and they don't choose a travel pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day. "Equipment" includes vehicles for sale.
-
-#### Combat
-
-Adventurers encounter many dangerous monsters and nefarious villains. In those moments, combat often breaks out.
-
-#### The Order of Combat
-
-A typical combat encounter is a clash between two sides: a flurry of weapon swings, feints, parries, footwork, and spellcasting. The game organizes combat into a cycle of rounds and turns. A round represents about 6 seconds in the game world.
-
-During a round, each participant in a battle takes a turn. The order of turns is determined at the beginning of combat when everyone rolls Initiative. Once everyone has taken a turn, the fight continues to the next round if neither side is defeated.
-
-#### Combat Step by Step
-
-Combat unfolds in these steps:
-
-1: Establish Positions. The Game Master determines where all the characters and monsters are located. Given the adventurers' marching order or their stated positions in the room or other location, the GM figures out where the adversaries are—how far away and in what direction.  
-2: Roll Initiative. Everyone involved in the combat encounter rolls Initiative, determining the order of combatants' turns.  
-3: Take Turns. Each participant in the battle takes a turn in Initiative order. When everyone involved in the combat has had a turn, the round ends. Repeat this step until the fighting stops.
-
-#### Initiative
-
-Initiative determines the order of turns during combat. When combat starts, every participant rolls Initiative; they make a Dexterity check that determines their place in the Initiative order. The GM rolls for monsters. For a group of identical creatures, the GM makes a single roll, so each member of the group has the same Initiative.
-
-Surprise. If a combatant is surprised by combat starting, that combatant has Disadvantage on their Initiative roll. For example, if an ambusher starts combat while hidden from a foe who is unaware that combat is starting, that foe is surprised.
-
-Initiative Order. A combatant's check total is called their Initiative count, or Initiative for short. The GM ranks the combatants, from highest to lowest Initiative. This is the order in which they act during each round. The Initiative order remains the same from round to round.
-
-Ties. If a tie occurs, the GM decides the order among tied monsters, and the players decide the order among tied characters. The GM decides the
-
-order if the tie is between a monster and a player character.
-
-#### Your Turn
-
-On your turn, you can move a distance up to your Speed and take one action. You decide whether to move first or take your action first.
-
-The main actions you can take are listed in "Actions" earlier in "Playing the Game." A character's features and a monster's stat block also provide action options. "Movement and Position" later in "Playing the Game" gives the rules for movement.
-
-Communicating. You can communicate however you are able—through brief utterances and gestures—as you take your turn. Doing so uses neither your action nor your move.
-
-Extended communication, such as a detailed explanation of something or an attempt to persuade a foe, requires an action. The Influence action is the main way you try to influence a monster.
-
-Interacting with Things. You can interact with one object or feature of the environment for free, during either your move or action. For example, you could open a door during your move as you stride toward a foe.
-
-If you want to interact with a second object, you need to take the Utilize action. Some magic items and other special objects always require an action to use, as stated in their descriptions.
-
-#### PLAYING ON A GRID
-
-If you play using a square grid and miniatures or other tokens, follow these rules.
-
-Squares. Each square represents 5 feet.
-
-Speed. Rather than moving foot by foot, move square by square on the grid, using your Speed in 5-foot segments. You can translate your Speed into squares by dividing it by 5. For example, a Speed of 30 feet translates into 6 squares. If you use a grid often, consider writing your Speed in squares on your character sheet.
-
-Entering a Square. To enter a square, you must have enough movement left to pay for entering. It costs 1 square of movement to enter an unoccupied square that's adjacent to your space (orthogonally or diagonally adjacent). A square of Difficult Terrain costs 2 squares to enter. Other effects might make a square cost even more.
-
-Corners. Diagonal movement can't cross the corner of a wall, a large tree, or another terrain feature that fills its space.
-
-Ranges. To determine the range on a grid between two things—whether creatures or objects—count squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route.
-
-The GM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the GM might require you to take the Utilize action to open a stuck door or turn a crank to lower a drawbridge.
-
-Doing Nothing on Your Turn. You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do, consider taking the defensive Dodge action or the Ready action to delay acting.
-
-#### Ending Combat
-
-Combat ends when one side or the other is defeated, which can mean the creatures are killed or knocked out or have surrendered or fled. Combat can also end when both sides agree to end it.
-
-#### Movement and Position
-
-On your turn, you can move a distance equal to your Speed or less. Or you can decide not to move.
-
-Your movement can include climbing, crawling, jumping, and swimming (each explained in "Rules Glossary"). These different modes of movement can be combined with your regular movement, or they can constitute your entire move.
-
-However you're moving with your Speed, you deduct the distance of each part of your move from it until it is used up or until you are done moving, whichever comes first.
-
-A character's Speed is determined during character creation. A monster's Speed is noted in the monster's stat block. See "Rules Glossary" for more about Speed as well as about special speeds, such as a Climb Speed, Fly Speed, or Swim Speed.
-
-#### Difficult Terrain
-
-Combatants are often slowed down by Difficult Terrain. Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are examples of Difficult Terrain.
-
-Every foot of movement in Difficult Terrain costs 1 extra foot, even if multiple things in a space count as Difficult Terrain.
-
-#### Breaking Up Your Move
-
-You can break up your move, using some of its movement before and after any action, Bonus Action, or Reaction you take on the same turn. For example, if you have a Speed of 30 feet, you could go 10 feet, take an action, and then go 20 feet.
-
-#### Dropping Prone
-
-On your turn, you can give yourself the Prone condition (see "Rules Glossary") without using an action or any of your Speed, but you can't do so if your Speed is 0.
-
-#### Creature Size
-
-A creature belongs to a size category, which determines the width of the square space the creature occupies on a map, as shown on the Creature Size and Space table. That table lists the sizes from smallest (Tiny) to largest (Gargantuan). A creature's space is the area that it effectively controls in combat and the area it needs to fight effectively.
-
-A character's size is determined by species, and a monster's size is specified in the monster's stat block.
-
-Creature Size and Space  
-
-<table><tr><td>Size</td><td>Space (Feet)</td><td>Space (Squares)</td></tr><tr><td>Tiny</td><td>2½ by 2½ feet</td><td>4 per square</td></tr><tr><td>Small</td><td>5 by 5 feet</td><td>1 square</td></tr><tr><td>Medium</td><td>5 by 5 feet</td><td>1 square</td></tr><tr><td>Large</td><td>10 by 10 feet</td><td>4 squares (2 by 2)</td></tr><tr><td>Huge</td><td>15 by 15 feet</td><td>9 squares (3 by 3)</td></tr><tr><td>Gargantuan</td><td>20 by 20 feet</td><td>16 squares (4 by 4)</td></tr></table>
-
-#### Moving around Other Creatures
-
-During your move, you can pass through the space of an ally, a creature that has the Incapacitated condition (see "Rules Glossary"), a Tiny creature, or a creature that is two sizes larger or smaller than you.
-
-Another creature's space is Difficult Terrain for you unless that creature is Tiny or your ally.
-
-You can't willingly end a move in a space occupied by another creature. If you somehow end a turn in a space with another creature, you have the Prone condition (see "Rules Glossary") unless you are Tiny or are of a larger size than the other creature.
-
-#### Making an Attack
-
-When you take the Attack action, you make an attack. Some other actions, Bonus Actions, and Reactions also let you make an attack. Whether you strike with a Melee weapon, fire a Ranged weapon,
-
-#### UNSEEN ATTACKERS AND TARGETS
-
-When you make an attack roll against a target you can't see, you have Disadvantage on the roll. This is true whether you're guessing the target's location or targeting a creature you can hear but not see. If the target isn't in the location you targeted, you miss.
-
-When a creature can't see you, you have Advantage on attack rolls against it.
-
-If you are hidden when you make an attack roll, you give away your location when the attack hits or misses.
-
-or make an attack roll as part of a spell, an attack has the following structure:
-
-1: Choose a Target. Pick a target within your attack's range: a creature, an object, or a location.  
-2: Determine Modifiers. The GM determines whether the target has Cover (see the next section) and whether you have Advantage or Disadvantage against the target. In addition, spells, special abilities, and other effects can apply penalties or bonuses to your attack roll.  
-3: Resolve the Attack. Make the attack roll, as detailed earlier in "Playing the Game." On a hit, you roll damage unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage.
-
-#### Cover
-
-Walls, trees, creatures, and other obstacles can provide cover, making a target more difficult to harm. As detailed in the Cover table, there are three degrees of cover, each of which gives a different benefit to a target.
-
-A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives Half Cover and a tree trunk that gives Three-Quarters Cover, the target has Three-Quarters Cover.
-
-Cover  
-
-<table><tr><td>Degree</td><td>Benefit to Target</td><td>Offered By ...</td></tr><tr><td>Half</td><td>+2 bonus to AC and Dexterity saving throws</td><td>Another creature or an object that covers at least half of the target</td></tr><tr><td>Three-Quarters</td><td>+5 bonus to AC and Dexterity saving throws</td><td>An object that covers at least three-quarters of the target</td></tr><tr><td>Total</td><td>Can’t be targeted directly</td><td>An object that covers the whole target</td></tr></table>
-
-#### Ranged Attacks
-
-When you make a ranged attack, you fire a bow, hurl an axe, or otherwise send projectiles to strike a foe at a distance. Many spells also involve making a ranged attack.
-
-#### Range
-
-You can make ranged attacks only against targets within a specified range. If a ranged attack, such as one made with a spell, has a single range, you can't attack a target beyond this range.
-
-Some ranged attacks, such as those made with a Longbow, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has Disadvantage when your target is beyond normal range, and you can't attack a target beyond long range.
-
-#### Ranged Attacks in Close Combat
-
-Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack roll with a weapon, a spell, or some other means, you have Disadvantage on the roll if you are within 5 feet of an enemy who can see you and doesn't have the Incapacitated condition (see "Rules Glossary").
-
-#### Melee Attacks
-
-A melee attack allows you to attack a target within your reach. A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.
-
-#### Reach
-
-A creature has a 5-foot reach and can thus attack targets within 5 feet when making a melee attack. Certain creatures have melee attacks with a reach greater than 5 feet, as noted in their descriptions.
-
-#### Opportunity Attacks
-
-Combatants watch for enemies to drop their guard. If you move heedlessly past your foes, you put yourself in danger by provoking an Opportunity Attack.
-
-Avoiding Opportunity Attacks. You can avoid provoking an Opportunity Attack by taking the Disengage action. You also don't provoke an Opportunity Attack when you Teleport or when you are moved without using your movement, action, Bonus Action, or Reaction. For example, you don't provoke an Opportunity Attack if an explosion hurls you out of a foe's reach or if you fall past an enemy.
-
-Making an Opportunity Attack. You can make an Opportunity Attack when a creature that you can see leaves your reach. To make the attack, take a Reaction to make one melee attack with a weapon or an Unarmed Strike against that creature. The attack occurs right before it leaves your reach.
-
-#### Mounted Combat
-
-A willing creature that is at least one size larger than a rider and that has an appropriate anatomy can serve as a mount, using the following rules.
-
-#### Mounting and Dismounting
-
-During your move, you can mount a creature that is within 5 feet of you or dismount. Doing so costs an amount of movement equal to half your Speed (round down). For example, if your Speed is 30 feet, you spend 15 feet of movement to mount a horse.
-
-#### Controlling a Mount
-
-You can control a mount only if it has been trained to accept a rider. Domesticated horses, mules, and similar creatures have such training.
-
-The Initiative of a controlled mount changes to match yours when you mount it. It moves on your turn as you direct it, and it has only three action options during that turn: Dash, Disengage, and Dodge. A controlled mount can move and act even on the turn that you mount it.
-
-In contrast, an independent mount—one that lets you ride but ignores your control—retains its place in the Initiative order and moves and acts as it likes.
-
-#### Falling Off
-
-If an effect is about to move your mount against its will while you're on it, you must succeed on a DC 10 Dexterity saving throw or fall off, landing with the Prone condition (see "Rules Glossary") in an unoccupied space within 5 feet of the mount.
-
-While mounted, you must make the same save if you're knocked Prone or the mount is.
-
-#### Underwater Combat
-
-A fight underwater follows these rules.
-
-#### Impeded Weapons
-
-When making a melee attack roll with a weapon underwater, a creature that lacks a Swim Speed has Disadvantage on the attack roll unless the weapon deals Piercing damage.
-
-A ranged attack roll with a weapon underwater automatically misses a target beyond the weapon's normal range, and the attack roll has Disadvantage against a target within normal range.
-
-#### Fire Resistance
-
-Anything underwater has Resistance to Fire damage (explained in "Damage and Healing").
-
-#### Damage and Healing
-
-Injury and death are frequent threats, as detailed in the following rules.
-
-#### Hit Points
-
-Hit Points represent durability and the will to live. Creatures with more Hit Points are more difficult to kill. Your Hit Point maximum is the number of
-
-#### RESTING
-
-Adventurers can't spend every hour adventuring. They need rest. Any creature can take hour-long Short Rests in the midst of a day and an 8-hour Long Rest to end it. Regaining Hit Points is one of the main benefits of a rest. "Rules Glossary" provides the rules for Short and Long Rests.
-
-Hit Points you have when uninjured. Your current Hit Points can be any number from that maximum down to 0, which is the lowest Hit Points can go.
-
-Whenever you take damage, subtract it from your Hit Points. Hit Point loss has no effect on your capabilities until you reach 0 Hit Points.
-
-If you have half your Hit Points or fewer, you're Bloodied, which has no game effect on its own but which might trigger other game effects.
-
-#### Damage Rolls
-
-Each weapon, spell, and damaging monster ability specifies the damage it deals. You roll the damage dice, add any modifiers, and deal the damage to your target. If there's a penalty to the damage, it's possible to deal 0 damage but not negative damage.
-
-When attacking with a weapon, you add your ability modifier—the same modifier used for the attack roll—to the damage roll. A spell tells you which dice to roll for damage and whether to add any modifiers. Unless a rule says otherwise, you don't add your ability modifier to a fixed damage amount that doesn't use a roll, such as the damage of a Blowgun. See "Equipment" for weapons' damage dice and "Spells" for spells' damage dice.
-
-#### Critical Hits
-
-When you score a Critical Hit, you deal extra damage. Roll the attack's damage dice twice, add them together, and add any relevant modifiers as normal. For example, if you score a Critical Hit with a Dagger, roll 2d4 for the damage rather than 1d4, and add your relevant ability modifier. If the attack involves other damage dice, such as from the Rogue's Sneak Attack feature, you also roll those dice twice.
-
-#### Saving Throws and Damage
-
-Damage dealt via saving throws uses these rules.
-
-#### Damage against Multiple Targets
-
-When you create a damaging effect that forces two or more targets to make saving throws against it at the same time, roll the damage once for all the targets. For example, when a wizard casts Fireball, the spell's damage is rolled once for all creatures caught in the blast.
-
-#### Half Damage
-
-Many saving throw effects deal half damage (round down) to a target when the target succeeds on the saving throw. The halved damage is equal to half the damage that would be dealt on a failed save.
-
-#### Damage Types
-
-Each instance of damage has a type, like Fire or Slashing. Damage types are listed in "Rules
-
-Glossary" and have no rules of their own, but other rules, such as Resistance, rely on damage types.
-
-#### Resistance and Vulnerability
-
-Some creatures and objects have Resistance or Vulnerability to certain damage types. If you have Resistance to a damage type, damage of that type is halved against you (round down). If you have Vulnerability to a damage type, damage of that type is doubled against you. For example, if you have Resistance to Cold damage, such damage is halved against you, and if you have Vulnerability to Fire damage, such damage is doubled against you.
-
-#### No Stacking
-
-Multiple instances of Resistance or Vulnerability that affect the same damage type count as only one instance. For example, if you have Resistance to Necrotic damage as well as Resistance to all damage, Necrotic damage is reduced by half against you.
-
-#### Order of Application
-
-Modifiers to damage are applied in the following order: adjustments such as bonuses, penalties, or multipliers are applied first; Resistance is applied second; and Vulnerability is applied third.
-
-For example, a creature has Resistance to all damage and Vulnerability to Fire damage, and it's within a magical aura that reduces all damage by 5. If it takes 28 Fire damage, the damage is first reduced by 5 (to 23), then halved for the creature's Resistance (and rounded down to 11), then doubled for its Vulnerability (to 22).
-
-#### Immunity
-
-Some creatures and objects have Immunity to certain damage types and conditions. Immunity to a damage type means you don't take damage of that type, and Immunity to a condition means you aren't affected by it.
-
-#### Healing
-
-Hit Points can be restored by magic, such as the Cure Wounds spell or a Potion of Healing, or by a Short or Long Rest (see "Rules Glossary").
-
-#### KNOCKING OUT A CREATURE
-
-When you would reduce a creature to 0 Hit Points with a melee attack, you can instead reduce the creature to 1 Hit Point and give it the Unconscious condition. It then starts a Short Rest, at the end of which that condition ends on it. The condition ends early if the creature regains any Hit Points or if someone takes an action to administer first aid to it, making a successful DC 10 Wisdom (Medicine) check.
-
-When you receive healing, add the restored Hit Points to your current Hit Points. Your Hit Points can't exceed your Hit Point maximum, so any Hit Points regained in excess of the maximum are lost. For example, if you receive 8 Hit Points of healing and have 14 Hit Points and a Hit Point maximum of 20, you regain 6 Hit Points, not 8.
-
-#### Dropping to 0 Hit Points
-
-When a creature drops to 0 Hit Points, it either dies outright or falls unconscious, as explained below.
-
-#### Instant Death
-
-Here are the main ways a creature can die instantly.
-
-Monster Death. A monster dies the instant it drops to 0 Hit Points, although a Game Master can ignore this rule for an individual monster and treat it like a character.
-
-Hit Point Maximum of 0. A creature dies if its Hit Point maximum reaches 0. Certain effects drain life energy, reducing a creature's Hit Point maximum.
-
-Massive Damage. When damage reduces a character to 0 Hit Points and damage remains, the character dies if the remainder equals or exceeds their Hit Point maximum. For example, if your character has a Hit Point maximum of 12, currently has 6 Hit Points, and takes 18 damage, the character drops to 0 Hit Points, but 12 damage remains. The character then dies, since 12 equals their Hit Point maximum.
-
-#### Character Demise
-
-If your character dies, others might find a magical way to revive your character, such as with the Raise Dead spell. Or talk with the GM about making a new character to join the group. "Rules Glossary" has more information on being dead.
-
-#### Falling Unconscious
-
-If you reach 0 Hit Points and don't die instantly, you have the Unconscious condition (see "Rules Glossary") until you regain any Hit Points, and you now face making Death Saving Throws (see below).
-
-#### Death Saving Throws
-
-Whenever you start your turn with 0 Hit Points, you must make a Death Saving Throw to determine whether you creep closer to death or hang on to life. Unlike other saving throws, this one isn't tied to an ability score. You're in the hands of fate now.
-
-Three Successes/Failures. Roll 1d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become Stable (see "Stabilizing a Character" below). On your third failure, you die.
-
-The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any Hit Points or become Stable.
-
-Rolling a 1 or 20. When you roll a 1 on the d20 for a Death Saving Throw, you suffer two failures. If you roll a 20 on the d20, you regain 1 Hit Point.
-
-Damage at 0 Hit Points. If you take any damage while you have 0 Hit Points, you suffer a Death Saving Throw failure. If the damage is from a Critical Hit, you suffer two failures instead. If the damage equals or exceeds your Hit Point maximum, you die.
-
-#### Stabilizing a Character
-
-You can take the Help action to try to stabilize a creature with 0 Hit Points, which requires a successful DC 10 Wisdom (Medicine) check.
-
-A Stable creature doesn't make Death Saving Throws even though it has 0 Hit Points, but it still has the Unconscious condition. If the creature takes damage, it stops being Stable and starts making Death Saving Throws again. A Stable creature that isn't healed regains 1 Hit Point after 1d4 hours.
-
-#### Temporary Hit Points
-
-Some spells and other effects confer Temporary Hit Points, which are a buffer against losing actual Hit Points, as explained below.
-
-#### Lose Temporary Hit Points First
-
-If you have Temporary Hit Points and take damage, those points are lost first, and any leftover damage carries over to your Hit Points. For example, if you have 5 Temporary Hit Points and take 7 damage, you lose those points and then lose 2 Hit Points.
-
-#### Duration
-
-Temporary Hit Points last until they're depleted or you finish a Long Rest (see "Rules Glossary").
-
-#### They Don't Stack
-
-Temporary Hit Points can't be added together. If you have Temporary Hit Points and receive more of them, you decide whether to keep the ones you have or to gain the new ones. For example, if a spell grants you 12 Temporary Hit Points when you already have 10, you can have 12 or 10, not 22.
-
-#### They're Not Hit Points or Healing
-
-Temporary Hit Points can't be added to your Hit Points, healing can't restore them, and receiving Temporary Hit Points doesn't count as healing. Because Temporary Hit Points aren't Hit Points, a creature can be at full Hit Points and receive Temporary Hit Points.
-
-If you have 0 Hit Points, receiving Temporary Hit Points doesn't restore you to consciousness. Only true healing can save you.
-
-# Character Creation
-
-#### Choose a Character Sheet
-
-You'll record the main details of your character on a character sheet. Throughout this chapter, we use the term "character sheet" to mean whatever you use to track your character's details, whether it's a printed character sheet, a digital character sheet, or plain paper. Choose whichever style of sheet works for you, and then embark on creating a character!
-
-#### Create Your Character
-
-Here are the steps to make a character; each step is explored in detail:
-
-1: Choose a Class. Every adventurer is a member of a class. A class broadly describes a character's vocation, special talents, and favored tactics.  
-2: Determine Origin. A character's origin includes two elements: background and species. How did the character spend the years leading up to a life of adventure? Who are the character's ancestors? You can also choose your character's languages.  
-3: Determine Ability Scores. Much of what your character does in the game depends on the character's six abilities.  
-4: Choose an Alignment. Alignment is a shorthand for your character's moral compass.  
-5: Fill in Details. Using the choices you've made, fill in the remaining details on your character sheet.
-
-#### Step I: Choose Class
-
-Choose a class, and write it on your character sheet. The Class Overview table summarizes the classes. See "Classes" for the classes' details.
-
-Class Overview  
-
-<table><tr><td>Class</td><td>Likes ...</td><td>Primary Ability</td><td>Complexity</td></tr><tr><td>Barbarian</td><td>Battle</td><td>Strength</td><td>Average</td></tr><tr><td>Bard</td><td>Performing</td><td>Charisma</td><td>High</td></tr><tr><td>Cleric</td><td>Gods</td><td>Wisdom</td><td>Average</td></tr><tr><td>Druid</td><td>Nature</td><td>Wisdom</td><td>High</td></tr><tr><td>Fighter</td><td>Weapons</td><td>Strength or Dexterity</td><td>Low</td></tr><tr><td>Monk</td><td>Unarmed combat</td><td>Dexterity and Wisdom</td><td>High</td></tr><tr><td>Paladin</td><td>Defense</td><td>Strength and Charisma</td><td>Average</td></tr><tr><td>Ranger</td><td>Survival</td><td>Dexterity and Wisdom</td><td>Average</td></tr></table>
-
-<table><tr><td>Class</td><td>Likes ...</td><td>Primary 
-Ability</td><td>Complexity</td></tr><tr><td>Rogue</td><td>Stealth</td><td>Dexterity</td><td>Low</td></tr><tr><td>Sorcerer</td><td>Power</td><td>Charisma</td><td>High</td></tr><tr><td>Warlock</td><td>Occult lore</td><td>Charisma</td><td>High</td></tr><tr><td>Wizard</td><td>Spellbooks</td><td>Intelligence</td><td>Average</td></tr></table>
-
-#### Write Your Level
-
-Write your character's level on your character sheet. Typically, a character starts at level 1 and advances in level by adventuring and gaining Experience Points (XP).
-
-Write Your XP. Also record your Experience Points. A level 1 character has 0 XP.
-
-Starting at a Higher Level. Your GM might start you at a higher level. If you start at level 3 or higher, write your chosen subclass on your character sheet. See the "Starting at Higher Levels" section later in "Character Creation" for more information.
-
-#### Note Armor Training
-
-Your class might give you training with certain categories of armor. Note your armor training on your character sheet. Armor training with a kind of armor means you can wear that armor effectively, gaining defensive bonuses from it. The categories of armor are described in "Equipment."
-
-#### Step 2: Character Origin
-
-Determining your character's origin involves choosing a background, a species, and two languages.
-
-A character's background represents the place and occupation that were most formative for the character. The combination of background, species, and languages provides fertile soil for your imagination as you ponder your character's earliest days.
-
-#### Choose a Background
-
-Choose your character's background, and write it on your character sheet. You can choose any of the backgrounds detailed in "Character Origins," and your GM might offer additional backgrounds as options.
-
-The background you choose influences step 3, when you determine your character's ability scores. If you're having trouble choosing, the Ability Scores and Backgrounds table shows which backgrounds benefit which ability scores. Look for your class's primary ability there.
-
-Ability Scores and Backgrounds  
-
-<table><tr><td>Ability</td><td>Background</td></tr><tr><td>Strength</td><td>Soldier</td></tr><tr><td>Dexterity</td><td>Soldier</td></tr><tr><td>Constitution</td><td>Soldier</td></tr><tr><td>Intelligence</td><td>Acolyte</td></tr></table>
-
-Ability Background
-
-Wisdom Acolyte
-
-Charisma Acolyte
-
-Record Your Feat. A background gives you a feat, which grants your character particular capabilities. Feats are detailed in "Feats." Write the feat on your character sheet.
-
-Note Proficiencies. Your background gives proficiency in two skills and with one tool. Record this information on your character sheet.
-
-Your class also gives proficiencies. Check your class description in "Classes" and note the proficiencies on your character sheet.
-
-The features table in your class description shows your Proficiency Bonus (described in "Playing the Game"), which is +2 for a level 1 character. Note this number on your character sheet. You'll fill in other numbers connected to these proficiencies in step 5.
-
-#### Choose Starting Equipment
-
-Your background and class both provide starting equipment. Any coins that you gain at this step can be immediately spent on equipment from "Equipment."
-
-Record your chosen equipment on your character sheet. Equipment is described in "Equipment," but for now you can just write it all down and look up the specifics in "Equipment" later. Note any coins you have left after purchasing your equipment.
-
-#### Choose a Species
-
-Choose a species for your character. The following species options are detailed in "Character Origins": Dragonborn, Dwarf, Elf, Gnome, Goliath, Halfling, Human, Orc, and Tiefling. Once you've chosen a species, write it on your character sheet. Then record your species' traits.
-
-Your character's size and Speed are determined by the character's species; record these in the appropriate places on your character sheet as well (you may write just the first letter of your size).
-
-#### Imagine Your Past and Present
-
-Let your character's background and species inspire how you imagine their past. That past fed into the character's present. With that in mind, consider answers to the following questions as your character:
-
-Who raised you?  
-Who was your dearest childhood friend?  
-- Did you grow up with a pet?  
-- Have you fallen in love? If so, with whom?  
-- Did you join an organization, such as a guild or religion? If so, are you still a member of it?  
-- What elements of your past inspire you to go on adventures now?
-
-#### Choose Languages
-
-Your character knows at least three languages:
-
-Common plus two languages you roll or choose from the Standard Languages table. Knowledge of a language means your character can communicate in it, read it, and write it. Your class and other features might also give you languages.
-
-The Standard Languages table lists languages that are widespread in the setting. Every player character knows Common. The other standard languages originated with the first members of the most prominent species in the setting and have since spread widely.
-
-#### Standard Languages
-
-<table><tr><td>Id12</td><td>Language</td></tr><tr><td>—</td><td>Common</td></tr><tr><td>1</td><td>Common Sign Language</td></tr><tr><td>2</td><td>Draconic</td></tr><tr><td>3–4</td><td>Dwarvish</td></tr><tr><td>5–6</td><td>Elvish</td></tr><tr><td>7</td><td>Giant</td></tr><tr><td>8</td><td>Gnomish</td></tr><tr><td>9</td><td>Goblin</td></tr><tr><td>10–11</td><td>Halfling</td></tr><tr><td>12</td><td>Orc</td></tr></table>
-
-The Rare Languages table lists languages that are either secret or derived from other planes of existence and thus less widespread in the worlds of the Material Plane. Some features let a character learn a rare language.
-
-#### Rare Languages
-
-<table><tr><td>Language</td><td>Language</td></tr><tr><td>Abyssal</td><td>Primordial*</td></tr><tr><td>Celestial</td><td>Sylvan</td></tr><tr><td>Deep Speech</td><td>Thieves’ Cant</td></tr><tr><td>Druidic</td><td>Undercommon</td></tr><tr><td>Infernal</td><td></td></tr></table>
-
-*Primordial includes the Aquan, Auran, Ignan, and Terran dialects. Creatures that know one of these dialects can communicate with those that know a different one.
-
-#### Step 3: Ability Scores
-
-To determine your character's ability scores, you first generate a set of six numbers using the instructions below and then assign them to your six abilities. "Playing the Game" explains what each ability means.
-
-#### Generate Your Scores
-
-Determine your ability scores by using one of the following three methods. Your GM might prefer you to use a particular one.
-
-Standard Array. Use the following six scores for your abilities: 15, 14, 13, 12, 10, 8.
-
-Random Generation. Roll four d6s and record the total of the highest three dice. Do this five more times, so you have six numbers.
-
-Point Cost. You have 27 points to spend on your ability scores. The cost of each score is shown on the Ability Score Point Costs table. For example, a score of 14 costs 7 of your 27 points.
-
-Ability Score Point Costs  
-
-<table><tr><td>Score</td><td>Cost</td><td>Score</td><td>Cost</td></tr><tr><td>8</td><td>0</td><td>12</td><td>4</td></tr><tr><td>9</td><td>1</td><td>13</td><td>5</td></tr><tr><td>10</td><td>2</td><td>14</td><td>7</td></tr><tr><td>11</td><td>3</td><td>15</td><td>9</td></tr></table>
-
-#### Assign Ability Scores
-
-Once you've generated six scores, assign them to Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma, keeping in mind your class's primary ability. Fill in the ability modifiers as well.
-
-If you're using the Standard Array option, consult the Standard Array by Class table for suggestions on where to assign scores for your character's class. The table puts the highest scores in a class's main abilities. If you used a different method to generate the scores, you may still use this table to guide where you place your highest and lowest scores.
-
-Standard Array by Class  
-
-<table><tr><td>Class</td><td>Str.</td><td>Dex.</td><td>Con.</td><td>Int.</td><td>Wis.</td><td>Cha.</td></tr><tr><td>Barbarian</td><td>15</td><td>13</td><td>14</td><td>10</td><td>12</td><td>8</td></tr><tr><td>Bard</td><td>8</td><td>14</td><td>12</td><td>13</td><td>10</td><td>15</td></tr><tr><td>Cleric</td><td>14</td><td>8</td><td>13</td><td>10</td><td>15</td><td>12</td></tr><tr><td>Druid</td><td>8</td><td>12</td><td>14</td><td>13</td><td>15</td><td>10</td></tr><tr><td>Fighter</td><td>15</td><td>14</td><td>13</td><td>8</td><td>10</td><td>12</td></tr><tr><td>Monk</td><td>12</td><td>15</td><td>13</td><td>10</td><td>14</td><td>8</td></tr><tr><td>Paladin</td><td>15</td><td>10</td><td>13</td><td>8</td><td>12</td><td>14</td></tr><tr><td>Ranger</td><td>12</td><td>15</td><td>13</td><td>8</td><td>14</td><td>10</td></tr><tr><td>Rogue</td><td>12</td><td>15</td><td>13</td><td>14</td><td>10</td><td>8</td></tr><tr><td>Sorcerer</td><td>10</td><td>13</td><td>14</td><td>8</td><td>12</td><td>15</td></tr><tr><td>Warlock</td><td>8</td><td>14</td><td>13</td><td>12</td><td>10</td><td>15</td></tr><tr><td>Wizard</td><td>8</td><td>12</td><td>13</td><td>15</td><td>14</td><td>10</td></tr></table>
-
-#### Adjust Ability Scores
-
-After assigning your ability scores, adjust them according to your background. Your background lists three abilities; increase one of those scores by 2 and
-
-a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.
-
-Some players like to increase their class's primary ability, while others prefer to increase a low score.
-
-#### Determine Ability Modifiers
-
-Finally, determine your ability modifiers using the Ability Scores and Modifiers table. Write the modifier next to each of your scores.
-
-Ability Scores and Modifiers  
-
-<table><tr><td>Score</td><td>Modifier</td><td>Score</td><td>Modifier</td></tr><tr><td>3</td><td>-4</td><td>12–13</td><td>+1</td></tr><tr><td>4–5</td><td>-3</td><td>14–15</td><td>+2</td></tr><tr><td>6–7</td><td>-2</td><td>16–17</td><td>+3</td></tr><tr><td>8–9</td><td>-1</td><td>18–19</td><td>+4</td></tr><tr><td>10–11</td><td>+0</td><td>20</td><td>+5</td></tr></table>
-
-#### Step 4: Alignment
-
-Choose your character's alignment from the options below, and note it on your character sheet.
-
-The game assumes that player characters aren't of an evil alignment. Check with your GM before making an evil character.
-
-#### The Nine Alignments
-
-A creature's alignment broadly describes its ethical attitudes and ideals. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward order (lawful, chaotic, or neutral).
-
-The summaries of the alignments below describe the typical behavior of a creature with that alignment; individuals can vary from that behavior.
-
-Lawful Good (LG). Lawful Good creatures endeavor to do the right thing as expected by society. Someone who fights injustice and protects the innocent without hesitation is probably Lawful Good.
-
-Neutral Good (NG). Neutral Good creatures do the best they can, working within rules but not feeling bound by them. A kindly person who helps others according to their needs is probably Neutral Good.
-
-Chaotic Good (CG). Chaotic Good creatures act as their conscience directs with little regard for what others expect. A rebel who waylays a cruel baron's tax collectors and uses the stolen money to help the poor is probably Chaotic Good.
-
-Lawful Neutral (LN). Lawful Neutral individuals act in accordance with law, tradition, or personal codes. Someone who follows a disciplined rule of life—and isn't swayed either by the demands of those in need or by the temptations of evil—is probably Lawful Neutral.
-
-Neutral (N). Neutral is the alignment of those who prefer to avoid moral questions and don't take sides,
-
-#### UNALIGNED CREATURES
-
-Most creatures that lack the capacity for rational thought don't have alignments; they are unaligned. Sharks are savage predators, for example, but they aren't evil; they are unaligned.
-
-doing what seems best at the time. Someone who's bored by moral debate is probably Neutral.
-
-Chaotic Neutral (CN). Chaotic Neutral creatures follow their whims, valuing their personal freedom above all else. A scoundrel who wanders the land living by their wits is probably Chaotic Neutral.
-
-Lawful Evil (LE). Lawful Evil creatures methodically take what they want within the limits of a code of tradition, loyalty, or order. An aristocrat exploiting citizens while scheming for power is probably Lawful Evil.
-
-Neutral Evil (NE). Neutral Evil is the alignment of those who are untroubled by the harm they cause as they pursue their desires. A criminal who robs and murders as they please is probably Neutral Evil.
-
-Chaotic Evil (CE). Chaotic Evil creatures act with arbitrary violence, spurred by their hatred or bloodlust. A villain pursuing schemes of vengeance and havoc is probably Chaotic Evil.
-
-#### Step 5: Character Creation Details
-
-Now fill in the rest of your character sheet.
-
-#### Record Class Features
-
-Look at your class's feature table in "Classes," and write down the level 1 features. The class features are detailed there too.
-
-Some class features offer choices. Make sure to read all your features and make any offered choices.
-
-#### Fill In Numbers
-
-Note these numbers on your character sheet.
-
-Saving Throws. For the saving throws you have proficiency in, add your Proficiency Bonus to the appropriate ability modifier and note the total. Some players also like to note the modifier for saving throws they're not proficient in, which is just the relevant ability modifier.
-
-Skills. For skills you have proficiency in, add your Proficiency Bonus to the ability modifier associated with that skill, and note the total. You might also wish to note the modifier for skills you're not proficient in, which is just the relevant ability modifier.
-
-Passive Perception. Sometimes your GM will determine whether your character notices something without asking you to make a Wisdom (Perception) check; the GM uses your Passive Perception instead. Passive Perception is a score that reflects a general awareness of your surroundings when you're not actively looking for something. Use this formula to determine your Passive Perception score:
-
-#### Passive Perception  $= 10 +$  Wisdom (Perception) check modifier
-
-Include all modifiers that apply to your Wisdom (Perception) checks. For example, if your character has a Wisdom of 15 and proficiency in the Perception skill, you have a Passive Perception of 14  $(10 + 2$  for your Wisdom modifier  $+2$  for proficiency).
-
-Hit Points. Your class and Constitution modifier determine your Hit Point maximum at level 1, as shown on the Level 1 Hit Points by Class table.
-
-Level I Hit Points by Class  
-
-<table><tr><td>Class</td><td>Hit Point Maximum</td></tr><tr><td>Barbarian</td><td>12 + Con. modifier</td></tr><tr><td>Fighter, Paladin, or Ranger</td><td>10 + Con. modifier</td></tr><tr><td>Bard, Cleric, Druid, Monk, Rogue, or Warlock</td><td>8 + Con. modifier</td></tr><tr><td>Sorcerer or Wizard</td><td>6 + Con. modifier</td></tr></table>
-
-The character sheet includes room to note your current Hit Points when you take damage, as well as any Temporary Hit Points you might gain. There's also space to track Death Saving Throws.
-
-Hit Point Dice. Your class's description tells you the die type of your character's Hit Point Dice (or Hit Dice for short); write this on your character sheet. At level 1, your character has 1 Hit Die. You can spend Hit Dice during a Short Rest to recover Hit Points. Your character sheet also includes space to note how many Hit Dice you've spent.
-
-Initiative. Write your Dexterity modifier in the space for Initiative on your character sheet.
-
-Armor Class. Without armor or a shield, your base Armor Class is 10 plus your Dexterity modifier. If your starting equipment includes armor or a Shield (or both), calculate your AC using the rules in "Equipment." A class feature might give you a different way to calculate your AC.
-
-Attacks. In the Weapons & Damage Cantrips section of the character sheet, write your starting weapons. The attack roll bonus for a weapon with which you have proficiency is one of the following unless a weapon's property says otherwise:
-
-Melee attack bonus = Strength modifier
-
-+ Proficiency Bonus
-
-Ranged attack bonus = Dexterity modifier
-
-+ Proficiency Bonus
-
-Look up the damage and properties of your weapons in "Equipment." You add the same ability modifier you use for attacks with a weapon to your damage rolls with that weapon.
-
-Spellcasting. Note both the saving throw DC for your spells and the attack bonus for attacks you make with them, using these formulas:
-
-Spell save DC = 8 + spellcasting ability modifier
-
-+ Proficiency Bonus
-
-Spell attack bonus = spellcasting ability modifier
-
-+ Proficiency Bonus
-
-Your spellcasting ability modifier for a spell is determined by whatever feature gives you the ability to cast the spell.
-
-Spell Slots, Cantrips, and Prepared Spells. If your class gives you the Spellcasting or Pact Magic feature, your class features table shows the number of spell slots you have available, how many cantrips you know, and how many spells you can prepare. Choose your cantrips and prepared spells, and note them—along with your number of spell slots—on your character sheet.
-
-#### Level Advancement
-
-While going on adventures, your character gains experience, represented by Experience Points (XP). A character who reaches a specified Experience Point total advances in capability. This advancement is called gaining a level.
-
-The Character Advancement table lists the XP you need to advance to a level and the Proficiency Bonus for a character of that level. When your XP total equals or exceeds a number in the Experience Points column, you reach the corresponding level.
-
-Character Advancement  
-
-<table><tr><td>Level</td><td>Experience Points</td><td>Proficiency Bonus</td></tr><tr><td>1</td><td>0</td><td>+2</td></tr><tr><td>2</td><td>300</td><td>+2</td></tr><tr><td>3</td><td>900</td><td>+2</td></tr><tr><td>4</td><td>2,700</td><td>+2</td></tr><tr><td>5</td><td>6,500</td><td>+3</td></tr><tr><td>6</td><td>14,000</td><td>+3</td></tr><tr><td>7</td><td>23,000</td><td>+3</td></tr><tr><td>8</td><td>34,000</td><td>+3</td></tr><tr><td>9</td><td>48,000</td><td>+4</td></tr><tr><td>10</td><td>64,000</td><td>+4</td></tr><tr><td>11</td><td>85,000</td><td>+4</td></tr><tr><td>12</td><td>100,000</td><td>+4</td></tr><tr><td>13</td><td>120,000</td><td>+5</td></tr><tr><td>14</td><td>140,000</td><td>+5</td></tr><tr><td>15</td><td>165,000</td><td>+5</td></tr><tr><td>16</td><td>195,000</td><td>+5</td></tr><tr><td>17</td><td>225,000</td><td>+6</td></tr><tr><td>18</td><td>265,000</td><td>+6</td></tr><tr><td>19</td><td>305,000</td><td>+6</td></tr><tr><td>20</td><td>355,000</td><td>+6</td></tr></table>
-
-#### Gaining a Level
-
-When you gain a level, follow these steps:
-
-1: Choose a Class. Most characters advance in the same class. However, you might decide to gain a level in another class using the rules in the "Multiclassing" section.  
-2: Adjust Hit Points and Hit Point Dice. Each time you gain a level, you gain an additional Hit Die. Roll that die, add your Constitution modifier to the roll, and add the total (minimum of 1) to your Hit Point maximum. Instead of rolling, you can use the fixed value shown in the Fixed Hit Points by Class table.
-
-Fixed Hit Points by Class  
-
-<table><tr><td>Class</td><td>Hit Points per Level</td></tr><tr><td>Barbarian</td><td>7 + Con. modifier</td></tr><tr><td>Fighter, Paladin, or Ranger</td><td>6 + Con. modifier</td></tr><tr><td>Bard, Cleric, Druid, Monk, Rogue, or Warlock</td><td>5 + Con. modifier</td></tr><tr><td>Sorcerer or Wizard</td><td>4 + Con. modifier</td></tr></table>
-
-3: Record New Class Features. Look at your class features table in "Classes," and note the features you gain at your new level in that class. Make any choices offered by a new feature.  
-4: Adjust Proficiency Bonus. A character's Proficiency Bonus increases at certain levels, as shown in the Character Advancement table and your class features table in "Classes." When your Proficiency Bonus increases, increase all the numbers on your character sheet that include your Proficiency Bonus.  
-5: Adjust Ability Modifiers. If you choose a feat that increases one or more of your ability scores, your ability modifier also changes if the new score is an even number. When that happens, adjust all the numbers on your character sheet that use that ability modifier. When your Constitution modifier increases by 1, your Hit Point maximum increases by 1 for each level you have attained. For example, if a character reaches level 8 and increases their Constitution score from 17 to 18, the Constitution modifier increases to +4. The character's Hit Point maximum then increases by 8, in addition to the Hit Points gained for reaching level 8.
-
-#### Tiers of Play
-
-With each new level, characters acquire new capabilities that equip them to handle greater challenges. As characters advance in level, the tone of the game also changes, and the stakes of the campaign get higher. It's helpful to think of a character's (and a campaign's) arc in terms of four tiers of play,
-
-describing the journey from a level 1 character just beginning an adventuring career to the epic heights of level 20. These tiers don't have any rules associated with them; they point to the fact that the play experience evolves as characters gain levels.
-
-#### Tier I (Levels I-4)
-
-In tier 1, characters are apprentice adventurers, though they are already set apart from the broader populace by virtue of their extraordinary abilities. They learn their starting class features and choose a subclass. The threats they face usually pose a danger to local farmsteads or villages.
-
-#### Tier 2 (Levels 5-10)
-
-In tier 2, characters are full-fledged adventurers. Spellcasters gain iconic spells such as Fireball, Lightning Bolt, and Raise Dead. Most weapon-focused classes gain the ability to make multiple attacks in a round. The characters now face dangers that threaten cities and kingdoms.
-
-#### Tier 3 (Levels II-16)
-
-In tier 3, characters have reached a level of power that makes them special among adventurers. At level 11, many spellcasters learn reality-altering spells. Other characters gain features that allow them to make more attacks or to do more impressive things with those attacks. These adventurers often confront threats to whole regions.
-
-#### Tier 4 (Levels 17-20)
-
-At tier 4, characters achieve the pinnacle of their class features, becoming heroic archetypes. The fate of the world or even the order of the multiverse might hang in the balance during their adventures.
-
-#### Starting at Higher Levels
-
-Your GM might start your group's characters at a level higher than 1. It is particularly recommended to start at level 3 if your group is composed of seasoned D&D players.
-
-#### Creating Your Character
-
-Creating a higher-level character uses the same character-creation steps outlined in this chapter and the rules for advancing beyond level 1 provided
-
-Starting Equipment at Higher Levels  
-
-<table><tr><td>Starting Level</td><td>Equipment and Money</td><td>Magic Items</td></tr><tr><td>2-4</td><td>Normal starting equipment</td><td>I Common</td></tr><tr><td>5-10</td><td>500 GP plus Id10 × 25 GP plus 
-normal starting equipment</td><td>I Common, I Uncommon</td></tr><tr><td>11-16</td><td>5,000 gp plus Id10 × 250 GP plus 
-normal starting equipment</td><td>2 Common, 3 Uncommon, I Rare</td></tr><tr><td>17-20</td><td>20,000 GP plus Id10 × 250 GP plus 
-normal starting equipment</td><td>2 Common, 4 Uncommon, 3 Rare, I Very Rare</td></tr></table>
-
-#### BONUS FEATS AT LEVEL 20
-
-A GM can use feats as a form of advancement after characters reach level 20 to provide greater power to characters who have no more levels to gain. With this approach, each character gains one feat of their choice for every 30,000 XP the character earns above 355,000 XP. Epic Boon feats are especially appropriate for these bonus feats, but a player can choose any feat for which their level 20 character qualifies.
-
-in the "Level Advancement" section. You begin with the minimum amount of XP required to reach your starting level. For example, if the GM starts you at level 10, you have 64,000 XP.
-
-#### Starting Equipment
-
-The GM decides whether your character starts with more than the standard equipment for a level 1 character, possibly even one or more magic items. The Starting Equipment at Higher Levels table is a guide for the GM.
-
-Also, check with your GM about what equipment is available for you to buy with your starting money. For example, the firearms described in "Equipment" are too expensive for level 1 characters, but they might be available for purchase if your GM allows them.
-
-#### Multiclassing
-
-Multiclassing allows you to gain levels in multiple classes. With this rule, you have the option of gaining a level in a new class whenever you advance in level instead of gaining a level in your current class. Doing so lets you mix the abilities of those classes to realize a character concept that might not be reflected in a single class.
-
-#### Prerequisites
-
-To qualify for a new class, you must have a score of at least 13 in the primary ability of the new class and your current classes. For example, a Barbarian who decides to multiclass into the Druid class must have Strength and Wisdom scores of 13 or higher,
-
-since Strength is the primary ability for Barbarians and Wisdom is the primary ability for Druids.
-
-#### Experience Points
-
-The Experience Point cost to gain a level is based on your total character level, not your level in a particular class, as shown in the Character Advancement table in "Character Creation." For example, if you are a level 6 Cleric / level 1 Fighter, you must gain enough XP to reach level 8 before you can take your second level as a Fighter or your seventh level as a Cleric.
-
-#### Hit Points and Hit Point Dice
-
-You gain the Hit Points from your new class as described for levels after 1. You gain the level 1 Hit Points for a class only when your total character level is 1.
-
-Add together the Hit Dice granted by all your classes to form your pool of Hit Dice. If these dice are the same die type, you can pool them together. For example, both the Fighter and the Paladin have a d10 Hit Die, so if you are a level 5 Fighter / level 5 Paladin, you have ten d10 Hit Dice. If your classes give you Hit Dice of different types, track them separately. If you are a level 5 Cleric / level 5 Paladin, for example, you have five d8 Hit Dice and five d10 Hit Dice.
-
-#### Proficiency Bonus
-
-Your Proficiency Bonus is based on your total character level, not your level in a particular class, as shown in the Character Advancement table. For example, if you are a level 3 Fighter / level 2 Rogue, you have the Proficiency Bonus of a level 5 character, which is +3.
-
-#### Proficiencies
-
-When you gain your first level in a class other than your initial class, you gain only some of the new class's starting proficiencies, as detailed in each class's description in "Classes."
-
-#### Class Features
-
-When you gain a new level in a class, you get its features for that level. A few features have additional rules when you're multiclassing. Check the information about multiclassing included in each of your classes' descriptions.
-
-Special rules apply to Extra Attack, Spellcasting, and features (such as Unarmored Defense) that give you alternative ways to calculate your Armor Class.
-
-#### Armor Class
-
-If you have multiple ways to calculate your Armor Class, you can benefit from only one at a time. For example, a Monk/Sorcerer with a Monk's
-
-Unarmored Defense feature and a Sorcerer's Draconic Resilience feature must choose only one of those features as a way to calculate Armor Class.
-
-#### Extra Attack
-
-If you gain the Extra Attack feature from more than one class, the features don't stack. You can't make more than two attacks with this feature unless you have a feature that says you can (such as the Fighter's Two Extra Attacks feature).
-
-Similarly, the Warlock's Thirsting Blade invocation, which grants you the Extra Attack feature with your pact weapon, doesn't give you additional attacks if you also have Extra Attack.
-
-#### Spellcasting
-
-Your capacity for spellcasting depends partly on your combined levels in all your spellcasting classes and partly on your individual levels in those classes. Once you have the Spellcasting feature from more than one class, use the rules below. If you multiclass but have the Spellcasting feature from only one class, follow the rules for that class.
-
-Spells Prepared. You determine what spells you can prepare for each class individually, as if you were a single-classed member of that class. If you are a level 4 Ranger / level 3 Sorcerer, for example, you can prepare five level 1 Ranger spells, and you can prepare six Sorcerer spells of level 1 or 2 (as well as four Sorcerer cantrips).
-
-Each spell you prepare is associated with one of your classes, and you use the spellcasting ability of that class when you cast the spell.
-
-Cantrips. If a cantrip of yours increases in power at higher levels, the increase is based on your total character level, not your level in a particular class, unless the spell says otherwise.
-
-Spell Slots. You determine your available spell slots by adding together the following:
-
-- All your levels in the Bard, Cleric, Druid, Sorcerer, and Wizard classes  
-- Half your levels (round up) in the Paladin and Ranger classes
-
-Then look up this total level in the Level column of the Multiclass Spellcaster table. You use the slots for that level to cast spells of an appropriate level from any class whose Spellcasting feature you have.
-
-This table might give you spell slots of a higher level than the spells you prepare. You can use those slots but only to cast your lower-level spells. If a lower-level spell that you cast, like Burning Hands, has an enhanced effect when cast at a higher level, you can use the enhanced effect as normal.
-
-For example, if you are a level 4 Ranger / level 3 Sorcerer, you count as a level 5 character when determining your spell slots, counting all your levels as a Sorcerer and half your Ranger levels. As shown
-
-in the Multiclass Spellcaster table, you have four level 1 spell slots, three level 2 slots, and two level 3 slots. However, you can't prepare any level 3 spells, nor can you prepare any level 2 Ranger spells. You can use the spell slots of those levels to cast the spells you do prepare—and potentially enhance their effects.
-
-Pact Magic. If you have the Pact Magic feature from the Warlock class and the Spellcasting feature, you can use the spell slots you gain from Pact Magic to cast spells you have prepared from classes with the Spellcasting feature, and you can use the spell slots you gain from the Spellcasting feature to cast Warlock spells you have prepared.
-
-#### Multiclass Spellcaster:
-
-Spell Slots per Spell Level  
-
-<table><tr><td>Level</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>1</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>2</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>8</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>9</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr></table>
-
-#### Trinkets
-
-When you make your character, you can roll once on the Trinkets table to gain a Tiny trinket, a simple item lightly touched by mystery. The GM might also use this table. It can help stock a room in a dungeon or fill a creature's pockets.
-
-#### Trinkets
-
-<table><tr><td>Id100</td><td>Trinket</td></tr><tr><td>01</td><td>A mummified goblin hand</td></tr><tr><td>02</td><td>A crystal that faintly glows in moonlight</td></tr><tr><td>03</td><td>A gold coin minted in an unknown land</td></tr><tr><td>04</td><td>A diary written in a language you don&####x27;t know</td></tr><tr><td>05</td><td>A brass ring that never tarnishes</td></tr><tr><td>06</td><td>An old chess piece made from glass</td></tr><tr><td>07</td><td>A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips</td></tr><tr><td>08</td><td>A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it</td></tr><tr><td>09</td><td>A lock of someone&####x27;s hair</td></tr><tr><td>10</td><td>The deed for a parcel of land in a realm unknown to you</td></tr><tr><td>11</td><td>A l-ounce block made from an unknown material</td></tr><tr><td>12</td><td>A small cloth doll skewed with needles</td></tr><tr><td>13</td><td>A tooth from an unknown beast</td></tr><tr><td>14</td><td>An enormous scale, perhaps from a dragon</td></tr><tr><td>15</td><td>A bright-green feather</td></tr><tr><td>16</td><td>An old divination card bearing your likeness</td></tr><tr><td>17</td><td>A glass orb filled with moving smoke</td></tr><tr><td>18</td><td>A l-pound egg with a bright-red shell</td></tr><tr><td>19</td><td>A pipe that blows bubbles</td></tr><tr><td>20</td><td>A glass jar containing a bit of flesh floating in pickling fluid</td></tr><tr><td>21</td><td>A gnome-crafted music box that plays a song you dimly remember from your childhood</td></tr><tr><td>22</td><td>A wooden statuette of a smug halfling</td></tr><tr><td>23</td><td>A brass orb etched with strange runes</td></tr><tr><td>24</td><td>A multicolored stone disk</td></tr><tr><td>25</td><td>A silver icon of a raven</td></tr><tr><td>26</td><td>A bag containing forty-seven teeth, one of which is rotten</td></tr><tr><td>27</td><td>A shard of obsidian that always feels warm to the touch</td></tr><tr><td>28</td><td>A dragon&####x27;s talon strung on a leather necklace</td></tr><tr><td>29</td><td>A pair of old socks</td></tr><tr><td>30</td><td>A blank book whose pages refuse to hold ink, chalk, graphite, or any other marking</td></tr><tr><td>31</td><td>A silver badge that is a five-pointed star</td></tr><tr><td>32</td><td>A knife that belonged to a relative</td></tr><tr><td>33</td><td>A glass vial filled with nail clippings</td></tr><tr><td>34</td><td>A rectangular metal device with two tiny metal cups on one end that throws sparks when wet</td></tr></table>
-
-#### Id100 Trinket
-
-35 A white, sequined glove sized for a human  
-36 A vest with one hundred tiny pockets  
-37 A weightless stone  
-38 A sketch of a goblin  
-39 An empty glass vial that smells of perfume  
-40 A gemstone that looks like a lump of coal when examined by anyone but you  
-41 A scrap of cloth from an old banner  
-42 A rank insignia from a lost legionnaire  
-43 A silver bell without a clapper  
-44 A mechanical canary inside a lamp  
-45 A miniature chest carved to look like it has numerous feet on the bottom  
-46 A dead sprite inside a clear glass bottle  
-47 A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice)  
-48 A glass orb filled with water, in which swims a clockwork goldfish  
-49 A silver spoon with an  $M$  engraved on the handle  
-50 A whistle made from gold-colored wood  
-51 A dead scarab beetle the size of your hand  
-52 Two toy soldiers, one missing a head  
-53 A small box filled with different-sized buttons  
-54 A candle that can't be lit  
-55 A miniature cage with no door  
-56 An old key  
-57 An indecipherable treasure map  
-58 A hilt from a broken sword  
-59 A rabbit's foot  
-60 A glass eye  
-61 A cameo of a hideous person  
-62 A silver skull the size of a coin  
-63 An alabaster mask  
-64 A cone of sticky black incense that stinks  
-65 A nightcap that gives you pleasant dreams when you wear it  
-66 A single caltrop made from bone  
-67 A gold monocle frame without the lens  
-68 A I-inch cube, each side a different color  
-69 A crystal doorknob  
-70 A packet filled with pink dust  
-71 A fragment of a beautiful song, written as musical notes on two pieces of parchment  
-72 A silver teardrop earring containing a real teardrop
-
-#### ld100 Trinket
-
-73 An eggshell painted with scenes of misery in disturbing detail  
-74 A fan that, when unfolded, shows a sleepy cat  
-75 A set of bone pipes  
-76 A four-leaf clover pressed inside a book discussing manners and etiquette  
-77 A sheet of parchment upon which is drawn a mechanical contraption  
-78 An ornate scabbard that fits no blade you have found  
-79 An invitation to a party where a murder happened  
-80 A bronze pentacle with an etching of a rat's head in its center  
-81 A purple handkerchief embroidered with the name of an archmage  
-82 Half a floor plan for a temple, a castle, or another structure  
-83 A bit of folded cloth that, when unfolded, turns into a stylish cap  
-84 A receipt of deposit at a bank in a far-off city  
-85 A diary with seven missing pages  
-86 An empty silver snuffbox bearing the inscription "dreams" on its lid  
-87 An iron holy symbol devoted to an unknown god  
-88 A book about a legendary hero's rise and fall, with the last chapter missing  
-89 A vial of dragon blood  
-90 An ancient arrow of elven design  
-91 A needle that never bends  
-92 An ornate brooch of dwarven design  
-93 An empty wine bottle bearing a pretty label that says, "The Wizard of Wines Winery, Red Dragon Crush, 331422-W"  
-94 A mosaic tile with a multicolored, glazed surface  
-95 A petrified mouse  
-96 A black pirate flag adorned with a dragon's skull and crossbones  
-97 A tiny mechanical crab or spider that moves about when it's not being observed  
-98 A glass jar containing lard with a label that reads, "Griffon Grease"  
-99 A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body  
-00 A metal urn containing the ashes of a hero
-
-# Classes
-
-#### Barbarian
-
-Core Barbarian Traits  
-
-<table><tr><td>Primary Ability</td><td>Strength</td></tr><tr><td>Hit Point Die</td><td>D12 per Barbarian level</td></tr><tr><td>Saving Throw Proficiencies</td><td>Strength and Constitution</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Animal Handling, Athletics, Intimidation, Nature, Perception, or Survival</td></tr><tr><td>Weapon Proficiencies</td><td>Simple and Martial weapons</td></tr><tr><td>Armor Training</td><td>Light and Medium armor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Greataxe, 4 Handaxes, Explorer&####x27;s Pack, and 15 GP; or (B) 75 GP</td></tr></table>
-
-#### Becoming a Barbarian …
-
-#### As a Level I Character
-
-- Gain all the traits in the Core Barbarian Traits table.
-
-- Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table.
-
-#### As a Multiclass Character
-
-- Gain the following traits from the Core Barbarian Traits table: Hit Point Die, proficiency with Martial weapons, and training with Shields.  
-- Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table.
-
-#### Barbarian Class Features
-
-As a Barbarian, you gain the following class features when you reach the specified Barbarian levels. These features are listed in the Barbarian Features table.
-
-#### Level I: Rage
-
-You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.
-
-You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
-
-Barbarian Features  
-
-<table><tr><td>Level</td><td>Proficiency Bonus</td><td>Class Features</td><td>Rages</td><td>Rage Damage</td><td>Weapon Mastery</td></tr><tr><td>1</td><td>+2</td><td>Rage, Unarmored Defense, Weapon Mastery</td><td>2</td><td>+2</td><td>2</td></tr><tr><td>2</td><td>+2</td><td>Danger Sense, Reckless Attack</td><td>2</td><td>+2</td><td>2</td></tr><tr><td>3</td><td>+2</td><td>Barbarian Subclass, Primal Knowledge</td><td>3</td><td>+2</td><td>2</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>3</td><td>+2</td><td>3</td></tr><tr><td>5</td><td>+3</td><td>Extra Attack, Fast Movement</td><td>3</td><td>+2</td><td>3</td></tr><tr><td>6</td><td>+3</td><td>Subclass feature</td><td>4</td><td>+2</td><td>3</td></tr><tr><td>7</td><td>+3</td><td>Feral Instinct, Instinctive Pounce</td><td>4</td><td>+2</td><td>3</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>4</td><td>+2</td><td>3</td></tr><tr><td>9</td><td>+4</td><td>Brutal Strike</td><td>4</td><td>+3</td><td>3</td></tr><tr><td>10</td><td>+4</td><td>Subclass feature</td><td>4</td><td>+3</td><td>4</td></tr><tr><td>11</td><td>+4</td><td>Relentless Rage</td><td>4</td><td>+3</td><td>4</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>5</td><td>+3</td><td>4</td></tr><tr><td>13</td><td>+5</td><td>Improved Brutal Strike</td><td>5</td><td>+3</td><td>4</td></tr><tr><td>14</td><td>+5</td><td>Subclass feature</td><td>5</td><td>+3</td><td>4</td></tr><tr><td>15</td><td>+5</td><td>Persistent Rage</td><td>5</td><td>+3</td><td>4</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>5</td><td>+4</td><td>4</td></tr><tr><td>17</td><td>+6</td><td>Improved Brutal Strike</td><td>6</td><td>+4</td><td>4</td></tr><tr><td>18</td><td>+6</td><td>Indomitable Might</td><td>6</td><td>+4</td><td>4</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>6</td><td>+4</td><td>4</td></tr><tr><td>20</td><td>+6</td><td>Primal Champion</td><td>6</td><td>+4</td><td>4</td></tr></table>
-
-While active, your Rage follows the rules below.
-
-Damage Resistance. You have Resistance to Bludgeoning, Piercing, and Slashing damage.
-
-Rage Damage. When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.
-
-Strength Advantage. You have Advantage on Strength checks and Strength saving throws.
-
-No Concentration or Spells. You can't maintain Concentration, and you can't cast spells.
-
-Duration. The Rage lasts until the end of your next turn, and it ends early if you don't have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one of the following:
-
-- Make an attack roll against an enemy.  
-- Force an enemy to make a saving throw.  
-Take a Bonus Action to extend your Rage.
-
-Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.
-
-#### Level I: Unarmored Defense
-
-While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.
-
-#### Level I: Weapon Mastery
-
-Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Great-axes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
-
-When you reach certain Barbarian levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian Features table.
-
-#### Level 2: Danger Sense
-
-You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws unless you have the Incapacitated condition.
-
-#### Level 2: Reckless Attack
-
-You can throw aside all concern for defense to attack with increased ferocity. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength until the start of your next
-
-turn, but attack rolls against you have Advantage during that time.
-
-#### Level 3: Barbarian Subclass
-
-You gain a Barbarian subclass of your choice. The Path of the Berserker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level or lower.
-
-#### Level 3: Primal Knowledge
-
-You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1.
-
-In addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use this ability, your Strength represents primal power coursing through you, honing your agility, bearing, and senses.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feels") or another feat of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16.
-
-#### Level 5: Extra Attack
-
-You can attack twice instead of once whenever you take the Attack action on your turn.
-
-#### Level 5: Fast Movement
-
-Your speed increases by 10 feet while you aren't wearing Heavy armor.
-
-#### Level 7: Feral Instinct
-
-Your instincts are so honed that you have Advantage on Initiative rolls.
-
-#### Level 7: Instinctive Pounce
-
-As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed.
-
-#### Level 9: Brutal Strike
-
-If you use Reckless Attack, you can forgo any Advantage on one Strength-based attack roll of your choice on your turn. The chosen attack roll mustn't have Disadvantage. If the chosen attack roll hits, the target takes an extra 1d10 damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice. You have the following effect options.
-
-Forceful Blow. The target is pushed 15 feet straight away from you. You can then move up to half your Speed straight toward the target without provoking Opportunity Attacks.
-
-Hamstring Blow. The target's Speed is reduced by 15 feet until the start of your next turn. A target can be affected by only one Hamstring Blow at a time—the most recent one.
-
-#### Level II: Relentless Rage
-
-Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.
-
-Each time you use this feature after the first, the DC increases by 5. When you finish a Short or Long Rest, the DC resets to 10.
-
-#### Level 13: Improved Brutal Strike
-
-You have honed new ways to attack furiously. The following effects are now among your Brutal Strike options.
-
-Staggering Blow. The target has Disadvantage on the next saving throw it makes, and it can't make Opportunity Attacks until the start of your next turn.
-
-Sundering Blow. Before the start of your next turn, the next attack roll made by another creature against the target gains a  $+5$  bonus to the roll. An attack roll can gain only one Sundering Blow bonus.
-
-#### Level 15: Persistent Rage
-
-When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a Long Rest.
-
-In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. Your Rage ends early if you have the Unconscious condition (not just the Incapacitated condition) or don Heavy armor.
-
-#### Level 17: Improved Brutal Strike
-
-The extra damage of your Brutal Strike increases to 2d10. In addition, you can use two different Brutal Strike effects whenever you use your Brutal Strike feature.
-
-#### Level 18: Indomitable Might
-
-If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Irresistible Offense is recommended.
-
-#### Level 20: Primal Champion
-
-You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25.
-
-#### Barbarian Subclass: Path of the Berserker
-
-Channel Rage into Violent Fury
-
-Barbarians who walk the Path of the Berserker direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.
-
-#### Level 3: Frenzy
-
-If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack.
-
-#### Level 6: Mindless Rage
-
-You have Immunity to the Charmed and Frightened conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, the condition ends on you.
-
-#### Level 10: Retaliation
-
-When you take damage from a creature that is within 5 feet of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.
-
-#### Level 14: Intimidating Presence
-
-As a Bonus Action, you can strike terror into others with your menacing presence and primal power. When you do so, each creature of your choice in a 30-foot Emanation originating from you must make a Wisdom saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature's turns, the creature repeats the save, ending the effect on itself on a success.
-
-Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.
-
-#### Bard
-
-Core Bard Traits  
-
-<table><tr><td>Primary Ability</td><td>Charisma</td></tr><tr><td>Hit Point Die</td><td>D8 per Bard level</td></tr><tr><td>Saving Throw 
-Proficiencies</td><td>Dexterity and Charisma</td></tr><tr><td>Skill Proficiencies</td><td>Choose any 3 skills (see “Playing 
-the Game”)</td></tr><tr><td>Weapon Proficiencies</td><td>Simple weapons</td></tr><tr><td>Tool Proficiencies</td><td>Choose 3 Musical Instruments 
-(see “Equipment”)</td></tr><tr><td>Armor Training</td><td>Light armor</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Leather 
-Armor, 2 Daggers, Musical 
-Instrument of your choice, En- 
-tertainer&####x27;s Pack, and I9 GP; or 
-(B) 90 GP</td></tr></table>
-
-#### Becoming a Bard ...
-
-#### As a Level I Character
-
-- Gain all the traits in the Core Bard Traits table.
-
-- Gain the Bard's level 1 features, which are listed in the Bard Features table.
-
-#### As a Multiclass Character
-
-- Gain the following traits from the Core Bard Traits table: Hit Point Die, proficiency in one skill of your choice, proficiency with one Musical Instrument of your choice, and training with Light armor.  
-- Gain the Bard's level 1 features, which are listed in the Bard Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
-
-#### Bard Class Features
-
-As a Bard, you gain the following class features when you reach the specified Bard levels. These features are listed in the Bard Features table.
-
-#### Level I: Bardic Inspiration
-
-You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.
-
-Using Bardic Inspiration. As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains
-
-Bard Features  
-
-<table><tr><td rowspan="2">Level</td><td rowspan="2">Proficiency Bonus</td><td rowspan="2">Class Features</td><td rowspan="2">Bardic Die</td><td rowspan="2">Cantrips</td><td rowspan="2">Prepared Spells</td><td colspan="8">——Spell Slots per Spell Level——</td><td></td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>1</td><td>+2</td><td>Bardic Inspiration, Spellcasting</td><td>D6</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>2</td><td>+2</td><td>Expertise, Jack of All Trades</td><td>D6</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3</td><td>+2</td><td>Bard Subclass</td><td>D6</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>D6</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>+3</td><td>Font of Inspiration</td><td>D8</td><td>3</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6</td><td>+3</td><td>Subclass feature</td><td>D8</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7</td><td>+3</td><td>Countercharm</td><td>D8</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>D8</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>9</td><td>+4</td><td>Expertise</td><td>D8</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>10</td><td>+4</td><td>Magical Secrets</td><td>D10</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>11</td><td>+4</td><td>—</td><td>D10</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>D10</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>13</td><td>+5</td><td>—</td><td>D10</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>14</td><td>+5</td><td>Subclass feature</td><td>D10</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>15</td><td>+5</td><td>—</td><td>D12</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>D12</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>17</td><td>+6</td><td>—</td><td>D12</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>18</td><td>+6</td><td>Superior Inspiration</td><td>D12</td><td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>D12</td><td>4</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>20</td><td>+6</td><td>Words of Creation</td><td>D12</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr></table>
-
-one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.
-
-Once within the next hour when the creature fails a D20 Test, the creature can roll the Bardic Inspiration die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.
-
-Number of Uses. You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
-
-At Higher Levels. Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.
-
-#### Level I: Spellcasting
-
-You have learned to cast spells through your bardic arts. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Bard spells, which appear in the Bard spell list later in the class's description.
-
-Cantrips. You know two cantrips of your choice from the Bard spell list. Dancing Lights and Vicious Mockery are recommended.
-
-Whenever you gain a Bard level, you can replace one of your cantrips with another cantrip of your choice from the Bard spell list.
-
-When you reach Bard levels 4 and 10, you learn another cantrip of your choice from the Bard spell list, as shown in the Cantrips column of the Bard Features table.
-
-Spell Slots. The Bard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
-
-Prepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Bard spell list. Charm Person, Color Spray, Dissonant Whispers, and Healing Word are recommended.
-
-The number of spells on your list increases as you gain Bard levels, as shown in the Prepared Spells column of the Bard Features table. Whenever that number increases, choose additional spells from the Bard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Bard, your list of
-
-prepared spells can include six spells of levels 1 and 2 in any combination.
-
-If another Bard feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Bard spells for you.
-
-Changing Your Prepared Spells. Whenever you gain a Bard level, you can replace one spell on your list with another Bard spell for which you have spell slots.
-
-Spellcasting Ability. Charisma is your spellcasting ability for your Bard spells.
-
-Spellcasting Focus. You can use a Musical Instrument as a Spellcasting Focus for your Bard spells.
-
-#### Level 2: Expertise
-
-You gain Expertise (see "Rules Glossary") in two of your skill proficiencies of your choice. Performance and Persuasion are recommended if you have proficiency in them.
-
-At Bard level 9, you gain Expertise in two more of your skill proficiencies of your choice.
-
-#### Level 2: Jack of All Trades
-
-You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn't otherwise use your Proficiency Bonus.
-
-For example, if you make a Strength (Athletics) check and lack Athletics proficiency, you can add half your Proficiency Bonus to the check.
-
-#### Level 3: Bard Subclass
-
-You gain a Bard subclass of your choice. The College of Lore subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Bard levels. For the rest of your career, you gain each of your subclass's features that are of your Bard level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feels") or another feat of your choice for which you qualify. You gain this feature again at Bard levels 8, 12, and 16.
-
-#### Level 5: Font of Inspiration
-
-You now regain all your expended uses of Bardic Inspiration when you finish a Short or Long Rest.
-
-In addition, you can expend a spell slot (no action required) to regain one expended use of Bardic Inspiration.
-
-#### Level 7: Countercharm
-
-You can use musical notes or words of power to disrupt mind-influencing effects. If you or a creature within 30 feet of you fails a saving throw against an effect that applies the Charmed or Frightened condition, you can take a Reaction to cause the save to be rerolled, and the new roll has Advantage.
-
-#### Level 10: Magical Secrets
-
-You've learned secrets from various magical traditions. Whenever you reach a Bard level (including this level) and the Prepared Spells number in the Bard Features table increases, you can choose any of your new prepared spells from the Bard, Cleric, Druid, and Wizard spell lists, and the chosen spells count as Bard spells for you (see a class's section for its spell list). In addition, whenever you replace a spell prepared for this class, you can replace it with a spell from those lists.
-
-#### Level 18: Superior Inspiration
-
-When you roll Initiative, you regain expended uses of Bardic Inspiration until you have two if you have fewer than that.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Spell Recall is recommended.
-
-#### Level 20: Words of Creation
-
-You have mastered two of the Words of Creation: the words of life and death. You therefore always have the Power Word Heal and Power Word Kill spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.
-
-#### Bard Spell List
-
-This section presents the Bard spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
-
-Cantrips (Level 0 Bard Spells)  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Dancing Lights</td><td>Illusion</td><td>C</td></tr><tr><td>Light</td><td>Evocation</td><td>—</td></tr><tr><td>Mage Hand</td><td>Conjuration</td><td>—</td></tr><tr><td>Mending</td><td>Transmutation</td><td>—</td></tr><tr><td>Message</td><td>Transmutation</td><td>—</td></tr><tr><td>Minor Illusion</td><td>Illusion</td><td>—</td></tr></table>
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Prestidigitation</td><td>Transmutation</td><td>—</td></tr><tr><td>Starry Wisp</td><td>Evocation</td><td>—</td></tr><tr><td>True Strike</td><td>Divination</td><td>—</td></tr><tr><td>Vicious Mockery</td><td>Enchantment</td><td>—</td></tr></table>
-
-Level I Bard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Animal Friendship</td><td>Enchantment</td><td>—</td></tr><tr><td>Bane</td><td>Enchantment</td><td>C</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Color Spray</td><td>Illusion</td><td>—</td></tr><tr><td>Command</td><td>Enchantment</td><td>—</td></tr><tr><td>Comprehend Languages</td><td>Divination</td><td>R</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Disguise Self</td><td>Illusion</td><td>—</td></tr><tr><td>Dissonant Whispers</td><td>Enchantment</td><td>—</td></tr><tr><td>Faerie Fire</td><td>Evocation</td><td>C</td></tr><tr><td>Feather Fall</td><td>Transmutation</td><td>—</td></tr><tr><td>Healing Word</td><td>Abjuration</td><td>—</td></tr><tr><td>Heroism</td><td>Enchantment</td><td>C</td></tr><tr><td>Hideous Laughter</td><td>Enchantment</td><td>C</td></tr><tr><td>Identify</td><td>Divination</td><td>R, M</td></tr><tr><td>Illusory Script</td><td>Illusion</td><td>R, M</td></tr><tr><td>Longstrider</td><td>Transmutation</td><td>—</td></tr><tr><td>Silent Image</td><td>Illusion</td><td>C</td></tr><tr><td>Sleep</td><td>Enchantment</td><td>C</td></tr><tr><td>Speak with Animals</td><td>Divination</td><td>R</td></tr><tr><td>Thunderwave</td><td>Evocation</td><td>—</td></tr><tr><td>Unseen Servant</td><td>Conjuration</td><td>R</td></tr></table>
-
-Level 2 Bard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Aid</td><td>Abjuration</td><td>—</td></tr><tr><td>Animal Messenger</td><td>Enchantment</td><td>R</td></tr><tr><td>Blindness/Deafness</td><td>Transmutation</td><td>—</td></tr><tr><td>Calm Emotions</td><td>Enchantment</td><td>C</td></tr><tr><td>Detect Thoughts</td><td>Divination</td><td>C</td></tr><tr><td>Enhance Ability</td><td>Transmutation</td><td>C</td></tr><tr><td>Enlarge/Reduce</td><td>Transmutation</td><td>C</td></tr><tr><td>Enthrall</td><td>Enchantment</td><td>C</td></tr><tr><td>Heat Metal</td><td>Transmutation</td><td>C</td></tr><tr><td>Hold Person</td><td>Enchantment</td><td>C</td></tr><tr><td>Invisibility</td><td>Illusion</td><td>C</td></tr><tr><td>Knock</td><td>Transmutation</td><td>—</td></tr><tr><td>Lesser Restoration</td><td>Abjuration</td><td>—</td></tr><tr><td>Locate Animals or Plants</td><td>Divination</td><td>R</td></tr><tr><td>Locate Object</td><td>Divination</td><td>C</td></tr><tr><td>Magic Mouth</td><td>Illusion</td><td>R, M</td></tr><tr><td>Mirror Image</td><td>Illusion</td><td>—</td></tr><tr><td>See Invisibility</td><td>Divination</td><td>—</td></tr><tr><td>Shatter</td><td>Evocation</td><td>—</td></tr><tr><td>Silence</td><td>Illusion</td><td>C, R</td></tr><tr><td>Suggestion</td><td>Enchantment</td><td>C</td></tr><tr><td>Zone of Truth</td><td>Enchantment</td><td>—</td></tr></table>
-
-Level 3 Bard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Bestow Curse</td><td>Necromancy</td><td>C</td></tr><tr><td>Clairvoyance</td><td>Divination</td><td>C, M</td></tr><tr><td>Dispel Magic</td><td>Abjuration</td><td>—</td></tr><tr><td>Fear</td><td>Illusion</td><td>C</td></tr><tr><td>Glyph of Warding</td><td>Abjuration</td><td>M</td></tr><tr><td>Hypnotic Pattern</td><td>Illusion</td><td>C</td></tr><tr><td>Major Image</td><td>Illusion</td><td>C</td></tr><tr><td>Mass Healing Word</td><td>Abjuration</td><td>—</td></tr><tr><td>Nondetection</td><td>Abjuration</td><td>M</td></tr><tr><td>Plant Growth</td><td>Transmutation</td><td>—</td></tr><tr><td>Sending</td><td>Divination</td><td>—</td></tr><tr><td>Slow</td><td>Transmutation</td><td>C</td></tr><tr><td>Speak with Dead</td><td>Necromancy</td><td>—</td></tr><tr><td>Speak with Plants</td><td>Transmutation</td><td>—</td></tr><tr><td>Stinking Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Tiny Hut</td><td>Evocation</td><td>R</td></tr><tr><td>Tongues</td><td>Divination</td><td>—</td></tr></table>
-
-Level 4 Bard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Charm Monster</td><td>Enchantment</td><td>—</td></tr><tr><td>Compulsion</td><td>Enchantment</td><td>C</td></tr><tr><td>Confusion</td><td>Enchantment</td><td>C</td></tr><tr><td>Dimension Door</td><td>Conjuration</td><td>—</td></tr><tr><td>Freedom of Movement</td><td>Abjuration</td><td>—</td></tr><tr><td>Greater Invisibility</td><td>Illusion</td><td>C</td></tr><tr><td>Hallucinatory Terrain</td><td>Illusion</td><td>—</td></tr><tr><td>Locate Creature</td><td>Divination</td><td>C</td></tr><tr><td>Phantasmal Killer</td><td>Illusion</td><td>C</td></tr><tr><td>Polymorph</td><td>Transmutation</td><td>C</td></tr></table>
-
-Level 5 Bard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Animate Objects</td><td>Transmutation</td><td>C</td></tr><tr><td>Awaken</td><td>Transmutation</td><td>M</td></tr><tr><td>Dominate Person</td><td>Enchantment</td><td>C</td></tr><tr><td>Dream</td><td>Illusion</td><td>—</td></tr><tr><td>Geas</td><td>Enchantment</td><td>—</td></tr><tr><td>Greater Restoration</td><td>Abjuration</td><td>M</td></tr><tr><td>Hold Monster</td><td>Enchantment</td><td>C</td></tr><tr><td>Legend Lore</td><td>Divination</td><td>M</td></tr><tr><td>Mass Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Mislead</td><td>Illusion</td><td>C</td></tr><tr><td>Modify Memory</td><td>Enchantment</td><td>C</td></tr><tr><td>Planar Binding</td><td>Abjuration</td><td>M</td></tr><tr><td>Raise Dead</td><td>Necromancy</td><td>M</td></tr><tr><td>Scrying</td><td>Divination</td><td>C, M</td></tr><tr><td>Seeming</td><td>Illusion</td><td>—</td></tr><tr><td>Telepathic Bond</td><td>Divination</td><td>R</td></tr><tr><td>Teleportation Circle</td><td>Conjuration</td><td>M</td></tr></table>
-
-Level 6 Bard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Eyebite</td><td>Necromancy</td><td>C</td></tr><tr><td>Find the Path</td><td>Divination</td><td>C, M</td></tr><tr><td>Guards and Wards</td><td>Abjuration</td><td>M</td></tr><tr><td>Heroes’ Feast</td><td>Conjuration</td><td>M</td></tr><tr><td>Irresistible Dance</td><td>Enchantment</td><td>C</td></tr><tr><td>Mass Suggestion</td><td>Enchantment</td><td>—</td></tr><tr><td>Programmed Illusion</td><td>Illusion</td><td>M</td></tr><tr><td>True Seeing</td><td>Divination</td><td>M</td></tr></table>
-
-Level 7 Bard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Arcane Sword</td><td>Evocation</td><td>C, M</td></tr><tr><td>Etherealness</td><td>Conjuration</td><td>—</td></tr><tr><td>Forcecage</td><td>Evocation</td><td>C, M</td></tr><tr><td>Magnificent Mansion</td><td>Conjuration</td><td>M</td></tr><tr><td>Mirage Arcane</td><td>Illusion</td><td>—</td></tr><tr><td>Prismatic Spray</td><td>Evocation</td><td>—</td></tr><tr><td>Project Image</td><td>Illusion</td><td>C, M</td></tr><tr><td>Regenerate</td><td>Transmutation</td><td>—</td></tr><tr><td>Resurrection</td><td>Necromancy</td><td>M</td></tr><tr><td>Symbol</td><td>Abjuration</td><td>M</td></tr><tr><td>Teleport</td><td>Conjuration</td><td>—</td></tr></table>
-
-Level 8 Bard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Antipathy/Sympathy</td><td>Enchantment</td><td>—</td></tr><tr><td>Befuddlement</td><td>Enchantment</td><td>—</td></tr><tr><td>Dominate Monster</td><td>Enchantment</td><td>C</td></tr><tr><td>Glibness</td><td>Enchantment</td><td>—</td></tr><tr><td>Mind Blank</td><td>Abjuration</td><td>—</td></tr><tr><td>Power Word Stun</td><td>Enchantment</td><td>—</td></tr></table>
-
-Level 9 Bard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Foresight</td><td>Divination</td><td>—</td></tr><tr><td>Power Word Heal</td><td>Enchantment</td><td>—</td></tr><tr><td>Power Word Kill</td><td>Enchantment</td><td>—</td></tr><tr><td>Prismatic Wall</td><td>Abjuration</td><td>—</td></tr><tr><td>True Polymorph</td><td>Transmutation</td><td>C</td></tr></table>
-
-#### Bard Subclass: College of Lore
-
-Plumb the Depths of Magical Knowledge
-
-Bards of the College of Lore collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college's members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.
-
-#### Level 3: Bonus Proficiencies
-
-You gain proficiency with three skills of your choice.
-
-#### Level 3: Cutting Words
-
-You learn to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of yourself makes a damage roll or succeeds on an ability check or attack roll, you can take a Reaction to expend one use of your Bardic Inspiration; roll your Bardic Inspiration die, and subtract the number rolled from the creature's roll, reducing the damage or potentially turning the success into a failure.
-
-#### Level 6: Magical Discoveries
-
-You learn two spells of your choice. These spells can come from the Cleric, Druid, or Wizard spell list or any combination thereof (see a class's section for its spell list). A spell you choose must be a cantrip or a spell for which you have spell slots, as shown in the Bard Features table.
-
-You always have the chosen spells prepared, and whenever you gain a Bard level, you can replace one of the spells with another spell that meets these requirements.
-
-#### Level 14: Peerless Skill
-
-When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration; roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn't expended.
-
-#### Cleric
-
-Core Cleric Traits  
-
-<table><tr><td>Primary Ability</td><td>Wisdom</td></tr><tr><td>Hit Point Die</td><td>D8 per Cleric level</td></tr><tr><td>Saving Throw Proficiencies</td><td>Wisdom and Charisma</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: History, Insight, Medicine, Persuasion, or Religion</td></tr><tr><td>Weapon Proficiencies</td><td>Simple weapons</td></tr><tr><td>Armor Training</td><td>Light and Medium armor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Chain Shirt, Shield, Mace, Holy Symbol, Priest&####x27;s Pack, and 7 GP; or (B) 110 GP</td></tr></table>
-
-#### Becoming a Cleric ...
-
-#### As a Level I Character
-
-- Gain all the traits in the Core Cleric Traits table.  
-- Gain the Cleric's level 1 features, which are listed in the Cleric Features table.
-
-#### As a Multiclass Character
-
-- Gain the following traits from the Core Cleric Traits table: Hit Point Die and training with Light and Medium armor and Shields.  
-- Gain the Cleric's level 1 features, which are listed in the Cleric Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
-
-#### Cleric Class Features
-
-As a Cleric, you gain the following class features when you reach the specified Cleric levels. These features are listed in the Cleric Features table.
-
-#### Level I: Spellcasting
-
-You have learned to cast spells through prayer and meditation. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Cleric spells, which appear on the Cleric spell list later in the class's description.
-
-Cantrips. You know three cantrips of your choice from the Cleric spell list. Guidance, Sacred Flame, and Thaumaturgy are recommended.
-
-Whenever you gain a Cleric level, you can replace one of your cantrips with another cantrip of your choice from the Cleric spell list.
-
-Cleric Features  
-
-<table><tr><td rowspan="2">Level</td><td rowspan="2">Proficiency Bonus</td><td rowspan="2">Class Features</td><td rowspan="2">Channel Divinity</td><td rowspan="2">Cantrips</td><td rowspan="2">Prepared Spells</td><td colspan="8">——Spell Slots per Spell Level——</td><td></td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>1</td><td>+2</td><td>Spellcasting, Divine Order</td><td>—</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>2</td><td>+2</td><td>Channel Divinity</td><td>2</td><td>3</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3</td><td>+2</td><td>Cleric Subclass</td><td>2</td><td>3</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>2</td><td>4</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>+3</td><td>Sear Undead</td><td>2</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6</td><td>+3</td><td>Subclass feature</td><td>3</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7</td><td>+3</td><td>Blessed Strikes</td><td>3</td><td>4</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>3</td><td>4</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>9</td><td>+4</td><td>—</td><td>3</td><td>4</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>10</td><td>+4</td><td>Divine Intervention</td><td>3</td><td>5</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>11</td><td>+4</td><td>—</td><td>3</td><td>5</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>3</td><td>5</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>13</td><td>+5</td><td>—</td><td>3</td><td>5</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>14</td><td>+5</td><td>Improved Blessed Strikes</td><td>3</td><td>5</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>15</td><td>+5</td><td>—</td><td>3</td><td>5</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>3</td><td>5</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>17</td><td>+6</td><td>Subclass feature</td><td>3</td><td>5</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>18</td><td>+6</td><td>—</td><td>4</td><td>5</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>4</td><td>5</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>20</td><td>+6</td><td>Greater Divine Intervention</td><td>4</td><td>5</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr></table>
-
-When you reach Cleric levels 4 and 10, you learn another cantrip of your choice from the Cleric spell list, as shown in the Cantrips column of the Cleric Features table.
-
-Spell Slots. The Cleric Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
-
-Prepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Cleric spell list. Bless, Cure Wounds, Guiding Bolt, and Shield of Faith are recommended.
-
-The number of spells on your list increases as you gain Cleric levels, as shown in the Prepared Spells column of the Cleric Features table. Whenever that number increases, choose additional spells from the Cleric spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Cleric, your list of prepared spells can include six spells of levels 1 and 2 in any combination.
-
-If another Cleric feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Cleric spells for you.
-
-Changing Your Prepared Spells. Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with other Cleric spells for which you have spell slots.
-
-Spellcasting Ability. Wisdom is your spellcasting ability for your Cleric spells.
-
-Spellcasting Focus. You can use a Holy Symbol as a Spellcasting Focus for your Cleric spells.
-
-#### Level I: Divine Order
-
-You have dedicated yourself to one of the following sacred roles of your choice.
-
-**Protector.** Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.
-
-Thaumaturge. You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1).
-
-#### Level 2: Channel Divinity
-
-You can channel divine energy directly from the Outer Planes to fuel magical effects. You start with two such effects: Divine Spark and Turn Undead, each of which is described below. Each time you use this class's Channel Divinity, choose which Channel Divinity effect from this class to create. You gain additional effect options at higher Cleric levels.
-
-You can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain additional uses when you reach certain Cleric levels, as shown in the Channel Divinity column of the Cleric Features table.
-
-If a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.
-
-Divine Spark. As a Magic action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at it. Roll 1d8 and add your Wisdom modifier. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant damage (your choice) equal to that total. On a successful save, the creature takes half as much damage (round down).
-
-You roll an additional d8 when you reach Cleric levels 7 (2d8), 13 (3d8), and 18 (4d8).
-
-Turn Undead. As a Magic action, you present your Holy Symbol and censure Undead creatures. Each Undead of your choice within 30 feet of you must make a Wisdom saving throw. If the creature fails its save, it has the Frightened and Incapacitated conditions for 1 minute. For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the Incapacitated condition, or if you die.
-
-#### Level 3: Cleric Subclass
-
-You gain a Cleric subclass of your choice. The Life Domain subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Cleric levels. For the rest of your career, you gain each of your subclass's features that are of your Cleric level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feels") or another feat of your choice for which you qualify. You gain this feature again at Cleric levels 8, 12, and 16.
-
-#### Level 5: Sear Undead
-
-Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of 1d8) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.
-
-#### Level 7: Blessed Strikes
-
-Divine power infuses you in battle. You gain one of the following options of your choice (if you get either option from a Cleric subclass in an older book, use only the option you choose for this feature).
-
-Divine Strike. Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).
-
-Potent Spellcasting. Add your Wisdom modifier to the damage you deal with any Cleric cantrip.
-
-#### Level 10: Divine Intervention
-
-You can call on your deity or pantheon to intervene on your behalf. As a Magic action, choose any Cleric spell of level 5 or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. You can't use this feature again until you finish a Long Rest.
-
-#### Level 14: Improved Blessed Strikes
-
-The option you chose for Blessed Strikes grows more powerful.
-
-Divine Strike. The extra damage of your Divine Strike increases to 2d8.
-
-Potent Spellcasting. When you cast a Cleric can-trip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points equal to twice your Wisdom modifier.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Fate is recommended.
-
-#### Level 20: Greater Divine Intervention
-
-You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose Wish when you select a spell. If you do so, you can't use Divine Intervention again until you finish 2d4 Long Rests.
-
-#### Cleric Spell List
-
-This section presents the Cleric spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
-
-Cantrips (Level 0 Cleric Spells)  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Guidance</td><td>Divination</td><td>C</td></tr><tr><td>Light</td><td>Evocation</td><td>—</td></tr><tr><td>Mending</td><td>Transmutation</td><td>—</td></tr><tr><td>Resistance</td><td>Abjuration</td><td>C</td></tr><tr><td>Sacred Flame</td><td>Evocation</td><td>—</td></tr><tr><td>Spare the Dying</td><td>Necromancy</td><td>—</td></tr><tr><td>Thaumaturgy</td><td>Transmutation</td><td>—</td></tr></table>
-
-Level I Cleric Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Bane</td><td>Enchantment</td><td>C</td></tr><tr><td>Bless</td><td>Enchantment</td><td>C, M</td></tr><tr><td>Command</td><td>Enchantment</td><td>—</td></tr><tr><td>Create or Destroy Water</td><td>Transmutation</td><td>—</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Evil and Good</td><td>Divination</td><td>C</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Detect Poison and Disease</td><td>Divination</td><td>C, R</td></tr><tr><td>Guiding Bolt</td><td>Evocation</td><td>—</td></tr><tr><td>Healing Word</td><td>Abjuration</td><td>—</td></tr><tr><td>Inflict Wounds</td><td>Necromancy</td><td>—</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Purify Food and Drink</td><td>Transmutation</td><td>R</td></tr><tr><td>Sanctuary</td><td>Abjuration</td><td>—</td></tr><tr><td>Shield of Faith</td><td>Abjuration</td><td>C</td></tr></table>
-
-Level 2 Cleric Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Aid</td><td>Abjuration</td><td>—</td></tr><tr><td>Augury</td><td>Divination</td><td>R, M</td></tr><tr><td>Blindness/Deafness</td><td>Transmutation</td><td>—</td></tr><tr><td>Calm Emotions</td><td>Enchantment</td><td>C</td></tr><tr><td>Continual Flame</td><td>Evocation</td><td>M</td></tr><tr><td>Enhance Ability</td><td>Transmutation</td><td>C</td></tr><tr><td>Find Traps</td><td>Divination</td><td>—</td></tr><tr><td>Gentle Repose</td><td>Necromancy</td><td>R, M</td></tr><tr><td>Hold Person</td><td>Enchantment</td><td>C</td></tr><tr><td>Lesser Restoration</td><td>Abjuration</td><td>—</td></tr><tr><td>Locate Object</td><td>Divination</td><td>C</td></tr><tr><td>Prayer of Healing</td><td>Abjuration</td><td>—</td></tr><tr><td>Protection from Poison</td><td>Abjuration</td><td>—</td></tr><tr><td>Silence</td><td>Illusion</td><td>C, R</td></tr><tr><td>Spiritual Weapon</td><td>Evocation</td><td>C</td></tr><tr><td>Warding Bond</td><td>Abjuration</td><td>M</td></tr><tr><td>Zone of Truth</td><td>Enchantment</td><td>—</td></tr></table>
-
-Level 3 Cleric Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Animate Dead</td><td>Necromancy</td><td>—</td></tr><tr><td>Beacon of Hope</td><td>Abjuration</td><td>C</td></tr><tr><td>Bestow Curse</td><td>Necromancy</td><td>C</td></tr><tr><td>Clairvoyance</td><td>Divination</td><td>C, M</td></tr><tr><td>Create Food and Water</td><td>Conjuration</td><td>—</td></tr><tr><td>Daylight</td><td>Evocation</td><td>—</td></tr><tr><td>Dispel Magic</td><td>Abjuration</td><td>—</td></tr><tr><td>Glyph of Warding</td><td>Abjuration</td><td>M</td></tr><tr><td>Magic Circle</td><td>Abjuration</td><td>M</td></tr><tr><td>Mass Healing Word</td><td>Abjuration</td><td>—</td></tr><tr><td>Meld into Stone</td><td>Transmutation</td><td>R</td></tr><tr><td>Protection from Energy</td><td>Abjuration</td><td>C</td></tr><tr><td>Remove Curse</td><td>Abjuration</td><td>—</td></tr><tr><td>Revivify</td><td>Necromancy</td><td>M</td></tr><tr><td>Sending</td><td>Divination</td><td>—</td></tr><tr><td>Speak with Dead</td><td>Necromancy</td><td>—</td></tr><tr><td>Spirit Guardians</td><td>Conjuration</td><td>C</td></tr><tr><td>Tongues</td><td>Divination</td><td>—</td></tr><tr><td>Water Walk</td><td>Transmutation</td><td>R</td></tr></table>
-
-Level 4 Cleric Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Aura of Life</td><td>Abjuration</td><td>C</td></tr><tr><td>Banishment</td><td>Abjuration</td><td>C</td></tr><tr><td>Control Water</td><td>Transmutation</td><td>C</td></tr><tr><td>Death Ward</td><td>Abjuration</td><td>—</td></tr><tr><td>Divination</td><td>Divination</td><td>R, M</td></tr><tr><td>Freedom of Movement</td><td>Abjuration</td><td>—</td></tr><tr><td>Guardian of Faith</td><td>Conjuration</td><td>—</td></tr><tr><td>Locate Creature</td><td>Divination</td><td>C</td></tr><tr><td>Stone Shape</td><td>Transmutation</td><td>—</td></tr></table>
-
-Level 5 Cleric Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Commune</td><td>Divination</td><td>R</td></tr><tr><td>Contagion</td><td>Necromancy</td><td>—</td></tr><tr><td>Dispel Evil and Good</td><td>Abjuration</td><td>C</td></tr><tr><td>Flame Strike</td><td>Evocation</td><td>—</td></tr><tr><td>Geas</td><td>Enchantment</td><td>—</td></tr><tr><td>Greater Restoration</td><td>Abjuration</td><td>M</td></tr><tr><td>Hallow</td><td>Abjuration</td><td>M</td></tr><tr><td>Insect Plague</td><td>Conjuration</td><td>C</td></tr><tr><td>Legend Lore</td><td>Divination</td><td>M</td></tr><tr><td>Mass Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Planar Binding</td><td>Abjuration</td><td>M</td></tr><tr><td>Raise Dead</td><td>Necromancy</td><td>M</td></tr><tr><td>Scrying</td><td>Divination</td><td>C, M</td></tr></table>
-
-Level 6 Cleric Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Blade Barrier</td><td>Evocation</td><td>C</td></tr><tr><td>Create Undead</td><td>Necromancy</td><td>M</td></tr><tr><td>Find the Path</td><td>Divination</td><td>C, M</td></tr><tr><td>Forbiddance</td><td>Abjuration</td><td>R, M</td></tr><tr><td>Harm</td><td>Necromancy</td><td>—</td></tr><tr><td>Heal</td><td>Abjuration</td><td>—</td></tr><tr><td>Heroes’ Feast</td><td>Conjuration</td><td>M</td></tr><tr><td>Planar Ally</td><td>Conjuration</td><td>—</td></tr><tr><td>Sunbeam</td><td>Evocation</td><td>C</td></tr><tr><td>True Seeing</td><td>Divination</td><td>M</td></tr><tr><td>Word of Recall</td><td>Conjuration</td><td>—</td></tr></table>
-
-Level 7 Cleric Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Conjure Celestial</td><td>Conjuration</td><td>C</td></tr><tr><td>Divine Word</td><td>Evocation</td><td>—</td></tr><tr><td>Etherealness</td><td>Conjuration</td><td>—</td></tr><tr><td>Fire Storm</td><td>Evocation</td><td>—</td></tr><tr><td>Plane Shift</td><td>Conjuration</td><td>M</td></tr><tr><td>Regenerate</td><td>Transmutation</td><td>—</td></tr><tr><td>Resurrection</td><td>Necromancy</td><td>M</td></tr><tr><td>Symbol</td><td>Abjuration</td><td>M</td></tr></table>
-
-Level 8 Cleric Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Antimagic Field</td><td>Abjuration</td><td>C</td></tr><tr><td>Control Weather</td><td>Transmutation</td><td>C</td></tr><tr><td>Earthquake</td><td>Transmutation</td><td>C</td></tr><tr><td>Holy Aura</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Sunburst</td><td>Evocation</td><td>—</td></tr></table>
-
-Level 9 Cleric Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Astral Projection</td><td>Necromancy</td><td>M</td></tr><tr><td>Gate</td><td>Conjuration</td><td>C, M</td></tr><tr><td>Mass Heal</td><td>Abjuration</td><td>—</td></tr><tr><td>Power Word Heal</td><td>Enchantment</td><td>—</td></tr><tr><td>True Resurrection</td><td>Necromancy</td><td>M</td></tr></table>
-
-#### Cleric Subclass: Life Domain
-
-Soothe the Hurts of the World
-
-The Life Domain focuses on the positive energy that helps sustain all life in the multiverse. Clerics who tap into this domain are masters of healing, using that life force to cure many hurts.
-
-Existence itself relies on the positive energy associated with this domain, so a Cleric of almost any religious tradition might choose it. This domain is particularly associated with agricultural deities, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the magic of this domain.
-
-#### Level 3: Disciple of Life
-
-When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level.
-
-#### Level 3: Life Domain Spells
-
-Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.
-
-Life Domain Spells  
-
-<table><tr><td>Cleric Level</td><td>Prepared Spells</td></tr><tr><td>3</td><td>Aid, Bless, Cure Wounds, Lesser Restoration</td></tr><tr><td>5</td><td>Mass Healing Word, Revivify</td></tr><tr><td>7</td><td>Aura of Life, Death Ward</td></tr><tr><td>9</td><td>Greater Restoration, Mass Cure Wounds</td></tr></table>
-
-#### Level 3: Preserve Life
-
-As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose Bloodied creatures within 30 feet of yourself (which can include you), and divide those Hit Points among them. This feature can restore a creature to no more than half its Hit Point maximum.
-
-#### Level 6: Blessed Healer
-
-The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one or more creatures other than yourself, you regain Hit Points equal to 2 plus the spell slot's level.
-
-#### Level 17: Supreme Healing
-
-When you would normally roll one or more dice to restore Hit Points to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a spell, you restore 12.
-
-####  Druid
-
-Core Druid Traits  
-
-<table><tr><td>Primary Ability</td><td>Wisdom</td></tr><tr><td>Hit Point Die</td><td>D8 per Druid level</td></tr><tr><td>Saving Throw 
-Proficiencies</td><td>Intelligence and Wisdom</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Animal Handling, 
-Arcana, Insight, Medicine, Na-ture, Perception, Religion, or 
-Survival</td></tr><tr><td>Weapon Proficiencies</td><td>Simple weapons</td></tr><tr><td>Tool Proficiencies</td><td>Herbalism Kit</td></tr><tr><td>Armor Training</td><td>Light armor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Leather Ar-mor, Shield, Sickle, Druidic Foc-cus (Quarterstaff), Explorer&####x27;s Pack, Herbalism Kit, and 9 GP; or (B) 50 GP</td></tr></table>
-
-#### Becoming a Druid ...
-
-#### As a Level I Character
-
-- Gain all the traits in the Core Druid Traits table.  
-- Gain the Druid's level 1 features, which are listed in the Druid Features table.
-
-#### As a Multiclass Character
-
-- Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.  
-- Gain the Druid's level 1 features, which are listed in the Druid Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
-
-#### Druid Class Features
-
-As a Druid, you gain the following class features when you reach the specified Druid levels. These features are listed in the Druid Features table.
-
-#### Level I: Spellcasting
-
-You have learned to cast spells through studying the mystical forces of nature. See "Spells" for the rules on spellcasting. The information below details
-
-Druid Features  
-
-<table><tr><td rowspan="2">Level</td><td rowspan="2">Proficiency Bonus</td><td rowspan="2">Class Features</td><td rowspan="2">Wild Shape</td><td rowspan="2">Cantrips</td><td rowspan="2">Prepared Spells</td><td colspan="8">——Spell Slots per Spell Level——</td><td></td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>1</td><td>+2</td><td>Spellcasting, Druidic, Primal Order</td><td>—</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>2</td><td>+2</td><td>Wild Shape, Wild Companion</td><td>2</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3</td><td>+2</td><td>Druid Subclass</td><td>2</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>2</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>+3</td><td>Wild Resurgence</td><td>2</td><td>3</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6</td><td>+3</td><td>Subclass feature</td><td>3</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7</td><td>+3</td><td>Elemental Fury</td><td>3</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>3</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>9</td><td>+4</td><td>—</td><td>3</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>10</td><td>+4</td><td>Subclass feature</td><td>3</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>11</td><td>+4</td><td>—</td><td>3</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>3</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>13</td><td>+5</td><td>—</td><td>3</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>14</td><td>+5</td><td>Subclass feature</td><td>3</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>15</td><td>+5</td><td>Improved Elemental Fury</td><td>3</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>3</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>17</td><td>+6</td><td>—</td><td>4</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>18</td><td>+6</td><td>Beast Spells</td><td>4</td><td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>4</td><td>4</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>20</td><td>+6</td><td>Archdruid</td><td>4</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr></table>
-
-how you use those rules with Druid spells, which appear on the Druid spell list later in the class's description.
-
-Cantrips. You know two cantrips of your choice from the Druid spell list. Druidcraft and Produce Flame are recommended.
-
-Whenever you gain a Druid level, you can replace one of your cantrips with another cantrip of your choice from the Druid spell list.
-
-When you reach Druid levels 4 and 10, you learn another cantrip of your choice from the Druid spell list, as shown in the Cantrips column of the Druid Features table.
-
-Spell Slots. The Druid Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
-
-Prepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Druid spell list. Animal Friendship, Cure Wounds, Faerie Fire, and Thunderwave are recommended.
-
-The number of spells on your list increases as you gain Druid levels, as shown in the Prepared Spells column of the Druid Features table. Whenever that number increases, choose additional spells from the Druid spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Druid, your list of prepared spells can include six spells of levels 1 and 2 in any combination.
-
-If another Druid feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Druid spells for you.
-
-Changing Your Prepared Spells. Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells with other Druid spells for which you have spell slots.
-
-Spellcasting Ability. Wisdom is your spellcasting ability for your Druid spells.
-
-Spellcasting Focus. You can use a Druidic Focus as a Spellcasting Focus for your Druid spells.
-
-#### Level I: Druidic
-
-You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the Speak with Animals spell prepared.
-
-You can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence
-
-with a successful DC 15 Intelligence (Investigation) check but can't decipher it without magic.
-
-#### Level 1: Primal Order
-
-You have dedicated yourself to one of the following sacred roles of your choice.
-
-Magician. You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).
-
-Warden. Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.
-
-#### Level 2: Wild Shape
-
-The power of nature allows you to assume the form of an animal. As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature (see "Known Forms" below). You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action.
-
-Number of Uses. You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
-
-You gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the Druid Features table.
-
-Known Forms. You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed (see "Animals" in "Monsters" for stat block options). The Rat, Riding Horse, Spider, and Wolf are recommended. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.
-
-When you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.
-
-When choosing known forms, you may look in other sources for eligible Beasts if the Game Master permits you to do so.
-
-Beast Shapes  
-
-<table><tr><td>Druid Level</td><td>Known Forms</td><td>Max CR</td><td>Fly Speed</td></tr><tr><td>2</td><td>4</td><td>1/4</td><td>No</td></tr><tr><td>4</td><td>6</td><td>1/2</td><td>No</td></tr><tr><td>8</td><td>8</td><td>1</td><td>Yes</td></tr></table>
-
-Rules While Shape-Shifted. While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:
-
-Temporary Hit Points. When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.
-
-Game Statistics. Your game statistics are replaced by the Beast's stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast's stat block is higher than yours, use the one in the stat block.
-
-No Spellcasting. You can't cast spells, but shapeshifting doesn't break your Concentration or otherwise interfere with a spell you've already cast.
-
-Objects. Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it's practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you're in that form.
-
-#### Level 2: Wild Companion
-
-You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the Find Familiar spell without Material components.
-
-When you cast the spell in this way, the familiar is Fey and disappears when you finish a Long Rest.
-
-#### Level 3: Druid Subclass
-
-You gain a Druid subclass of your choice. The Circle of the Land subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Druid levels. For the rest of your career, you gain each of your subclass's features that are of your Druid level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feat") or another feat of your choice for which you qualify. You gain this feature again at Druid levels 8, 12, and 16.
-
-#### Level 5: Wild Resurgence
-
-Once on each of your turns, if you have no uses of Wild Shape left, you can give yourself one use by exp. pending a spell slot (no action required).
-
-In addition, you can expend one use of Wild Shape (no action required) to give yourself a level 1 spell slot, but you can't do so again until you finish a Long Rest.
-
-#### Level 7: Elemental Fury
-
-The might of the elements flows through you. You gain one of the following options of your choice.
-
-Potent Spellcasting. Add your Wisdom modifier to the damage you deal with any Druid cantrip.
-
-Primal Strike. Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose when you hit).
-
-#### Level 15: Improved Elemental Fury
-
-The option you chose for Elemental Fury grows more powerful, as detailed below.
-
-Potent Spellcasting. When you cast a Druid can-trip with a range of 10 feet or greater, the spell's range increases by 300 feet.
-
-Primal Strike. The extra damage of your Primal Strike increases to 2d8.
-
-#### Level 18: Beast Spells
-
-While using Wild Shape, you can cast spells in Beast form, except for any spell that has a Material component with a cost specified or that consumes its Material component.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.
-
-#### Level 20: Archdruid
-
-The vitality of nature constantly blooms within you, granting you the following benefits.
-
-Evergreen Wild Shape. Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.
-
-Nature Magician. You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. For example, if you convert two uses of Wild Shape, you produce a level 4 spell slot. Once you use this benefit, you can't do so again until you finish a Long Rest.
-
-Longevity. The primal magic that you wield causes you to age more slowly. For every ten years that pass, your body ages only one year.
-
-#### Druid Spell List
-
-This section presents the Druid spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
-
-Cantrips (Level 0 Druid Spells)  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Druidcraft</td><td>Transmutation</td><td>—</td></tr><tr><td>Elementalism</td><td>Transmutation</td><td>—</td></tr><tr><td>Guidance</td><td>Divination</td><td>C</td></tr><tr><td>Mending</td><td>Transmutation</td><td>—</td></tr><tr><td>Message</td><td>Transmutation</td><td>—</td></tr><tr><td>Poison Spray</td><td>Necromancy</td><td>—</td></tr><tr><td>Produce Flame</td><td>Conjuration</td><td>—</td></tr><tr><td>Resistance</td><td>Abjuration</td><td>C</td></tr><tr><td>Shillelagh</td><td>Transmutation</td><td>—</td></tr><tr><td>Spare the Dying</td><td>Necromancy</td><td>—</td></tr><tr><td>Starry Wisp</td><td>Evocation</td><td>—</td></tr></table>
-
-Level I Druid Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Animal Friendship</td><td>Enchantment</td><td>—</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Create or Destroy Water</td><td>Transmutation</td><td>—</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Detect Poison and Disease</td><td>Divination</td><td>C, R</td></tr><tr><td>Entangle</td><td>Conjuration</td><td>C</td></tr><tr><td>Faerie Fire</td><td>Evocation</td><td>C</td></tr><tr><td>Fog Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Goodberry</td><td>Conjuration</td><td>—</td></tr><tr><td>Healing Word</td><td>Abjuration</td><td>—</td></tr><tr><td>Ice Knife</td><td>Conjuration</td><td>—</td></tr><tr><td>Jump</td><td>Transmutation</td><td>—</td></tr><tr><td>Longstrider</td><td>Transmutation</td><td>—</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Purify Food and Drink</td><td>Transmutation</td><td>R</td></tr><tr><td>Speak with Animals</td><td>Divination</td><td>R</td></tr><tr><td>Thunderwave</td><td>Evocation</td><td>—</td></tr></table>
-
-Level 2 Druid Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Aid</td><td>Abjuration</td><td>—</td></tr><tr><td>Animal Messenger</td><td>Enchantment</td><td>R</td></tr><tr><td>Augury</td><td>Divination</td><td>R, M</td></tr><tr><td>Barkskin</td><td>Transmutation</td><td>—</td></tr><tr><td>Continual Flame</td><td>Evocation</td><td>M</td></tr><tr><td>Darkvision</td><td>Transmutation</td><td>—</td></tr><tr><td>Enhance Ability</td><td>Transmutation</td><td>C</td></tr><tr><td>Enlarge/Reduce</td><td>Transmutation</td><td>C</td></tr><tr><td>Find Traps</td><td>Divination</td><td>—</td></tr><tr><td>Flame Blade</td><td>Evocation</td><td>C</td></tr><tr><td>Flaming Sphere</td><td>Evocation</td><td>C</td></tr><tr><td>Gust of Wind</td><td>Evocation</td><td>C</td></tr><tr><td>Heat Metal</td><td>Transmutation</td><td>C</td></tr><tr><td>Hold Person</td><td>Enchantment</td><td>C</td></tr><tr><td>Lesser Restoration</td><td>Abjuration</td><td>—</td></tr><tr><td>Locate Animals or Plants</td><td>Divination</td><td>R</td></tr><tr><td>Locate Object</td><td>Divination</td><td>C</td></tr><tr><td>Moonbeam</td><td>Evocation</td><td>C</td></tr><tr><td>Pass without Trace</td><td>Abjuration</td><td>C</td></tr><tr><td>Protection from Poison</td><td>Abjuration</td><td>—</td></tr><tr><td>Spike Growth</td><td>Transmutation</td><td>C</td></tr></table>
-
-Level 3 Druid Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Call Lightning</td><td>Conjuration</td><td>C</td></tr><tr><td>Conjure Animals</td><td>Conjuration</td><td>C</td></tr><tr><td>Daylight</td><td>Evocation</td><td>—</td></tr><tr><td>Dispel Magic</td><td>Abjuration</td><td>—</td></tr><tr><td>Meld into Stone</td><td>Transmutation</td><td>R</td></tr><tr><td>Plant Growth</td><td>Transmutation</td><td>—</td></tr><tr><td>Protection from Energy</td><td>Abjuration</td><td>C</td></tr><tr><td>Revivify</td><td>Necromancy</td><td>M</td></tr><tr><td>Sleet Storm</td><td>Conjuration</td><td>C</td></tr><tr><td>Speak with Plants</td><td>Transmutation</td><td>—</td></tr><tr><td>Water Breathing</td><td>Transmutation</td><td>R</td></tr><tr><td>Water Walk</td><td>Transmutation</td><td>R</td></tr><tr><td>Wind Wall</td><td>Evocation</td><td>C</td></tr></table>
-
-Level 4 Druid Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Blight</td><td>Necromancy</td><td>—</td></tr><tr><td>Charm Monster</td><td>Enchantment</td><td>—</td></tr><tr><td>Confusion</td><td>Enchantment</td><td>C</td></tr><tr><td>Conjure Minor Elementals</td><td>Conjuration</td><td>C</td></tr><tr><td>Conjure Woodland Beings</td><td>Conjuration</td><td>C</td></tr><tr><td>Control Water</td><td>Transmutation</td><td>C</td></tr><tr><td>Divination</td><td>Divination</td><td>R, M</td></tr><tr><td>Dominate Beast</td><td>Enchantment</td><td>C</td></tr><tr><td>Fire Shield</td><td>Evocation</td><td>—</td></tr><tr><td>Freedom of Movement</td><td>Abjuration</td><td>—</td></tr><tr><td>Giant Insect</td><td>Conjuration</td><td>C</td></tr><tr><td>Hallucinatory Terrain</td><td>Illusion</td><td>—</td></tr><tr><td>Ice Storm</td><td>Evocation</td><td>—</td></tr><tr><td>Locate Creature</td><td>Divination</td><td>C</td></tr><tr><td>Polymorph</td><td>Transmutation</td><td>C</td></tr><tr><td>Stone Shape</td><td>Transmutation</td><td>—</td></tr><tr><td>Stoneskin</td><td>Transmutation</td><td>C, M</td></tr><tr><td>Wall of Fire</td><td>Evocation</td><td>C</td></tr></table>
-
-Level 5 Druid Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Antilife Shell</td><td>Abjuration</td><td>C</td></tr><tr><td>Awaken</td><td>Transmutation</td><td>M</td></tr><tr><td>Commune with Nature</td><td>Divination</td><td>R</td></tr><tr><td>Cone of Cold</td><td>Evocation</td><td>—</td></tr><tr><td>Conjure Elemental</td><td>Conjuration</td><td>C</td></tr><tr><td>Contagion</td><td>Necromancy</td><td>—</td></tr><tr><td>Geas</td><td>Enchantment</td><td>—</td></tr><tr><td>Greater Restoration</td><td>Abjuration</td><td>M</td></tr><tr><td>Insect Plague</td><td>Conjuration</td><td>C</td></tr><tr><td>Mass Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Planar Binding</td><td>Abjuration</td><td>M</td></tr><tr><td>Reincarnate</td><td>Necromancy</td><td>M</td></tr><tr><td>Scrying</td><td>Divination</td><td>C, M</td></tr><tr><td>Tree Stride</td><td>Conjuration</td><td>C</td></tr><tr><td>Wall of Stone</td><td>Evocation</td><td>C</td></tr></table>
-
-Level 6 Druid Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Conjure Fey</td><td>Conjuration</td><td>C</td></tr><tr><td>Find the Path</td><td>Divination</td><td>C, M</td></tr><tr><td>Flesh to Stone</td><td>Transmutation</td><td>C</td></tr><tr><td>Heal</td><td>Abjuration</td><td>—</td></tr><tr><td>Heroes’ Feast</td><td>Conjuration</td><td>M</td></tr><tr><td>Move Earth</td><td>Transmutation</td><td>C</td></tr><tr><td>Sunbeam</td><td>Evocation</td><td>C</td></tr><tr><td>Transport via Plants</td><td>Conjuration</td><td>—</td></tr><tr><td>Wall of Thorns</td><td>Conjuration</td><td>C</td></tr><tr><td>Wind Walk</td><td>Transmutation</td><td>—</td></tr></table>
-
-Level 7 Druid Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Fire Storm</td><td>Evocation</td><td>—</td></tr><tr><td>Mirage Arcane</td><td>Illusion</td><td>—</td></tr><tr><td>Plane Shift</td><td>Conjuration</td><td>M</td></tr><tr><td>Regenerate</td><td>Transmutation</td><td>—</td></tr><tr><td>Reverse Gravity</td><td>Transmutation</td><td>C</td></tr><tr><td>Symbol</td><td>Abjuration</td><td>M</td></tr></table>
-
-Level 8 Druid Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Animal Shapes</td><td>Transmutation</td><td>—</td></tr><tr><td>Antipathy/Sympathy</td><td>Enchantment</td><td>—</td></tr><tr><td>Befuddlement</td><td>Enchantment</td><td>—</td></tr><tr><td>Control Weather</td><td>Transmutation</td><td>C</td></tr><tr><td>Earthquake</td><td>Transmutation</td><td>C</td></tr><tr><td>Incendiary Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Sunburst</td><td>Evocation</td><td>—</td></tr><tr><td>Tsunami</td><td>Conjuration</td><td>C</td></tr></table>
-
-Level 9 Druid Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Foresight</td><td>Divination</td><td>—</td></tr><tr><td>Shapechange</td><td>Transmutation</td><td>C, M</td></tr><tr><td>Storm of Vengeance</td><td>Conjuration</td><td>C</td></tr><tr><td>True Resurrection</td><td>Necromancy</td><td>M</td></tr></table>
-
-####  Druid Subclass: Circle of the Land
-
-Celebrate Connection to the Natural World
-
-The Circle of the Land comprises mystics and sages who safeguard ancient knowledge and rites. These Druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of their communities.
-
-#### Level 3: Circle of the Land Spells
-
-Whenever you finish a Long Rest, choose one type of land: arid, polar, temperate, or tropical. Consult the table below that corresponds to the chosen type; you have the spells listed for your Druid level and lower prepared.
-
-Arid Land  
-
-<table><tr><td>Druid Level</td><td>Circle Spells</td></tr><tr><td>3</td><td>Blur, Burning Hands, Fire Bolt</td></tr><tr><td>5</td><td>Fireball</td></tr><tr><td>7</td><td>Blight</td></tr><tr><td>9</td><td>Wall of Stone</td></tr></table>
-
-Polar Land  
-
-<table><tr><td>Druid Level</td><td>Circle Spells</td></tr><tr><td>3</td><td>Fog Cloud, Hold Person, Ray of Frost</td></tr><tr><td>5</td><td>Sleet Storm</td></tr><tr><td>7</td><td>Ice Storm</td></tr><tr><td>9</td><td>Cone of Cold</td></tr></table>
-
-Temperate Land  
-
-<table><tr><td>Druid Level</td><td>Circle Spells</td></tr><tr><td>3</td><td>Misty Step, Shocking Grasp, Sleep</td></tr><tr><td>5</td><td>Lightning Bolt</td></tr><tr><td>7</td><td>Freedom of Movement</td></tr><tr><td>9</td><td>Tree Stride</td></tr></table>
-
-Tropical Land  
-
-<table><tr><td>Druid Level</td><td>Circle Spells</td></tr><tr><td>3</td><td>Acid Splash, Ray of Sickness, Web</td></tr><tr><td>5</td><td>Stinking Cloud</td></tr><tr><td>7</td><td>Polymorph</td></tr><tr><td>9</td><td>Insect Plague</td></tr></table>
-
-#### Level 3: Land's Aid
-
-As a Magic action, you can expend a use of your Wild Shape and choose a point within 60 feet of yourself. Vitality-giving flowers and life-draining thorns appear for a moment in a 10-foot-radius Sphere centered on that point. Each creature of your choice in the Sphere must make a Constitution saving throw against your spell save DC, taking 2d6 Necrotic damage on a failed save or half as much damage on a successful one. One creature of your choice in that area regains 2d6 Hit Points.
-
-The damage and healing increase by 1d6 when you reach Druid levels 10 (3d6) and 14 (4d6).
-
-#### Level 6: Natural Recovery
-
-You can cast one of the level  $1+$  spells that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a Long Rest before you do so again.
-
-In addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Druid level (round up), and none of them can be level  $6+$ . For example, if you're a level 6 Druid, you can recover up to three levels' worth of spell slots. You can recover a level 3 spell slot, a level 2 and a level 1 spell slot, or three level 1 spell slots. Once you recover spell slots with this feature, you can't do so again until you finish a Long Rest.
-
-#### Level 10: Nature's Ward
-
-You are immune to the Poisoned condition, and you have Resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table.
-
-Nature's Ward  
-
-<table><tr><td>Land Type</td><td>Resistance</td><td>Land Type</td><td>Resistance</td></tr><tr><td>Arid</td><td>Fire</td><td>Temperate</td><td>Lightning</td></tr><tr><td>Polar</td><td>Cold</td><td>Tropical</td><td>Poison</td></tr></table>
-
-#### Level 14: Nature's Sanctuary
-
-As a Magic action, you can expend a use of your Wild Shape and cause spectral trees and vines to appear in a 15-foot Cube on the ground within 120 feet of yourself. They last there for 1 minute or until you have the Incapacitated condition or die. You and your allies have Half Cover while in that area, and your allies gain the current Resistance of your Nature's Ward while there.
-
-As a Bonus Action, you can move the Cube up to 60 feet to ground within 120 feet of yourself.
-
-#### Fighter
-
-Core Fighter Traits  
-
-<table><tr><td>Primary Ability</td><td>Strength or Dexterity</td></tr><tr><td>Hit Point Die</td><td>D10 per Fighter level</td></tr><tr><td>Saving Throw 
-Proficiencies</td><td>Strength and Constitution</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Acrobatics, Animal 
-Handling, Athletics, History, 
-Insight, Intimidation, Persua-
-sion, Perception, or Survival</td></tr><tr><td>Weapon Proficiencies</td><td>Simple and Martial weapons</td></tr><tr><td>Armor Training</td><td>Light, Medium, and Heavy ar-
-mor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A, B, or C: (A) Chain 
-Mail, Greatsword, Flail, 8 Jav-
-elins, Dungeoner&####x27;s Pack, and 
-4 GP; (B) Studded Leather 
-Armor, Scimitar, Shortsword, 
-Longbow, 20 Arrows, Quiver, 
-Dungeoneer&####x27;s Pack, and II 
-GP; or (C) 155 GP</td></tr></table>
-
-#### Becoming a Fighter …
-
-#### As a Level I Character
-
-- Gain all the traits in the Core Fighter Traits table.  
-- Gain the Fighter's level 1 features, which are listed in the Fighter Features table.
-
-#### As a Multiclass Character
-
-- Gain the following traits from the Core Fighter Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.  
-- Gain the Fighter's level 1 features, which are listed in the Fighter Features table.
-
-#### Fighter Class Features
-
-As a Fighter, you gain the following class features when you reach the specified Fighter levels. These features are listed on the Fighter Features table.
-
-#### Level I: Fighting Style
-
-You have honed your martial prowess and gain a Fighting Style feat of your choice (see "Feats"). Defense is recommended.
-
-Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.
-
-Fighter Features  
-
-<table><tr><td>Level</td><td>Proficiency Bonus</td><td>Class Features</td><td>Second Wind</td><td>Weapon Mastery</td></tr><tr><td>1</td><td>+2</td><td>Fighting Style, Second Wind, Weapon Mastery</td><td>2</td><td>3</td></tr><tr><td>2</td><td>+2</td><td>Action Surge (one use), Tactical Mind</td><td>2</td><td>3</td></tr><tr><td>3</td><td>+2</td><td>Fighter Subclass</td><td>2</td><td>3</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>3</td><td>4</td></tr><tr><td>5</td><td>+3</td><td>Extra Attack, Tactical Shift</td><td>3</td><td>4</td></tr><tr><td>6</td><td>+3</td><td>Ability Score Improvement</td><td>3</td><td>4</td></tr><tr><td>7</td><td>+3</td><td>Subclass feature</td><td>3</td><td>4</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>3</td><td>4</td></tr><tr><td>9</td><td>+4</td><td>Indomitable (one use), Tactical Master</td><td>3</td><td>4</td></tr><tr><td>10</td><td>+4</td><td>Subclass feature</td><td>4</td><td>5</td></tr><tr><td>11</td><td>+4</td><td>Two Extra Attacks</td><td>4</td><td>5</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>4</td><td>5</td></tr><tr><td>13</td><td>+5</td><td>Indomitable (two uses), Studied Attacks</td><td>4</td><td>5</td></tr><tr><td>14</td><td>+5</td><td>Ability Score Improvement</td><td>4</td><td>5</td></tr><tr><td>15</td><td>+5</td><td>Subclass feature</td><td>4</td><td>5</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>4</td><td>6</td></tr><tr><td>17</td><td>+6</td><td>Action Surge (two uses), Indomitable (three uses)</td><td>4</td><td>6</td></tr><tr><td>18</td><td>+6</td><td>Subclass feature</td><td>4</td><td>6</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>4</td><td>6</td></tr><tr><td>20</td><td>+6</td><td>Three Extra Attacks</td><td>4</td><td>6</td></tr></table>
-
-#### Level I: Second Wind
-
-You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.
-
-You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
-
-When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.
-
-#### Level I: Weapon Mastery
-
-Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
-
-When you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table.
-
-#### Level 2: Action Surge
-
-You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.
-
-Once you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn.
-
-#### Level 2: Tactical Mind
-
-You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.
-
-#### Level 3: Fighter Subclass
-
-You gain a Fighter subclass of your choice. The Champion subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16.
-
-#### Level 5: Extra Attack
-
-You can attack twice instead of once whenever you take the Attack action on your turn.
-
-#### Level 5: Tactical Shift
-
-Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks.
-
-#### Level 9: Indomitable
-
-If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can't use this feature again until you finish a Long Rest.
-
-You can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17.
-
-#### Level 9: Tactical Master
-
-When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack.
-
-#### Level II: Two Extra Attacks
-
-You can attack three times instead of once whenever you take the Attack action on your turn.
-
-#### Level 13: Studied Attacks
-
-You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended.
-
-#### Level 20: Three Extra Attacks
-
-You can attack four times instead of once whenever you take the Attack action on your turn.
-
-#### Fighter Subclass: Champion
-
-Pursue Physical Excellence in Combat
-
-A Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.
-
-#### Level 3: Improved Critical
-
-Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20.
-
-#### Level 3: Remarkable Athlete
-
-Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.
-
-In addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.
-
-#### Level 7: Additional Fighting Style
-
-You gain another Fighting Style feat of your choice.
-
-#### Level 10: Heroic Warrior
-
-The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it.
-
-#### Level 15: Superior Critical
-
-Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18-20 on the d20.
-
-#### Level 18:Survivor
-
-You attain the pinnacle of resilience in battle, giving you these benefits.
-
-Defy Death. You have Advantage on Death Saving Throws. Moreover, when you roll 18-20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.
-
-Heroic Rally. At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.
-
-#### Monk
-
-Core Monk Traits  
-
-<table><tr><td>Primary Ability</td><td>Dexterity and Wisdom</td></tr><tr><td>Hit Point Die</td><td>D8 per Monk level</td></tr><tr><td>Saving Throw 
-Proficiencies</td><td>Strength and Dexterity</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Acrobatics, Athletics, History, Insight, Religion, or Stealth</td></tr><tr><td>Weapon Proficiencies</td><td>Simple weapons and Martial 
-weapons that have the Light 
-property</td></tr><tr><td>Tool Proficiencies</td><td>Choose one type of Artisan&####x27;s 
-Tools or Musical Instrument (see 
-“Equipment”)</td></tr><tr><td>Armor Training</td><td>None</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Spear, 5 
-Daggers, Artisan&####x27;s Tools or 
-Musical Instrument chosen 
-for the tool proficiency above, 
-Explorer&####x27;s Pack, and II GP; or 
-(B) 50 GP</td></tr></table>
-
-#### Becoming a Monk …
-
-#### As a Level I Character
-
-- Gain all the traits in the Core Monk Traits table.  
-- Gain the Monk's level 1 features, which are listed in the Monk Features table.
-
-#### As a Multiclass Character
-
-- Gain the Hit Point Die trait from the Core Monk Traits table.  
-- Gain the Monk's level 1 features, which are listed in the Monk Features table.
-
-#### Monk Class Features
-
-As a Monk, you gain the following class features when you reach the specified Monk levels. These features are listed in the Monk Features table.
-
-Monk Features  
-
-<table><tr><td>Level</td><td>Proficiency Bonus</td><td>Class Features</td><td>Martial Arts</td><td>Focus Points</td><td>Unarmored Movement</td></tr><tr><td>1</td><td>+2</td><td>Martial Arts, Unarmored Defense</td><td>Id6</td><td>—</td><td>—</td></tr><tr><td>2</td><td>+2</td><td>Monk&####x27;s Focus, Unarmored Movement, Uncanny Metabolism</td><td>Id6</td><td>2</td><td>+10 ft.</td></tr><tr><td>3</td><td>+2</td><td>Deflect Attacks, Monk Subclass</td><td>Id6</td><td>3</td><td>+10 ft.</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement, Slow Fall</td><td>Id6</td><td>4</td><td>+10 ft.</td></tr><tr><td>5</td><td>+3</td><td>Extra Attack, Stunning Strike</td><td>Id8</td><td>5</td><td>+10 ft.</td></tr><tr><td>6</td><td>+3</td><td>Empowered Strikes, Subclass feature</td><td>Id8</td><td>6</td><td>+15 ft.</td></tr><tr><td>7</td><td>+3</td><td>Evasion</td><td>Id8</td><td>7</td><td>+15 ft.</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>Id8</td><td>8</td><td>+15 ft.</td></tr><tr><td>9</td><td>+4</td><td>Acrobatic Movement</td><td>Id8</td><td>9</td><td>+15 ft.</td></tr><tr><td>10</td><td>+4</td><td>Heightened Focus, Self-Restoration</td><td>Id8</td><td>10</td><td>+20 ft.</td></tr><tr><td>11</td><td>+4</td><td>Subclass feature</td><td>Id10</td><td>11</td><td>+20 ft.</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>Id10</td><td>12</td><td>+20 ft.</td></tr><tr><td>13</td><td>+5</td><td>Deflect Energy</td><td>Id10</td><td>13</td><td>+20 ft.</td></tr><tr><td>14</td><td>+5</td><td>Disciplined Survivor</td><td>Id10</td><td>14</td><td>+25 ft.</td></tr><tr><td>15</td><td>+5</td><td>Perfect Focus</td><td>Id10</td><td>15</td><td>+25 ft.</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>Id10</td><td>16</td><td>+25 ft.</td></tr><tr><td>17</td><td>+6</td><td>Subclass feature</td><td>Id12</td><td>17</td><td>+25 ft.</td></tr><tr><td>18</td><td>+6</td><td>Superior Defense</td><td>Id12</td><td>18</td><td>+30 ft.</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>Id12</td><td>19</td><td>+30 ft.</td></tr><tr><td>20</td><td>+6</td><td>Body and Mind</td><td>Id12</td><td>20</td><td>+30 ft.</td></tr></table>
-
-#### Level I: Martial Arts
-
-Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:
-
-- Simple Melee weapons  
-- Martial Melee weapons that have the Light property
-
-You gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a Shield.
-
-Bonus Unarmed Strike. You can make an Unarmed Strike as a Bonus Action.
-
-Martial Arts Die. You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.
-
-Dexterous Attacks. You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.
-
-#### Level I: Unarmored Defense
-
-While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.
-
-#### Level 2: Monk's Focus
-
-Your focus and martial training allow you to harness a well of extraordinary energy within yourself. This energy is represented by Focus Points. Your Monk level determines the number of points you have, as shown in the Focus Points column of the Monk Features table.
-
-You can expend these points to enhance or fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.
-
-When you expend a Focus Point, it is unavailable until you finish a Short or Long Rest, at the end of which you regain all your expended points.
-
-Some features that use Focus Points require your target to make a saving throw. The save DC equals 8 plus your Wisdom modifier and Proficiency Bonus.
-
-Flurry of Blows. You can expend 1 Focus Point to make two Unarmed Strikes as a Bonus Action.
-
-Patient Defense. You can take the Disengage action as a Bonus Action. Alternatively, you can
-
-expend 1 Focus Point to take both the Disengage and the Dodge actions as a Bonus Action.
-
-Step of the Wind. You can take the Dash action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn.
-
-#### Level 2: Unarmored Movement
-
-Your speed increases by 10 feet while you aren't wearing armor or wielding a Shield. This bonus increases when you reach certain Monk levels, as shown on the Monk Features table.
-
-#### Level 2: Uncanny Metabolism
-
-When you roll Initiative, you can regain all expended Focus Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.
-
-Once you use this feature, you can't use it again until you finish a Long Rest.
-
-#### Level 3: Deflect Attacks
-
-When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage, you can take a Reaction to reduce the attack's total damage against you. The reduction equals 1d10 plus your Dexterity modifier and Monk level.
-
-If you reduce the damage to 0, you can expend 1 Focus Point to redirect some of the attack's force. If you do so, choose a creature you can see within 5 feet of yourself if the attack was a melee attack or a creature you can see within 60 feet of yourself that isn't behind Total Cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack.
-
-#### Level 3: Monk Subclass
-
-You gain a Monk subclass of your choice. The Warrior of the Open Hand subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Monk levels. For the rest of your career, you gain each of your subclass's features that are of your Monk level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you
-
-qualify. You gain this feature again at Monk levels 8, 12, and 16.
-
-#### Level 4: Slow Fall
-
-You can take a Reaction when you fall to reduce any damage you take from the fall by an amount equal to five times your Monk level.
-
-#### Level 5: Extra Attack
-
-You can attack twice instead of once whenever you take the Attack action on your turn.
-
-#### Level 5: Stunning Strike
-
-Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.
-
-#### Level 6: Empowered Strikes
-
-Whenever you deal damage with your Unarmed Strike, it can deal your choice of Force damage or its normal damage type.
-
-#### Level 7: Evasion
-
-When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.
-
-You don't benefit from this feature if you have the Incapacitated condition.
-
-#### Level 9: Acrobatic Movement
-
-While you aren't wearing armor or wielding a Shield, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the movement.
-
-#### Level 10: Heightened Focus
-
-Your Flurry of Blows, Patient Defense, and Step of the Wind gain the following benefits.
-
-Flurry of Blows. You can expend 1 Focus Point to use Flurry of Blows and make three Unarmed Strikes with it instead of two.
-
-Patient Defense. When you expend a Focus Point to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die.
-
-Step of the Wind. When you expend a Focus Point to use Step of the Wind, you can choose a willing creature within 5 feet of yourself that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks.
-
-#### Level 10: Self-Restoration
-
-Through sheer force of will, you can remove one of the following conditions from yourself at the end of each of your turns: Charmed, Frightened, or Poisoned.
-
-In addition, forgoing food and drink doesn't give you levels of Exhaustion.
-
-#### Level 13: Deflect Energy
-
-You can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing.
-
-#### Level 14: Disciplined Survivor
-
-Your physical and mental discipline grant you proficiency in all saving throws.
-
-Additionally, whenever you make a saving throw and fail, you can expend 1 Focus Point to reroll it, and you must use the new roll.
-
-#### Level 15: Perfect Focus
-
-When you roll Initiative and don't use Uncanny Metabolism, you regain expended Focus Points until you have 4 if you have 3 or fewer.
-
-#### Level 18: Superior Defense
-
-At the start of your turn, you can expend 3 Focus Points to bolster yourself against harm for 1 minute or until you have the Incapacitated condition. During that time, you have Resistance to all damage except Force damage.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feels") or another feat of your choice for which you qualify. Boon of Irresistible Offense is recommended.
-
-#### Level 20: Body and Mind
-
-You have developed your body and mind to new heights. Your Dexterity and Wisdom scores increase by 4, to a maximum of 25.
-
-#### Monk Subclass: Warrior of the Open Hand
-
-Master Unarmed Combat Techniques
-
-Warriors of the Open Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.
-
-#### Level 3: Open Hand Technique
-
-Whenever you hit a creature with an attack granted by your Flurry of Blows, you can impose one of the following effects on that target.
-
-Addle. The target can't make Opportunity Attacks until the start of its next turn.
-
-Push. The target must succeed on a Strength saving throw or be pushed up to 15 feet away from you.
-
-Topple. The target must succeed on a Dexterity saving throw or have the Prone condition.
-
-#### Level 6: Wholeness of Body
-
-You gain the ability to heal yourself. As a Bonus Action, you can roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Wisdom modifier (minimum of 1 Hit Point regained).
-
-You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
-
-#### Level II: Fleet Step
-
-When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind immediately after that Bonus Action.
-
-#### Level 17: Quivering Palm
-
-You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an Unarmed Strike, you can expend 4 Focus Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you take an action to end them. Alternatively, when you take the Attack action on your turn, you can forgo one of the attacks to end the vibrations. To end them, you and the target must be on the same plane of existence. When you end them, the target must make a Constitution saving throw, taking 10d12 Force damage on a failed save or half as much damage on a successful one.
-
-You can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly (no action required).
-
-#### Paladin
-
-Core Paladin Traits  
-
-<table><tr><td>Primary Ability</td><td>Strength and Charisma</td></tr><tr><td>Hit Point Die</td><td>D10 per Paladin level</td></tr><tr><td>Saving Throw 
-Proficiencies</td><td>Wisdom and Charisma</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Athletics, Insight, Intimidation, Medicine, Persuasion, or Religion</td></tr><tr><td>Weapon Proficiencies</td><td>Simple and Martial weapons</td></tr><tr><td>Armor Training</td><td>Light, Medium, and Heavy armor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Chain Mail, Shield, Longsword, 6 Javelins, Holy Symbol, Priest&####x27;s Pack, and 9 GP; or (B) 150 GP</td></tr></table>
-
-#### Becoming a Paladin ...
-
-#### As a Level I Character
-
-- Gain all the traits in the Core Paladin Traits table.
-
-- Gain the Paladin's level 1 features, which are listed in the Paladin Features table.
-
-#### As a Multiclass Character
-
-- Gain the following traits from the Core Paladin Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.  
-- Gain the Paladin's level 1 features, which are listed in the Paladin Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
-
-#### Paladin Class Features
-
-As a Paladin, you gain the following class features when you reach the specified Paladin levels. These features are listed in the Paladin Features table.
-
-#### Level I: Lay On Hands
-
-Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.
-
-Paladin Features  
-
-<table><tr><td rowspan="2">Level</td><td rowspan="2">Proficiency Bonus</td><td rowspan="2">Class Features</td><td rowspan="2">Channel Divinity</td><td rowspan="2">Prepared Spells</td><td colspan="5">—Spell Slots per Spell Level—</td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>1</td><td>+2</td><td>Lay On Hands, Spellcasting, Weapon Mastery</td><td>—</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>2</td><td>+2</td><td>Fighting Style, Paladin&####x27;s Smite</td><td>—</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3</td><td>+2</td><td>Channel Divinity, Paladin Subclass</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>+3</td><td>Extra Attack, Faithful Steed</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6</td><td>+3</td><td>Aura of Protection</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7</td><td>+3</td><td>Subclass feature</td><td>2</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>2</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>9</td><td>+4</td><td>Abjure Foes</td><td>2</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr><tr><td>10</td><td>+4</td><td>Aura of Courage</td><td>2</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr><tr><td>11</td><td>+4</td><td>Radiant Strikes</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr><tr><td>13</td><td>+5</td><td>—</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr><tr><td>14</td><td>+5</td><td>Restoring Touch</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr><tr><td>15</td><td>+5</td><td>Subclass feature</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr><tr><td>17</td><td>+6</td><td>—</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr><tr><td>18</td><td>+6</td><td>Aura Expansion</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>3</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr><tr><td>20</td><td>+6</td><td>Subclass feature</td><td>3</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr></table>
-
-As a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.
-
-You can also expend 5 Hit Points from the pool of healing power to remove the Poisoned condition from the creature; those points don't also restore Hit Points to the creature.
-
-#### Level I: Spellcasting
-
-You have learned to cast spells through prayer and meditation. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Paladin spells, which appear in the Paladin spell list later in the class's description.
-
-Spell Slots. The Paladin Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
-
-Prepared Spells of Level 1+. You prepare the list of level  $1+$  spells that are available for you to cast with this feature. To start, choose two level 1 Paladin spells. Heroism and Searing Smite are recommended.
-
-The number of spells on your list increases as you gain Paladin levels, as shown in the Prepared Spells column of the Paladin Features table. Whenever that number increases, choose additional Paladin spells until the number of spells on your list matches the number in the Paladin Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Paladin, your list of prepared spells can include six Paladin spells of level 1 or 2 in any combination.
-
-If another Paladin feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Paladin spells for you.
-
-Changing Your Prepared Spells. Whenever you finish a Long Rest, you can replace one spell on your list with another Paladin spell for which you have spell slots.
-
-Spellcasting Ability. Charisma is your spellcasting ability for your Paladin spells.
-
-Spellcasting Focus. You can use a Holy Symbol as a Spellcasting Focus for your Paladin spells.
-
-#### Level I: Weapon Mastery
-
-Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.
-
-Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Halberds and Flails.
-
-#### Level 2: Fighting Style
-
-You gain a Fighting Style feat of your choice (see "Feels" for feats). Instead of choosing one of those feats, you can choose the option below.
-
-Blessed Warrior. You learn two Cleric cantrips of your choice (see the Cleric class's section for a list of Cleric spells). Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.
-
-#### Level 2: Paladin's Smite
-
-You always have the Divine Smite spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.
-
-#### Level 3: Channel Divinity
-
-You can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this class's Channel Divinity, you choose which effect from this class to create.
-
-You can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Paladin level 11.
-
-#### BREAKING YOUR OATH
-
-A Paladin tries to hold to the highest standards of conduct, but even the most dedicated are fallible. Sometimes a Paladin transgresses their oath.
-
-A Paladin who has broken a vow typically seeks absolution, spending an all-night vigil as a sign of penitence or undertaking a fast. After a rite of forgiveness, the Paladin starts fresh.
-
-If your Paladin unrepentantly violates their oath, talk to your GM. Your Paladin should probably take a more appropriate subclass or even abandon the class and adopt another one.
-
-If a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.
-
-Divine Sense. As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the Hallow spell.
-
-#### Level 3: Paladin Subclass
-
-You gain a Paladin subclass of your choice. The Oath of Devotion subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16.
-
-#### Level 5: Extra Attack
-
-You can attack twice instead of once whenever you take the Attack action on your turn.
-
-#### Level 5: Faithful Steed
-
-You can call on the aid of an otherworldly steed. You always have the Find Steed spell prepared.
-
-You can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest.
-
-#### Level 6: Aura of Protection
-
-You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the Incapacitated condition.
-
-You and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1).
-
-If another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which aura while in them.
-
-#### Level 9: Abjure Foes
-
-As a Magic action, you can expend one use of this class's Channel Divinity to overwhelm foes with awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your
-
-Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. While Frightened in this way, a target can do only one of the following on its turns: move, take an action, or take a Bonus Action.
-
-#### Level 10: Aura of Courage
-
-You and your allies have Immunity to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there.
-
-#### Level II: Radiant Strikes
-
-Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Radiant damage.
-
-#### Level 14: Restoring Touch
-
-When you use Lay On Hands on a creature, you can also remove one or more of the following conditions from the creature: Blinded, Charmed, Deafeened, Frightened, Paralyzed, or Stunned. You must expend 5 Hit Points from the healing pool of Lay On Hands for each of these conditions you remove; those points don't also restore Hit Points to the creature.
-
-#### Level 18: Aura Expansion
-
-Your Aura of Protection is now a 30-foot Emanation.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Truesight is recommended.
-
-#### Paladin Spell List
-
-This section presents the Paladin spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
-
-Level I Paladin Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Bless</td><td>Enchantment</td><td>C, M</td></tr><tr><td>Command</td><td>Enchantment</td><td>—</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Evil and Good</td><td>Divination</td><td>C</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Detect Poison and Disease</td><td>Divination</td><td>C, R</td></tr><tr><td>Divine Favor</td><td>Transmutation</td><td>—</td></tr><tr><td>Divine Smite</td><td>Evocation</td><td>—</td></tr><tr><td>Heroism</td><td>Enchantment</td><td>C</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Purify Food and Drink</td><td>Transmutation</td><td>R</td></tr><tr><td>Searing Smite</td><td>Evocation</td><td>—</td></tr><tr><td>Shield of Faith</td><td>Abjuration</td><td>C</td></tr></table>
-
-Level 2 Paladin Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Aid</td><td>Abjuration</td><td>—</td></tr><tr><td>Find Steed</td><td>Conjuration</td><td>—</td></tr><tr><td>Gentle Repose</td><td>Necromancy</td><td>R, M</td></tr><tr><td>Lesser Restoration</td><td>Abjuration</td><td>—</td></tr><tr><td>Locate Object</td><td>Divination</td><td>C</td></tr><tr><td>Magic Weapon</td><td>Transmutation</td><td>—</td></tr><tr><td>Prayer of Healing</td><td>Abjuration</td><td>—</td></tr><tr><td>Protection from Poison</td><td>Abjuration</td><td>—</td></tr><tr><td>Shining Smite</td><td>Transmutation</td><td>C</td></tr><tr><td>Warding Bond</td><td>Abjuration</td><td>M</td></tr><tr><td>Zone of Truth</td><td>Enchantment</td><td>—</td></tr></table>
-
-Level 3 Paladin Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Create Food and Water</td><td>Conjuration</td><td>—</td></tr><tr><td>Daylight</td><td>Evocation</td><td>—</td></tr><tr><td>Dispel Magic</td><td>Abjuration</td><td>—</td></tr><tr><td>Magic Circle</td><td>Abjuration</td><td>M</td></tr><tr><td>Remove Curse</td><td>Abjuration</td><td>—</td></tr><tr><td>Revivify</td><td>Necromancy</td><td>M</td></tr></table>
-
-Level 4 Paladin Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Aura of Life</td><td>Abjuration</td><td>C</td></tr><tr><td>Banishment</td><td>Abjuration</td><td>C</td></tr><tr><td>Death Ward</td><td>Abjuration</td><td>—</td></tr><tr><td>Locate Creature</td><td>Divination</td><td>C</td></tr></table>
-
-Level 5 Paladin Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Dispel Evil and Good</td><td>Abjuration</td><td>C</td></tr><tr><td>Geas</td><td>Enchantment</td><td>—</td></tr><tr><td>Greater Restoration</td><td>Abjuration</td><td>M</td></tr><tr><td>Raise Dead</td><td>Necromancy</td><td>M</td></tr></table>
-
-#### Paladin Subclass: Oath of Devotion
-
-#### Uphold the Ideals of Justice and Order
-
-The Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.
-
-Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.
-
-These paladins share the following tenets:
-
-- Let your word be your promise.  
-- Protect the weak and never fear to act.  
-- Let your honorable deeds be an example.
-
-#### Level 3: Oath of Devotion Spells
-
-The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared.
-
-#### Oath of Devotion Spells
-
-<table><tr><td>Paladin Level</td><td>Spells</td></tr><tr><td>3</td><td>Protection from Evil and Good, 
-Shield of Faith</td></tr><tr><td>5</td><td>Aid, Zone of Truth</td></tr><tr><td>9</td><td>Beacon of Hope, Dispel Magic</td></tr><tr><td>13</td><td>Freedom of Movement, 
-Guardian of Faith</td></tr><tr><td>17</td><td>Commune, Flame Strike</td></tr></table>
-
-#### Level 3: Sacred Weapon
-
-When you take the Attack action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.
-
-The weapon also emits Bright Light in a 20-foot radius and Dim Light 20 feet beyond that.
-
-You can end this effect early (no action required). This effect also ends if you aren't carrying the weapon.
-
-#### Level 7: Aura of Devotion
-
-You and your allies have Immunity to the Charmed condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition has no effect on that ally while there.
-
-#### Level 15: Smite of Protection
-
-Your magical smite now radiates protective energy. Whenever you cast Divine Smite, you and your allies have Half Cover while in your Aura of Protection. The aura has this benefit until the start of your next turn.
-
-#### Level 20: Holy Nimbus
-
-As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).
-
-Holy Ward. You have Advantage on any saving throw you are forced to make by a Fiend or an Undead.
-
-Radiant Damage. Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Charisma modifier plus your Proficiency Bonus.
-
-Sunlight. The aura is filled with Bright Light that is sunlight.
-
-#### Ranger
-
-Core Ranger Traits  
-
-<table><tr><td>Primary Ability</td><td>Dexterity and Wisdom</td></tr><tr><td>Hit Point Die</td><td>D10 per Ranger level</td></tr><tr><td>Saving Throw Proficiencies</td><td>Strength and Dexterity</td></tr><tr><td>Skill Proficiencies</td><td>Choose 3: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</td></tr><tr><td>Weapon Proficiencies</td><td>Simple and Martial weapons</td></tr><tr><td>Armor Training</td><td>Light and Medium armor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Druidic Focus (sprig of mistletoe), Explorer&####x27;s Pack, and 7 GP; or (B) 150 GP</td></tr></table>
-
-#### Becoming a Ranger …
-
-#### As a Level I Character
-
-- Gain all the traits in the Core Ranger Traits table.  
-- Gain the Ranger's level 1 features, which are listed in the Ranger Features table.
-
-#### As a Multiclass Character
-
-- Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.  
-- Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
-
-#### Ranger Class Features
-
-As a Ranger, you gain the following class features when you reach the specified Ranger levels. These features are listed in the Ranger Features table.
-
-#### Level I: Spellcasting
-
-You have learned to channel the magical essence of nature to cast spells. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the Ranger spell list later in the class's description.
-
-Spell Slots. The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
-
-Ranger Features  
-
-<table><tr><td rowspan="2">Level</td><td rowspan="2">Proficiency Bonus</td><td rowspan="2">Class Features</td><td rowspan="2">Favored Enemy</td><td rowspan="2">Prepared Spells</td><td colspan="5">—Spell Slots per Spell Level—</td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>1</td><td>+2</td><td>Spellcasting, Favored Enemy, Weapon Mastery</td><td>2</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>2</td><td>+2</td><td>Deft Explorer, Fighting Style</td><td>2</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3</td><td>+2</td><td>Ranger Subclass</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>+3</td><td>Extra Attack</td><td>3</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6</td><td>+3</td><td>Roving</td><td>3</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7</td><td>+3</td><td>Subclass feature</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>9</td><td>+4</td><td>Expertise</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr><tr><td>10</td><td>+4</td><td>Tireless</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr><tr><td>11</td><td>+4</td><td>Subclass feature</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr><tr><td>13</td><td>+5</td><td>Relentless Hunter</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr><tr><td>14</td><td>+5</td><td>Nature&####x27;s Veil</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr><tr><td>15</td><td>+5</td><td>Subclass feature</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr><tr><td>17</td><td>+6</td><td>Precise Hunter</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr><tr><td>18</td><td>+6</td><td>Feral Senses</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr><tr><td>20</td><td>+6</td><td>Foe Slayer</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr></table>
-
-Prepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Ranger spells. Cure Wounds and Ensnaring Strike are recommended.
-
-The number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.
-
-If another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you.
-
-Changing Your Prepared Spells. Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.
-
-Spellcasting Ability. Wisdom is your spellcasting ability for your Ranger spells.
-
-Spellcasting Focus. You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells.
-
-#### Level I: Favored Enemy
-
-You always have the Hunter's Mark spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.
-
-The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.
-
-#### Level I: Weapon Mastery
-
-Your training with weapons allows you to use the mastery properties of two kinds of weapons of your
-
-choice with which you have proficiency, such as Longbows and Shortswords.
-
-Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords.
-
-#### Level 2: Deft Explorer
-
-Thanks to your travels, you gain the following benefits.
-
-Expertise. Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.
-
-Languages. You know two languages of your choice from the language tables in "Character Creation."
-
-#### Level 2: Fighting Style
-
-You gain a Fighting Style feat of your choice (see "Feats"). Instead of choosing one of those feats, you can choose the option below.
-
-Druidic Warrior. You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). Guidance and Starry Wisp are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.
-
-#### Level 3: Ranger Subclass
-
-You gain a Ranger subclass of your choice. The Hunter subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feels") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16.
-
-#### Level 5: Extra Attack
-
-You can attack twice instead of once whenever you take the Attack action on your turn.
-
-#### Level 6: Roving
-
-Your Speed increases by 10 feet while you aren't wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.
-
-#### Level 9: Expertise
-
-Choose two of your skill proficiencies with which you lack Expertise. You gain Expertise in those skills.
-
-#### Level 10: Tireless
-
-Primal forces now help fuel you on your journeys, granting you the following benefits.
-
-Temporary Hit Points. As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
-
-Decrease Exhaustion. Whenever you finish a Short Rest, your Exhaustion level, if any, decreases by 1.
-
-#### Level 13: Relentless Hunter
-
-Taking damage can't break your Concentration on Hunter's Mark.
-
-#### Level 14: Nature's Veil
-
-You invoke spirits of nature to magically hide yourself. As a Bonus Action, you can give yourself the Invisible condition until the end of your next turn.
-
-You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
-
-#### Level 17: Precise Hunter
-
-You have Advantage on attack rolls against the creature currently marked by your Hunter's Mark.
-
-#### Level 18: Feral Senses
-
-Your connection to the forces of nature grants you Blindsight with a range of 30 feet.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.
-
-#### Level 20: Foe Slayer
-
-The damage die of your Hunter's Mark is a d10 rather than a d6.
-
-#### Ranger Spell List
-
-This section presents the Ranger spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
-
-Level I Ranger Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Alarm</td><td>Abjuration</td><td>R</td></tr><tr><td>Animal Friendship</td><td>Enchantment</td><td>—</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Detect Poison and Disease</td><td>Divination</td><td>C, R</td></tr><tr><td>Ensnaring Strike</td><td>Conjuration</td><td>C</td></tr><tr><td>Entangle</td><td>Conjuration</td><td>C</td></tr><tr><td>Fog Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Goodberry</td><td>Conjuration</td><td>—</td></tr><tr><td>Hunter&####x27;s Mark</td><td>Divination</td><td>C</td></tr><tr><td>Jump</td><td>Transmutation</td><td>—</td></tr><tr><td>Longstrider</td><td>Transmutation</td><td>—</td></tr><tr><td>Speak with Animals</td><td>Divination</td><td>R</td></tr></table>
-
-Level 2 Ranger Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Aid</td><td>Abjuration</td><td>—</td></tr><tr><td>Animal Messenger</td><td>Enchantment</td><td>R</td></tr><tr><td>Barkskin</td><td>Transmutation</td><td>—</td></tr><tr><td>Darkvision</td><td>Transmutation</td><td>—</td></tr><tr><td>Enhance Ability</td><td>Transmutation</td><td>C</td></tr><tr><td>Find Traps</td><td>Divination</td><td>—</td></tr><tr><td>Gust of Wind</td><td>Evocation</td><td>C</td></tr><tr><td>Lesser Restoration</td><td>Abjuration</td><td>—</td></tr><tr><td>Locate Animals or Plants</td><td>Divination</td><td>R</td></tr><tr><td>Locate Object</td><td>Divination</td><td>C</td></tr><tr><td>Magic Weapon</td><td>Transmutation</td><td>—</td></tr><tr><td>Pass without Trace</td><td>Abjuration</td><td>C</td></tr><tr><td>Protection from Poison</td><td>Abjuration</td><td>—</td></tr><tr><td>Silence</td><td>Illusion</td><td>C, R</td></tr><tr><td>Spike Growth</td><td>Transmutation</td><td>C</td></tr></table>
-
-Level 3 Ranger Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Conjure Animals</td><td>Conjuration</td><td>C</td></tr><tr><td>Daylight</td><td>Evocation</td><td>—</td></tr><tr><td>Dispel Magic</td><td>Abjuration</td><td>—</td></tr><tr><td>Meld into Stone</td><td>Transmutation</td><td>R</td></tr><tr><td>Nondetection</td><td>Abjuration</td><td>M</td></tr><tr><td>Plant Growth</td><td>Transmutation</td><td>—</td></tr><tr><td>Protection from Energy</td><td>Abjuration</td><td>C</td></tr><tr><td>Revivify</td><td>Necromancy</td><td>M</td></tr><tr><td>Speak with Plants</td><td>Transmutation</td><td>—</td></tr><tr><td>Water Breathing</td><td>Transmutation</td><td>R</td></tr><tr><td>Water Walk</td><td>Transmutation</td><td>R</td></tr><tr><td>Wind Wall</td><td>Evocation</td><td>C</td></tr></table>
-
-Level 4 Ranger Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Conjure Woodland Beings</td><td>Conjuration</td><td>C</td></tr><tr><td>Dominate Beast</td><td>Enchantment</td><td>C</td></tr><tr><td>Freedom of Movement</td><td>Abjuration</td><td>—</td></tr><tr><td>Locate Creature</td><td>Divination</td><td>C</td></tr><tr><td>Stoneskin</td><td>Transmutation</td><td>C, M</td></tr></table>
-
-Level 5 Ranger Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Commune with Nature</td><td>Divination</td><td>R</td></tr><tr><td>Greater Restoration</td><td>Abjuration</td><td>M</td></tr><tr><td>Tree Stride</td><td>Conjuration</td><td>C</td></tr></table>
-
-#### Ranger Subclass: Hunter
-
-Protect Nature and People from Destruction
-
-You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.
-
-#### Level 3: Hunter's Lore
-
-You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your Hunter's Mark, you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are.
-
-#### Level 3: Hunter's Prey
-
-You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.
-
-Colossus Slayer. Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.
-
-Horde Breaker. Once on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target, that is within the weapon's range, and that you haven't attacked this turn.
-
-#### Level 7: Defensive Tactics
-
-You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.
-
-Escape the Horde. Opportunity Attacks have Disadvantage against you.
-
-Multiattack Defense. When a creature hits you with an attack roll, that creature has Disadvantage on all other attack rolls against you this turn.
-
-#### Level II: Superior Hunter's Prey
-
-Once per turn when you deal damage to a creature marked by your Hunter's Mark, you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature.
-
-#### Level 15: Superior Hunter's Defense
-
-When you take damage, you can take a Reaction to give yourself Resistance to that damage and any other damage of the same type until the end of the current turn.
-
-#### Rogue
-
-Core Rogue Traits  
-
-<table><tr><td>Primary Ability</td><td>Dexterity</td></tr><tr><td>Hit Point Die</td><td>D8 per Rogue level</td></tr><tr><td>Saving Throw 
-Proficiencies</td><td>Dexterity and Intelligence</td></tr><tr><td>Skill Proficiencies</td><td>Choose 4: Acrobatics, 
-Ath-
- letics, Deception, Insight, 
- Intimidation, Investigation, 
- Perception, Persuasion, Sleight 
- of Hand, or Stealth</td></tr><tr><td>Weapon Proficiencies</td><td>Simple weapons and Martial 
- weapons that have the Finesse 
- or Light property</td></tr><tr><td>Tool Proficiencies</td><td>Thieves’ Tools</td></tr><tr><td>Armor Training</td><td>Light armor</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Leather Ar-
- mor, 2 Daggers, Shortsword, 
- Shortbow, 20 Arrows, Quiver, 
- Thieves’ Tools, Burglar’s Pack, 
- and 8 GP; or (B) 100 GP</td></tr></table>
-
-#### Becoming a Rogue …
-
-#### As a Level I Character
-
-- Gain all the traits in the Core Rogue Traits table.  
-- Gain the Rogue's level 1 features, which are listed in the Rogue Features table.
-
-#### As a Multiclass Character
-
-- Gain the following traits from the Core Rogue Traits table: Hit Point Die, proficiency in one skill of your choice from the Rogue's skill list, proficiency with Thieves' Tools, and training with Light armor.  
-- Gain the Rogue's level 1 features, which are listed in the Rogue Features table.
-
-#### Rogue Class Features
-
-As a Rogue, you gain the following class features when you reach the specified Rogue levels. These features are listed in the Rogue Features table.
-
-#### Level I: Expertise
-
-You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.
-
-At Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.
-
-#### Level I: Sneak Attack
-
-You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack
-
-Rogue Features  
-
-<table><tr><td>Level</td><td>Proficiency Bonus</td><td>Class Features</td><td>Sneak Attack</td></tr><tr><td>1</td><td>+2</td><td>Expertise, Sneak Attack, Thieves&####x27; Cant, Weapon Mastery</td><td>1d6</td></tr><tr><td>2</td><td>+2</td><td>Cunning Action</td><td>1d6</td></tr><tr><td>3</td><td>+2</td><td>Rogue Subclass, Steady Aim</td><td>2d6</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>2d6</td></tr><tr><td>5</td><td>+3</td><td>Cunning Strike, Uncanny Dodge</td><td>3d6</td></tr><tr><td>6</td><td>+3</td><td>Expertise</td><td>3d6</td></tr><tr><td>7</td><td>+3</td><td>Evasion, Reliable Talent</td><td>4d6</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>4d6</td></tr><tr><td>9</td><td>+4</td><td>Subclass feature</td><td>5d6</td></tr><tr><td>10</td><td>+4</td><td>Ability Score Improvement</td><td>5d6</td></tr><tr><td>11</td><td>+4</td><td>Improved Cunning Strike</td><td>6d6</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>6d6</td></tr><tr><td>13</td><td>+5</td><td>Subclass feature</td><td>7d6</td></tr><tr><td>14</td><td>+5</td><td>Devious Strikes</td><td>7d6</td></tr><tr><td>15</td><td>+5</td><td>Slippery Mind</td><td>8d6</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>8d6</td></tr><tr><td>17</td><td>+6</td><td>Subclass feature</td><td>9d6</td></tr><tr><td>18</td><td>+6</td><td>Elusive</td><td>9d6</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>10d6</td></tr><tr><td>20</td><td>+6</td><td>Stroke of Luck</td><td>10d6</td></tr></table>
-
-roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.
-
-You don't need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the Incapacitated condition, and you don't have Disadvantage on the attack roll.
-
-The extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table.
-
-#### Level I: Thieves' Cant
-
-You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in "Character Creation."
-
-#### Level I: Weapon Mastery
-
-Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.
-
-Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Shortswords.
-
-#### Level 2: Cunning Action
-
-Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: Dash, Disengage, or Hide.
-
-#### Level 3: Rogue Subclass
-
-You gain a Rogue subclass of your choice. The Thief subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level or lower.
-
-#### Level 3: Steady Aim
-
-As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feels") or another feat of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16.
-
-#### Level 5: Cunning Strike
-
-You've developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. For example, if you add the Poison effect, remove 1d6 from the Sneak Attack's damage before rolling.
-
-If a Cunning Strike effect requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency Bonus.
-
-Poison (Cost: 1d6). You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the Poisoned condition for 1 minute. At the end of each of its turns, the Poisoned target repeats the save, ending the effect on itself on a success.
-
-To use this effect, you must have a Poisoner's Kit on your person.
-
-Trip (Cost: 1d6). If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition.
-
-Withdraw (Cost: 1d6). Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.
-
-#### Level 5: Uncanny Dodge
-
-When an attacker that you can see hits you with an attack roll, you can take a Reaction to halve the attack's damage against you (round down).
-
-#### Level 7: Evasion
-
-You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition.
-
-#### Level 7: Reliable Talent
-
-Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a d20 roll of 9 or lower as a 10.
-
-#### Level II: Improved Cunning Strike
-
-You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect.
-
-#### Level 14: Devious Strikes
-
-You've practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options.
-
-Daze (Cost: 2d6). The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.
-
-Knock Out (Cost: 6d6). The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success.
-
-Obscure (Cost: 3d6). The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn.
-
-#### Level 15: Slippery Mind
-
-Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws.
-
-#### Level 18: Elusive
-
-You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have Advantage against you unless you have the Incapacitated condition.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of the Night Spirit is recommended.
-
-#### Level 20: Stroke of Luck
-
-You have a marvelous knack for succeeding when you need to. If you fail a D20 Test, you can turn the roll into a 20.
-
-Once you use this feature, you can't use it again until you finish a Short or Long Rest.
-
-#### Rogue Subclass: Thief
-
-Hunt for Treasure as a Classic Adventurer
-
-A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.
-
-#### Level 3: Fast Hands
-
-As a Bonus Action, you can do one of the following.
-
-Sleight of Hand. Make a Dexterity (Sleight of Hand) check to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket.
-
-Use an Object. Take the Utilize action, or take the Magic action to use a magic item that requires that action.
-
-#### Level 3: Second-Story Work
-
-You've trained to get into especially hard-to-reach places, granting you these benefits.
-
-Climber. You gain a Climb Speed equal to your Speed.
-
-Jumper. You can determine your jump distance using your Dexterity rather than your Strength.
-
-#### Level 9: Supreme Sneak
-
-You gain the following Cunning Strike option.
-
-Stealth Attack (Cost: 1d6). If you have the Hide action's Invisible condition, this attack doesn't end that condition on you if you end the turn behind Three-Quarters Cover or Total Cover.
-
-#### Level 13: Use Magic Device
-
-You've learned how to maximize use of magic items, granting you the following benefits.
-
-Attunement. You can attune to up to four magic items at once.
-
-Charges. Whenever you use a magic item property that expends charges, roll 1d6. On a roll of 6, you use the property without expending the charges.
-
-Scrolls. You can use any Spell Scroll, using Intelligence as your spellcasting ability for the spell. If the spell is a cantrip or a level 1 spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Intelligence (Arcana) check (DC 10 plus the spell's level). On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates.
-
-#### Level 17: Thief's Reflexes
-
-You are adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10.
-
-#### Sorcerer
-
-Core Sorcerer Traits  
-
-<table><tr><td>Primary Ability</td><td>Charisma</td></tr><tr><td>Hit Point Die</td><td>D6 per Sorcerer level</td></tr><tr><td>Saving Throw 
-Proficiencies</td><td>Constitution and Charisma</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Arcana, Deception, 
-Insight, Intimidation, Persua-
-sion, or Religion</td></tr><tr><td>Weapon Proficiencies</td><td>Simple weapons</td></tr><tr><td>Armor Training</td><td>None</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Spear, 
-2 Daggers, Arcane Focus 
--crystal), Dungeoner&####x27;s Pack, 
-and 28 GP; or (B) 50 GP</td></tr></table>
-
-#### Becoming a Sorcerer …
-
-#### As a Level I Character
-
-- Gain all the traits in the Core Sorcerer Traits table.  
-- Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table.
-
-#### As a Multiclass Character
-
-- Gain the Hit Point Die from the Core Sorcerer Traits table.  
-- Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
-
-#### Sorcerer Class Features
-
-As a Sorcerer, you gain the following class features when you reach the specified Sorcerer levels. These features are listed in the Sorcerer Features table.
-
-#### Level I: Spellcasting
-
-Drawing from your innate magic, you can cast spells. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Sorcerer spells, which appear in the Sorcerer spell list later in the class's description.
-
-Cantrips. You know four Sorcerer cantrips of your choice. Light, Prestidigitation, Shocking Grasp, and Sorcerous Burst are recommended. Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.
-
-When you reach Sorcerer levels 4 and 10, you learn another Sorcerer cantrip of your choice, as shown in the Cantrips column of the Sorcerer Features table.
-
-Spell Slots. The Sorcerer Features table shows how many spell slots you have to cast your level 1+
-
-Sorcerer Features  
-
-<table><tr><td rowspan="2">Level</td><td rowspan="2">Proficiency Bonus</td><td rowspan="2">Class Features</td><td rowspan="2">Sorcery Points</td><td rowspan="2">Cantrips</td><td rowspan="2">Prepared Spells</td><td colspan="8">——Spell Slots per Spell Level——</td><td></td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>1</td><td>+2</td><td>Spellcasting, Innate Sorcery</td><td>—</td><td>4</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>2</td><td>+2</td><td>Font of Magic, Metamagic</td><td>2</td><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3</td><td>+2</td><td>Sorcerer Subclass</td><td>3</td><td>4</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>4</td><td>5</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>+3</td><td>Sorcerous Restoration</td><td>5</td><td>5</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6</td><td>+3</td><td>Subclass feature</td><td>6</td><td>5</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7</td><td>+3</td><td>Sorcery Incarnate</td><td>7</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>8</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>9</td><td>+4</td><td>—</td><td>9</td><td>5</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>10</td><td>+4</td><td>Metamagic</td><td>10</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>11</td><td>+4</td><td>—</td><td>11</td><td>6</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>12</td><td>6</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>13</td><td>+5</td><td>—</td><td>13</td><td>6</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>14</td><td>+5</td><td>Subclass feature</td><td>14</td><td>6</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>15</td><td>+5</td><td>—</td><td>15</td><td>6</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>16</td><td>6</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>17</td><td>+6</td><td>Metamagic</td><td>17</td><td>6</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>18</td><td>+6</td><td>Subclass feature</td><td>18</td><td>6</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>19</td><td>6</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>20</td><td>+6</td><td>Arcane Apotheosis</td><td>20</td><td>6</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr></table>
-
-spell. You regain all expended slots when you finish a Long Rest.
-
-Prepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Sorcerer spells. Burning Hands and Detect Magic are recommended.
-
-The number of spells on your list increases as you gain Sorcerer levels, as shown in the Prepared Spells column of the Sorcerer Features table. Whenever that number increases, choose additional Sorcerer spells until the number of spells on your list matches the number in the Sorcerer Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Sorcerer, your list of prepared spells can include six Sorcerer spells of level 1 or 2 in any combination.
-
-If another Sorcerer feature gives you spells that you always have prepared, those spells don't count
-
-against the number of spells you can prepare with this feature, but those spells otherwise count as Sorcerer spells for you.
-
-Changing Your Prepared Spells. Whenever you gain a Sorcerer level, you can replace one spell on your list with another Sorcerer spell for which you have spell slots.
-
-Spellcasting Ability. Charisma is your spellcasting ability for your Sorcerer spells.
-
-Spellcasting Focus. You can use an Arcane Focus as a Spellcasting Focus for your Sorcerer spells.
-
-#### Level I: Innate Sorcery
-
-An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:
-
-- The spell save DC of your Sorcerer spells increases by 1.  
-- You have Advantage on the attack rolls of Sorcerer spells you cast.
-
-You can use this feature twice, and you regain all expended uses of it when you finish a Long Rest.
-
-#### Level 2: Font of Magic
-
-You can tap into the wellspring of magic within yourself. This wellspring is represented by Sorcery Points, which allow you to create a variety of magical effects.
-
-You have 2 Sorcery Points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer Features table. You can't have more Sorcery Points than the number shown in the table for your level. You regain all expended Sorcery Points when you finish a Long Rest.
-
-You can use your Sorcery Points to fuel the options below, along with other features, such as Metamagic, that use those points.
-
-Converting Spell Slots to Sorcery Points. You can expend a spell slot to gain a number of Sorcery Points equal to the slot's level (no action required).
-
-Creating Spell Slots. As a Bonus Action, you can transform unexpanded Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Sorcerer level you must be to create a slot. You can create a spell slot no higher than level 5.
-
-Any spell slot you create with this feature vanishes when you finish a Long Rest.
-
-Creating Spell Slots  
-
-<table><tr><td>Spell Slot Level</td><td>Sorcery Point Cost</td><td>Min. Sorcerer Level</td></tr><tr><td>1</td><td>2</td><td>2</td></tr><tr><td>2</td><td>3</td><td>3</td></tr><tr><td>3</td><td>5</td><td>5</td></tr><tr><td>4</td><td>6</td><td>7</td></tr><tr><td>5</td><td>7</td><td>9</td></tr></table>
-
-#### Level 2: Metamagic
-
-Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options of your choice from "Metamagic Options" later in this class's description. You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs.
-
-You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options.
-
-Whenever you gain a Sorcerer level, you can replace one of your Metamagic options with one you don't know. You gain two more options at Sorcerer level 10 and two more at Sorcerer level 17.
-
-#### Level 3: Sorcerer Subclass
-
-You gain a Sorcerer subclass of your choice. The Draconic Sorcery subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Sorcerer levels. For the rest of your career, you gain each of your subclass's features that are of your Sorcerer level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16.
-
-#### Level 5: Sorcerous Restoration
-
-When you finish a Short Rest, you can regain expended Sorcery Points, but no more than a number equal to half your Sorcerer level (round down). Once you use this feature, you can't do so again until you finish a Long Rest.
-
-#### Level 7: Sorcery Incarnate
-
-If you have no uses of Innate Sorcery left, you can use it if you spend 2 Sorcery Points when you take the Bonus Action to activate it.
-
-In addition, while your Innate Sorcery feature is active, you can use up to two of your Metamagic options on each spell you cast.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.
-
-#### Level 20: Arcane Apotheosis
-
-While your Innate Sorcery feature is active, you can use one Metamagic option on each of your turns without spending Sorcery Points on it.
-
-#### Metamagic Options
-
-The following options are available to your Meta-magic feature. The options are presented in alphabetical order.
-
-#### Careful Spell
-
-#### Cost: 1 Sorcery Point
-
-When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, spend 1 Sorcery Point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell, and
-
-it takes no damage if it would normally take half damage on a successful save.
-
-#### Distant Spell
-
-Cost: 1 Sorcery Point
-
-When you cast a spell that has a range of at least 5 feet, you can spend 1 Sorcery Point to double the spell's range. Or when you cast a spell that has a range of Touch, you can spend 1 Sorcery Point to make the spell's range 30 feet.
-
-#### Empowered Spell
-
-Cost: 1 Sorcery Point
-
-When you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls.
-
-You can use Empowered Spell even if you've already used a different Metamagic option during the casting of the spell.
-
-#### Extended Spell
-
-Cost: 1 Sorcery Point
-
-When you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration to a maximum duration of 24 hours.
-
-If the affected spell requires Concentration, you have Advantage on any saving throw you make to maintain that Concentration.
-
-#### Heightened Spell
-
-Cost: 2 Sorcery Points
-
-When you cast a spell that forces a creature to make a saving throw, you can spend 2 Sorcery Points to give one target of the spell Disadvantage on saves against the spell.
-
-#### Quickened Spell
-
-Cost: 2 Sorcery Points
-
-When you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can't modify a spell in this way if you've already cast a level  $1+$  spell on the current turn, nor can you cast a level  $1+$  spell on this turn after modifying a spell in this way.
-
-#### Seeking Spell
-
-Cost: 1 Sorcery Point
-
-If you make an attack roll for a spell and miss, you can spend 1 Sorcery Point to reroll the d20, and you must use the new roll.
-
-You can use Seeking Spell even if you've already used a different Metamagic option during the casting of the spell.
-
-#### Subtle Spell
-
-Cost: 1 Sorcery Point
-
-When you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.
-
-#### Transmuted Spell
-
-Cost: 1 Sorcery Point
-
-When you cast a spell that deals a type of damage from the following list, you can spend 1 Sorcery Point to change that damage type to one of the other listed types: Acid, Cold, Fire, Lightning, Poisson, Thunder.
-
-#### Twinned Spell
-
-Cost: 1 Sorcery Point
-
-When you cast a spell, such as Charm Person, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1.
-
-#### Sorcerer Spell List
-
-This section presents the Sorcerer spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
-
-Cantrips (Level 0 Sorcerer Spells)  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Acid Splash</td><td>Evocation</td><td>—</td></tr><tr><td>Chill Touch</td><td>Necromancy</td><td>—</td></tr><tr><td>Dancing Lights</td><td>Illusion</td><td>C</td></tr><tr><td>Elementalism</td><td>Transmutation</td><td>—</td></tr><tr><td>Fire Bolt</td><td>Evocation</td><td>—</td></tr><tr><td>Light</td><td>Evocation</td><td>—</td></tr><tr><td>Mage Hand</td><td>Conjuration</td><td>—</td></tr><tr><td>Mending</td><td>Transmutation</td><td>—</td></tr><tr><td>Message</td><td>Transmutation</td><td>—</td></tr><tr><td>Minor Illusion</td><td>Illusion</td><td>—</td></tr><tr><td>Poison Spray</td><td>Necromancy</td><td>—</td></tr><tr><td>Prestidigitation</td><td>Transmutation</td><td>—</td></tr><tr><td>Ray of Frost</td><td>Evocation</td><td>—</td></tr><tr><td>Shocking Grasp</td><td>Evocation</td><td>—</td></tr><tr><td>Sorcerous Burst</td><td>Evocation</td><td>—</td></tr><tr><td>True Strike</td><td>Divination</td><td>—</td></tr></table>
-
-Level I Sorcerer Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Burning Hands</td><td>Evocation</td><td>—</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Chromatic Orb</td><td>Evocation</td><td>M</td></tr><tr><td>Color Spray</td><td>Illusion</td><td>—</td></tr><tr><td>Comprehend Languages</td><td>Divination</td><td>R</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Disguise Self</td><td>Illusion</td><td>—</td></tr><tr><td>Expeditious Retreat</td><td>Transmutation</td><td>C</td></tr><tr><td>False Life</td><td>Necromancy</td><td>–</td></tr><tr><td>Feather Fall</td><td>Transmutation</td><td>—</td></tr><tr><td>Fog Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Grease</td><td>Conjuration</td><td>—</td></tr><tr><td>Ice Knife</td><td>Conjuration</td><td>—</td></tr><tr><td>Jump</td><td>Transmutation</td><td>—</td></tr><tr><td>Mage Armor</td><td>Abjuration</td><td>—</td></tr><tr><td>Magic Missile</td><td>Evocation</td><td>—</td></tr><tr><td>Ray of Sickness</td><td>Necromancy</td><td>—</td></tr><tr><td>Shield</td><td>Abjuration</td><td>—</td></tr><tr><td>Silent Image</td><td>Illusion</td><td>C</td></tr><tr><td>Sleep</td><td>Enchantment</td><td>C</td></tr><tr><td>Thunderwave</td><td>Evocation</td><td>—</td></tr></table>
-
-Level 2 Sorcerer Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Alter Self</td><td>Transmutation</td><td>C</td></tr><tr><td>Blindness/Deafness</td><td>Transmutation</td><td>—</td></tr><tr><td>Blur</td><td>Illusion</td><td>C</td></tr><tr><td>Darkness</td><td>Evocation</td><td>C</td></tr><tr><td>Darkvision</td><td>Transmutation</td><td>—</td></tr><tr><td>Detect Thoughts</td><td>Divination</td><td>C</td></tr><tr><td>Dragon&####x27;s Breath</td><td>Transmutation</td><td>C</td></tr><tr><td>Enhance Ability</td><td>Transmutation</td><td>C</td></tr><tr><td>Enlarge/Reduce</td><td>Transmutation</td><td>C</td></tr><tr><td>Flame Blade</td><td>Evocation</td><td>C</td></tr><tr><td>Flaming Sphere</td><td>Evocation</td><td>C</td></tr><tr><td>Gust of Wind</td><td>Evocation</td><td>C</td></tr></table>
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Hold Person</td><td>Enchantment</td><td>C</td></tr><tr><td>Invisibility</td><td>Illusion</td><td>C</td></tr><tr><td>Knock</td><td>Transmutation</td><td>—</td></tr><tr><td>Levitate</td><td>Transmutation</td><td>C</td></tr><tr><td>Magic Weapon</td><td>Transmutation</td><td>—</td></tr><tr><td>Mirror Image</td><td>Illusion</td><td>—</td></tr><tr><td>Misty Step</td><td>Conjuration</td><td>—</td></tr><tr><td>Scorching Ray</td><td>Evocation</td><td>—</td></tr><tr><td>See Invisibility</td><td>Divination</td><td>—</td></tr><tr><td>Shatter</td><td>Evocation</td><td>—</td></tr><tr><td>Spider Climb</td><td>Transmutation</td><td>C</td></tr><tr><td>Suggestion</td><td>Enchantment</td><td>C</td></tr><tr><td>Web</td><td>Conjuration</td><td>C</td></tr></table>
-
-Level 3 Sorcerer Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Blink</td><td>Transmutation</td><td>—</td></tr><tr><td>Clairvoyance</td><td>Divination</td><td>C, M</td></tr><tr><td>Counterspell</td><td>Abjuration</td><td>—</td></tr><tr><td>Daylight</td><td>Evocation</td><td>—</td></tr><tr><td>Dispel Magic</td><td>Abjuration</td><td>—</td></tr><tr><td>Fear</td><td>Illusion</td><td>C</td></tr><tr><td>Fireball</td><td>Evocation</td><td>—</td></tr><tr><td>Fly</td><td>Transmutation</td><td>C</td></tr><tr><td>Gaseous Form</td><td>Transmutation</td><td>C</td></tr><tr><td>Haste</td><td>Transmutation</td><td>C</td></tr><tr><td>Hypnotic Pattern</td><td>Illusion</td><td>C</td></tr><tr><td>Lightning Bolt</td><td>Evocation</td><td>—</td></tr><tr><td>Major Image</td><td>Illusion</td><td>C</td></tr><tr><td>Protection from Energy</td><td>Abjuration</td><td>C</td></tr><tr><td>Sleet Storm</td><td>Conjuration</td><td>C</td></tr><tr><td>Slow</td><td>Transmutation</td><td>C</td></tr><tr><td>Stinking Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Tongues</td><td>Divination</td><td>—</td></tr><tr><td>Vampirec Touch</td><td>Necromancy</td><td>C</td></tr><tr><td>Water Breathing</td><td>Transmutation</td><td>R</td></tr><tr><td>Water Walk</td><td>Transmutation</td><td>R</td></tr></table>
-
-Level 4 Sorcerer Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Banishment</td><td>Abjuration</td><td>C</td></tr><tr><td>Blight</td><td>Necromancy</td><td>—</td></tr><tr><td>Charm Monster</td><td>Enchantment</td><td>—</td></tr><tr><td>Confusion</td><td>Enchantment</td><td>C</td></tr><tr><td>Dimension Door</td><td>Conjuration</td><td>—</td></tr><tr><td>Dominate Beast</td><td>Enchantment</td><td>C</td></tr><tr><td>Fire Shield</td><td>Evocation</td><td>—</td></tr><tr><td>Greater Invisibility</td><td>Illusion</td><td>C</td></tr><tr><td>Ice Storm</td><td>Evocation</td><td>—</td></tr><tr><td>Polymorph</td><td>Transmutation</td><td>C</td></tr><tr><td>Stoneskin</td><td>Transmutation</td><td>C, M</td></tr><tr><td>Vitriolic Sphere</td><td>Evocation</td><td>—</td></tr><tr><td>Wall of Fire</td><td>Evocation</td><td>C</td></tr></table>
-
-Level 5 Sorcerer Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Animate Objects</td><td>Transmutation</td><td>C</td></tr><tr><td>Arcane Hand</td><td>Evocation</td><td>C</td></tr><tr><td>Cloudkill</td><td>Conjuration</td><td>C</td></tr><tr><td>Cone of Cold</td><td>Evocation</td><td>—</td></tr><tr><td>Creation</td><td>Illusion</td><td>—</td></tr><tr><td>Dominate Person</td><td>Enchantment</td><td>C</td></tr><tr><td>Hold Monster</td><td>Enchantment</td><td>C</td></tr><tr><td>Insect Plague</td><td>Conjuration</td><td>C</td></tr><tr><td>Seeming</td><td>Illusion</td><td>—</td></tr><tr><td>Telekinesis</td><td>Transmutation</td><td>C</td></tr><tr><td>Teleportation Circle</td><td>Conjuration</td><td>M</td></tr><tr><td>Wall of Stone</td><td>Evocation</td><td>C</td></tr></table>
-
-Level 6 Sorcerer Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Chain Lightning</td><td>Evocation</td><td>—</td></tr><tr><td>Circle of Death</td><td>Necromancy</td><td>M</td></tr><tr><td>Disintegrate</td><td>Transmutation</td><td>—</td></tr><tr><td>Eyebite</td><td>Necromancy</td><td>C</td></tr><tr><td>Flesh to Stone</td><td>Transmutation</td><td>C</td></tr><tr><td>Freezing Sphere</td><td>Evocation</td><td>—</td></tr><tr><td>Globe of Invulnerability</td><td>Abjuration</td><td>C</td></tr><tr><td>Mass Suggestion</td><td>Enchantment</td><td>—</td></tr><tr><td>Move Earth</td><td>Transmutation</td><td>C</td></tr><tr><td>Sunbeam</td><td>Evocation</td><td>C</td></tr><tr><td>True Seeing</td><td>Divination</td><td>M</td></tr></table>
-
-Level 7 Sorcerer Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Delayed Blast Fireball</td><td>Evocation</td><td>C</td></tr><tr><td>Etherealness</td><td>Conjuration</td><td>—</td></tr><tr><td>Finger of Death</td><td>Necromancy</td><td>—</td></tr><tr><td>Fire Storm</td><td>Evocation</td><td>—</td></tr><tr><td>Plane Shift</td><td>Conjuration</td><td>M</td></tr><tr><td>Prismatic Spray</td><td>Evocation</td><td>—</td></tr><tr><td>Reverse Gravity</td><td>Transmutation</td><td>C</td></tr><tr><td>Teleport</td><td>Conjuration</td><td>—</td></tr></table>
-
-Level 8 Sorcerer Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Demiplane</td><td>Conjuration</td><td>—</td></tr><tr><td>Dominate Monster</td><td>Enchantment</td><td>C</td></tr><tr><td>Earthquake</td><td>Transmutation</td><td>C</td></tr><tr><td>Incendiary Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Power Word Stun</td><td>Enchantment</td><td>—</td></tr><tr><td>Sunburst</td><td>Evocation</td><td>—</td></tr></table>
-
-Level 9 Sorcerer Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Gate</td><td>Conjuration</td><td>C, M</td></tr><tr><td>Meteor Swarm</td><td>Evocation</td><td>—</td></tr><tr><td>Power Word Kill</td><td>Enchantment</td><td>—</td></tr><tr><td>Time Stop</td><td>Transmutation</td><td>—</td></tr><tr><td>Wish</td><td>Conjuration</td><td>—</td></tr></table>
-
-#### Sorcerer Subclass: Draconic Sorcery
-
-Breathe the Magic of Dragons
-
-Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons' power. Or perhaps you handled a treasure taken from a dragon's hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.
-
-#### Level 3: Draconic Resilience
-
-The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.
-
-Parts of you are also covered by dragon-like scales. While you aren't wearing armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers.
-
-#### Level 3: Draconic Spells
-
-When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.
-
-Draconic Spells  
-
-<table><tr><td>Sorcerer
-Level</td><td>Spells</td></tr><tr><td>3</td><td>Alter Self, Chromatic Orb, Command,
-Dragon&####x27;s Breath</td></tr><tr><td>5</td><td>Fear, Fly</td></tr><tr><td>7</td><td>Arcane Eye, Charm Monster</td></tr><tr><td>9</td><td>Legend Lore, Summon Dragon</td></tr></table>
-
-#### Level 6: Elemental Affinity
-
-Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison.
-
-You have Resistance to that damage type, and when you cast a spell that deals damage of that type, you can add your Charisma modifier to one damage roll of that spell.
-
-#### Level 14: Dragon Wings
-
-As a Bonus Action, you can cause draconic wings to appear on your back. The wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.
-
-Once you use this feature, you can't use it again until you finish a Long Rest unless you spend 3 Sorcery Points (no action required) to restore your use of it.
-
-#### Level 18: Dragon Companion
-
-You can cast *Summon Dragon* without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.
-
-Whenever you start casting the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for that casting.
-
-#### Warlock
-
-Core Warlock Traits  
-
-<table><tr><td>Primary Ability</td><td>Charisma</td></tr><tr><td>Hit Point Die</td><td>D8 per Warlock level</td></tr><tr><td>Saving Throw 
-Proficiencies</td><td>Wisdom and Charisma</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Arcana, Deception, 
-History, Intimidation, Investig-
-gation, Nature, or Religion</td></tr><tr><td>Weapon Proficiencies</td><td>Simple weapons</td></tr><tr><td>Armor Training</td><td>Light armor</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Leather 
-Armor, Sickle, 2 Daggers, Ar-
-cane Focus (orb), Book (occult 
-lore), Scholar&####x27;s Pack, and 15 
-GP; or (B) 100 GP</td></tr></table>
-
-#### Becoming a Warlock ...
-
-#### As a Level I Character
-
-- Gain all the traits in the Core Warlock Traits table.  
-- Gain the Warlock's level 1 features, which are listed in the Warlock Features table.
-
-#### As a Multiclass Character
-
-- Gain the following traits from the Core Warlock Traits table: Hit Point Die and training with Light armor.  
-- Gain the Warlock's level 1 features, which are listed in the Warlock Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
-
-#### Warlock Class Features
-
-As a Warlock, you gain the following class features when you reach the specified Warlock levels. These features are listed in the Warlock Features table.
-
-#### Level I: Eldritch Invocations
-
-You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the "Eldritch Invocation Options" section later in this class's description.
-
-Prerequisites. If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level  $5+$  Warlock, you can select the invocation once you reach Warlock level 5.
-
-Replacing and Gaining Invocations. Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you
-
-Warlock Features  
-
-<table><tr><td>Level</td><td>Proficiency Bonus</td><td>Class Features</td><td>Eldritch Invocations</td><td>Cantrips</td><td>Prepared Spells</td><td>Spell Slots</td><td>Slot Level</td></tr><tr><td>1</td><td>+2</td><td>Eldritch Invocations, Pact Magic</td><td>1</td><td>2</td><td>2</td><td>1</td><td>1</td></tr><tr><td>2</td><td>+2</td><td>Magical Cunning</td><td>3</td><td>2</td><td>3</td><td>2</td><td>1</td></tr><tr><td>3</td><td>+2</td><td>Warlock Subclass</td><td>3</td><td>2</td><td>4</td><td>2</td><td>2</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>3</td><td>3</td><td>5</td><td>2</td><td>2</td></tr><tr><td>5</td><td>+3</td><td>—</td><td>5</td><td>3</td><td>6</td><td>2</td><td>3</td></tr><tr><td>6</td><td>+3</td><td>Subclass feature</td><td>5</td><td>3</td><td>7</td><td>2</td><td>3</td></tr><tr><td>7</td><td>+3</td><td>—</td><td>6</td><td>3</td><td>8</td><td>2</td><td>4</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>6</td><td>3</td><td>9</td><td>2</td><td>4</td></tr><tr><td>9</td><td>+4</td><td>Contact Patron</td><td>7</td><td>3</td><td>10</td><td>2</td><td>5</td></tr><tr><td>10</td><td>+4</td><td>Subclass feature</td><td>7</td><td>4</td><td>10</td><td>2</td><td>5</td></tr><tr><td>11</td><td>+4</td><td>Mystic Arcanum (level 6 spell)</td><td>7</td><td>4</td><td>11</td><td>3</td><td>5</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>8</td><td>4</td><td>11</td><td>3</td><td>5</td></tr><tr><td>13</td><td>+5</td><td>Mystic Arcanum (level 7 spell)</td><td>8</td><td>4</td><td>12</td><td>3</td><td>5</td></tr><tr><td>14</td><td>+5</td><td>Subclass feature</td><td>8</td><td>4</td><td>12</td><td>3</td><td>5</td></tr><tr><td>15</td><td>+5</td><td>Mystic Arcanum (level 8 spell)</td><td>9</td><td>4</td><td>13</td><td>3</td><td>5</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>9</td><td>4</td><td>13</td><td>3</td><td>5</td></tr><tr><td>17</td><td>+6</td><td>Mystic Arcanum (level 9 spell)</td><td>9</td><td>4</td><td>14</td><td>4</td><td>5</td></tr><tr><td>18</td><td>+6</td><td>—</td><td>10</td><td>4</td><td>14</td><td>4</td><td>5</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>10</td><td>4</td><td>15</td><td>4</td><td>5</td></tr><tr><td>20</td><td>+6</td><td>Eldritch Master</td><td>10</td><td>4</td><td>15</td><td>4</td><td>5</td></tr></table>
-
-qualify. You can't replace an invocation if it's a prerequisite for another invocation that you have.
-
-When you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock Features table.
-
-You can't pick the same invocation more than once unless its description says otherwise.
-
-#### Level I: Pact Magic
-
-Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. See " Spells" for the rules on spellcasting. The information below details how you use those rules with Warlock spells, which appear in the Warlock spell list later in the class's description.
-
-Cantrips. You know two Warlock cantrips of your choice. Eldritch Blast and Prestidigitation are recommended. Whenever you gain a Warlock level, you can replace one of your cantrips from this feature with another Warlock cantrip of your choice.
-
-When you reach Warlock levels 4 and 10, you learn another Warlock cantrip of your choice, as shown in the Cantrips column of the Warlock Features table.
-
-Spell Slots. The Warlock Features table shows how many spell slots you have to cast your Warlock spells of levels 1-5. The table also shows the level of those slots, all of which are the same level. You regain all expended Pact Magic spell slots when you finish a Short or Long Rest.
-
-For example, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell Charm Person, you must spend one of those slots, and you cast it as a level 3 spell.
-
-Prepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Warlock spells. Charm Person and Hex are recommended.
-
-The number of spells on your list increases as you gain Warlock levels, as shown in the Prepared Spells column of the Warlock Features table. Whenever that number increases, choose additional Warlock spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach level 6, for example, you learn a new Warlock spell, which can be of levels 1-3.
-
-If another Warlock feature gives you spells that you always have prepared, those spells don't count
-
-against the number of spells you can prepare with this feature, but those spells otherwise count as Warlock spells for you.
-
-Changing Your Prepared Spells. Whenever you gain a Warlock level, you can replace one spell on your list with another Warlock spell of an eligible level.
-
-Spellcasting Ability. Charisma is the spellcasting ability for your Warlock spells.
-
-Spellcasting Focus. You can use an Arcane Focus as a Spellcasting Focus for your Warlock spells.
-
-#### Level 2: Magical Cunning
-
-You can perform an esoteric rite for 1 minute. At the end of it, you regain expended Pact Magic spell slots but no more than a number equal to half your maximum (round up). Once you use this feature, you can't do so again until you finish a Long Rest.
-
-#### Level 3: Warlock Subclass
-
-You gain a Warlock subclass of your choice. The Fiend Patron subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass's features that are of your Warlock level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feats") or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16.
-
-#### Level 9: Contact Patron
-
-In the past, you usually contacted your patron through intermediaries. Now you can communicate directly; you always have the Contact Other Plane spell prepared. With this feature, you can cast the spell without expending a spell slot to contact your patron, and you automatically succeed on the spell's saving throw.
-
-Once you cast the spell with this feature, you can't do so in this way again until you finish a Long Rest.
-
-#### Level II: Mystic Arcanum
-
-Your patron grants you a magical secret called an arcanum. Choose one level 6 Warlock spell as this arcanum.
-
-You can cast your arcanum spell once without expending a spell slot, and you must finish a Long Rest before you can cast it in this way again.
-
-As shown in the Warlock Features table, you gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a Long Rest.
-
-Whenever you gain a Warlock level, you can replace one of your arcanum spells with another Warlock spell of the same level.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Fate is recommended.
-
-#### Level 20: Eldritch Master
-
-When you use your Magical Cunning feature, you regain all your expended Pact Magic spell slots.
-
-#### Eldritch Invocation Options
-
-Eldritch Invocation options appear in alphabetical order.
-
-#### Agonizing Blast
-
-Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage
-
-Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell's damage rolls.
-
-Repeatable. You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.
-
-#### Armor of Shadows
-
-You can cast Mage Armor on yourself without exp. pending a spell slot.
-
-#### Ascendant Step
-
-Prerequisite: Level 5+ Warlock
-
-You can cast Levitate on yourself without expending a spell slot.
-
-#### Devil's Sight
-
-Prerequisite: Level 2+ Warlock
-
-You can see normally in Dim Light and Darkness—both magical and nonmagical—within 120 feet of yourself.
-
-#### Devouring Blade
-
-Prerequisite: Level 12+ Warlock, Thirsting Blade Invocation
-
-The Extra Attack of your Thirsting Blade invocation confers two extra attacks rather than one.
-
-#### Eldritch Mind
-
-You have Advantage on Constitution saving throws that you make to maintain Concentration.
-
-#### Eldritch Smite
-
-Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation
-
-Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target,
-
-plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.
-
-#### Eldritch Spear
-
-Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage
-
-Choose one of your known Warlock cantrips that deals damage and has a range of  $10+$  feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.
-
-Repeatable. You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.
-
-#### Fiendish Vigor
-
-Prerequisite: Level 2+ Warlock
-
-You can cast False Life on yourself without expending a spell slot. When you cast the spell with this feature, you don't roll the die for the Temporary Hit Points; you automatically get the highest number on the die.
-
-#### Gaze of Two Minds
-
-Prerequisite: Level 5+ Warlock
-
-You can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can take a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don't maintain it in this way.
-
-While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature's space if the two of you are within 60 feet of each other.
-
-#### Gift of the Depths
-
-Prerequisite: Level 5+ Warlock
-
-You can breathe underwater, and you gain a Swim Speed equal to your Speed.
-
-You can also cast Water Breathing once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.
-
-#### Gift of the Protectors
-
-Prerequisite: Level 9+ Warlock, Pact of the Tome Invocation
-
-A new page appears in your Book of Shadows when you conjure it. With your permission, a creature can take an action to write its name on that page, which can contain a number of names equal to your Charisma modifier (minimum of one name).
-
-When any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the
-
-creature magically drops to 1 Hit Point instead.
-
-Once this magic is triggered, no creature can benefit from it until you finish a Long Rest.
-
-As a Magic action, you can erase a name on the page by touching it.
-
-#### Investment of the Chain Master
-
-Prerequisite: Level 5+ Warlock, Pact of the Chain Invocation
-
-When you cast Find Familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.
-
-Aerial or Aquatic. The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.
-
-Quick Attack. As a Bonus Action, you can command the familiar to take the Attack action.
-
-Necrotic or Radiant Damage. Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead.
-
-Your Save DC. If the familiar forces a creature to make a saving throw, it uses your spell save DC.
-
-Resistance. When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage.
-
-#### Lessons of the First Ones
-
-Prerequisite: Level 2+ Warlock
-
-You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice (see "Feats").
-
-Repeatable. You can gain this invocation more than once. Each time you do so, choose a different Origin feat.
-
-#### Lifedrinker
-
-Prerequisite: Level 9+ Warlock, Pact of the Blade Invocation
-
-Once per turn when you hit a creature with your pact weapon, you can deal an extra 1d6 Necrotic, Psychic, or Radiant damage (your choice) to the creature, and you can expend one of your Hit Point Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit Point).
-
-#### Mask of Many Faces
-
-Prerequisite: Level 2+ Warlock
-
-You can cast Disguise Self without expending a spell slot.
-
-#### Master of Myriad Forms
-
-Prerequisite: Level 5+ Warlock
-
-You can cast Alter Self without expending a spell slot.
-
-#### Misty Visions
-
-Prerequisite: Level 2+ Warlock
-
-You can cast Silent Image without expending a spell slot.
-
-#### One with Shadows
-
-Prerequisite: Level 5+ Warlock
-
-While you're in an area of Dim Light or Darkness, you can cast Invisibility on yourself without expending a spell slot.
-
-#### Otherworldly Leap
-
-Prerequisite: Level 2+ Warlock
-
-You can cast Jump on yourself without expending a spell slot.
-
-#### Pact of the Blade
-
-As a Bonus Action, you can conjure a pact weapon in your hand—a Simple or Martial Melee weapon of your choice with which you bond—or create a bond with a magic weapon you touch; you can't bond with a magic weapon if someone else is attuned to it or another Warlock is bonded with it. Until the bond ends, you have proficiency with the weapon, and you can use it as a Spellcasting Focus.
-
-Whenever you attack with the bonded weapon, you can use your Charisma modifier for the attack and damage rolls instead of using Strength or Dexterity; and you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type.
-
-Your bond with the weapon ends if you use this feature's Bonus Action again, if the weapon is more than 5 feet away from you for 1 minute or more, or if you die. A conjured weapon disappears when the bond ends.
-
-#### Pact of the Chain
-
-You learn the Find Familiar spell and can cast it as a Magic action without expending a spell slot.
-
-When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: Imp, Pseudodragon, Quasit, Skeleton, Sphinx of Wonder, Sprite, or Venomous Snake (see "Monsters" for the familiar's stat block).
-
-Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction.
-
-#### Pact of the Tome
-
-Stitching together strands of shadow, you conjure forth a book in your hand at the end of a Short or Long Rest. This Book of Shadows (you determine its appearance) contains eldritch magic that only you can access, granting you the benefits below. The
-
-book disappears if you conjure another book with this feature or if you die.
-
-Cantrips and Rituals. When the book appears, choose three cantrips, and choose two level 1 spells that have the Ritual tag. The spells can be from any class's spell list, and they must be spells you don't already have prepared. While the book is on your person, you have the chosen spells prepared, and they function as Warlock spells for you.
-
-Spellcasting Focus. You can use the book as a Spellcasting Focus.
-
-#### Repelling Blast
-
-Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll
-
-Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.
-
-Repeatable. You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.
-
-#### Thirsting Blade
-
-Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation
-
-You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn.
-
-#### Visions of Distant Realms
-
-Prerequisite: Level 9+ Warlock
-
-You can cast Arcane Eye without expending a spell slot.
-
-#### Whispers of the Grave
-
-Prerequisite: Level 7+ Warlock
-
-You can cast Speak with Dead without expending a spell slot.
-
-#### Witch Sight
-
-Prerequisite: Level 15+ Warlock
-
-You have Truesight with a range of 30 feet.
-
-#### Warlock Spell List
-
-This section presents the Warlock spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
-
-Cantrips (Level 0 Warlock Spells)  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Chill Touch</td><td>Necromancy</td><td>—</td></tr><tr><td>Eldritch Blast</td><td>Evocation</td><td>—</td></tr><tr><td>Mage Hand</td><td>Conjuration</td><td>—</td></tr><tr><td>Minor Illusion</td><td>Illusion</td><td>—</td></tr><tr><td>Poison Spray</td><td>Necromancy</td><td>—</td></tr><tr><td>Prestidigitation</td><td>Transmutation</td><td>—</td></tr><tr><td>True Strike</td><td>Divination</td><td>—</td></tr></table>
-
-Level I Warlock Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Bane</td><td>Enchantment</td><td>C</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Comprehend Languages</td><td>Divination</td><td>R</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Expeditious Retreat</td><td>Transmutation</td><td>C</td></tr><tr><td>Hellish Rebuke</td><td>Evocation</td><td>—</td></tr><tr><td>Hex</td><td>Enchantment</td><td>C</td></tr><tr><td>Hideous Laughter</td><td>Enchantment</td><td>C</td></tr><tr><td>Illusory Script</td><td>Illusion</td><td>R, M</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Speak with Animals</td><td>Divination</td><td>R</td></tr><tr><td>Unseen Servant</td><td>Conjuration</td><td>R</td></tr></table>
-
-Level 2 Warlock Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Darkness</td><td>Evocation</td><td>C</td></tr><tr><td>Enthrall</td><td>Enchantment</td><td>C</td></tr><tr><td>Hold Person</td><td>Enchantment</td><td>C</td></tr><tr><td>Invisibility</td><td>Illusion</td><td>C</td></tr><tr><td>Mind Spike</td><td>Divination</td><td>C</td></tr><tr><td>Mirror Image</td><td>Illusion</td><td>—</td></tr><tr><td>Misty Step</td><td>Conjuration</td><td>—</td></tr><tr><td>Ray of Enfeeblement</td><td>Necromancy</td><td>C</td></tr><tr><td>Spider Climb</td><td>Transmutation</td><td>C</td></tr><tr><td>Suggestion</td><td>Enchantment</td><td>C</td></tr></table>
-
-Level 3 Warlock Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Counterspell</td><td>Abjuration</td><td>—</td></tr><tr><td>Dispel Magic</td><td>Abjuration</td><td>—</td></tr><tr><td>Fear</td><td>Illusion</td><td>C</td></tr><tr><td>Fly</td><td>Transmutation</td><td>C</td></tr></table>
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Gaseous Form</td><td>Transmutation</td><td>C</td></tr><tr><td>Hypnotic Pattern</td><td>Illusion</td><td>C</td></tr><tr><td>Magic Circle</td><td>Abjuration</td><td>M</td></tr><tr><td>Major Image</td><td>Illusion</td><td>C</td></tr><tr><td>Remove Curse</td><td>Abjuration</td><td>—</td></tr><tr><td>Tongues</td><td>Divination</td><td>—</td></tr><tr><td>Vampiric Touch</td><td>Necromancy</td><td>C</td></tr></table>
-
-Level 4 Warlock Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Banishment</td><td>Abjuration</td><td>C</td></tr><tr><td>Blight</td><td>Necromancy</td><td>—</td></tr><tr><td>Charm Monster</td><td>Enchantment</td><td>—</td></tr><tr><td>Dimension Door</td><td>Conjuration</td><td>—</td></tr><tr><td>Hallucinatory Terrain</td><td>Illusion</td><td>—</td></tr></table>
-
-Level 5 Warlock Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Contact Other Plane</td><td>Divination</td><td>R</td></tr><tr><td>Dream</td><td>Illusion</td><td>—</td></tr><tr><td>Hold Monster</td><td>Enchantment</td><td>C</td></tr><tr><td>Mislead</td><td>Illusion</td><td>C</td></tr><tr><td>Planar Binding</td><td>Abjuration</td><td>M</td></tr><tr><td>Scrying</td><td>Divination</td><td>C, M</td></tr><tr><td>Teleportation Circle</td><td>Conjuration</td><td>M</td></tr></table>
-
-Level 6 Warlock Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Circle of Death</td><td>Necromancy</td><td>M</td></tr><tr><td>Create Undead</td><td>Necromancy</td><td>M</td></tr><tr><td>Eyebite</td><td>Necromancy</td><td>C</td></tr><tr><td>True Seeing</td><td>Divination</td><td>M</td></tr></table>
-
-Level 7 Warlock Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Etherealness</td><td>Conjuration</td><td>—</td></tr><tr><td>Finger of Death</td><td>Necromancy</td><td>—</td></tr><tr><td>Forcecage</td><td>Evocation</td><td>C, M</td></tr><tr><td>Plane Shift</td><td>Conjuration</td><td>M</td></tr></table>
-
-Level 8 Warlock Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Befuddlement</td><td>Enchantment</td><td>—</td></tr><tr><td>Demiplane</td><td>Conjuration</td><td>—</td></tr><tr><td>Dominate Monster</td><td>Enchantment</td><td>C</td></tr><tr><td>Glibness</td><td>Enchantment</td><td>—</td></tr><tr><td>Power Word Stun</td><td>Enchantment</td><td>—</td></tr></table>
-
-Level 9 Warlock Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Astral Projection</td><td>Necromancy</td><td>M</td></tr><tr><td>Foresight</td><td>Divination</td><td>—</td></tr><tr><td>Gate</td><td>Conjuration</td><td>C, M</td></tr><tr><td>Imprisonment</td><td>Abjuration</td><td>M</td></tr><tr><td>Power Word Kill</td><td>Enchantment</td><td>—</td></tr><tr><td>True Polymorph</td><td>Transmutation</td><td>C</td></tr><tr><td>Weird</td><td>Illusion</td><td>C</td></tr></table>
-
-#### Warlock Subclass: Fiend Patron
-
-Make a Deal with the Lower Planes
-
-Your pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord, an archdevil, or another fiend that is especially mighty. That patron's aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims.
-
-#### Level 3: Dark One's Blessing
-
-When you reduce an enemy to 0 Hit Points, you gain Temporary Hit Points equal to your Charisma modifier plus your Warlock level (minimum of 1 Temporary Hit Point). You also gain this benefit if someone else reduces an enemy within 10 feet of you to 0 Hit Points.
-
-#### Level 3: Fiend Spells
-
-The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared.
-
-Fiend Spells  
-
-<table><tr><td>Warlock Level</td><td>Spells</td></tr><tr><td>3</td><td>Burning Hands, Command, 
-Scorching Ray, Suggestion</td></tr><tr><td>5</td><td>Fireball, Stinking Cloud</td></tr><tr><td>7</td><td>Fire Shield, Wall of Fire</td></tr><tr><td>9</td><td>Geas, Insect Plague</td></tr></table>
-
-#### Level 6: Dark One's Own Luck
-
-You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add 1d10 to your roll. You can do so after seeing the roll but before any of the roll's effects occur.
-
-You can use this feature a number of times equal to your Charisma modifier (minimum of once), but you can use it no more than once per roll. You regain all expended uses when you finish a Long Rest.
-
-#### Level 10: Fiendish Resilience
-
-Choose one damage type, other than Force, whenever you finish a Short or Long Rest. You have Resistance to that damage type until you choose a different one with this feature.
-
-#### Level 14: Hurl Through Hell
-
-Once per turn when you hit a creature with an attack roll, you can try to instantly transport the target through the Lower Planes. The target must succeed on a Charisma saving throw against your spell save DC, or the target disappears and hurtles through a nightmare landscape. The target takes 8d10 Psychic damage if it isn't a Fiend, and it has the Incapacitated condition until the end of your next turn, when it returns to the space it previously occupied or the nearest unoccupied space.
-
-Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a Pact Magic spell slot (no action required) to restore your use of it.
-
-#### Wizard
-
-Core Wizard Traits  
-
-<table><tr><td>Primary Ability</td><td>Intelligence</td></tr><tr><td>Hit Point Die</td><td>D6 per Wizard level</td></tr><tr><td>Saving Throw Proficiencies</td><td>Intelligence and Wisdom</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Arcana, History, Insight, Investigation, Medicine, Nature, or Religion</td></tr><tr><td>Weapon Proficiencies</td><td>Simple weapons</td></tr><tr><td>Armor Training</td><td>None</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) 2 Daggers, Arcane Focus (Quarterstaff), Robe, Spellbook, Scholar&####x27;s Pack, and 5 GP; or (B) 55 GP</td></tr></table>
-
-#### Becoming a Wizard ...
-
-#### As a Level I Character
-
-- Gain all the traits in the Core Wizard Traits table.  
-- Gain the Wizard's level 1 features, which are listed in the Wizard Features table.
-
-#### As a Multiclass Character
-
-- Gain the Hit Point Die from the Core Wizard Traits table.  
-- Gain the Wizard's level 1 features, which are listed in the Wizard Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
-
-#### Wizard Class Features
-
-As a Wizard, you gain the following class features when you reach the specified Wizard levels. These features are listed in the Wizard Features table.
-
-#### Level I: Spellcasting
-
-As a student of arcane magic, you have learned to cast spells. See " Spells" for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the Wizard spell list later in the class's description.
-
-Cantrips. You know three Wizard cantrips of your choice. Light, Mage Hand, and Ray of Frost are recommended. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.
-
-Wizard Features  
-
-<table><tr><td rowspan="2">Level</td><td rowspan="2">Proficiency Bonus</td><td rowspan="2">Class Features</td><td rowspan="2">Cantrips</td><td rowspan="2">Prepared Spells</td><td colspan="8">——Spell Slots per Spell Level——</td><td></td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>1</td><td>+2</td><td>Spellcasting, Ritual Adept, Arcane Recovery</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>2</td><td>+2</td><td>Scholar</td><td>3</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3</td><td>+2</td><td>Wizard Subclass</td><td>3</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>4</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>+3</td><td>Memorize Spell</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6</td><td>+3</td><td>Subclass feature</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7</td><td>+3</td><td>—</td><td>4</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>4</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>9</td><td>+4</td><td>—</td><td>4</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>10</td><td>+4</td><td>Subclass feature</td><td>5</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>11</td><td>+4</td><td>—</td><td>5</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>5</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>13</td><td>+5</td><td>—</td><td>5</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>14</td><td>+5</td><td>Subclass feature</td><td>5</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>15</td><td>+5</td><td>—</td><td>5</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>5</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>17</td><td>+6</td><td>—</td><td>5</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>18</td><td>+6</td><td>Spell Mastery</td><td>5</td><td>23</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>5</td><td>24</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>20</td><td>+6</td><td>Signature Spells</td><td>5</td><td>25</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr></table>
-
-When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard Features table.
-
-Spellbook. Your wizardry apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting Identify. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine.
-
-The book contains the level 1+ spells you know. It starts with six level 1 Wizard spells of your choice. Detect Magic, Feather Fall, Mage Armor, Magic Missile, Sleep, and Thunderwave are recommended.
-
-Whenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown in the Wizard Features table. The spells are the culmination of arcane research you do regularly.
-
-Spell Slots. The Wizard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
-
-Prepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To do so, choose four spells from your spellbook. The chosen spells must be of a level for which you have spell slots.
-
-The number of spells on your list increases as you gain Wizard levels, as shown in the Prepared Spells column of the Wizard Features table. Whenever that number increases, choose additional Wizard spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Wizard, your list of prepared spells can include six spells of levels 1 and 2 in any combination, chosen from your spellbook.
-
-If another Wizard feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Wizard spells for you.
-
-Changing Your Prepared Spells. Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with spells from your spellbook.
-
-Spellcasting Ability. Intelligence is your spellcasting ability for your Wizard spells.
-
-Spellcasting Focus. You can use an Arcane Focus or your spellbook as a Spellcasting Focus for your Wizard spells.
-
-#### Level I: Ritual Adept
-
-You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You
-
-needn't have the spell prepared, but you must read from the book to cast a spell in this way.
-
-#### Level I: Arcane Recovery
-
-You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.
-
-Once you use this feature, you can't do so again until you finish a Long Rest.
-
-#### Level 2: Scholar
-
-While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency: Arcana, History, Investigation, Medicine, Nature, or Religion. You have Expertise in the chosen skill.
-
-#### Level 3: Wizard Subclass
-
-You gain a Wizard subclass of your choice. The Evoker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Wizard levels. For the rest
-
-#### EXPANDING AND REPLACING A SPELLBOOK
-
-The spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.
-
-Copying a Spell into the Book. When you find a level I+ Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.
-
-Copying the Book. You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.
-
-If you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook.
-
-of your career, you gain each of your subclass's features that are of your Wizard level or lower.
-
-#### Level 4: Ability Score Improvement
-
-You gain the Ability Score Improvement feat (see "Feels") or another feat of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16.
-
-#### Level 5: Memorize Spell
-
-Whenever you finish a Short Rest, you can study your spellbook and replace one of the level  $1+$  Wizard spells you have prepared for your Spellcasting feature with another level  $1+$  spell from the book.
-
-#### Level 18: Spell Mastery
-
-You have achieved such mastery over certain spells that you can cast them at will. Choose a level 1 and a level 2 spell in your spellbook that have a casting time of an action. You always have those spells prepared, and you can cast them at their lowest level without expending a spell slot. To cast either spell at a higher level, you must expend a spell slot.
-
-Whenever you finish a Long Rest, you can study your spellbook and replace one of those spells with an eligible spell of the same level from the book.
-
-#### Level 19: Epic Boon
-
-You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Spell Recall is recommended.
-
-#### Level 20: Signature Spells
-
-Choose two level 3 spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can't cast them in this way again until you finish a Short or Long Rest. To cast either spell at a higher level, you must expend a spell slot.
-
-#### Wizard Spell List
-
-This section presents the Wizard spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
-
-Cantrips (Level 0 Wizard Spells)  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Acid Splash</td><td>Evocation</td><td>—</td></tr><tr><td>Chill Touch</td><td>Necromancy</td><td>—</td></tr><tr><td>Dancing Lights</td><td>Illusion</td><td>C</td></tr><tr><td>Elementalism</td><td>Transmutation</td><td>—</td></tr><tr><td>Fire Bolt</td><td>Evocation</td><td>—</td></tr><tr><td>Light</td><td>Evocation</td><td>—</td></tr></table>
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Mage Hand</td><td>Conjuration</td><td>—</td></tr><tr><td>Mending</td><td>Transmutation</td><td>—</td></tr><tr><td>Message</td><td>Transmutation</td><td>—</td></tr><tr><td>Minor Illusion</td><td>Illusion</td><td>—</td></tr><tr><td>Poison Spray</td><td>Necromancy</td><td>—</td></tr><tr><td>Prestidigitation</td><td>Transmutation</td><td>—</td></tr><tr><td>Ray of Frost</td><td>Evocation</td><td>—</td></tr><tr><td>Shocking Grasp</td><td>Evocation</td><td>—</td></tr><tr><td>True Strike</td><td>Divination</td><td>—</td></tr></table>
-
-Level I Wizard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Alarm</td><td>Abjuration</td><td>R</td></tr><tr><td>Burning Hands</td><td>Evocation</td><td>—</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Chromatic Orb</td><td>Evocation</td><td>M</td></tr><tr><td>Color Spray</td><td>Illusion</td><td>—</td></tr><tr><td>Comprehend Languages</td><td>Divination</td><td>R</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Disguise Self</td><td>Illusion</td><td>—</td></tr><tr><td>Expeditious Retreat</td><td>Transmutation</td><td>C</td></tr><tr><td>False Life</td><td>Necromancy</td><td>–</td></tr><tr><td>Feather Fall</td><td>Transmutation</td><td>—</td></tr><tr><td>Find Familiar</td><td>Conjuration</td><td>R, M</td></tr><tr><td>Floating Disk</td><td>Conjuration</td><td>R</td></tr><tr><td>Fog Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Grease</td><td>Conjuration</td><td>—</td></tr><tr><td>Hideous Laughter</td><td>Enchantment</td><td>C</td></tr><tr><td>Ice Knife</td><td>Conjuration</td><td>—</td></tr><tr><td>Identify</td><td>Divination</td><td>R, M</td></tr><tr><td>Illusory Script</td><td>Illusion</td><td>R, M</td></tr><tr><td>Jump</td><td>Transmutation</td><td>—</td></tr><tr><td>Longstrider</td><td>Transmutation</td><td>—</td></tr><tr><td>Mage Armor</td><td>Abjuration</td><td>—</td></tr><tr><td>Magic Missile</td><td>Evocation</td><td>—</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Ray of Sickness</td><td>Necromancy</td><td>—</td></tr><tr><td>Shield</td><td>Abjuration</td><td>—</td></tr><tr><td>Silent Image</td><td>Illusion</td><td>C</td></tr><tr><td>Sleep</td><td>Enchantment</td><td>C</td></tr><tr><td>Thunderwave</td><td>Evocation</td><td>—</td></tr><tr><td>Unseen Servant</td><td>Conjuration</td><td>R</td></tr></table>
-
-Level 2 Wizard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Acid Arrow</td><td>Evocation</td><td>—</td></tr><tr><td>Alter Self</td><td>Transmutation</td><td>C</td></tr><tr><td>Arcane Lock</td><td>Abjuration</td><td>M</td></tr><tr><td>Arcanist&####x27;s Magic Aura</td><td>Illusion</td><td>—</td></tr><tr><td>Augury</td><td>Divination</td><td>R, M</td></tr><tr><td>Blindness/Deafness</td><td>Transmutation</td><td>—</td></tr><tr><td>Blur</td><td>Illusion</td><td>C</td></tr><tr><td>Continual Flame</td><td>Evocation</td><td>M</td></tr><tr><td>Darkness</td><td>Evocation</td><td>C</td></tr><tr><td>Darkvision</td><td>Transmutation</td><td>—</td></tr><tr><td>Detect Thoughts</td><td>Divination</td><td>C</td></tr><tr><td>Dragon&####x27;s Breath</td><td>Transmutation</td><td>C</td></tr><tr><td>Enhance Ability</td><td>Transmutation</td><td>C</td></tr><tr><td>Enlarge/Reduce</td><td>Transmutation</td><td>C</td></tr><tr><td>Flaming Sphere</td><td>Evocation</td><td>C</td></tr><tr><td>Gentle Repose</td><td>Necromancy</td><td>R, M</td></tr><tr><td>Gust of Wind</td><td>Evocation</td><td>C</td></tr><tr><td>Hold Person</td><td>Enchantment</td><td>C</td></tr><tr><td>Invisibility</td><td>Illusion</td><td>C</td></tr><tr><td>Knock</td><td>Transmutation</td><td>—</td></tr><tr><td>Levitate</td><td>Transmutation</td><td>C</td></tr><tr><td>Locate Object</td><td>Divination</td><td>C</td></tr><tr><td>Magic Mouth</td><td>Illusion</td><td>R, M</td></tr><tr><td>Magic Weapon</td><td>Transmutation</td><td>—</td></tr><tr><td>Mind Spike</td><td>Divination</td><td>C</td></tr><tr><td>Mirror Image</td><td>Illusion</td><td>—</td></tr><tr><td>Misty Step</td><td>Conjuration</td><td>—</td></tr><tr><td>Ray of Enfeeblement</td><td>Necromancy</td><td>C</td></tr><tr><td>Rope Trick</td><td>Transmutation</td><td>—</td></tr><tr><td>Scorching Ray</td><td>Evocation</td><td>—</td></tr><tr><td>See Invisibility</td><td>Divination</td><td>—</td></tr><tr><td>Shatter</td><td>Evocation</td><td>—</td></tr><tr><td>Spider Climb</td><td>Transmutation</td><td>C</td></tr><tr><td>Suggestion</td><td>Enchantment</td><td>C</td></tr><tr><td>Web</td><td>Conjuration</td><td>C</td></tr></table>
-
-Level 3 Wizard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Animate Dead</td><td>Necromancy</td><td>—</td></tr><tr><td>Bestow Curse</td><td>Necromancy</td><td>C</td></tr><tr><td>Blink</td><td>Transmutation</td><td>—</td></tr><tr><td>Clairvoyance</td><td>Divination</td><td>C, M</td></tr><tr><td>Counterspell</td><td>Abjuration</td><td>—</td></tr><tr><td>Dispel Magic</td><td>Abjuration</td><td>—</td></tr></table>
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Fear</td><td>Illusion</td><td>C</td></tr><tr><td>Fireball</td><td>Evocation</td><td>—</td></tr><tr><td>Fly</td><td>Transmutation</td><td>C</td></tr><tr><td>Gaseous Form</td><td>Transmutation</td><td>C</td></tr><tr><td>Glyph of Warding</td><td>Abjuration</td><td>M</td></tr><tr><td>Haste</td><td>Transmutation</td><td>C</td></tr><tr><td>Hypnotic Pattern</td><td>Illusion</td><td>C</td></tr><tr><td>Lightning Bolt</td><td>Evocation</td><td>—</td></tr><tr><td>Magic Circle</td><td>Abjuration</td><td>M</td></tr><tr><td>Major Image</td><td>Illusion</td><td>C</td></tr><tr><td>Nondetection</td><td>Abjuration</td><td>M</td></tr><tr><td>Phantom Steed</td><td>Illusion</td><td>R</td></tr><tr><td>Protection from Energy</td><td>Abjuration</td><td>C</td></tr><tr><td>Remove Curse</td><td>Abjuration</td><td>—</td></tr><tr><td>Sending</td><td>Divination</td><td>—</td></tr><tr><td>Sleet Storm</td><td>Conjuration</td><td>C</td></tr><tr><td>Slow</td><td>Transmutation</td><td>C</td></tr><tr><td>Speak with Dead</td><td>Necromancy</td><td>—</td></tr><tr><td>Stinking Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Tiny Hut</td><td>Evocation</td><td>R</td></tr><tr><td>Tongues</td><td>Divination</td><td>—</td></tr><tr><td>Vampirec Touch</td><td>Necromancy</td><td>C</td></tr><tr><td>Water Breathing</td><td>Transmutation</td><td>R</td></tr></table>
-
-Level 4 Wizard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Arcane Eye</td><td>Divination</td><td>C</td></tr><tr><td>Banishment</td><td>Abjuration</td><td>C</td></tr><tr><td>Black Tentacles</td><td>Conjuration</td><td>C</td></tr><tr><td>Blight</td><td>Necromancy</td><td>—</td></tr><tr><td>Charm Monster</td><td>Enchantment</td><td>—</td></tr><tr><td>Confusion</td><td>Enchantment</td><td>C</td></tr><tr><td>Conjure Minor Elementals</td><td>Conjuration</td><td>C</td></tr><tr><td>Control Water</td><td>Transmutation</td><td>C</td></tr><tr><td>Dimension Door</td><td>Conjuration</td><td>—</td></tr><tr><td>Divination</td><td>Divination</td><td>R, M</td></tr><tr><td>Fabricate</td><td>Transmutation</td><td>—</td></tr><tr><td>Faithful Hound</td><td>Conjuration</td><td>—</td></tr><tr><td>Fire Shield</td><td>Evocation</td><td>—</td></tr><tr><td>Greater Invisibility</td><td>Illusion</td><td>C</td></tr><tr><td>Hallucinatory Terrain</td><td>Illusion</td><td>—</td></tr><tr><td>Ice Storm</td><td>Evocation</td><td>—</td></tr><tr><td>Locate Creature</td><td>Divination</td><td>C</td></tr><tr><td>Phantasmal Killer</td><td>Illusion</td><td>C</td></tr><tr><td>Polymorph</td><td>Transmutation</td><td>C</td></tr><tr><td>Private Sanctum</td><td>Abjuration</td><td>—</td></tr><tr><td>Resilient Sphere</td><td>Abjuration</td><td>C</td></tr><tr><td>Secret Chest</td><td>Conjuration</td><td>M</td></tr><tr><td>Stone Shape</td><td>Transmutation</td><td>—</td></tr><tr><td>Stoneskin</td><td>Transmutation</td><td>C, M</td></tr><tr><td>Vitriolic Sphere</td><td>Evocation</td><td>—</td></tr><tr><td>Wall of Fire</td><td>Evocation</td><td>C</td></tr></table>
-
-Level 5 Wizard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Animate Objects</td><td>Transmutation</td><td>C</td></tr><tr><td>Arcane Hand</td><td>Evocation</td><td>C</td></tr><tr><td>Cloudkill</td><td>Conjuration</td><td>C</td></tr><tr><td>Cone of Cold</td><td>Evocation</td><td>—</td></tr><tr><td>Conjure Elemental</td><td>Conjuration</td><td>C</td></tr><tr><td>Contact Other Plane</td><td>Divination</td><td>R</td></tr><tr><td>Creation</td><td>Illusion</td><td>—</td></tr><tr><td>Dominate Person</td><td>Enchantment</td><td>C</td></tr><tr><td>Dream</td><td>Illusion</td><td>—</td></tr><tr><td>Geas</td><td>Enchantment</td><td>—</td></tr><tr><td>Hold Monster</td><td>Enchantment</td><td>C</td></tr><tr><td>Legend Lore</td><td>Divination</td><td>M</td></tr><tr><td>Mislead</td><td>Illusion</td><td>C</td></tr><tr><td>Modify Memory</td><td>Enchantment</td><td>C</td></tr><tr><td>Passwall</td><td>Transmutation</td><td>—</td></tr><tr><td>Planar Binding</td><td>Abjuration</td><td>M</td></tr><tr><td>Scrying</td><td>Divination</td><td>C, M</td></tr><tr><td>Seeming</td><td>Illusion</td><td>—</td></tr><tr><td>Summon Dragon</td><td>Conjuration</td><td>C, M</td></tr><tr><td>Telekinesis</td><td>Transmutation</td><td>C</td></tr><tr><td>Telepathic Bond</td><td>Divination</td><td>R</td></tr><tr><td>Teleportation Circle</td><td>Conjuration</td><td>M</td></tr><tr><td>Wall of Force</td><td>Evocation</td><td>C</td></tr><tr><td>Wall of Stone</td><td>Evocation</td><td>C</td></tr></table>
-
-Level 6 Wizard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Chain Lightning</td><td>Evocation</td><td>—</td></tr><tr><td>Circle of Death</td><td>Necromancy</td><td>M</td></tr><tr><td>Contingency</td><td>Abjuration</td><td>M</td></tr><tr><td>Create Undead</td><td>Necromancy</td><td>M</td></tr><tr><td>Disintegrate</td><td>Transmutation</td><td>—</td></tr><tr><td>Eyebite</td><td>Necromancy</td><td>C</td></tr><tr><td>Flesh to Stone</td><td>Transmutation</td><td>C</td></tr><tr><td>Freezing Sphere</td><td>Evocation</td><td>—</td></tr><tr><td>Globe of Invulnerability</td><td>Abjuration</td><td>C</td></tr><tr><td>Guards and Wards</td><td>Abjuration</td><td>M</td></tr><tr><td>Instant summons</td><td>Conjuration</td><td>R, M</td></tr><tr><td>Irresistible Dance</td><td>Enchantment</td><td>C</td></tr><tr><td>Magic Jar</td><td>Necromancy</td><td>M</td></tr><tr><td>Mass Suggestion</td><td>Enchantment</td><td>—</td></tr><tr><td>Move Earth</td><td>Transmutation</td><td>C</td></tr><tr><td>Programmed Illusion</td><td>Illusion</td><td>M</td></tr><tr><td>Sunbeam</td><td>Evocation</td><td>C</td></tr><tr><td>True Seeing</td><td>Divination</td><td>M</td></tr><tr><td>Wall of Ice</td><td>Evocation</td><td>C</td></tr></table>
-
-Level 7 Wizard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Arcane Sword</td><td>Evocation</td><td>C, M</td></tr><tr><td>Delayed Blast Fireball</td><td>Evocation</td><td>C</td></tr><tr><td>Etherealness</td><td>Conjuration</td><td>—</td></tr><tr><td>Finger of Death</td><td>Necromancy</td><td>—</td></tr><tr><td>Forcecage</td><td>Evocation</td><td>C, M</td></tr><tr><td>Magnificent Mansion</td><td>Conjuration</td><td>M</td></tr><tr><td>Mirage Arcane</td><td>Illusion</td><td>—</td></tr><tr><td>Plane Shift</td><td>Conjuration</td><td>M</td></tr><tr><td>Prismatic Spray</td><td>Evocation</td><td>—</td></tr><tr><td>Project Image</td><td>Illusion</td><td>C, M</td></tr><tr><td>Reverse Gravity</td><td>Transmutation</td><td>C</td></tr><tr><td>Sequester</td><td>Transmutation</td><td>M</td></tr><tr><td>Simulacrum</td><td>Illusion</td><td>M</td></tr><tr><td>Symbol</td><td>Abjuration</td><td>M</td></tr><tr><td>Teleport</td><td>Conjuration</td><td>—</td></tr></table>
-
-Level 8 Wizard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Antimagic Field</td><td>Abjuration</td><td>C</td></tr><tr><td>Antipathy/Sympathy</td><td>Enchantment</td><td>—</td></tr><tr><td>Befuddlement</td><td>Enchantment</td><td>—</td></tr><tr><td>Clone</td><td>Necromancy</td><td>M</td></tr><tr><td>Control Weather</td><td>Transmutation</td><td>C</td></tr><tr><td>Demiplane</td><td>Conjuration</td><td>—</td></tr><tr><td>Dominate Monster</td><td>Enchantment</td><td>C</td></tr><tr><td>Incendiary Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Maze</td><td>Conjuration</td><td>C</td></tr><tr><td>Mind Blank</td><td>Abjuration</td><td>—</td></tr><tr><td>Power Word Stun</td><td>Enchantment</td><td>—</td></tr><tr><td>Sunburst</td><td>Evocation</td><td>—</td></tr></table>
-
-Level 9 Wizard Spells  
-
-<table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Astral Projection</td><td>Necromancy</td><td>M</td></tr><tr><td>Foresight</td><td>Divination</td><td>—</td></tr><tr><td>Gate</td><td>Conjuration</td><td>C, M</td></tr><tr><td>Imprisonment</td><td>Abjuration</td><td>M</td></tr><tr><td>Meteor Swarm</td><td>Evocation</td><td>—</td></tr><tr><td>Power Word Kill</td><td>Enchantment</td><td>—</td></tr><tr><td>Prismatic Wall</td><td>Abjuration</td><td>—</td></tr><tr><td>Shapechange</td><td>Transmutation</td><td>C, M</td></tr><tr><td>Time Stop</td><td>Transmutation</td><td>—</td></tr><tr><td>True Polymorph</td><td>Transmutation</td><td>C</td></tr><tr><td>Weird</td><td>Illusion</td><td>C</td></tr><tr><td>Wish</td><td>Conjuration</td><td>—</td></tr></table>
-
-#### Wizard Subclass: Evoker
-
-Create Explosive Elemental Effects
-
-Your studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some Evokers find employment in military forces, serving as artillery to blast armies from afar. Others use their power to protect others, while some seek their own gain.
-
-#### Level 3: Evocation Savant
-
-Choose two Wizard spells from the Evocation school, each of which must be no higher than level 2, and add them to your spellbook for free.
-
-In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Evocation school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.
-
-#### Level 3: Potent Cantrip
-
-Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.
-
-#### Level 6: Sculpt Spells
-
-You can create pockets of relative safety within the effects of your evocations. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 plus the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.
-
-#### Level 10: Empowered Evocation
-
-Whenever you cast a Wizard spell from the Evocation school, you can add your Intelligence modifier to one damage roll of that spell.
-
-#### Level 14: Overchannel
-
-You can increase the power of your spells. When you cast a Wizard spell with a spell slot of levels 1-5 that deals damage, you can deal maximum damage with that spell on the turn you cast it.
-
-The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a Long Rest, you take 2d12 Necrotic damage for each level of the spell slot immediately after you cast it. This damage ignores Resistance and Immunity.
-
-Each time you use this feature again before finishing a Long Rest, the Necrotic damage per spell level increases by 1d12.
-
-# Character Origins
-
-#### Character Backgrounds
-
-Your character's background is a collection of characteristics that represent the place and occupation that were most formative before your character embarked on a life of adventure.
-
-#### Parts of a Background
-
-A background includes the following parts.
-
-#### Ability Scores
-
-A background lists three of your character's ability scores. Increase one by 2 and another one by 1, or increase all three by 1. None of these increases can raise a score above 20.
-
-#### Feat
-
-A background gives your character a specified Origin feat (described in "Feats").
-
-#### Skill Proficiencies
-
-A background gives your character proficiency in two specified skills.
-
-#### Tool Proficiency
-
-Each background gives a character proficiency with one tool—either a specific tool or one chosen from the Artisan's Tools category. Tools are detailed in "Equipment."
-
-#### Equipment
-
-Each background offers a choice between a package of equipment and 50 GP.
-
-#### Background Descriptions
-
-#### Acylate
-
-Ability Scores: Intelligence, Wisdom, Charisma
-
-Feat: Magic Initiate (Cleric) (see "Feels")
-
-Skill Proficiencies: Insight and Religion
-
-Tool Proficiency: Calligrapher's Supplies
-
-Equipment: Choose A or B: (A) Calligrapher's Supplies, Book (prayers), Holy Symbol, Parchment (10 sheets), Robe, 8 GP; or (B) 50 GP
-
-#### Criminal
-
-Ability Scores: Dexterity, Constitution, Intelligence
-
-Feat: Alert (see "Feats")
-
-Skill Proficiencies: Sleight of Hand and Stealth
-
-Tool Proficiency: Thieves' Tools
-
-Equipment: Choose A or B: (A) 2 Daggers, Thieves' Tools, Crowbar, 2 Pouches, Traveler's Clothes, 16 GP; or (B) 50 GP
-
-#### Sage
-
-Ability Scores: Constitution, Intelligence, Wisdom
-Feat: Magic Initiate (Wizard) (see “Feats”)
-
-Skill Proficiencies: Arcana and History
-
-Tool Proficiency: Calligrapher's Supplies
-
-Equipment: Choose A or B: (A) Quarterstaff, Calligrapher's Supplies, Book (history), Parchment (8 sheets), Robe, 8 GP; or (B) 50 GP
-
-#### Soldier
-
-Ability Scores: Strength, Dexterity, Constitution
-
-Feat: Savage Attacker (see "Feats")
-
-Skill Proficiencies: Athletics and Intimidation
-
-Tool Proficiency: Choose one kind of Gaming Set (see "Equipment")
-
-Equipment: Choose A or B: (A) Spear, Shortbow, 20 Arrows, Gaming Set (same as above), Healer's Kit, Quiver, Traveler's Clothes, 14 GP; or (B) 50 GP
-
-#### Character Species
-
-When you choose your character's species, you determine whether your character is a human or a member of a fantastical species, such as dragonborn or gnome.
-
-The peoples of the multiverse hail from different worlds and include many kinds of sapient life forms. A player character's species is the set of game traits that an adventurer gains from being one of those life forms.
-
-Some species can trace their origin to a single world, plane of existence, or god, while other species first appeared in multiple realms at once. Whatever a species' genesis, its members have spread across the multiverse and contribute to many different cultures.
-
-Members of most species live for about 80 years, with exceptions noted in the text about the species in "Character Origins." Regardless of life span, members of all species reach physical maturity at about the same age. Your character can be any age that isn't beyond their species' normal life span.
-
-#### Parts of a Species
-
-A species includes the following parts.
-
-#### Creature Type
-
-A character's species determines the character's creature type, which is described in "Rules Glossary." Every species in "Character Origins" is Humanoid; playable non-Humanoid species appear in other books.
-
-#### Size
-
-Your character's species determines the character's size. Individuals within a species cover a wide range of heights, and some species include such diversity
-
-of size that you can choose whether your character is Small or Medium.
-
-#### Speed
-
-Your character's species determines the character's Speed.
-
-#### Special Traits
-
-Each species gives a character special traits—unique characteristics based on the species' physiology or magical nature. When you choose a species, your character gets all the special traits listed for it. Some traits involve making a choice from a handful of options.
-
-#### Species Descriptions
-
-#### Dragonborn
-
-Creature Type: Humanoid
-
-Size: Medium (about 5-7 feet tall)
-
-Speed: 30 feet
-
-As a Dragonborn, you have these special traits.
-
-Draconic Ancestry. Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.
-
-Draconic Ancestors  
-
-<table><tr><td colspan="2">Dragon Damage Type</td><td colspan="2">Dragon Damage Type</td></tr><tr><td>Black</td><td>Acid</td><td>Gold</td><td>Fire</td></tr><tr><td>Blue</td><td>Lightning</td><td>Green</td><td>Poison</td></tr><tr><td>Brass</td><td>Fire</td><td>Red</td><td>Fire</td></tr><tr><td>Bronze</td><td>Lightning</td><td>Silver</td><td>Cold</td></tr><tr><td>Copper</td><td>Acid</td><td>White</td><td>Cold</td></tr></table>
-
-Breath Weapon. When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).
-
-You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.
-
-Damage Resistance. You have Resistance to the damage type determined by your Draconic Ancestry trait.
-
-Darkvision. You have Darkvision with a range of 60 feet.
-
-Draconic Flight. When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.
-
-#### Dwarf
-
-Creature Type: Humanoid
-
-Size: Medium (about 4-5 feet tall)
-
-Speed: 30 feet
-
-As a Dwarf, you have these special traits.
-
-Darkvision. You have Darkvision with a range of 120 feet.
-
-Dwarven Resilience. You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.
-
-Dwarven Toughness. Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.
-
-Stonecunning. As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.
-
-You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.
-
-#### Elf
-
-Creature Type: Humanoid
-
-Size: Medium (about 5-6 feet tall)
-
-Speed: 30 feet
-
-As an Elf, you have these special traits.
-
-Darkvision. You have Darkvision with a range of 60 feet.
-
-Elven Lineage. You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.
-
-When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.
-
-Elven Lineages  
-
-<table><tr><td>Lineage</td><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr><tr><td>Drow</td><td>The range of your Darkvision increases to 120 feet. 
-You also know the Dancing Lights cantrip.</td><td>Faerie Fire</td><td>Darkness</td></tr><tr><td>High Elf</td><td>You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.</td><td>Detect Magic</td><td>Misty Step</td></tr><tr><td>Wood Elf</td><td>Your Speed increases to 35 feet. You also know the Druidcraft cantrip.</td><td>Longstrider</td><td>Pass without Trace</td></tr></table>
-
-Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).
-
-Fey Ancestry. You have Advantage on saving throws you make to avoid or end the Charmed condition.
-
-Keen Senses. You have proficiency in the Insight, Perception, or Survival skill.
-
-Trance. You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.
-
-#### Gnome
-
-Creature Type: Humanoid
-
-Size: Small (about 3-4 feet tall)
-
-Speed: 30 feet
-
-As a Gnome, you have these special traits.
-
-Darkvision. You have Darkvision with a range of 60 feet.
-
-Gnomish Cunning. You have Advantage on Intelligence, Wisdom, and Charisma saving throws.
-
-Gnomish Lineage. You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):
-
-Forest Gnome. You know the Minor Illusion cantrip. You also always have the Speak with Animals spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.
-
-Rock Gnome. You know the Mending and Prestidigitation cantrips. In addition, you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from Prestidigitation; the device produces that
-
-effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.
-
-#### Goliath
-
-Creature Type: Humanoid
-
-Size: Medium (about 7-8 feet tall)
-
-Speed: 35 feet
-
-As a Goliath, you have these special traits.
-
-Giant Ancestry. You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:
-
-Cloud's Jaunt (Cloud Giant). As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.
-
-Fire's Burn (Fire Giant). When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.
-
-Frost's Chill (Frost Giant). When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.
-
-Hill's Tumble (Hill Giant). When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.
-
-Stone's Endurance (Stone Giant). When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.
-
-Storm's Thunder (Storm Giant). When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.
-
-Large Form. Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest.
-
-Powerful Build. You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity.
-
-#### Halfling
-
-Creature Type: Humanoid
-
-Size: Small (about 2-3 feet tall)
-
-Speed: 30 feet
-
-As a Halfling, you have these special traits.
-
-Brave. You have Advantage on saving throws you make to avoid or end the Frightened condition.
-
-Halfling Nimbleness. You can move through the space of any creature that is a size larger than you, but you can't stop in the same space.
-
-Luck. When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.
-
-Naturally Stealthy. You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.
-
-#### Human
-
-Creature Type: Humanoid
-
-Size: Medium (about 4-7 feet tall) or Small (about 2-4 feet tall), chosen when you select this species
-
-Speed: 30 feet
-
-As a Human, you have these special traits.
-
-Resourceful. You gain Heroic Inspiration whenever you finish a Long Rest.
-
-Skillful. You gain proficiency in one skill of your choice.
-
-Versatile. You gain an Origin feat of your choice (see "Feats"). Skilled is recommended.
-
-Fiendish Legacies  
-
-<table><tr><td>Legacy</td><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr><tr><td>Abyssal</td><td>You have Resistance to Poison damage. 
-You also know the Poison Spray cantrip.</td><td>Ray of Sickness</td><td>Hold Person</td></tr><tr><td>Chthonic</td><td>You have Resistance to Necrotic damage. 
-You also know the Chill Touch cantrip.</td><td>False Life</td><td>Ray of Enfeeblement</td></tr><tr><td>Infernal</td><td>You have Resistance to Fire damage. 
-You also know the Fire Bolt cantrip.</td><td>Hellish Rebuke</td><td>Darkness</td></tr></table>
-
-#### Orc
-
-Creature Type: Humanoid
-
-Size: Medium (about 6-7 feet tall)
-
-Speed: 30 feet
-
-As an Orc, you have these special traits.
-
-Adrenaline Rush. You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.
-
-You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.
-
-Darkvision. You have Darkvision with a range of 120 feet.
-
-Relentless Endurance. When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest.
-
-#### Tiefling
-
-Creature Type: Humanoid
-
-Size: Medium (about 4-7 feet tall) or Small (about 3-4 feet tall), chosen when you select this species
-
-Speed: 30 feet
-
-As a Tiefling, you have the following special traits.
-
-Darkvision. You have Darkvision with a range of 60 feet.
-
-Fiendish Legacy. You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.
-
-When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.
-
-Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).
-
-Otherworldly Presence. You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.
-
-# Feats
-
-#### Feat Descriptions
-
-The feats that follow are organized by category—Origin, General, Fighting Style, or Epic Boon—and alphabetized in each category.
-
-#### Parts of a Feat
-
-The description of a feat contains the following parts, which are presented after the feat's name.
-
-Category. A feat is a member of a category, which is noted in the feat. If you're instructed to choose a feat from a specific category, such as the Origin category, that category must appear under the feat's name. If you're instructed to choose a feat and no category is specified, you can choose from any category.
-
-Prerequisite. To take a feat, you must meet any prerequisite in its description unless a feature allows you to take the feat without the prerequisite. If a prerequisite includes a class, you must have at least 1 level in that class to take the feat.
-
-Benefit. The benefits of a feat are detailed after any prerequisites are listed. If you have a feat, you gain its benefits.
-
-Repeatable. A feat can be taken only once unless its description states otherwise in a "Repeatable" subsection.
-
-#### Origin Feats
-
-#### Alert
-
-Origin Feat
-
-You gain the following benefits.
-
-Initiative Proficiency. When you roll Initiative, you can add your Proficiency Bonus to the roll.
-
-Initiative Swap. Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.
-
-#### Magic Initiate
-
-Origin Feat
-
-You gain the following benefits.
-
-Two Cantrips. You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).
-
-Level 1 Spell. Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.
-
-Spell Change. Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.
-
-Repeatable. You can take this feat more than once, but you must choose a different spell list each time.
-
-#### Savage Attacker
-
-Origin Feat
-
-You've trained to deal particularly damaging strikes. Once per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target.
-
-#### Skilled
-
-Origin Feat
-
-You gain proficiency in any combination of three skills or tools of your choice.
-
-Repeatable. You can take this feat more than once.
-
-#### General Feats
-
-#### Ability Score Improvement
-
-General Feat (Prerequisite: Level 4+)
-
-Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. This feat can't increase an ability score above 20.
-
-Repeatable. You can take this feat more than once.
-
-#### Grappler
-
-General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)
-
-You gain the following benefits.
-
-Ability Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 20.
-
-Punch and Grab. When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn.
-
-Attack Advantage. You have Advantage on attack rolls against a creature Grappled by you.
-
-Fast Wrestler. You don't have to spend extra movement to move a creature Grappled by you if the creature is your size or smaller.
-
-#### Fighting Style Feats
-
-#### Archery
-
-Fighting Style Feat (Prerequisite: Fighting Style Feature)
-
-You gain a  $+2$  bonus to attack rolls you make with Ranged weapons.
-
-#### Defense
-
-Fighting Style Feat (Prerequisite: Fighting Style Feature)
-
-While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class.
-
-#### Great Weapon Fighting
-
-Fighting Style Feat (Prerequisite: Fighting Style Feature)
-
-When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit.
-
-#### Two-Weapon Fighting
-
-Fighting Style Feat (Prerequisite: Fighting Style Feature)
-
-When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage.
-
-#### Epic Boon Feats
-
-#### Boon of Combat Prowess
-
-Epic Boon Feat (Prerequisite: Level 19+)
-
-You gain the following benefits.
-
-Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 30.
-
-Peerless Aim. When you miss with an attack roll, you can hit instead. Once you use this benefit, you can't use it again until the start of your next turn.
-
-#### Boon of Dimensional Travel
-
-Epic Boon Feat (Prerequisite: Level  $19+$ )
-
-You gain the following benefits.
-
-Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 30.
-
-Blink Steps. Immediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see.
-
-#### Boon of Fate
-
-Epic Boon Feat (Prerequisite: Level 19+)
-
-You gain the following benefits.
-
-Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 30.
-
-Improve Fate. When you or another creature within 60 feet of you succeeds on or fails a D20 Test, you can roll 2d4 and apply the total rolled as a
-
-bonus or penalty to the d20 roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short or Long Rest.
-
-#### Boon of Irresistible Offense
-
-Epic Boon Feat (Prerequisite: Level 19+)
-
-You gain the following benefits.
-
-Ability Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 30.
-
-Overcome Defenses. The Bludgeoning, Piercing, and Slashing damage you deal always ignores Resistance.
-
-Overwhelming Strike. When you roll a 20 on the d20 for an attack roll, you can deal extra damage to the target equal to the ability score increased by this feat. The extra damage's type is the same as the attack's type.
-
-#### Boon of Spell Recall
-
-Epic Boon Feat (Prerequisite: Level 19+, Spellcasting Feature)
-
-You gain the following benefits.
-
-Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.
-
-Free Casting. Whenever you cast a spell with a level 1-4 spell slot, roll 1d4. If the number you roll is the same as the slot's level, the slot isn't expended.
-
-#### Boon of the Night Spirit
-
-Epic Boon Feat (Prerequisite: Level 19+)
-
-You gain the following benefits.
-
-Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 30.
-
-Merge with Shadows. While within Dim Light or Darkness, you can give yourself the Invisible condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.
-
-Shadowy Form. While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.
-
-#### Boon of Truesight
-
-Epic Boon Feat (Prerequisite: Level 19+)
-
-You gain the following benefits.
-
-Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 30.
-
-Truesight. You have Truesight with a range of 60 feet.
-
-# Equipment
-
-#### Coins
-
-Characters often find coins on their adventures and can spend those coins in shops, inns, and other businesses. Coins come in different denominations based on the relative worth of their material. The Coin Values table lists coins and how much they're worth relative to the Gold Piece, which is the game's main coin. For example, 100 Copper Pieces are worth 1 Gold Piece.
-
-A coin weighs about a third of an ounce, so fifty coins weigh a pound.
-
-Coin Values  
-
-<table><tr><td>Coin</td><td>Value in GP</td></tr><tr><td>Copper Piece (CP)</td><td>1/100</td></tr><tr><td>Silver Piece (SP)</td><td>1/10</td></tr><tr><td>Electrum Piece (EP)</td><td>1/2</td></tr><tr><td>Gold Piece (GP)</td><td>1</td></tr><tr><td>Platinum Piece (PP)</td><td>10</td></tr></table>
-
-#### Weapons
-
-The Weapons table in this section shows the game's main weapons. The table lists the cost and weight of each weapon, as well as the following details:
-
-Category. Every weapon falls into a category: Simple or Martial. Weapon proficiencies are usually tied to one of these categories. For example, you might have proficiency with Simple weapons.
-
-Melee or Ranged. A weapon is classified as either Melee or Ranged. A Melee weapon is used to attack a target within 5 feet, whereas a Ranged weapon is used to attack at a greater distance.
-
-Damage. The table lists the amount of damage a weapon deals when an attacker hits with it as well as the type of that damage.
-
-Properties. Any properties a weapon has are listed in the Properties column. Each property is defined in the "Properties" section.
-
-Mastery. Each weapon has a mastery property, which is defined in the "Mastery Properties" section. To use that property, you must have a feature that lets you use it.
-
-#### SELLING EQUIPMENT
-
-Equipment fetches half its cost when sold. In contrast, trade goods and valuables—like gems and art objects—retain their full value in the marketplace. "Magic Items" has prices for magic items.
-
-#### Weapon Proficiency
-
-Anyone can wield a weapon, but you must have proficiency with it to add your Proficiency Bonus to an attack roll you make with it. A player character's features can provide weapon proficiencies. A monster is proficient with any weapon in its stat block.
-
-#### Properties
-
-Here are definitions of the properties in the Properties column of the Weapons table.
-
-#### Ammunition
-
-You can use a weapon that has the Ammunition property to make a ranged attack only if you have ammunition to fire from it. The type of ammunition required is specified with the weapon's range. Each attack expends one piece of ammunition. Drawing the ammunition is part of the attack (you need a free hand to load a one-handed weapon). After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost.
-
-#### Finesse
-
-When making an attack with a Finesse weapon, use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
-
-#### Heavy
-
-You have Disadvantage on attack rolls with a Heavy weapon if it's a Melee weapon and your Strength score isn't at least 13 or if it's a Ranged weapon and your Dexterity score isn't at least 13.
-
-#### Light
-
-When you take the Attack action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage unless that modifier is negative. For example, you can attack with a Shortsword in one hand and a Dagger in the other using the Attack action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action unless that modifier is negative.
-
-#### Loading
-
-You can fire only one piece of ammunition from a Loading weapon when you use an action, a Bonus Action, or a Reaction to fire it, regardless of the number of attacks you can normally make.
-
-#### Range
-
-A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second is the weapon's long range. When attacking a target beyond normal range, you have Disadvantage on the attack roll. You can't attack a target beyond the long range.
-
-#### Reach
-
-A Reach weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for Opportunity Attacks with it.
-
-#### Thrown
-
-If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack. If the weapon is a Melee weapon, use the same ability modifier for the attack and damage rolls that you use for a melee attack with that weapon.
-
-#### Two-Handed
-
-A Two-Handed weapon requires two hands when you attack with it.
-
-#### Versatile
-
-A Versatile weapon can be used with one or two hands. A damage value in parentheses appears with the property. The weapon deals that damage when used with two hands to make a melee attack.
-
-#### Mastery Properties
-
-Each weapon has a mastery property, which is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character. The properties are defined below.
-
-#### IMPROVISED WEAPONS
-
-If you use an object—such as a table leg, frying pan, or bottle—as a makeshift weapon, see “Improvised Weapons” in “Rules Glossary.” Also see those rules if you wield a weapon in an unusual way, such as using a Ranged weapon to make a melee attack.
-
-#### Cleave
-
-If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.
-
-#### Graze
-
-If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.
-
-#### Nick
-
-When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.
-
-#### Push
-
-If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.
-
-#### Sap
-
-If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.
-
-#### Slow
-
-If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.
-
-#### Topple
-
-If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.
-
-#### Vex
-
-If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.
-
-Weapons  
-
-<table><tr><td>Name</td><td>Damage</td><td>Properties</td><td>Mastery</td><td>Weight</td><td>Cost</td></tr><tr><td colspan="6">Simple Melee Weapons</td></tr><tr><td>Club</td><td>Id4 Bludgeoning</td><td>Light</td><td>Slow</td><td>2 lb.</td><td>1 SP</td></tr><tr><td>Dagger</td><td>Id4 Piercing</td><td>Finesse, Light, Thrown (Range 20/60)</td><td>Nick</td><td>1 lb.</td><td>2 GP</td></tr><tr><td>Greatclub</td><td>Id8 Bludgeoning</td><td>Two-Handed</td><td>Push</td><td>10 lb.</td><td>2 SP</td></tr><tr><td>Handaxe</td><td>Id6 Slashing</td><td>Light, Thrown (Range 20/60)</td><td>Vex</td><td>2 lb.</td><td>5 GP</td></tr><tr><td>Javelin</td><td>Id6 Piercing</td><td>Thrown (Range 30/120)</td><td>Slow</td><td>2 lb.</td><td>5 SP</td></tr><tr><td>Light Hammer</td><td>Id4 Bludgeoning</td><td>Light, Thrown (Range 20/60)</td><td>Nick</td><td>2 lb.</td><td>2 GP</td></tr><tr><td>Mace</td><td>Id6 Bludgeoning</td><td>—</td><td>Sap</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>Quarterstaff</td><td>Id6 Bludgeoning</td><td>Versatile (Id8)</td><td>Topple</td><td>4 lb.</td><td>2 SP</td></tr><tr><td>Sickle</td><td>Id4 Slashing</td><td>Light</td><td>Nick</td><td>2 lb.</td><td>1 GP</td></tr><tr><td>Spear</td><td>Id6 Piercing</td><td>Thrown (Range 20/60), Versatile (Id8)</td><td>Sap</td><td>3 lb.</td><td>1 GP</td></tr><tr><td colspan="6">Simple Ranged Weapons</td></tr><tr><td>Dart</td><td>Id4 Piercing</td><td>Finesse, Thrown (Range 20/60)</td><td>Vex</td><td>1/4 lb.</td><td>5 CP</td></tr><tr><td>Light Crossbow</td><td>Id8 Piercing</td><td>Ammunition (Range 80/320; Bolt), Loading, Two-Handed</td><td>Slow</td><td>5 lb.</td><td>25 GP</td></tr><tr><td>Shortbow</td><td>Id6 Piercing</td><td>Ammunition (Range 80/320; Arrow), Two-Handed</td><td>Vex</td><td>2 lb.</td><td>25 GP</td></tr><tr><td>Sling</td><td>Id4 Bludgeoning</td><td>Ammunition (Range 30/120; Bullet)</td><td>Slow</td><td>—</td><td>1 SP</td></tr><tr><td colspan="6">Martial Melee Weapons</td></tr><tr><td>Battleaxe</td><td>Id8 Slashing</td><td>Versatile (Id10)</td><td>Topple</td><td>4 lb.</td><td>10 GP</td></tr><tr><td>Flail</td><td>Id8 Bludgeoning</td><td>—</td><td>Sap</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>Glaive</td><td>Id10 Slashing</td><td>Heavy, Reach, Two-Handed</td><td>Graze</td><td>6 lb.</td><td>20 GP</td></tr><tr><td>Greataxe</td><td>Id12 Slashing</td><td>Heavy, Two-Handed</td><td>Cleave</td><td>7 lb.</td><td>30 GP</td></tr><tr><td>Greatsword</td><td>2d6 Slashing</td><td>Heavy, Two-Handed</td><td>Graze</td><td>6 lb.</td><td>50 GP</td></tr><tr><td>Halberd</td><td>Id10 Slashing</td><td>Heavy, Reach, Two-Handed</td><td>Cleave</td><td>6 lb.</td><td>20 GP</td></tr><tr><td>Lance</td><td>Id10 Piercing</td><td>Heavy, Reach, Two-Handed (unless mounted)</td><td>Topple</td><td>6 lb.</td><td>10 GP</td></tr><tr><td>Longsword</td><td>Id8 Slashing</td><td>Versatile (Id10)</td><td>Sap</td><td>3 lb.</td><td>15 GP</td></tr><tr><td>Maul</td><td>2d6 Bludgeoning</td><td>Heavy, Two-Handed</td><td>Topple</td><td>10 lb.</td><td>10 GP</td></tr><tr><td>Morningstar</td><td>Id8 Piercing</td><td>—</td><td>Sap</td><td>4 lb.</td><td>15 GP</td></tr><tr><td>Pike</td><td>Id10 Piercing</td><td>Heavy, Reach, Two-Handed</td><td>Push</td><td>18 lb.</td><td>5 GP</td></tr><tr><td>Rapier</td><td>Id8 Piercing</td><td>Finesse</td><td>Vex</td><td>2 lb.</td><td>25 GP</td></tr><tr><td>Scimitar</td><td>Id6 Slashing</td><td>Finesse, Light</td><td>Nick</td><td>3 lb.</td><td>25 GP</td></tr><tr><td>Shortsword</td><td>Id6 Piercing</td><td>Finesse, Light</td><td>Vex</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>Trident</td><td>Id8 Piercing</td><td>Thrown (Range 20/60), Versatile (Id10)</td><td>Topple</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>Warhammer</td><td>Id8 Bludgeoning</td><td>Versatile (Id10)</td><td>Push</td><td>5 lb.</td><td>15 GP</td></tr><tr><td>War Pick</td><td>Id8 Piercing</td><td>Versatile (Id10)</td><td>Sap</td><td>2 lb.</td><td>5 GP</td></tr><tr><td>Whip</td><td>Id4 Slashing</td><td>Finesse, Reach</td><td>Slow</td><td>3 lb.</td><td>2 GP</td></tr><tr><td colspan="6">Martial Ranged Weapons</td></tr><tr><td>Blowgun</td><td>I Piercing</td><td>Ammunition (Range 25/100; Needle), Loading</td><td>Vex</td><td>1 lb.</td><td>10 GP</td></tr><tr><td>Hand Crossbow</td><td>Id6 Piercing</td><td>Ammunition (Range 30/120; Bolt), Light, Loading</td><td>Vex</td><td>3 lb.</td><td>75 GP</td></tr><tr><td>Heavy Crossbow</td><td>Id10 Piercing</td><td>Ammunition (Range 100/400; Bolt), Heavy, Loading, Two-Handed</td><td>Push</td><td>18 lb.</td><td>50 GP</td></tr><tr><td>Longbow</td><td>Id8 Piercing</td><td>Ammunition (Range 150/600; Arrow), Heavy, Two-Handed</td><td>Slow</td><td>2 lb.</td><td>50 GP</td></tr><tr><td>Musetk</td><td>Id12 Piercing</td><td>Ammunition (Range 40/120; Bullet), Loading, Two-Handed</td><td>Slow</td><td>10 lb.</td><td>500 GP</td></tr><tr><td>Pistol</td><td>Id10 Piercing</td><td>Ammunition (Range 30/90; Bullet), Loading</td><td>Vex</td><td>3 lb.</td><td>250 GP</td></tr></table>
-
-#### Armor
-
-The Armor table lists the game's main armor. The table includes the cost and weight of armor, as well as the following details:
-
-Category. Every type of armor falls into a category: Light, Medium, or Heavy. The category determines how long it takes to don or doff the armor (as shown in the table).  
-Armor Class (AC). The table's Armor Class column tells you what your base AC is when you wear a type of armor. For example, if you wear Leather Armor, your base AC is 11 plus your Dexterity modifier, whereas your AC is 16 in Chain Mail.  
-Strength. If the table shows a Strength score in the Strength column for an armor type, that armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.  
-Stealth. If the table shows "Disadvantage" in the Stealth column for an armor type, the wearer has Disadvantage on Dexterity (Stealth) checks.
-
-#### Armor Training
-
-Anyone can don armor or hold a Shield, but only those with training can use them effectively, as explained below. A character's class and other features determine the character's armor training. A monster has training with any armor in its stat block.
-
-#### Light, Medium, or Heavy Armor
-
-If you wear Light, Medium, or Heavy armor and lack training with it, you have Disadvantage on any D20 Test that involves Strength or Dexterity, and you can't cast spells.
-
-#### Shield
-
-You gain the Armor Class benefit of a Shield only if you have training with it.
-
-#### One at a Time
-
-A creature can wear only one suit of armor at a time and wield only one Shield at a time.
-
-Armor  
-
-<table><tr><td>Armor</td><td>Armor Class (AC)</td><td>Strength</td><td>Stealth</td><td>Weight</td><td>Cost</td></tr><tr><td colspan="6">Light Armor (1 Minute to Don or Doff)</td></tr><tr><td>Padded Armor</td><td>11 + Dex modifier</td><td>—</td><td>Disadvantage</td><td>8 lb.</td><td>5 GP</td></tr><tr><td>Leather Armor</td><td>11 + Dex modifier</td><td>—</td><td>—</td><td>10 lb.</td><td>10 GP</td></tr><tr><td>Studded Leather Armor</td><td>12 + Dex modifier</td><td>—</td><td>—</td><td>13 lb.</td><td>45 GP</td></tr><tr><td colspan="6">Medium Armor (5 Minutes to Don and 1 Minute to Doff)</td></tr><tr><td>Hide Armor</td><td>12 + Dex modifier (max 2)</td><td>—</td><td>—</td><td>12 lb.</td><td>10 GP</td></tr><tr><td>Chain Shirt</td><td>13 + Dex modifier (max 2)</td><td>—</td><td>—</td><td>20 lb.</td><td>50 GP</td></tr><tr><td>Scale Mail</td><td>14 + Dex modifier (max 2)</td><td>—</td><td>Disadvantage</td><td>45 lb.</td><td>50 GP</td></tr><tr><td>Breastplate</td><td>14 + Dex modifier (max 2)</td><td>—</td><td>—</td><td>20 lb.</td><td>400 GP</td></tr><tr><td>Half Plate Armor</td><td>15 + Dex modifier (max 2)</td><td>—</td><td>Disadvantage</td><td>40 lb.</td><td>750 GP</td></tr><tr><td colspan="6">Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)</td></tr><tr><td>Ring Mail</td><td>14</td><td>—</td><td>Disadvantage</td><td>40 lb.</td><td>30 GP</td></tr><tr><td>Chain Mail</td><td>16</td><td>Str 13</td><td>Disadvantage</td><td>55 lb.</td><td>75 GP</td></tr><tr><td>Splint Armor</td><td>17</td><td>Str 15</td><td>Disadvantage</td><td>60 lb.</td><td>200 GP</td></tr><tr><td>Plate Armor</td><td>18</td><td>Str 15</td><td>Disadvantage</td><td>65 lb.</td><td>1,500 GP</td></tr><tr><td colspan="6">Shield (Utilize Action to Don or Doff)</td></tr><tr><td>Shield</td><td>+2</td><td>—</td><td>—</td><td>6 lb.</td><td>10 GP</td></tr></table>
-
-#### Tools
-
-A tool helps you make specialized ability checks, craft certain items, or both. A tool's description includes the tool's cost and weight, as well as the following entries:
-
-Ability. This entry lists the ability to use when making an ability check with the tool.
-
-Utilize. This entry lists things you can do with the tool when you take the Utilize action. You can do one of those things each time you take the action. This entry also provides the DC for the action.
-
-Craft. This entry lists what, if anything, you can craft with the tool. For crafting rules, see "Crafting Nonmagical Items," "Brewing Potions of Healing," and "Scribing Spell scrolls" later in "Equipment."
-
-Variants. This entry appears if the tool has variants, which are listed. Each requires a separate proficiency.
-
-#### Tool Proficiency
-
-If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have Advantage on the check too.
-
-Your features might give you proficiency with a tool. A monster has proficiency with any tool in its stat block.
-
-#### Artisan's Tools
-
-Artisan's Tools are each focused on crafting items and pursuing a trade. Each of these tools requires a separate proficiency.
-
-#### Alchemist's Supplies (50 GP)
-
-Ability: Intelligence Weight: 8 lb.
-
-Utilize: Identify a substance (DC 15), or start a fire (DC 15)
-
-Craft: Acid, Alchemist's Fire, Component Pouch, Oil, Paper, Perfume
-
-#### Brewer's Supplies (20 GP)
-
-Ability: Intelligence Weight: 9 lb.
-
-Utilize: Detect poisoned drink (DC 15), or identify alcohol (DC 10)
-
-Craft: Antitoxin
-
-#### Calligrapher's Supplies (10 GP)
-
-Ability: Dexterity Weight: 5 lb.
-
-Utilize: Write text with impressive flourishes that guard against forgery (DC 15)
-
-Craft: Ink, Spell Scroll
-
-#### Carpenter's Tools (8 GP)
-
-Ability: Strength Weight: 6 lb.
-
-Utilize: Seal or pry open a door or container (DC 20)
-
-Craft: Club, Greatclub, Quarterstaff, Barrel, Chest, Ladder, Pole, Portable Ram, Torch
-
-#### Cartographer's Tools (15 GP)
-
-Ability: Wisdom Weight: 6 lb.
-
-Utilize: Draft a map of a small area (DC 15)
-
-Craft:Map
-
-#### Cobbler's Tools (5 GP)
-
-Ability: Dexterity Weight: 5 lb.
-
-Utilize: Modify footwear to give Advantage on the wearer's next Dexterity (Acrobatics) check (DC 10)
-
-Craft: Climber's Kit
-
-#### Cook's Utensils (I GP)
-
-Ability: Wisdom Weight: 8 lb.
-
-Utilize: Improve food's flavor (DC 10), or detect spoiled or poisoned food (DC 15)
-
-Craft: Rations
-
-#### Glassblower's Tools (30 GP)
-
-Ability: Intelligence Weight: 5 lb.
-
-Utilize: Discern what a glass object held in the past 24 hours (DC 15)
-
-Craft: Glass Bottle, Magnifying Glass, Spyglass, Vial
-
-#### Jeweler's Tools (25 GP)
-
-Ability: Intelligence Weight: 2 lb.
-
-Utilize: Discern a gem's value (DC 15)
-
-Craft: Arcane Focus, Holy Symbol
-
-#### Leatherworker's Tools (5 GP)
-
-Ability: Dexterity Weight: 5 lb.
-
-Utilize: Add a design to a leather item (DC 10)
-
-Craft: Sling, Whip, Hide Armor, Leather Armor, Studded Leather Armor, Backpack, Crossbow Bolt Case, Map or Scroll Case, Parchment, Pouch, Quiver, Waterskin
-
-#### Mason's Tools (10 GP)
-
-Ability: Strength Weight: 8 lb.
-
-Utilize: Chisel a symbol or hole in stone (DC 10)
-
-Craft: Block and Tackle
-
-#### Painter's Supplies (10 GP)
-
-Ability: Wisdom Weight: 5 lb.
-
-Utilize: Paint a recognizable image of something you've seen (DC 10)
-
-Craft: Druidic Focus, Holy Symbol
-
-#### Potter's Tools (10 GP)
-
-Ability: Intelligence Weight: 3 lb.
-
-Utilize: Discern what a ceramic object held in the past 24 hours (DC 15)
-
-Craft: Jug, Lamp
-
-#### Smith's Tools (20 GP)
-
-Ability: Strength Weight: 8 lb.
-
-Utilize: Pry open a door or container (DC 20)
-
-Craft: Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, Ball Bearings, Bucket, Caltrops, Chain, Crowbar, Firearm Bullets, Grappling Hook, Iron Pot, Iron Spikes, Sling Bullets
-
-#### Tinker's Tools (50 GP)
-
-Ability: Dexterity
-
-Weight: 10 lb.
-
-Utilize: Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)
-
-Craft: Musket, Pistol, Bell, Bullseye Lantern, Flask, Hooded Lantern, Hunting Trap, Lock, Manacles, Mirror, Shovel, Signal Whistle, Thunderbox
-
-#### Weaver's Tools (I GP)
-
-Ability: Dexterity
-
-Weight: 5 lb.
-
-Utilize: Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)
-
-Craft: Padded Armor, Basket, Bedroll, Blanket, Fine Clothes, Net, Robe, Rope, Sack, String, Tent, Traveler's Clothes
-
-#### Woodcarver's Tools (I GP)
-
-Ability: Dexterity
-
-Weight: 5 lb.
-
-Utilize: Carve a pattern in wood (DC 10)
-
-Craft: Club, Greatclub, Quarterstaff, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, Arrows, Bolts, Druidic Focus, Ink Pen, Needles
-
-#### Other Tools
-
-#### Disguise Kit (25 GP)
-
-Ability:Charisma
-
-Weight: 3 lb.
-
-Utilize: Apply makeup (DC 10)
-
-Craft: Costume
-
-#### Forgery Kit (15 GP)
-
-Ability: Dexterity
-
-Weight: 5 lb.
-
-Utilize: Mimic 10 or fewer words of someone else's handwriting (DC 15), or duplicate a wax seal (DC 20)
-
-#### Gaming Set (Varies)
-
-Ability: Wisdom
-
-Weight: —
-
-Utilize: Discern whether someone is cheating (DC 10), or win the game (DC 20)
-
-Variants: Dice (I SP), dragonchess (I GP), playing cards (5 SP), three-dragon ante (I GP)
-
-#### Herbalism Kit (5 GP)
-
-Ability: Intelligence
-
-Weight: 3 lb.
-
-Utilize: Identify a plant (DC 10)
-
-Craft: Antitoxin, Candle, Healer's Kit, Potion of Healing
-
-#### Musical Instrument (Varies)
-
-Ability:Charisma
-
-Weight:Varies
-
-Utilize: Play a known tune (DC 10), or improvise a song (DC 15)
-
-Variants: Bagpipes (30 GP, 6 lb.), drum (6 GP, 3 lb.), dul
-
-cimer (25 GP, 10 lb.), flute (2 GP, 1 lb.), horn (3 GP, 2 lb.), lute (35 GP, 2 lb.), lyre (30 GP, 2 lb.), pan flute (12 GP, 2 lb.), shawm (2 GP, 1 lb.), viol (30 GP, 1 lb.)
-
-#### Navigator's Tools (25 GP)
-
-Ability: Wisdom
-
-Weight: 2 lb.
-
-Utilize: Plot a course (DC 10), or determine position by stargazing (DC 15)
-
-#### Poisoner's Kit (50 GP)
-
-Ability: Intelligence
-
-Weight: 2 lb.
-
-Utilize: Detect a poisoned object (DC 10)
-
-Craft: Basic Poison
-
-#### Thieves' Tools (25 GP)
-
-Ability: Dexterity
-
-Weight: 1 lb.
-
-Utilize: Pick a lock (DC 15), or disarm a trap (DC 15)
-
-#### Adventuring Gear
-
-The Adventuring Gear table in this section includes gear that adventurers often find useful. These items are described here in alphabetical order, with an item's price appearing after its name.
-
-#### Acid (25 GP)
-
-When you take the Attack action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d6 Acid damage.
-
-#### Alchemist's Fire (50 GP)
-
-When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 1d4 Fire damage and start burning (see "Rules Glossary").
-
-#### Ammunition (Varies)
-
-Ammunition is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.
-
-Adventuring Gear  
-
-<table><tr><td>Item</td><td>Weight</td><td>Cost</td></tr><tr><td>Acid</td><td>1 lb.</td><td>25 GP</td></tr><tr><td>Alchemist&####x27;s Fire</td><td>1 lb.</td><td>50 GP</td></tr><tr><td>Ammunition</td><td>Varies</td><td>Varies</td></tr><tr><td>Antitoxin</td><td>—</td><td>50 GP</td></tr><tr><td>Arcane Focus</td><td>Varies</td><td>Varies</td></tr><tr><td>Backpack</td><td>5 lb.</td><td>2 GP</td></tr><tr><td>Ball Bearings</td><td>2 lb.</td><td>1 GP</td></tr><tr><td>Barrel</td><td>70 lb.</td><td>2 GP</td></tr><tr><td>Basket</td><td>2 lb.</td><td>4 SP</td></tr><tr><td>Bedroll</td><td>7 lb.</td><td>1 GP</td></tr><tr><td>Bell</td><td>—</td><td>1 GP</td></tr><tr><td>Blanket</td><td>3 lb.</td><td>5 SP</td></tr><tr><td>Block and Tackle</td><td>5 lb.</td><td>1 GP</td></tr><tr><td>Book</td><td>5 lb.</td><td>25 GP</td></tr><tr><td>Bottle, Glass</td><td>2 lb.</td><td>2 GP</td></tr><tr><td>Bucket</td><td>2 lb.</td><td>5 CP</td></tr><tr><td>Burglar&####x27;s Pack</td><td>42 lb.</td><td>16 GP</td></tr><tr><td>Caltrops</td><td>2 lb.</td><td>1 GP</td></tr><tr><td>Candle</td><td>—</td><td>1 CP</td></tr><tr><td>Case, Crossbow Bolt</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>Case, Map or Scroll</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>Chain</td><td>10 lb.</td><td>5 GP</td></tr><tr><td>Chest</td><td>25 lb.</td><td>5 GP</td></tr><tr><td>Climber&####x27;s Kit</td><td>12 lb.</td><td>25 GP</td></tr><tr><td>Clothes, Fine</td><td>6 lb.</td><td>15 GP</td></tr><tr><td>Clothes, Traveler&####x27;s</td><td>4 lb.</td><td>2 GP</td></tr><tr><td>Component Pouch</td><td>2 lb.</td><td>25 GP</td></tr><tr><td>Costume</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>Crowbar</td><td>5 lb.</td><td>2 GP</td></tr><tr><td>Diplomat&####x27;s Pack</td><td>39 lb.</td><td>39 GP</td></tr><tr><td>Druidic Focus</td><td>Varies</td><td>Varies</td></tr><tr><td>Dungeoner&####x27;s Pack</td><td>55 lb.</td><td>12 GP</td></tr><tr><td>Entertainer&####x27;s Pack</td><td>58½ lb.</td><td>40 GP</td></tr><tr><td>Explorer&####x27;s Pack</td><td>55 lb.</td><td>10 GP</td></tr><tr><td>Flask</td><td>1 lb.</td><td>2 CP</td></tr><tr><td>Grappling Hook</td><td>4 lb.</td><td>2 GP</td></tr><tr><td>Healer&####x27;s Kit</td><td>3 lb.</td><td>5 GP</td></tr><tr><td>Holy Symbol</td><td>Varies</td><td>Varies</td></tr><tr><td>Holy Water</td><td>1 lb.</td><td>25 GP</td></tr><tr><td>Hunting Trap</td><td>25 lb.</td><td>5 GP</td></tr><tr><td>Ink</td><td>—</td><td>10 GP</td></tr></table>
-
-<table><tr><td>Item</td><td>Weight</td><td>Cost</td></tr><tr><td>Ink Pen</td><td>—</td><td>2 CP</td></tr><tr><td>Jug</td><td>4 lb.</td><td>2 CP</td></tr><tr><td>Ladder</td><td>25 lb.</td><td>1 SP</td></tr><tr><td>Lamp</td><td>1 lb.</td><td>5 SP</td></tr><tr><td>Lantern, Bullseye</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>Lantern, Hooded</td><td>2 lb.</td><td>5 GP</td></tr><tr><td>Lock</td><td>1 lb.</td><td>10 GP</td></tr><tr><td>Magnifying Glass</td><td>—</td><td>100 GP</td></tr><tr><td>Manacles</td><td>6 lb.</td><td>2 GP</td></tr><tr><td>Map</td><td>—</td><td>1 GP</td></tr><tr><td>Mirror</td><td>1/2 lb.</td><td>5 GP</td></tr><tr><td>Net</td><td>3 lb.</td><td>1 GP</td></tr><tr><td>Oil</td><td>1 lb.</td><td>1 SP</td></tr><tr><td>Paper</td><td>—</td><td>2 SP</td></tr><tr><td>Parchment</td><td>—</td><td>1 SP</td></tr><tr><td>Perfume</td><td>—</td><td>5 GP</td></tr><tr><td>Poison, Basic</td><td>—</td><td>100 GP</td></tr><tr><td>Pole</td><td>7 lb.</td><td>5 CP</td></tr><tr><td>Pot, Iron</td><td>10 lb.</td><td>2 GP</td></tr><tr><td>Potion of Healing</td><td>1/2 lb.</td><td>50 GP</td></tr><tr><td>Pouch</td><td>1 lb.</td><td>5 SP</td></tr><tr><td>Priest&####x27;s Pack</td><td>29 lb.</td><td>33 GP</td></tr><tr><td>Quiver</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>Ram, Portable</td><td>35 lb.</td><td>4 GP</td></tr><tr><td>Rations</td><td>2 lb.</td><td>5 SP</td></tr><tr><td>Robe</td><td>4 lb.</td><td>1 GP</td></tr><tr><td>Rope</td><td>5 lb.</td><td>1 GP</td></tr><tr><td>Sack</td><td>1/2 lb.</td><td>1 CP</td></tr><tr><td>Scholar&####x27;s Pack</td><td>22 lb.</td><td>40 GP</td></tr><tr><td>Shovel</td><td>5 lb.</td><td>2 GP</td></tr><tr><td>Signal Whistle</td><td>—</td><td>5 CP</td></tr><tr><td>Spell Scroll (Cantrip)</td><td>—</td><td>30 GP</td></tr><tr><td>Spell Scroll (Level I)</td><td>—</td><td>50 GP</td></tr><tr><td>Spikes, Iron</td><td>5 lb.</td><td>1 GP</td></tr><tr><td>Spyglass</td><td>1 lb.</td><td>1,000 GP</td></tr><tr><td>String</td><td>—</td><td>1 SP</td></tr><tr><td>Tent</td><td>20 lb.</td><td>2 GP</td></tr><tr><td>Tinderbox</td><td>1 lb.</td><td>5 SP</td></tr><tr><td>Torch</td><td>1 lb.</td><td>1 CP</td></tr><tr><td>Vial</td><td>—</td><td>1 GP</td></tr><tr><td>Waterskin</td><td>5 lb. (full)</td><td>2 SP</td></tr></table>
-
-Ammunition  
-
-<table><tr><td>Type</td><td>Amount</td><td>Storage</td><td>Weight</td><td>Cost</td></tr><tr><td>Arrows</td><td>20</td><td>Quiver</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>Bolts</td><td>20</td><td>Case</td><td>1½ lb.</td><td>1 GP</td></tr><tr><td>Bullets, Firearm</td><td>10</td><td>Pouch</td><td>2 lb.</td><td>3 GP</td></tr><tr><td>Bullets, Sling</td><td>20</td><td>Pouch</td><td>1½ lb.</td><td>4 CP</td></tr><tr><td>Needles</td><td>50</td><td>Pouch</td><td>1 lb.</td><td>1 GP</td></tr></table>
-
-#### Antitoxin (50 GP)
-
-As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour.
-
-#### Arcane Focus (Varies)
-
-An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.
-
-Arcane Focuses  
-
-<table><tr><td>Focus</td><td>Weight</td><td>Cost</td></tr><tr><td>Crystal</td><td>1 lb.</td><td>10 GP</td></tr><tr><td>Orb</td><td>3 lb.</td><td>20 GP</td></tr><tr><td>Rod</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>Staff (also a Quarterstaff)</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>Wand</td><td>1 lb.</td><td>10 GP</td></tr></table>
-
-#### Backpack (2 GP)
-
-A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.
-
-#### Ball Bearings (I GP)
-
-As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the Prone condition. It takes 10 minutes to recover the Ball Bearings.
-
-#### Barrel (2 GP)
-
-A Barrel holds up to 40 gallons of liquid or up to 4 cubic feet of dry goods.
-
-#### Basket (4 SP)
-
-A Basket holds up to 40 pounds within 2 cubic feet.
-
-#### Bedroll (I GP)
-
-A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see "Gameplay Toolbox").
-
-#### Bell (I GP)
-
-When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.
-
-#### Blanket (5 SP)
-
-While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see "Gameplay Toolbox").
-
-#### Block and Tackle (I GP)
-
-A Block and Tackle allows you to hoist up to four times the weight you can normally lift.
-
-#### Book (25 GP)
-
-A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.
-
-#### Bottle, Glass (2 GP)
-
-A Glass Bottle holds up to  $1 \frac{1}{2}$  pints.
-
-#### Bucket (5 CP)
-
-A Bucket holds up to half a cubic foot of contents.
-
-#### Burglar's Pack (16 GP)
-
-A Burglar's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles, Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Thunderbox, and Waterskin.
-
-#### Caltrops (I GP)
-
-As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops.
-
-#### Candle (I CP)
-
-For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.
-
-#### Case, Crossbow Bolt (I GP)
-
-A Crossbow Bolt Case holds up to 20 Bolts.
-
-#### Case, Map or Scroll (I GP)
-
-A Map or Scroll Case holds up to 10 sheets of paper or 5 sheets of parchment.
-
-#### Chain (5 GP)
-
-As a Utilize action, you can wrap a Chain around an unwilling creature within 5 feet of yourself that has the Grappled, Incapacitated, or Restrained condition if you succeed on a DC 13 Strength (Athletics) check. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Chain requires the creature to make a successful DC 18 Dexterity (Acrobatics) check as an action. Bursting the Chain requires a successful DC 20 Strength (Athletics) check as an action.
-
-#### Chest (5 GP)
-
-A Chest holds up to 12 cubic feet of contents.
-
-#### Climber's Kit (25 GP)
-
-A Climber's Kit includes boot tips, gloves, pitons, and a harness. As a Utilize action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a Bonus Action.
-
-#### Clothes, Fine (15 GP)
-
-Fine Clothes are made of expensive fabrics and adorned with expertly crafted details. Some events and locations admit only people wearing these clothes.
-
-#### Clothes, Traveler's (2 GP)
-
-Traveler's Clothes are resilient garments designed for travel in various environments.
-
-#### Component Pouch (25 GP)
-
-A Component Pouch is watertight and filled with compartments that hold all the free Material components of your spells.
-
-#### Costume (5 GP)
-
-While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents.
-
-#### Crowbar (2 GP)
-
-Using a Crowbar gives you Advantage on Strength checks where the Crowbar's leverage can be applied.
-
-#### Diplomat's Pack (39 GP)
-
-A Diplomat's Pack contains the following items: Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map or Scroll Cases, 4 flasks of Oil, 5 sheets of Paper, 5 sheets of Parchment, Perfume, and Thunderbox.
-
-#### Druidic Focus (Varies)
-
-A Druidic Focus takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.
-
-Druidic Focuses  
-
-<table><tr><td>Focus</td><td>Weight</td><td>Cost</td></tr><tr><td>Sprig of mistletoe</td><td>—</td><td>1 GP</td></tr><tr><td>Wooden staff (also a Quarterstaff)</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>Yew wand</td><td>1 lb.</td><td>10 GP</td></tr></table>
-
-#### Dungeoner's Pack (I2 GP)
-
-A Dungeoner's Pack contains the following items: Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10
-
-days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin.
-
-#### Entertainer's Pack (40 GP)
-
-An Entertainer's Pack contains the following items: Backpack, Bedroll, Bell, Bullseye Lantern, 3 Costumes, Mirror, 8 flasks of Oil, 9 days of Rations, Tinderbox, and Waterskin.
-
-#### Explorer's Pack (10 GP)
-
-An Explorer's Pack contains the following items: Backpack, Bedroll, 2 flasks of Oil, 10 days of Rations, Rope, Thunderbox, 10 Torches, and Waterskin.
-
-#### Flask (2 CP)
-
-A Flask holds up to 1 pint.
-
-#### Grappling Hook (2 GP)
-
-As a Utilize action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it.
-
-#### Healer's Kit (5 GP)
-
-A Healer's Kit has ten uses. As a Utilize action, you can expend one of its uses to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom (Medicine) check.
-
-#### Holy Symbol (Varies)
-
-A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.
-
-The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tab- ard or banner) or a Shield.
-
-Holy Symbols  
-
-<table><tr><td>Symbol</td><td>Weight</td><td>Cost</td></tr><tr><td>Amulet (worn or held)</td><td>1 lb.</td><td>5 GP</td></tr><tr><td>Emblem (borne on fabric or a Shield)</td><td>—</td><td>5 GP</td></tr><tr><td>Reliquary (held)</td><td>2 lb.</td><td>5 GP</td></tr></table>
-
-#### Holy Water (25 GP)
-
-When you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead.
-
-#### Hunting Trap (5 GP)
-
-As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center.
-
-The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals 1 Piercing damage to the trapped creature.
-
-#### Ink (10 GP)
-
-Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.
-
-#### Ink Pen (2 CP)
-
-Using Ink, an Ink Pen is used to write or draw.
-
-#### Jug (2 CP)
-
-A Jug holds up to 1 gallon.
-
-#### Ladder (I SP)
-
-A Ladder is 10 feet tall. You must climb to move up or down it.
-
-#### Lamp (5 SP)
-
-A Lamp burns Oil as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.
-
-#### Lantern, Bullseye (10 GP)
-
-A Bullseye Lantern burns Oil as fuel to cast Bright Light in a 60-foot Cone and Dim Light for an additional 60 feet.
-
-#### Lantern, Hooded (5 GP)
-
-A Hooded Lantern burns Oil as fuel to cast Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. As a Bonus Action, you can lower the hood, reducing the light to Dim Light in a 5-foot radius, or raise it again.
-
-#### Lock (10 GP)
-
-A Lock comes with a key. Without the key, a creature can use Thieves' Tools to pick this Lock with a successful DC 15 Dexterity (Sleight of Hand) check.
-
-#### Magnifying Glass (100 GP)
-
-A Magnifying Glass grants Advantage on any ability check made to appraise or inspect a highly detailed item. Lighting a fire with a Magnifying Glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite.
-
-#### Manacles (2 GP)
-
-As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the Grappled, Incapacitated, or Restrained condition if you succeed on a DC 13
-
-Dexterity (Sleight of Hand) check. While bound, a creature has Disadvantage on attack rolls, and the creature is Restrained if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Bursting them requires a successful DC 25 Strength (Athletics) check as an action.
-
-Each set of Manacles comes with a key. Without the key, a creature can use Thieves' Tools to pick the Manacles' lock with a successful DC 15 Dexterity (Sleight of Hand) check.
-
-#### Map (I GP)
-
-If you consult an accurate Map, you gain a  $+5$  bonus to Wisdom (Survival) checks you make to find your way in the place represented on it.
-
-#### Mirror (5 GP)
-
-A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal.
-
-#### Net (I GP)
-
-When you take the Attack action, you can replace one of your attacks with throwing a Net. Target a creature you can see within 15 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or have the Restrained condition until it escapes. The target succeeds automatically if it is Huge or larger.
-
-To escape, the target or a creature within 5 feet of it must take an action to make a DC 10 Strength (Athletics) check, freeing the Restrained creature on a success. Destroying the Net (AC 10; 5 HP; Immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect.
-
-#### Oil (I SP)
-
-You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.
-
-Dousing a Creature or an Object. When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra 5 Fire damage from burning oil.
-
-Dousing a Space. You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.
-
-Fuel. Oil serves as fuel for Lamps and Lanterns.
-
-Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.
-
-#### Paper (2 SP)
-
-One sheet of Paper can hold about 250 handwritten words.
-
-#### Parchment (I SP)
-
-One sheet of Parchment can hold about 250 handwritten words.
-
-#### Perfume (5 GP)
-
-Perfume comes in a 4- ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself.
-
-#### Poison, Basic (100 GP)
-
-As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra 1d4 Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.
-
-#### Pole (5 CP)
-
-A Pole is 10 feet long. You can use it to touch something up to 10 feet away. If you must make a Strength (Athletics) check as part of a High or Long Jump, you can use the Pole to vault, giving yourself Advantage on the check.
-
-#### Pot, Iron (2 GP)
-
-An Iron Pot holds up to 1 gallon.
-
-#### Potion of Healing (50 GP)
-
-This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains  $2\mathrm{d}4 + 2$  Hit Points.
-
-#### Pouch (5 SP)
-
-A Pouch holds up to 6 pounds within one-fifth of a cubic foot.
-
-#### Priest's Pack (33 GP)
-
-A Priest's Pack contains the following items: Backpack, Blanket, Holy Water, Lamp, 7 days of Rations, Robe, and Thunderbox.
-
-#### Quiver (I GP)
-
-A Quiver holds up to 20 Arrows.
-
-#### Ram, Portable (4 GP)
-
-You can use a Portable Ram to break down doors. When doing so, you gain a  $+4$  bonus to the Strength check. One other character can help you use the ram, giving you Advantage on this check.
-
-#### Rations (5 SP)
-
-Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See "Malnutrition" in "Rules Glossary" for the risks of not eating.
-
-#### Robe (I GP)
-
-A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.
-
-#### Rope (I GP)
-
-As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.
-
-You can bind an unwilling creature with the Rope only if the creature has the Grappled, Incapacitated, or Restrained condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.
-
-#### Sack (I CP)
-
-A Sack holds up to 30 pounds within 1 cubic foot.
-
-#### Scholar's Pack (40 GP)
-
-A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Thunderbox.
-
-#### Shovel (2 GP)
-
-Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each side in soil or similar material.
-
-#### Signal Whistle (5 CP)
-
-When blown as a Utilize action, a Signal Whistle produces a sound that can be heard up to 600 feet away.
-
-#### Spell Scroll (Cantrip, 30 GP; Level I, 50 GP)
-
-A Spell Scroll (Cantrip) or Spell Scroll (Level 1) is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll's creator. If the spell is on your class's spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.
-
-If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is +5. The scroll disintegrates when the casting is completed.
-
-#### Spikes, Iron (I GP)
-
-Iron Spikes come in bundles of ten. As a Utilize action, you can use a blunt object, such as a Light Hammer, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a Rope or Chain to the Spike.
-
-#### Spyglass (I,000 GP)
-
-Objects viewed through a Spyglass are magnified to twice their size.
-
-#### String (I SP)
-
-String is 10 feet long. You can tie a knot in it as a Utilize action.
-
-#### Tent (2 GP)
-
-A Tent sleeps up to two Small or Medium creatures.
-
-#### Tinderbox (5 SP)
-
-A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.
-
-#### Torch (I CP)
-
-A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.
-
-#### Vial (I GP)
-
-A Vial holds up to 4 ounces.
-
-#### Waterskin (2 SP)
-
-A Waterskin holds up to 4 pints. If you don't drink sufficient water, you risk dehydration (see "Rules Glossary").
-
-#### Mounts and Vehicles
-
-A mount can help you move more quickly through the wilderness, but its primary purpose is to carry gear that would otherwise slow you down. The Mounts and Other Animals table shows each animal's carrying capacity. See "Monsters" for the animals' stat blocks.
-
-#### Mounts and Cargo
-
-An animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, add their carrying capacities together.
-
-#### Barding
-
-Barding is armor designed for a mount. Any type of armor on the Armor table in "Equipment" can
-
-be purchased as barding. The cost is four times the normal cost, and it weighs twice as much.
-
-#### Saddles
-
-A saddle comes with a bit, a bridle, reins, and any other equipment needed to use the saddle. A Military Saddle gives Advantage on any ability check you make to remain mounted. An Exotic Saddle is required for riding an aquatic or a flying mount.
-
-Mounts and Other Animals  
-
-<table><tr><td>Item</td><td>Carrying Capacity</td><td>Cost</td></tr><tr><td>Camel</td><td>450 lb.</td><td>50 GP</td></tr><tr><td>Elephant</td><td>1,320 lb.</td><td>200 GP</td></tr><tr><td>Horse, Draft</td><td>540 lb.</td><td>50 GP</td></tr><tr><td>Horse, Riding</td><td>480 lb.</td><td>75 GP</td></tr><tr><td>Mastiff</td><td>195 lb.</td><td>25 GP</td></tr><tr><td>Mule</td><td>420 lb.</td><td>8 GP</td></tr><tr><td>Pony</td><td>225 lb.</td><td>30 GP</td></tr><tr><td>Warhorse</td><td>540 lb.</td><td>400 GP</td></tr></table>
-
-Tack, Harness, and Drawn Vehicles  
-
-<table><tr><td>Item</td><td>Weight</td><td>Cost</td></tr><tr><td>Carriage</td><td>600 lb.</td><td>100 GP</td></tr><tr><td>Cart</td><td>200 lb.</td><td>15 GP</td></tr><tr><td>Chariot</td><td>100 lb.</td><td>250 GP</td></tr><tr><td>Feed per day</td><td>10 lb.</td><td>5 CP</td></tr><tr><td>Saddle</td><td></td><td></td></tr><tr><td>Exotic</td><td>40 lb.</td><td>60 GP</td></tr><tr><td>Military</td><td>30 lb.</td><td>20 GP</td></tr><tr><td>Riding</td><td>25 lb.</td><td>10 GP</td></tr><tr><td>Sled</td><td>300 lb.</td><td>20 GP</td></tr><tr><td>Stabling per day</td><td>—</td><td>5 SP</td></tr><tr><td>Wagon</td><td>400 lb.</td><td>35 GP</td></tr></table>
-
-#### Large Vehicles
-
-The Airborne and Waterborne Vehicles table provides statistics for various types of large vehicles. The following notes apply.
-
-#### Speed
-
-A ship sailing against a strong wind moves at half speed. In a dead calm (no wind), waterborne ships can't move under sail and must be rowed. Keelboats and Rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A Rowboat can be carried and weighs 100 pounds.
-
-Airborne and Waterborne Vehicles  
-
-<table><tr><td>Ship</td><td>Speed</td><td>Crew</td><td>Passengers</td><td>Cargo (Tons)</td><td>AC</td><td>HP</td><td>Damage Threshold</td><td>Cost</td></tr><tr><td>Airship</td><td>8 mph</td><td>10</td><td>20</td><td>1</td><td>13</td><td>300</td><td>—</td><td>40,000 GP</td></tr><tr><td>Galley</td><td>4 mph</td><td>80</td><td>—</td><td>150</td><td>15</td><td>500</td><td>20</td><td>30,000 GP</td></tr><tr><td>Keelboat</td><td>1 mph</td><td>1</td><td>6</td><td>1/2</td><td>15</td><td>100</td><td>10</td><td>3,000 GP</td></tr><tr><td>Longship</td><td>3 mph</td><td>40</td><td>150</td><td>10</td><td>15</td><td>300</td><td>15</td><td>10,000 GP</td></tr><tr><td>Rowboat</td><td>1½ mph</td><td>1</td><td>3</td><td>—</td><td>11</td><td>50</td><td>—</td><td>50 GP</td></tr><tr><td>Sailing Ship</td><td>2 mph</td><td>20</td><td>20</td><td>100</td><td>15</td><td>300</td><td>15</td><td>10,000 GP</td></tr><tr><td>Warship</td><td>2½ mph</td><td>60</td><td>60</td><td>200</td><td>15</td><td>500</td><td>20</td><td>25,000 GP</td></tr></table>
-
-#### Crew
-
-A ship larger than a Keelboat or Rowboat needs a crew of skilled hirelings (see "Hirelings" later in "Equipment") to function. The minimum number of skilled hirelings needed to crew a ship depends on the type of ship, as shown in the table.
-
-#### Passengers
-
-The table lists the number of Small and Medium passengers the ship can accommodate using hammocks. A ship outfitted with private accommodations can carry one-fifth as many passengers. A passenger usually pays 5 SP per day for a hammock, but prices can vary from ship to ship. A small private cabin usually costs 2 GP per day.
-
-#### Damage Threshold
-
-If a vehicle has a damage threshold (see "Rules Glossary"), it's noted in the table.
-
-#### Ship Repair
-
-Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 Hit Point of damage requires 1 day and costs 20 GP for materials and labor. If the repairs are made in a location where supplies and skilled labor are abundant, such as a city shipyard, the repair time and cost are halved.
-
-#### Lifestyle Expenses
-
-Lifestyle expenses summarize the cost of living in a fantasy world. They cover lodging, food, equipment maintenance, and other necessities.
-
-At the start of each week or month (GM's choice), choose a lifestyle below—Wretched, Squalid, Poor, Modest, Comfortable, Wealthy, or Aristocratic—and pay the price to sustain that lifestyle.
-
-Lifestyles have no inherent consequences, but the GM might take them into account when determining risks or how others perceive your character.
-
-#### Wretched (Free)
-
-You survive via chance and charity. You're often exposed to natural dangers as a result of sleeping outside.
-
-#### Squalid (I SP per Day)
-
-You spend the bare minimum for your necessities. You might be exposed to unhealthy conditions and opportunistic criminals.
-
-#### Poor (2 SP per Day)
-
-You spend frugally for your necessities.
-
-#### Modest (I GP per Day)
-
-You support yourself at an average level.
-
-#### Comfortable (2 GP per Day)
-
-You spend modestly for your necessities and enjoy a few luxuries.
-
-#### Wealthy (4 GP per Day)
-
-You're accustomed to the finer things in life and might have servants.
-
-#### Aristocratic (10 GP per Day)
-
-You pay for the best and might have a staff that supports your lifestyle. Others notice your wealth and might encourage you to share it, either legally or otherwise.
-
-#### Food, Drink, and Lodging
-
-The Food, Drink, and Lodging table gives prices for food and a single night's lodging. Prices for daily lodging and meals are included in your lifestyle's expenses.
-
-Food, Drink, and Lodging  
-
-<table><tr><td>Item</td><td>Cost</td><td>Item</td><td>Cost</td></tr><tr><td>Ale (mug)</td><td>4 CP</td><td>Comfortable</td><td>8 SP</td></tr><tr><td>Bread (loaf)</td><td>2 CP</td><td>Wealthy</td><td>2 GP</td></tr><tr><td>Cheese (wedge)</td><td>1 SP</td><td>Aristocratic</td><td>4 GP</td></tr><tr><td>Inn Stay per Day</td><td></td><td>Meal</td><td></td></tr><tr><td>Squalid</td><td>7 CP</td><td>Squalid</td><td>1 CP</td></tr><tr><td>Poor</td><td>1 SP</td><td>Poor</td><td>2 CP</td></tr><tr><td>Modest</td><td>5 SP</td><td>Modest</td><td>1 SP</td></tr><tr><td>Comfortable</td><td>2 SP</td><td>Wine (bottle)</td><td></td></tr><tr><td>Wealthy</td><td>3 SP</td><td>Common</td><td>2 SP</td></tr><tr><td>Aristocratic</td><td>6 SP</td><td>Fine</td><td>10 GP</td></tr></table>
-
-#### Hirelings
-
-Skilled hirelings include anyone hired to perform a service that involves a proficiency (including weapon, tool, or skill): a mercenary, an artisan, a scribe, or the like. The pay shown on the Hirelings table is a minimum; some expert hirelings require more pay. Untrained hirelings are hired for work that requires no particular proficiencies; they include laborers and porters.
-
-Hirelings  
-
-<table><tr><td>Service</td><td>Cost</td></tr><tr><td>Skilled hireling</td><td>2 GP per day</td></tr><tr><td>Untrained hireling</td><td>2 SP per day</td></tr><tr><td>Messenger</td><td>2 CP per mile</td></tr></table>
-
-#### Spellcasting
-
-Most settlements contain individuals who are willing to cast spells in exchange for payment. If a spell has expensive components, add the cost of those components to the cost listed in the Spellcasting Services table. The higher the level of a desired spell, the harder it is to find someone to cast it.
-
-Spellcasting Services  
-
-<table><tr><td>Spell Level</td><td>Availability</td><td>Cost</td></tr><tr><td>Cantrip</td><td>Village, town, or city</td><td>30 GP</td></tr><tr><td>1</td><td>Village, town, or city</td><td>50 GP</td></tr><tr><td>2</td><td>Village, town, or city</td><td>200 GP</td></tr><tr><td>3</td><td>Town or city only</td><td>300 GP</td></tr><tr><td>4–5</td><td>Town or city only</td><td>2,000 GP</td></tr><tr><td>6–8</td><td>City only</td><td>20,000 GP</td></tr><tr><td>9</td><td>City only</td><td>100,000 GP</td></tr></table>
-
-#### Magic Items
-
-Adventures hold the promise—but not a guarantee—of finding magic items. Hundreds of magic items are detailed in "Magic Items" later in this document. Here's what you need to know about using magic items.
-
-#### Identifying a Magic Item
-
-Some magic items are indistinguishable from their nonmagical counterparts, while others are conspicuously magical. Handling a magic item is enough to
-
-give you a sense that it is extraordinary, but learning a magic item's properties isn't automatic.
-
-The Identify spell is the fastest way to reveal an item's properties. Alternatively, you can focus on one magic item during a Short Rest while being in physical contact with the item. At the end of the rest, you learn its properties and how to use them (but not any curse the item might bear).
-
-Sometimes a magic item carries a clue to its properties. The command word to activate a ring might be etched inside the band, or a feathered design might hint that it's a Ring of Feather Falling.
-
-Wearing or experimenting with an item can also offer hints about its properties. In the specific case of Potions, a little taste is enough to tell the taster what a potion does. Other items might require more experimentation. For example, if your character puts on a Ring of Swimming, the GM might say, "Your movement feels strangely fluid." Perhaps you then dive into a river to see what happens. The GM would then say you swim unexpectedly well.
-
-#### Attunement
-
-Some magic items require a creature to form a bond—called Attunement—with them before the creature can use an item's magical properties. Without becoming attuned to an item that requires Attunement, you gain only its nonmagical benefits unless its description states otherwise. For example, a magic Shield that requires Attunement provides the benefits of a normal Shield if you aren't attuned to it, but none of its magical properties.
-
-#### Attune during a Short Rest
-
-Attuning to an item requires you to spend a Short Rest focused on only that item while being in physical contact with it (this can't be the same Short Rest used to learn the item's properties). This focus can take the form of weapon practice (for a Weapon), meditation (for a Wand), or some other appropriate activity. If the Short Rest is interrupted, the Attunement attempt fails. Otherwise, at the end of the Short Rest, you're attuned to the magic item and can access its full magical capabilities.
-
-#### No More Than Three Items
-
-You can be attuned to no more than three magic items at a time. Any attempt to attune to a fourth item fails; you must end your Attunement to an item first. Additionally, you can't attune to more than one copy of an item. For example, you can't attune to more than one Ring of Protection at a time.
-
-#### Ending Attunement
-
-Your Attunement to an item ends if you no longer satisfy the prerequisites for Attunement, if the item has been more than 100 feet away for at least 24 hours, if you die, or if another creature attunes to
-
-the item. You can also voluntarily end Attunement by spending another Short Rest focused on the item unless the item is cursed.
-
-#### Wearing and Wielding Items
-
-Using a magic item's properties might mean wearing or wielding it. A magic item meant to be worn must be donned in the intended fashion: boots go on feet, gloves on hands, hats and helmets on a head, and rings on a finger. Magic armor must be donned, a Shield strapped to the arm, a cloak fastened about the shoulders. A weapon must be held.
-
-In most cases, a magic item that's meant to be worn can fit a creature regardless of size or build. Magic garments are made to be easily adjustable, or they magically adjust themselves to the wearer.
-
-#### Multiple Items of the Same Kind
-
-You can't wear more than one of certain magic items. You can't normally wear more than one pair of footwear, one pair of gloves or gauntlets, one pair of bracers, one suit of armor, one item of headwear, or one cloak. The GM might make exceptions.
-
-#### Paired Items
-
-Items that come in pairs—such as boots, bracers, gauntlets, and gloves—impart their benefits only if both items of the pair are worn. For example, a character wearing a Boot of Striding and Springing on one foot and a Boot of Elvenkind on the other foot gains no benefit from either.
-
-#### Crafting Nonmagical Items
-
-To craft a nonmagical item, you need tools, raw materials, and time, each of which is detailed below. If you meet the requirements, you make the item, and you can use it or sell it at its normal price.
-
-#### Tools
-
-The "Tools" section of "Equipment" lists which tools are required to make certain items. The GM assigns required tools for items not listed there.
-
-You must use the required tool to make an item and have proficiency with that tool. Anyone who helps you must also have proficiency with it.
-
-#### Raw Materials
-
-To make an item, you need raw materials worth half its purchase cost (round down). For example, you need 750 GP of raw materials to make Plate Armor, which sells for 1,500 GP. The GM determines whether appropriate raw materials are available.
-
-#### Time
-
-To determine how many days (working 8 hours a day) it takes to make an item, divide its purchase cost in GP by 10 (round a fraction up to a day). For
-
-example, you need 5 days to make a Heavy Crossbow, which sells for 50 GP.
-
-If an item requires multiple days, the days needn't be consecutive.
-
-Characters can combine their efforts to shorten the crafting time. Divide the time needed to create an item by the number of characters working on it. Normally, only one other character can assist you, but the GM might allow more assistants.
-
-#### Brewing Potions of Healing
-
-A character who has proficiency with the Herbalism Kit can create a Potion of Healing. Doing so requires using that kit and 25 GP of raw material over the course of 1 day (8 hours of work).
-
-#### Scribing Spell Scrolls
-
-A spellcaster can transfer a spell to a scroll and create a Spell Scroll, using the rules below.
-
-#### Time and Cost
-
-Scribing a scroll takes an amount of time and money based on the level of the spell, as shown in the Spell Scroll Costs table. For each day of inscription, you must work for 8 hours. If a scroll requires multiple days, those days needn't be consecutive.
-
-#### Prerequisites for the Scribe
-
-To scribe a scroll, you must have proficiency in the Arcana skill or with Calligrapher's Supplies and have the spell prepared on each day of the inscription. You must also have at hand any Material components required by the spell; if the spell consumes its Material components, they are consumed only when you complete the scroll. The scroll's spell uses your spell save DC and spell attack bonus.
-
-#### Cantrips
-
-If the scribed spell is a cantrip, the version on the scroll works as if the caster were your level.
-
-Spell Scroll Costs  
-
-<table><tr><td>Spell Level</td><td>Time</td><td>Cost</td></tr><tr><td>Cantrip</td><td>1 day</td><td>15 GP</td></tr><tr><td>1</td><td>1 day</td><td>25 GP</td></tr><tr><td>2</td><td>3 days</td><td>100 GP</td></tr><tr><td>3</td><td>5 days</td><td>150 GP</td></tr><tr><td>4</td><td>10 days</td><td>1,000 GP</td></tr><tr><td>5</td><td>25 days</td><td>1,500 GP</td></tr><tr><td>6</td><td>40 days</td><td>10,000 GP</td></tr><tr><td>7</td><td>50 days</td><td>12,500 GP</td></tr><tr><td>8</td><td>60 days</td><td>15,000 GP</td></tr><tr><td>9</td><td>120 days</td><td>50,000 GP</td></tr></table>
 
 # Spells
 
@@ -6739,7 +1441,7 @@ Duration: Concentration, up to 8 hours
 
 You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.
 
-When you cast the spell, you change the current weather conditions, which are determined by the GM. You can change precipitation, temperature, and wind. It takes  $1\mathrm{d}4 \times 10$  minutes for the new
+When you cast the spell, you change the current weather conditions, which are determined by the GM. You can change precipitation, temperature, and wind. It takes  $1\mathrm\{d}4 \times 10$  minutes for the new
 
 conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.
 
@@ -7105,7 +1807,7 @@ Duration: Instantaneous
 
 You launch a green ray at a target you can see within range. The target can be a creature, a nonmagical object, or a creation of magical force, such as the wall created by Wall of Force.
 
-A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes  $10\mathrm{d}6 + 40$  Force damage. If this damage reduces it to 0 Hit Points, it and everything nonmagical it is wearing and carrying are disintegrated into gray dust. The target can be revived only by a True Resurrection or a Wish spell.
+A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes  $10\mathrm\{d}6 + 40$  Force damage. If this damage reduces it to 0 Hit Points, it and everything nonmagical it is wearing and carrying are disintegrated into gray dust. The target can be revived only by a True Resurrection or a Wish spell.
 
 This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If such a target is Huge or larger, this spell disintegrates a 10-foot-Cube portion of it.
 
@@ -7367,7 +2069,7 @@ When you cast this spell and at the end of each of your turns for the duration, 
 
 You can also cause the effects below.
 
-Fissures. A total of 1d6 fissures open in the spell's area at the end of the turn you cast it. You choose the fissures' locations, which can't be under structures. Each fissure is  $1\mathrm{d}10 \times 10$  feet deep and 10 feet wide, and it extends from one edge of the spell's area to another edge. A creature in the same space as a fissure must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens.
+Fissures. A total of 1d6 fissures open in the spell's area at the end of the turn you cast it. You choose the fissures' locations, which can't be under structures. Each fissure is  $1\mathrm\{d}10 \times 10$  feet deep and 10 feet wide, and it extends from one edge of the spell's area to another edge. A creature in the same space as a fissure must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens.
 
 Structures. The tremor deals 50 Bludgeoning damage to any structure in contact with the ground in the area when you cast the spell and at the end of each of your turns until the spell ends. If a structure drops to 0 Hit Points, it collapses.
 
@@ -7625,7 +2327,7 @@ Components: V, S, M (a drop of alcohol)
 
 Duration: Instantaneous
 
-You gain  $2\mathrm{d}4 + 4$  Temporary Hit Points.
+You gain  $2\mathrm\{d}4 + 4$  Temporary Hit Points.
 
 Using a Higher-Level Spell Slot. You gain 5 additional Temporary Hit Points for each spell slot level above 1.
 
@@ -7790,7 +2492,7 @@ Components: V, S
 
 Duration: Instantaneous
 
-You unleash negative energy toward a creature you can see within range. The target makes a Constitution saving throw, taking  $7\mathrm{d}8 + 30$  Necrotic damage on a failed save or half as much damage on a successful one.
+You unleash negative energy toward a creature you can see within range. The target makes a Constitution saving throw, taking  $7\mathrm\{d}8 + 30$  Necrotic damage on a failed save or half as much damage on a successful one.
 
 A Humanoid killed by this spell rises at the start of your next turn as a Zombie (see "Monsters") that follows your verbal orders.
 
@@ -9232,7 +3934,7 @@ Components: V, S
 
 Duration: Instantaneous
 
-You create three glowing darts of magical force. Each dart strikes a creature of your choice that you can see within range. A dart deals  $1\mathrm{d}4 + 1$  Force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.
+You create three glowing darts of magical force. Each dart strikes a creature of your choice that you can see within range. A dart deals  $1\mathrm\{d}4 + 1$  Force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.
 
 Using a Higher-Level Spell Slot. The spell creates one more dart for each spell slot level above 1.
 
@@ -10222,7 +4924,7 @@ Components: V, S, M (a prayer wheel)
 
 Duration: I hour
 
-A creature you touch regains  $4\mathrm{d}8 + 15$  Hit Points. For the duration, the target regains 1 Hit Point at the start of each of its turns, and any severed body parts regrow after 2 minutes.
+A creature you touch regains  $4\mathrm\{d}8 + 15$  Hit Points. For the duration, the target regains 1 Hit Point at the start of each of its turns, and any severed body parts regrow after 2 minutes.
 
 #### Ray of Sickness
 
@@ -11108,7 +5810,7 @@ Shared Resistances. When you summon the spirit, choose one of its Resistances. Y
 
 Multiattack. The spirit makes a number of Rend attacks equal to half the spell's level (round down), and it uses Breath Weapon.
 
-Rend. Melee Attack Roll: Bonus equals your spell attack modifier, reach 10 feet. Hit:  $1\mathrm{d}6 + 4+$  the spell's level Piercing damage.
+Rend. Melee Attack Roll: Bonus equals your spell attack modifier, reach 10 feet. Hit:  $1\mathrm\{d}6 + 4+$  the spell's level Piercing damage.
 
 Breath Weapon. Dexterity Saving Throw: DC equals your spell save DC, each creature in a 30-foot Cone. Failure: 2d6 damage of a type this spirit has Resistance to (your choice when you cast the spell). Success: Half damage.
 
@@ -11337,7 +6039,7 @@ Components: V
 
 Duration: Instantaneous
 
-You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take  $1\mathrm{d}4 + 1$  turns in a row, during which you can use actions and move as normal.
+You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take  $1\mathrm\{d}4 + 1$  turns in a row, during which you can use actions and move as normal.
 
 This spell ends if one of the actions you use during this period, or any effects that you create during it, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet from the location where you cast it.
 
@@ -12422,7 +7124,7 @@ You stop being hidden immediately after any of the following occurs: you make a 
 
 When you make a High Jump, you leap into the air a number of feet equal to 3 plus your Strength modifier (minimum of 0 feet) if you move at least 10 feet on foot immediately before the jump. When you make a standing High Jump, you can jump only half that distance. Either way, each foot of the jump costs a foot of movement.
 
-You can extend your arms half your height above yourself during the jump. Thus, you can reach a distance equal to the height of the jump plus  $1\frac{1}{2}$  times your height.
+You can extend your arms half your height above yourself during the jump. Thus, you can reach a distance equal to the height of the jump plus  $1\frac\{1}\{2}$  times your height.
 
 #### Hit Point Dice
 
@@ -12837,7 +7539,7 @@ Attack Notation. The entry for a monster's attack starts by identifying whether 
 
 Saving Throw Effect Notation. If an effect forces a saving throw, the effect's entry starts by identifying the kind of saving throw required and then provides the save's DC, a description of which creatures must make the save, and what happens on a failed or a successful save.
 
-Damage Notation. A stat block usually provides both a static number and a die expression for each instance of damage. For example, an attack might deal 4  $(1\mathrm{d}4 + 2)$  damage on a hit. The GM determines whether you use the static number or the die expression in parentheses; you don't use both.
+Damage Notation. A stat block usually provides both a static number and a die expression for each instance of damage. For example, an attack might deal 4  $(1\mathrm\{d}4 + 2)$  damage on a hit. The GM determines whether you use the static number or the die expression in parentheses; you don't use both.
 
 #### Study [Action]
 
@@ -12995,7 +7697,7 @@ Miles per hour  $=$  Speed ÷ 10
 
 Miles per day (Normal pace) = Miles per hour × number of hours traveled (typically 8)
 
-Fast pace  $=$  Miles per day  $\times 1\frac{1}{3}$  (round down)
+Fast pace  $=$  Miles per day  $\times 1\frac\{1}\{3}$  (round down)
 
 Slow pace = Miles per day × 2/3 (round down)
 
@@ -13024,7 +7726,7 @@ Travel Terrain
 <table><tr><td>Terrain</td><td>Maximum Pace</td><td>Encounter Distance</td><td>Foraging DC</td><td>Navigation DC</td><td>Search DC</td></tr><tr><td>Arctic</td><td>Fast*</td><td>6d6 × 10 feet</td><td>20</td><td>10</td><td>10</td></tr><tr><td>Coastal</td><td>Normal</td><td>2d10 × 10 feet</td><td>10</td><td>5</td><td>15</td></tr><tr><td>Desert</td><td>Normal</td><td>6d6 × 10 feet</td><td>20</td><td>10</td><td>10</td></tr><tr><td>Forest</td><td>Normal</td><td>2d8 × 10 feet</td><td>10</td><td>15</td><td>15</td></tr><tr><td>Grassland</td><td>Fast</td><td>6d6 × 10 feet</td><td>15</td><td>5</td><td>15</td></tr><tr><td>Hill</td><td>Normal</td><td>2d10 × 10 feet</td><td>15</td><td>10</td><td>15</td></tr><tr><td>Mountain</td><td>Slow</td><td>4d10 × 10 feet</td><td>20</td><td>15</td><td>20</td></tr><tr><td>Swamp</td><td>Slow</td><td>2d8 × 10 feet</td><td>10</td><td>15</td><td>20</td></tr><tr><td>Underdark</td><td>Normal</td><td>2d6 × 10 feet</td><td>20</td><td>10</td><td>20</td></tr><tr><td>Urban</td><td>Normal</td><td>2d6 × 10 feet</td><td>20</td><td>15</td><td>15</td></tr><tr><td>Waterborne</td><td>Special†</td><td>6d6 × 10 feet</td><td>15</td><td>10</td><td>15</td></tr></table>
 
 *Appropriate equipment (such as skis) is necessary to keep up a Fast pace in Arctic terrain  
-$^{\dagger}$ Characters' rate of travel while waterborne depends on the vehicle carrying them; see "Vehicles."
+$^\{\dagger}$ Characters' rate of travel while waterborne depends on the vehicle carrying them; see "Vehicles."
 
 Intelligence or Wisdom. One or both abilities are ideal for a background that focuses on cerebral or spiritual matters.
 
@@ -13180,7 +7882,7 @@ A strong wind in a desert can create a sandstorm that imposes Disadvantage on Wi
 
 #### Thin Ice
 
-Thin ice has a weight tolerance of  $3\mathrm{d}10 \times 10$  pounds per 10-foot-square area. Whenever the total weight on an area of thin ice exceeds its tolerance, the ice in that area breaks. All creatures on broken ice fall through. Below the ice is frigid water (see "Frigid Water" above).
+Thin ice has a weight tolerance of  $3\mathrm\{d}10 \times 10$  pounds per 10-foot-square area. Whenever the total weight on an area of thin ice exceeds its tolerance, the ice in that area breaks. All creatures on broken ice fall through. Below the ice is frigid water (see "Frigid Water" above).
 
 #### Fear and Mental Stress
 
@@ -13220,7 +7922,7 @@ Exposure to mental stress can cause prolonged effects. Consider the following po
 
 Short-Term Effects. The character has the Frightened, Incapacitated, or Stunned condition for 1d10 minutes. This condition might be accompanied by alarming behavior or hallucinations. These effects can be suppressed with the Calm Emotions spell or removed by the Lesser Restoration spell.
 
-Long-Term Effects. The character has Disadvantage on some or all ability checks for  $1\mathrm{d}10 \times 10$  hours, stemming from an unwillingness or inability to exert a particular set of abilities. The character might feel enervated and unable to exert much Strength, for example, or become so suspicious of others that Charisma checks are more difficult. These effects can be suppressed with the Calm Emotions spell or removed by the Lesser Restoration spell.
+Long-Term Effects. The character has Disadvantage on some or all ability checks for  $1\mathrm\{d}10 \times 10$  hours, stemming from an unwillingness or inability to exert a particular set of abilities. The character might feel enervated and unable to exert much Strength, for example, or become so suspicious of others that Charisma checks are more difficult. These effects can be suppressed with the Calm Emotions spell or removed by the Lesser Restoration spell.
 
 Indefinite Effects. An indefinite effect is a long-term effect (see above) that lasts until removed by a Greater Restoration spell. It can be suppressed by a Calm Emotions spell.
 
@@ -13983,7 +8685,7 @@ II-20 A Treant sprouts. Roll any die. On an odd roll, the treant is Chaotic Evil
 41-50 Three Shrieker Fungi sprout.  
 51-60 Id4 + 4 bright-pink toads crawl forth. Whenever a toad is touched, it transforms into a Large or smaller monster of the GM's choice that acts in accordance with its alignment and nature. The monster remains for 1 minute, then disappears in a puff of bright-pink smoke.  
 61-70 A hungry Bulette burrows up and attacks.  
-71-80 A fruit tree grows. It has  $\text{Id} 10 + 20$  fruit,  $\text{Id} 8$  of which act as randomly determined portions. The tree vanishes after 1 hour. Picked fruit remains, retaining any magic for 30 days.  
+71-80 A fruit tree grows. It has  $\text\{Id} 10 + 20$  fruit,  $\text\{Id} 8$  of which act as randomly determined portions. The tree vanishes after 1 hour. Picked fruit remains, retaining any magic for 30 days.  
 81-90 A nest of  $1d4 + 3$  rainbow-colored eggs springs up. Any creature that eats an egg makes a DC 20 Constitution saving throw. On a successful save, a creature permanently increases its lowest ability score by 1, randomly choosing among equally low scores. On a failed save, the creature takes 10d6 Force damage from an internal explosion.  
 91-95 A pyramid with a 60-foot-square base bursts upward. Inside is a burial chamber containing a Mummy, a Mummy Lord, or some other Undead of the GM's choice. Its sarcophagus contains treasure of the GM's choice.  
 96-00 A giant beanstalk sprouts, growing to a height of the GM's choice. The top leads where the GM chooses, such as to a great view, a cloud giant's castle, or another plane of existence.
@@ -14038,7 +8740,7 @@ Tan Bag of Tricks
 
 Wondrous Item, Rare
 
-This small black sphere measures  $\frac{3}{4}$  of an inch in diameter and weighs an ounce. Typically,  $1\mathrm{d}4 + 4$  Beads of Force are found together.
+This small black sphere measures  $\frac\{3}\{4}$  of an inch in diameter and weighs an ounce. Typically,  $1\mathrm\{d}4 + 4$  Beads of Force are found together.
 
 You can take a Magic action to throw the bead up to 60 feet. The bead explodes in a 10-foot-radius Sphere on impact and is destroyed. Each creature
 
@@ -14360,7 +9062,7 @@ Geyser. The decanter produces 30 gallons of water that gushes forth in a Line 30
 
 Wondrous Item, Uncommon
 
-This box contains a set of cards. A full deck has 34 cards: 32 depicting specific creatures and two with a mirrored surface. A deck found as treasure is usually missing  $1\mathrm{d}20 - 1$  cards.
+This box contains a set of cards. A full deck has 34 cards: 32 depicting specific creatures and two with a mirrored surface. A deck found as treasure is usually missing  $1\mathrm\{d}20 - 1$  cards.
 
 The magic of the deck functions only if its cards are drawn at random. You can take a Magic action to draw a card at random from the deck and throw
 
@@ -14410,7 +9112,7 @@ While attuned to an orb, you can take a Magic action to peer into the orb's dept
 
 While you are Charmed by the orb, you can't voluntarily end your Attunement to it, and the orb casts Suggestion on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular society or organization, freedom from the orb, to spread suffering in the world, to advance the worship of Tiamat, or something else the GM decides.
 
-Spells. The orb has 7 charges and regains  $1\mathrm{d}4 + 3$  expended charges daily at dawn. If you control the orb, you can cast one of the spells on the following table from it. The table indicates how many charges you must expend to cast the spell.
+Spells. The orb has 7 charges and regains  $1\mathrm\{d}4 + 3$  expended charges daily at dawn. If you control the orb, you can cast one of the spells on the following table from it. The table indicates how many charges you must expend to cast the spell.
 
 <table><tr><td>Spell</td><td>Charge Cost</td></tr><tr><td>Cure Wounds (level 9 version)</td><td>4</td></tr><tr><td>Daylight</td><td>1</td></tr><tr><td>Death Ward</td><td>2</td></tr><tr><td>Detect Magic</td><td>0</td></tr><tr><td>Scrying (save DC 18)</td><td>3</td></tr></table>
 
@@ -14449,7 +9151,7 @@ This powder resembles fine sand. There is enough of it for one use. When you tak
 
 Wondrous Item, Uncommon
 
-This small packet contains  $1\mathrm{d}6 + 4$  pinches of dust. As a Utilize action, you can sprinkle a pinch of the dust over water, turning up to a 15-foot Cube of water into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet's weight is negligible. A creature can take a Utilize action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so destroys the pellet and ends its magic.
+This small packet contains  $1\mathrm\{d}6 + 4$  pinches of dust. As a Utilize action, you can sprinkle a pinch of the dust over water, turning up to a 15-foot Cube of water into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet's weight is negligible. A creature can take a Utilize action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so destroys the pellet and ends its magic.
 
 As a Utilize action, you can sprinkle a pinch of the dust on an Elemental within 5 feet of yourself that
 
@@ -14755,7 +9457,7 @@ Weapon (Maul or Warhammer), Legendary (Requires Attunement)
 
 You gain a  $+1$  bonus to attack rolls and damage rolls made with this magic weapon.
 
-The weapon has 5 charges. You can expend 1 charge and make a ranged attack with the weapon, hurling it as if it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunder-clap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have the Stunned condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains  $1\mathrm{d}4 + 1$  expended charges daily at dawn.
+The weapon has 5 charges. You can expend 1 charge and make a ranged attack with the weapon, hurling it as if it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunder-clap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have the Stunned condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains  $1\mathrm\{d}4 + 1$  expended charges daily at dawn.
 
 Giant's Bane. While you are attuned to the weapon and wearing either a Belt of Giant Strength or Gauntlets of Ogre Power to which you are also attuned, you gain the following benefits:
 
@@ -15159,7 +9861,7 @@ Knight. You gain the service of a Knight, who magically appears in an unoccupied
 
 Moon. You gain the ability to cast Wish 1d3 times.
 
-Puzzle. Permanently reduce your Intelligence or Wisdom by  $1\mathrm{d}4 + 1$  (to a minimum score of 1). You can draw one additional card beyond your declared draws.
+Puzzle. Permanently reduce your Intelligence or Wisdom by  $1\mathrm\{d}4 + 1$  (to a minimum score of 1). You can draw one additional card beyond your declared draws.
 
 Rogue. An NPC of the GM's choice becomes Hostile toward you. You don't know the identity of this NPC until they or someone else reveals it. Nothing less than a Wish spell or divine intervention can end the NPC's hostility toward you.
 
@@ -15221,7 +9923,7 @@ While wearing this necklace, you can breathe normally in any environment, and yo
 
 Wondrous Item, Rare
 
-This necklace has  $1\mathrm{d}6 + 3$  beads hanging from it. You can take a Magic action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a level 3 Fireball (save DC 15).
+This necklace has  $1\mathrm\{d}6 + 3$  beads hanging from it. You can take a Magic action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a level 3 Fireball (save DC 15).
 
 You can hurl multiple beads, or even the whole necklace, at one time. When you do so, increase the damage of the Fireball by 1d6 for each bead after the first (maximum 12d6).
 
@@ -15229,7 +9931,7 @@ You can hurl multiple beads, or even the whole necklace, at one time. When you d
 
 Wondrous Item, Rare (Requires Attunement by a Cleric, Druid, or Paladin)
 
-This necklace has  $1\mathrm{d}4 + 2$  magic beads made from aquamarine, black pearl, or topaz. It also has many nonmagical beads made from stones such as amber, bloodstone, citrine, coral, jade, pearl, or quartz. If a magic bead is removed from the necklace, that bead loses its magic.
+This necklace has  $1\mathrm\{d}4 + 2$  magic beads made from aquamarine, black pearl, or topaz. It also has many nonmagical beads made from stones such as amber, bloodstone, citrine, coral, jade, pearl, or quartz. If a magic bead is removed from the necklace, that bead loses its magic.
 
 Six types of magic beads exist. The GM decides the type of each bead on the necklace or determines it randomly by rolling on the table below. A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a Bonus Action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.
 
@@ -15241,7 +9943,7 @@ Weapon (Any Simple or Martial), Very Rare (Requires Attunement)
 
 You gain a  $+2$  bonus to attack rolls and damage rolls made with this magic weapon.
 
-Life Stealing. The weapon has  $1\mathrm{d}8 + 1$  charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+Life Stealing. The weapon has  $1\mathrm\{d}8 + 1$  charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
 
 #### Oathbow
 
@@ -15291,7 +9993,7 @@ While this pearl is on your person, you can take a Magic action to regain one ex
 
 Wondrous Item, Uncommon (Requires Attunement)
 
-While wearing this pendant, you can take a Magic action to regain  $2\mathrm{d}4 + 2$  Hit Points. Once used, this property can't be used again until the next dawn.
+While wearing this pendant, you can take a Magic action to regain  $2\mathrm\{d}4 + 2$  Hit Points. Once used, this property can't be used again until the next dawn.
 
 In addition, you have Advantage on saving throws to avoid or end the Poisoned condition while you wear this pendant.
 
@@ -15461,7 +10163,7 @@ This potion's syrupy liquid looks like liquefied iron.
 
 Potion, Very Rare
 
-When you drink this potion, your physical age is reduced by  $1\mathrm{d}6 + 6$  years, to a minimum of 13 years. Each time you subsequently drink a Potion of Longevity, there is 10 percent cumulative chance that you instead age by  $1\mathrm{d}6 + 6$  years.
+When you drink this potion, your physical age is reduced by  $1\mathrm\{d}6 + 6$  years, to a minimum of 13 years. Each time you subsequently drink a Potion of Longevity, there is 10 percent cumulative chance that you instead age by  $1\mathrm\{d}6 + 6$  years.
 
 Suspended in this amber liquid is a tiny heart that, against all reason, is still beating. These ingredients vanish when the potion is opened.
 
@@ -15577,7 +10279,7 @@ Fire. You know Ignan, and you have Immunity to Fire damage.
 
 Water. You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater.
 
-Spellcasting. The ring has 5 charges and regains  $1\mathrm{d}4 + 1$  expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.
+Spellcasting. The ring has 5 charges and regains  $1\mathrm\{d}4 + 1$  expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.
 
 <table><tr><td>Plane</td><td>Spells (Charges)</td></tr><tr><td>Air</td><td>Chain Lightning (3 charges), Feather Fall (0 charges), Gust of Wind (2 charges), Wind Wall (1 charge)</td></tr><tr><td>Earth</td><td>Earthquake (5 charges), Stone Shape (2 charges), Stoneskin (3 charges), Wall of Stone (3 charges)</td></tr><tr><td>Fire</td><td>Burning Hands (1 charge), Fireball (2 charges), Fire Storm (4 charges), Wall of Fire (3 charges)</td></tr><tr><td>Water</td><td>Create or Destroy Water (1 charge), Ice Storm (2 charges), Tsunami (5 charges), Wall of Ice (3 charges), Water Walk (2 charges)</td></tr></table>
 
@@ -15633,7 +10335,7 @@ You gain a  $+1$  bonus to Armor Class and saving throws while wearing this ring
 
 Ring, Very Rare (Requires Attunement)
 
-While wearing this ring, you regain 1d6 Hit Points every 10 minutes if you have at least 1 Hit Point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after  $1\mathrm{d}6 + 1$  days if you have at least 1 Hit Point the whole time.
+While wearing this ring, you regain 1d6 Hit Points every 10 minutes if you have at least 1 Hit Point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after  $1\mathrm\{d}6 + 1$  days if you have at least 1 Hit Point the whole time.
 
 #### Ring of Resistance
 
@@ -15669,7 +10371,7 @@ Shooting Stars. You can expend 1 to 3 charges as a Magic action. For every charg
 
 Ring, Rare (Requires Attunement)
 
-This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time. When found, it contains  $1\mathrm{d}6 - 1$  levels of stored spells chosen by the GM.
+This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time. When found, it contains  $1\mathrm\{d}6 - 1$  levels of stored spells chosen by the GM.
 
 Any creature can cast a spell of level 1 through 5 into the ring by touching the ring as the spell is cast. The spell has no effect other than to be stored in the ring. If the ring can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.
 
@@ -15968,7 +10670,7 @@ While holding this Shield, you have a +2 bonus to Armor Class. This bonus is in 
 
 The Shield has the following additional properties that you can use while holding it.
 
-Forceful Bash. When you take the Attack action, you can make one of the attack rolls using the Shield against a target within 5 feet of yourself. Apply your Proficiency Bonus and Strength modifier to the attack roll. On a hit, the Shield deals Force damage to the target equal to  $2\mathrm{d}6 + 2$  plus your Strength modifier, and if the target is a creature, you can push it up to 10 feet directly away from yourself. If the creature is your size or smaller, you can also knock it down, giving it the Prone condition.
+Forceful Bash. When you take the Attack action, you can make one of the attack rolls using the Shield against a target within 5 feet of yourself. Apply your Proficiency Bonus and Strength modifier to the attack roll. On a hit, the Shield deals Force damage to the target equal to  $2\mathrm\{d}6 + 2$  plus your Strength modifier, and if the target is a creature, you can push it up to 10 feet directly away from yourself. If the creature is your size or smaller, you can also knock it down, giving it the Prone condition.
 
 Protective Field. As a Reaction, when you or an ally you can see within 5 feet of you is targeted by an attack or makes a saving throw against an area of effect, you can use the Shield to create an immobile 5-foot Emanation originating from you. When the Emanation appears, any creatures or objects not fully contained within it are pushed into the nearest unoccupied spaces outside it. The attack or area of effect that triggered the Reaction has no effect on creatures and objects inside the Emanation, which lasts as long as you maintain Concentration, up to 1 minute. Nothing can pass into or out of the Emanation. A creature or object inside the Emanation can't be damaged by attacks or effects originating from outside, nor can a creature inside the Emanation damage anything outside it. Once this property is used, it can't be used again until the next dawn.
 
@@ -15982,7 +10684,7 @@ While you wear these light shoes, you can move up, down, and across vertical sur
 
 Wondrous Item, Legendary
 
-This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with Oil of Slipperiness. When found, a container contains  $1\mathrm{d}6 + 1$  ounces.
+This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with Oil of Slipperiness. When found, a container contains  $1\mathrm\{d}6 + 1$  ounces.
 
 One ounce of the glue can cover a 1-foot square surface. Applying an ounce of Sovereign Glue takes a Utilize action, and the applied glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of Universal Solvent or Oil of Etherealness, or with a Wish spell.
 
@@ -16042,7 +10744,7 @@ Reflect Enchantment. If you succeed on a saving throw against an Enchantment spe
 
 Resist Enchantment. If you fail a saving throw against an Enchantment spell that targets only you, you can turn your failed save into a successful one. You can't use this property of the staff again until the next dawn.
 
-Regaining Charges. The staff regains  $1\mathrm{d}8 + 2$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles to dust and is destroyed.
+Regaining Charges. The staff regains  $1\mathrm\{d}8 + 2$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles to dust and is destroyed.
 
 #### Staff of Fire
 
@@ -16054,7 +10756,7 @@ Spells. The staff has 10 charges. While holding the staff, you can cast one of t
 
 <table><tr><td>Spell</td><td>Charge Cost</td><td>Spell</td><td>Charge Cost</td></tr><tr><td>Burning Hands</td><td>1</td><td>Wall of Fire</td><td>4</td></tr><tr><td>Fireball</td><td>3</td><td></td><td></td></tr></table>
 
-Regaining Charges. The staff regains  $1\mathrm{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles into cinders and is destroyed.
+Regaining Charges. The staff regains  $1\mathrm\{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles into cinders and is destroyed.
 
 #### Staff of Frost
 
@@ -16066,7 +10768,7 @@ Spells. The staff has 10 charges. While holding the staff, you can cast one of t
 
 <table><tr><td>Spell</td><td>Charge Cost</td><td>Spell</td><td>Charge Cost</td></tr><tr><td>Cone of Cold</td><td>5</td><td>Ice Storm</td><td>4</td></tr><tr><td>Fog Cloud</td><td>1</td><td>Wall of Ice</td><td>4</td></tr></table>
 
-Regaining Charges. The staff regains  $1\mathrm{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff turns to water and is destroyed.
+Regaining Charges. The staff regains  $1\mathrm\{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff turns to water and is destroyed.
 
 #### Staff of Healing
 
@@ -16076,7 +10778,7 @@ This staff has 10 charges. While holding the staff, you can cast one of the spel
 
 <table><tr><td>Spell</td><td>Charge Cost</td></tr><tr><td>Cure Wounds</td><td>1 charge per spell level (maximum 4 for a level 4 spell)</td></tr><tr><td>Lesser Restoration</td><td>2</td></tr><tr><td>Mass Cure Wounds</td><td>5</td></tr></table>
 
-Regaining Charges. The staff regains  $1\mathrm{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff vanishes in a flash of light, lost forever.
+Regaining Charges. The staff regains  $1\mathrm\{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff vanishes in a flash of light, lost forever.
 
 #### Staff of Power
 
@@ -16088,7 +10790,7 @@ Spells. While holding the staff, you can cast one of the spells on the following
 
 <table><tr><td>Spell</td><td>Charge Cost</td></tr><tr><td>Cone of Cold</td><td>5</td></tr><tr><td>Fireball (level 5 version)</td><td>5</td></tr><tr><td>Globe of Invulnerability</td><td>6</td></tr><tr><td>Hold Monster</td><td>5</td></tr><tr><td>Levitate</td><td>2</td></tr><tr><td>Lightning Bolt (level 5 version)</td><td>5</td></tr><tr><td>Magic Missile</td><td>1</td></tr><tr><td>Ray of Enfeeblement</td><td>1</td></tr><tr><td>Wall of Force</td><td>5</td></tr></table>
 
-Regaining Charges. The staff regains  $2\mathrm{d}8 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff retains its  $+2$  bonus to attack rolls and damage rolls but loses all other properties. On a 20, the staff regains  $1\mathrm{d}8 + 2$  charges.
+Regaining Charges. The staff regains  $2\mathrm\{d}8 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff retains its  $+2$  bonus to attack rolls and damage rolls but loses all other properties. On a 20, the staff regains  $1\mathrm\{d}8 + 2$  charges.
 
 Retributive Strike. You can take a Magic action to break the staff over your knee or against a solid surface. The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take Force damage equal to 16 times the number of charges in the staff. Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed save, a creature takes Force damage equal to 4 times the number of charges in the staff. On a successful save, a creature takes half as much damage.
 
@@ -16116,7 +10818,7 @@ Spells. While holding the staff, you can cast one of the spells on the following
 
 <table><tr><td>Spell</td><td>Charge Cost</td></tr><tr><td>Giant Insect</td><td>4</td></tr><tr><td>Insect Plague</td><td>5</td></tr></table>
 
-Regaining Charges. The staff regains  $1\mathrm{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.
+Regaining Charges. The staff regains  $1\mathrm\{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.
 
 #### Staff of the Magi
 
@@ -16130,7 +10832,7 @@ Spells. While holding the staff, you can cast one of the spells on the following
 
 <table><tr><td>Spell</td><td>Charge Cost</td></tr><tr><td>Arcane Lock</td><td>0</td></tr><tr><td>Conjure Elemental</td><td>7</td></tr><tr><td>Detect Magic</td><td>0</td></tr><tr><td>Dispel Magic</td><td>3</td></tr><tr><td>Enlarge/Reduce</td><td>0</td></tr><tr><td>Fireball (level 7 version)</td><td>7</td></tr><tr><td>Flaming Sphere</td><td>2</td></tr><tr><td>Ice Storm</td><td>4</td></tr><tr><td>Invisibility</td><td>2</td></tr><tr><td>Knock</td><td>2</td></tr><tr><td>Light</td><td>0</td></tr><tr><td>Lightning Bolt (level 7 version)</td><td>7</td></tr><tr><td>Mage Hand</td><td>0</td></tr><tr><td>Passwall</td><td>5</td></tr><tr><td>Plane Shift</td><td>7</td></tr><tr><td>Protection from Evil and Good</td><td>0</td></tr><tr><td>Telekinesis</td><td>5</td></tr><tr><td>Wall of Fire</td><td>4</td></tr><tr><td>Web</td><td>2</td></tr></table>
 
-Regaining Charges. The staff regains  $4\mathrm{d}6 + 2$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 20, the staff regains  $1\mathrm{d}12 + 1$  charges.
+Regaining Charges. The staff regains  $4\mathrm\{d}6 + 2$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 20, the staff regains  $1\mathrm\{d}12 + 1$  charges.
 
 Retributive Strike. You can take a Magic action to break the staff over your knee or against a solid surface. The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take Force damage equal to 16 times the number of charges in the staff. Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed save, a creature takes Force damage equal to 6 times the number of charges in the staff. On a successful save, a creature takes half as much damage.
 
@@ -16290,7 +10992,7 @@ This magic weapon has 3 charges, and it regains 1d3 expended charges daily at da
 
 Wondrous Item, Legendary
 
-This tube holds milky liquid with a strong alcohol smell. When found, a tube contains  $1\mathrm{d}6 + 1$  ounces.
+This tube holds milky liquid with a strong alcohol smell. When found, a tube contains  $1\mathrm\{d}6 + 1$  ounces.
 
 You can take a Utilize action to pour 1 or more ounces of solvent from the tube onto a surface within reach. Each ounce instantly dissolves up to 1 square foot of adhesive it touches, including Sovereign Glue.
 
@@ -16578,7 +11280,7 @@ Hit Dice by Size
 
 <table><tr><td>Monster Size</td><td>Hit Die</td><td>Average HP per Die</td></tr><tr><td>Tiny</td><td>d4</td><td>2½</td></tr><tr><td>Small</td><td>d6</td><td>3½</td></tr><tr><td>Medium</td><td>d8</td><td>4½</td></tr><tr><td>Large</td><td>d10</td><td>5½</td></tr><tr><td>Huge</td><td>d12</td><td>6½</td></tr><tr><td>Gargantuan</td><td>d20</td><td>10½</td></tr></table>
 
-A monster's Constitution modifier is multiplied by the number of Hit Dice it possesses, and the result is added to its Hit Points. For example, if a monster has a Constitution of 12 (+1 modifier) and 2d8 Hit Dice, it has  $2\mathrm{d}8 + 2$  Hit Points (average 11).
+A monster's Constitution modifier is multiplied by the number of Hit Dice it possesses, and the result is added to its Hit Points. For example, if a monster has a Constitution of 12 (+1 modifier) and 2d8 Hit Dice, it has  $2\mathrm\{d}8 + 2$  Hit Points (average 11).
 
 For more on Hit Points, see "Playing the Game."
 
@@ -16734,9 +11436,9 @@ Recharge X-Y. This notation means a monster can use the stat block part once. At
 
 Recharge after a Short or Long Rest. This notation means the monster can use the stat block part once and must then finish a Short or Long Rest to use it again.
 
-#### Monsters A-Z
+## Monsters A-Z
 
-#### Aboleth
+### Aboleth
 
 #### Aboleth
 
@@ -16796,7 +11498,7 @@ Lash. The aboleth makes one Tentacle attack.
 
 Psychic Drain. If the aboleth has at least one creature Charmed or Grappled, it uses Consume Memories and regains 5 (1d10) Hit Points.
 
-#### Air Elemental
+### Air Elemental
 
 #### Air Elemental
 
@@ -16832,7 +11534,7 @@ Multiattack. The elemental makes two Thunderous Slam attacks.
 
 Thunderous Slam. Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Thunder damage.
 
-Whirlwind (Recharge 4-6). Strength Saving Throw: DC 13, one Medium or smaller creature in the elemental's space. Failure: 24  $(4\mathrm{d}10 + 2)$  Thunder damage, and the target is pushed up to 20 feet straight away from the elemental and has the Prone condition. Success: Half damage only.
+Whirlwind (Recharge 4-6). Strength Saving Throw: DC 13, one Medium or smaller creature in the elemental's space. Failure: 24  $(4\mathrm\{d}10 + 2)$  Thunder damage, and the target is pushed up to 20 feet straight away from the elemental and has the Prone condition. Success: Half damage only.
 
 #### Animated Objects
 
@@ -17424,7 +12126,7 @@ Medium Dragon (Chromatic), Chaotic Evil
 
 AC 17 Initiative +4 (14)
 
-HP 33  $(6\mathrm{d}8 + 6)$
+HP 33  $(6\mathrm\{d}8 + 6)$
 
 Speed 30 ft., Fly 60 ft., Swim 30 ft.
 
@@ -19038,7 +13740,7 @@ AC 13
 
 Initiative +2 (12)
 
-HP 44  $(8\mathrm{d}8 + 8)$
+HP 44  $(8\mathrm\{d}8 + 8)$
 
 Speed 30 ft.
 
@@ -19080,7 +13782,7 @@ AC 11
 
 Initiative +3 (13)
 
-HP 22  $(5\mathrm{d}6 + 5)$
+HP 22  $(5\mathrm\{d}6 + 5)$
 
 Speed 10 ft., Fly 30 ft.
 
@@ -19408,7 +14110,7 @@ AC 13
 
 Initiative +1 (11)
 
-HP 44  $(8\mathrm{d}8 + 8)$
+HP 44  $(8\mathrm\{d}8 + 8)$
 
 Speed 30 ft.
 
@@ -19632,7 +14334,7 @@ AC 13
 
 Initiative +2 (12)
 
-HP 44  $(8\mathrm{d}8 + 8)$
+HP 44  $(8\mathrm\{d}8 + 8)$
 
 Speed 30 ft., Climb 30 ft.
 
@@ -19700,7 +14402,7 @@ Multiattack. The ettin makes one Battleaxe attack and one Morningstar attack.
 
 Battleaxe. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.
 
-Morningstar. Melee Attack Roll: +7, reach 5 ft. Hit: 14  $(2\mathrm{d}8 + 5)$  Piercing damage, and the target has Disadvantage on the next attack roll it makes before the end of its next turn.
+Morningstar. Melee Attack Roll: +7, reach 5 ft. Hit: 14  $(2\mathrm\{d}8 + 5)$  Piercing damage, and the target has Disadvantage on the next attack roll it makes before the end of its next turn.
 
 #### Fire Elemental
 
@@ -19858,7 +14560,7 @@ Great Bow. Ranged Attack Roll: +9, range 150/600 ft. Hit: 17 (2d10 + 6) Piercing
 
 #### Bonus Actions
 
-War Cry (Recharge 5-6). The giant or one creature of its choice that can see or hear it gains 16  $(2\mathrm{d}10 + 5)$  Temporary Hit Points and has Advantage on attack rolls until the start of the giant's next turn.
+War Cry (Recharge 5-6). The giant or one creature of its choice that can see or hear it gains 16  $(2\mathrm\{d}10 + 5)$  Temporary Hit Points and has Advantage on attack rolls until the start of the giant's next turn.
 
 #### Fungi
 
@@ -20612,7 +15314,7 @@ AC 9
 
 Initiative -2 (13)
 
-HP 22  $(3\mathrm{d}8 + 9)$
+HP 22  $(3\mathrm\{d}8 + 9)$
 
 Speed 10 ft., Climb 10 ft.
 
@@ -21005,7 +15707,7 @@ AC 16
 
 Initiative +1 (11)
 
-HP 11  $(2\mathrm{d}8 + 2)$
+HP 11  $(2\mathrm\{d}8 + 2)$
 
 Speed 30 ft.
 
@@ -21109,7 +15811,7 @@ AC 11
 
 Initiative +1 (11)
 
-HP 38  $(7\mathrm{d}8 + 7)$
+HP 38  $(7\mathrm\{d}8 + 7)$
 
 Speed 20 ft., Fly 40 ft.
 
@@ -21285,7 +15987,7 @@ AC 18
 
 Initiative +3 (13)
 
-HP 11  $(2\mathrm{d}8 + 2)$
+HP 11  $(2\mathrm\{d}8 + 2)$
 
 Speed 30 ft.
 
@@ -21723,7 +16425,7 @@ AC 14
 
 Initiative +2 (12)
 
-HP7  $(3\mathrm{d}6 - 3)$
+HP7  $(3\mathrm\{d}6 - 3)$
 
 Speed 30 ft.
 
@@ -21791,7 +16493,7 @@ Fling. The kraken throws a Large or smaller creature Grappled by it to a space i
 
 Lightning Strike. Dexterity Saving Throw: DC 23, one creature the kraken can see within 120 feet. Failure: 33 (6d10) Lightning damage. Success: Half damage.
 
-Swallow. Dexterity Saving Throw: DC 25, one creature Grappled by the kraken (it can have up to four creatures swallowed at a time). Failure: 23  $(3\mathrm{d}8 + 10)$  Piercing damage. If the target is Large or smaller, it is swallowed and no longer Grappled. A swallowed creature has the Restrained condition, has Total Cover against attacks and other effects outside the kraken, and takes 24 (7d6) Acid damage at the start of each of its turns. If the kraken takes 50 damage or more on a single
+Swallow. Dexterity Saving Throw: DC 25, one creature Grappled by the kraken (it can have up to four creatures swallowed at a time). Failure: 23  $(3\mathrm\{d}8 + 10)$  Piercing damage. If the target is Large or smaller, it is swallowed and no longer Grappled. A swallowed creature has the Restrained condition, has Total Cover against attacks and other effects outside the kraken, and takes 24 (7d6) Acid damage at the start of each of its turns. If the kraken takes 50 damage or more on a single
 
 turn from a creature inside it, the kraken must succeed on a DC 25 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 10 feet of the kraken with the Prone condition. If the kraken dies, any swallowed creature no longer has the Restrained condition and can escape from the corpse using 15 feet of movement, exiting Prone.
 
@@ -22047,7 +16749,7 @@ AC 14
 
 Initiative +2 (12)
 
-HP 13  $(3\mathrm{d}6 + 3)$
+HP 13  $(3\mathrm\{d}6 + 3)$
 
 Speed 30 ft.
 
@@ -22281,7 +16983,7 @@ AC 11
 
 Initiative +1 (11)
 
-HP 18  $(4\mathrm{d}6 + 4)$
+HP 18  $(4\mathrm\{d}6 + 4)$
 
 Speed 30 ft., Fly 30 ft.
 
@@ -22557,7 +17259,7 @@ Rotting Fist. Melee Attack Roll: +9, reach 5 ft. Hit: 15 (2d10 + 4) Bludgeoning 
 
 Channel Negative Energy. Ranged Attack Roll: +9, range 60 ft. Hit: 25 (6d6 + 4) Necrotic damage.
 
-Dreadful Glare. Wisdom Saving Throw: DC 17, one creature the mummy can see within 60 feet. Failure: 25  $(6\mathrm{d}6 + 4)$  Psychic damage, and the target has the paralyzed condition until the end of the mummy's next turn.
+Dreadful Glare. Wisdom Saving Throw: DC 17, one creature the mummy can see within 60 feet. Failure: 25  $(6\mathrm\{d}6 + 4)$  Psychic damage, and the target has the paralyzed condition until the end of the mummy's next turn.
 
 Spellcasting. The mummy casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 17, +9 to hit with spell attacks):
 
@@ -23189,7 +17891,7 @@ AC 13
 
 Initiative  $+0$  (10)
 
-HP 11  $(2\mathrm{d}8 + 2)$
+HP 11  $(2\mathrm\{d}8 + 2)$
 
 Speed 30 ft.
 
@@ -23227,7 +17929,7 @@ AC 13
 
 Initiative  $+0$  (10)
 
-HP 38  $(7\mathrm{d}8 + 7)$
+HP 38  $(7\mathrm\{d}8 + 7)$
 
 Speed 30 ft.
 
@@ -23271,7 +17973,7 @@ AC 14
 
 Initiative +2 (12)
 
-HP 10  $(3\mathrm{d}4 + 3)$
+HP 10  $(3\mathrm\{d}4 + 3)$
 
 Speed 15 ft., Fly 60 ft.
 
@@ -24295,7 +18997,7 @@ AC 13
 
 Initiative +1 (11)
 
-HP 22  $(3\mathrm{d}10 + 6)$
+HP 22  $(3\mathrm\{d}10 + 6)$
 
 Speed 60 ft.
 
@@ -26677,7 +21379,7 @@ AC 12
 
 Initiative  $+0$  (10)
 
-HP 13  $(2\mathrm{d}10 + 2)$
+HP 13  $(2\mathrm\{d}10 + 2)$
 
 Speed 20 ft., Swim 30 ft.
 
@@ -27633,7 +22335,7 @@ AC 14
 
 Initiative +4 (14)
 
-HP 11  $(2\mathrm{d}8 + 2)$
+HP 11  $(2\mathrm\{d}8 + 2)$
 
 Speed 40 ft., Swim 40 ft.
 
@@ -27893,7 +22595,7 @@ Water Breathing. The shark can breathe only underwater.
 
 #### Actions
 
-Bite. Melee Attack Roll: +6 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 14  $(3\mathrm{d}6 + 4)$  Piercing damage.
+Bite. Melee Attack Roll: +6 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 14  $(3\mathrm\{d}6 + 4)$  Piercing damage.
 
 #### Hyena
 
@@ -28073,7 +22775,7 @@ Gore. Melee Attack Roll: +10, reach 10 ft. Hit: 18 (2d10 + 7) Piercing damage. I
 
 #### Bonus Actions
 
-Trample. Dexterity Saving Throw: DC 18, one creature within 5 feet that has the Prone condition. Failure: 29  $(4\mathrm{d}10 + 7)$  Bludgeoning damage. Success: Half damage.
+Trample. Dexterity Saving Throw: DC 18, one creature within 5 feet that has the Prone condition. Failure: 29  $(4\mathrm\{d}10 + 7)$  Bludgeoning damage. Success: Half damage.
 
 #### Mastiff
 
@@ -28083,7 +22785,7 @@ AC 12
 
 Initiative +2 (12)
 
-HP5  $(1\mathrm{d}8 + 1)$
+HP5  $(1\mathrm\{d}8 + 1)$
 
 Speed 40 ft.
 
@@ -28109,7 +22811,7 @@ AC 10
 
 Initiative  $+0$  (10)
 
-HP 11  $(2\mathrm{d}8 + 2)$
+HP 11  $(2\mathrm\{d}8 + 2)$
 
 Speed 40 ft.
 
@@ -28323,7 +23025,7 @@ AC 10
 
 Initiative +0 (10)
 
-HP 11  $(2\mathrm{d}8 + 2)$
+HP 11  $(2\mathrm\{d}8 + 2)$
 
 Speed 40 ft.
 
@@ -28729,7 +23431,7 @@ Water Breathing. The swarm can breathe only underwater.
 
 #### Actions
 
-Bites. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 8  $(2\mathrm{d}4 + 3)$  Piercing damage, or 5  $(1\mathrm{d}4 + 3)$  Piercing damage if the swarm is Bloodied.
+Bites. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 8  $(2\mathrm\{d}4 + 3)$  Piercing damage, or 5  $(1\mathrm\{d}4 + 3)$  Piercing damage if the swarm is Bloodied.
 
 #### Swarm of Rats
 
@@ -28771,7 +23473,7 @@ AC 12
 
 Initiative +2 (12)
 
-HP 11  $(2\mathrm{d}8 + 2)$
+HP 11  $(2\mathrm\{d}8 + 2)$
 
 Speed 10 ft., Fly 50 ft.
 
@@ -29029,7 +23731,7 @@ AC 12
 
 Initiative +2 (12)
 
-HP 11  $(2\mathrm{d}8 + 2)$
+HP 11  $(2\mathrm\{d}8 + 2)$
 
 Speed 40 ft.
 
