@@ -3,180 +3,9 @@
 
 
 
-# Spells
 
-#### Gaining Spells
 
-Before you can cast a spell, you must have the spell prepared in your mind or have access to the spell from a magic item, such as a Spell Scroll. Your features specify which spells you have access to, if any; whether you always have certain spells prepared; and whether you can change the list of spells you have prepared.
-
-#### Preparing Spells
-
-If you have a list of level 1+ spells you prepare, your spellcasting feature specifies when you can change the list and the number of spells you can change, as summarized in the Spell Preparation by Class table.
-
-Spell Preparation by Class  
-
-<table><tr><td>Class</td><td>Change When You
-...</td><td>Number of Spells</td></tr><tr><td>Bard</td><td>Gain a level</td><td>One</td></tr><tr><td>Cleric</td><td>Finish a Long Rest</td><td>Any</td></tr><tr><td>Druid</td><td>Finish a Long Rest</td><td>Any</td></tr><tr><td>Paladin</td><td>Finish a Long Rest</td><td>One</td></tr><tr><td>Ranger</td><td>Finish a Long Rest</td><td>One</td></tr><tr><td>Sorcerer</td><td>Gain a level</td><td>One</td></tr><tr><td>Warlock</td><td>Gain a level</td><td>One</td></tr><tr><td>Wizard</td><td>Finish a Long Rest</td><td>Any</td></tr></table>
-
-Most spellcasting monsters don't change their lists of prepared spells, but the GM is free to alter them.
-
-#### Always-Prepared Spells
-
-Certain features might give you a spell that you always have prepared. If you also have a list of prepared spells that you can change, a spell that you always have prepared doesn't count against the number of spells on that list.
-
-#### Casting Spells
-
-Each spell description has a series of entries that provide the details needed to cast the spell. The following sections explain each of those entries, which follow a spell's name.
-
-#### CASTING IN ARMOR
-
-You must have training with any armor you are wearing to cast spells while wearing it. You are otherwise too hampered by the armor for spellcasting.
-
-#### Spell Level
-
-Every spell has a level from 0 to 9, which is indicated in a spell's description. A spell's level is an indicator of how powerful it is. Cantrips—simple spells that can be cast almost by rote—are level 0. The rules for each spellcasting class say when its members gain access to spells of certain levels.
-
-#### Spell Slots
-
-Spellcasting is taxing, so a spellcaster can cast only a limited number of level 1+ spells before resting. Spell slots are the main way a spellcaster's magical potential is represented. Each spellcasting class gives its members a limited number of spell slots of certain spell levels. For example, a level 3 Wizard has four level 1 spell slots and two level 2 slots.
-
-When you cast a spell, you expend a slot of that spell's level or higher, effectively "filling" a slot with the spell. Imagine a spell slot is a groove of a certain size—small for a level 1 slot and larger for a higher-level spell. A level 1 spell fits into a slot of any size, but a level 2 spell fits only into a slot that's at least level 2. So when a level 3 Wizard casts Magic Missile, a level 1 spell, that Wizard spends one of four level 1 slots and has three remaining.
-
-Finishing a Long Rest restores any expended spell slots.
-
-#### Casting without Slots
-
-There are several ways to cast a spell without expending a spell slot:
-
-Cantrips. A cantrip is cast without a spell slot.
-
-Rituals. Certain spells have the Ritual tag in the Casting Time entry. Such a spell can be cast following the normal rules for spellcasting, or it can be cast as a Ritual. The Ritual version of a spell takes 10 minutes longer to cast than normal, but it doesn't expend a spell slot. To cast a spell as a Ritual, a spellcaster must have it prepared.
-
-Special Abilities. Some characters and monsters have special abilities that allow them to cast specific spells without a spell slot. This casting is usually limited in another way, such as being able to cast the spell a limited number of times per day.
-
-Magic Items. Spell scrolls and some other magic items contain spells that can be cast without a spell slot. The description of such an item specifies how many times a spell can be cast from it.
-
-#### Using a Higher-Level Spell Slot
-
-When a spellcaster casts a spell using a slot that is of a higher level than the spell, the spell takes on the higher level for that casting. For instance, if a Wizard casts Magic Missile using a level 2 slot, that Magic Missile is level 2. Effectively, the spell expands to fill the slot it is put into.
-
-Some spells, such as Magic Missile and Cure Wounds, have more powerful effects when cast at a higher level, as detailed in a spell's description.
-
-#### School of Magic
-
-Each spell belongs to a school of magic. The schools are listed in the Schools of Magic table. These categories help describe spells but have no rules of their own, although some other rules refer to them.
-
-Schools of Magic  
-
-<table><tr><td>School</td><td>Typical Effects</td></tr><tr><td>Abjuration</td><td>Prevents or reverses harmful effects</td></tr><tr><td>Conjuration</td><td>Transports creatures or objects</td></tr><tr><td>Divination</td><td>Reveals information</td></tr><tr><td>Enchantment</td><td>Influences minds</td></tr><tr><td>Evocation</td><td>Channels energy to create effects that are often destructive</td></tr><tr><td>Illusion</td><td>Deceives the mind or senses</td></tr><tr><td>Necromancy</td><td>Manipulates life and death</td></tr><tr><td>Transmutation</td><td>Transforms creatures or objects</td></tr></table>
-
-#### Class Spell Lists
-
-If a spell is on a class's spell list, the class's name appears in parentheses after the spell's school of magic. Some features add a spell to a character's spell list even if the character isn't a member of a class in the parentheses.
-
-#### Casting Time
-
-Most spells require the Magic action to cast, but some spells require a Bonus Action, a Reaction, or 1 minute or more. A spell's Casting Time entry specifies which of those is required.
-
-#### One Spell with a Spell Slot per Turn
-
-On a turn, you can expend only one spell slot to cast a spell. This rule means you can't, for example, cast a spell with a spell slot using the Magic action and another one using a Bonus Action on the same turn.
-
-#### Reaction and Bonus Action Triggers
-
-A spell that has a casting time of a Reaction is cast in response to a trigger that is defined in the spell's Casting Time entry. Some spells that have a casting time of a Bonus Action are also cast in response to a trigger defined in the spell.
-
-#### Longer Casting Times
-
-Certain spells—including a spell cast as a Ritual—require more time to cast: minutes or even hours. While you cast a spell with a casting time of 1 minute or more, you must take the Magic action on each of your turns, and you must maintain Concentration (see “Rules Glossary”) while you do so. If
-
-your Concentration is broken, the spell fails, but you don't expend a spell slot. To cast the spell again, you must start over.
-
-#### Range
-
-A spell's range indicates how far from the spellcaster the spell's effect can originate, and the spell's description specifies which part of the effect is limited by the range.
-
-A range usually takes one of the following forms:
-
-Distance. The range is expressed in feet.
-
-Touch. The spell's effect originates on something, as defined by the spell, that the spellcaster must touch within their reach.
-
-Self. The spell is cast on the spellcaster or emanates from them, as specified in the spell.
-
-If a spell has movable effects, they aren't restricted by its range unless the spell's description says otherwise.
-
-#### Components
-
-A spell's components are physical requirements the spellcaster must meet to cast the spell. Each spell's description indicates whether it requires Verbal (V), Somatic (S), or Material (M) components. If the spellcaster can't provide one or more of a spell's components, the spellcaster can't cast the spell.
-
-#### Verbal (V)
-
-A Verbal component is the chanting of esoteric words that sound like nonsense to the uninitiated. The words must be uttered in a normal speaking voice. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and resonance, sets the threads of magic in motion. Thus, a creature who is gagged or in an area of magical silence can't cast a spell with a Verbal component.
-
-#### Somatic (S)
-
-A Somatic component is a forceful gesticulation or an intricate set of gestures. A spellcaster must use at least one of their hands to perform these movements.
-
-#### Material (M)
-
-A Material component is a particular material used in a spell's casting, as specified in parentheses in the Components entry. These materials aren't consumed by the spell unless the spell's description states otherwise. The spellcaster must have a hand free to access them, but it can be the same hand used to perform Somatic components, if any.
-
-If a spell doesn't consume its materials and doesn't specify a cost for them, a spellcaster can use a Component Pouch (see "Equipment") instead of providing the materials specified in the spell, or the
-
-spellcaster can substitute a Spellcasting Focus if the caster has a feature that allows that substitution. To use a Component Pouch, you must have a hand free to reach into it, and to use a Spellcasting Focus, you must hold it unless its description says otherwise (see "Equipment" for descriptions).
-
-#### Duration
-
-A spell's duration is the length of time the spell persists after it is cast. A duration typically takes one of the following forms:
-
-Concentration. A duration that requires Concentration follows the Concentration rules (see "Rules Glossary").
-
-Instantaneous. An instantaneous duration means the spell's magic appears only for a moment and then disappears.
-
-Time Span. A duration that provides a time span specifies how long the spell lasts in rounds, minutes, hours, or the like. For example, a Duration entry might say "1 minute," meaning the spell ends after 1 minute has passed. While a time-span spell that you cast is ongoing, you can dismiss it (no action required) if you don't have the Incapacitated condition.
-
-#### Effects
-
-The effects of a spell are detailed after its duration entry. Those details present exactly what the spell does, which ignores mundane physical laws; any outcomes beyond those effects are under the GM's purview. Whatever the effects, they typically deal with targets, saving throws, attack rolls, or all three, each of which is detailed below.
-
-#### Targets
-
-A typical spell requires the caster to pick one or more targets to be affected by the spell's magic. A spell's description says whether the spell targets creatures, objects, or something else.
-
-A Clear Path to the Target. To target something with a spell, a caster must have a clear path to it, so it can't be behind Total Cover.
-
-Targeting Yourself. If a spell targets a creature of your choice, you can choose yourself unless the creature must be Hostile or specifically a creature other than you.
-
-Areas of Effect. Some spells, such as Thunderwave, cover an area called an area of effect, which is defined in "Rules Glossary." The area determines what the spell targets. The description of a spell specifies whether it has an area of effect, which is typically one of these shapes: Cone, Cube, Cylinder, Emanation, Line, or Sphere.
-
-Awareness of Being Targeted. Unless a spell has a perceptible effect, a creature doesn't know it was targeted by the spell. An effect like lightning is obvious, but a more subtle effect, such as an attempt to read thoughts, goes unnoticed unless a spell's description says otherwise.
-
-Invalid Targets. If you cast a spell on someone or something that can't be affected by it, nothing happens to that target, but if you used a spell slot to cast the spell, the slot is still expended.
-
-If the spell normally has no effect on a target that succeeds on a saving throw, the invalid target appears to have succeeded on its saving throw, even though it didn't attempt one (giving no hint that the creature is an invalid target). Otherwise, you perceive that the spell did nothing to the target.
-
-#### Saving Throws
-
-Many spells specify that a target makes a saving throw to avoid some or all of a spell's effects. The spell specifies the ability that the target uses for the save and what happens on a success or failure. Here's how to calculate the DC for your spells:
-
-Spell save DC = 8 + your spellcasting ability modifier + your Proficiency Bonus
-
-#### Attack Rolls
-
-Some spells require the caster to make an attack roll to determine whether the spell hits a target. Here's how to calculate the attack modifier for your spells:
-
-Spell attack modifier = your spellcasting ability modifier + your Proficiency Bonus
-
-#### Combining Spell Effects
-
-The effects of different spells add together while their durations overlap. In contrast, the effects of the same spell cast multiple times don't combine. Instead, the most potent effect—such as the highest bonus—from those castings applies while their durations overlap. The most recent effect applies if the castings are equally potent and their durations overlap. For example, if two Clerics cast Bless on the same target, that target gains the spell's benefit only once; the target doesn't receive two bonus dice. But if the durations of the spells overlap, the effect continues until the duration of the second Bless ends.
-
-#### IDENTIFYING AN ONGOING Spell
-
-You can try to identify a non-instantaneous spell by its observable effects if its duration is ongoing. To identify it, you must take the Study action and succeed on a DC 15 Intelligence (Arcana) check.
-
-#### Spell Descriptions
+# Spell Descriptions
 
 #### Acid Arrow
 
@@ -1199,7 +1028,7 @@ Duration: Concentration, up to 1 minute
 
 Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom saving throw, or that target can't take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to determine its behavior for that turn, consulting the table below.
 
-#### Id10 Behavior for the Turn
+#### 1d10 Behavior for the Turn
 
 The target doesn't take an action, and it uses all its movement to move. Roll ld4 for the direction: 1, north; 2, east; 3, south; or 4, west.
 
@@ -1441,7 +1270,7 @@ Duration: Concentration, up to 8 hours
 
 You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.
 
-When you cast the spell, you change the current weather conditions, which are determined by the GM. You can change precipitation, temperature, and wind. It takes  $1\mathrm\{d}4 \times 10$  minutes for the new
+When you cast the spell, you change the current weather conditions, which are determined by the GM. You can change precipitation, temperature, and wind. It takes  $1\mathrm{d}4 \times 10$  minutes for the new
 
 conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.
 
@@ -1807,7 +1636,7 @@ Duration: Instantaneous
 
 You launch a green ray at a target you can see within range. The target can be a creature, a nonmagical object, or a creation of magical force, such as the wall created by Wall of Force.
 
-A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes  $10\mathrm\{d}6 + 40$  Force damage. If this damage reduces it to 0 Hit Points, it and everything nonmagical it is wearing and carrying are disintegrated into gray dust. The target can be revived only by a True Resurrection or a Wish spell.
+A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes  $10\mathrm{d}6 + 40$  Force damage. If this damage reduces it to 0 Hit Points, it and everything nonmagical it is wearing and carrying are disintegrated into gray dust. The target can be revived only by a True Resurrection or a Wish spell.
 
 This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If such a target is Huge or larger, this spell disintegrates a 10-foot-Cube portion of it.
 
@@ -2069,7 +1898,7 @@ When you cast this spell and at the end of each of your turns for the duration, 
 
 You can also cause the effects below.
 
-Fissures. A total of 1d6 fissures open in the spell's area at the end of the turn you cast it. You choose the fissures' locations, which can't be under structures. Each fissure is  $1\mathrm\{d}10 \times 10$  feet deep and 10 feet wide, and it extends from one edge of the spell's area to another edge. A creature in the same space as a fissure must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens.
+Fissures. A total of 1d6 fissures open in the spell's area at the end of the turn you cast it. You choose the fissures' locations, which can't be under structures. Each fissure is  $1\mathrm{d}10 \times 10$  feet deep and 10 feet wide, and it extends from one edge of the spell's area to another edge. A creature in the same space as a fissure must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens.
 
 Structures. The tremor deals 50 Bludgeoning damage to any structure in contact with the ground in the area when you cast the spell and at the end of each of your turns until the spell ends. If a structure drops to 0 Hit Points, it collapses.
 
@@ -2327,7 +2156,7 @@ Components: V, S, M (a drop of alcohol)
 
 Duration: Instantaneous
 
-You gain  $2\mathrm\{d}4 + 4$  Temporary Hit Points.
+You gain  $2\mathrm{d}4 + 4$  Temporary Hit Points.
 
 Using a Higher-Level Spell Slot. You gain 5 additional Temporary Hit Points for each spell slot level above 1.
 
@@ -2492,7 +2321,7 @@ Components: V, S
 
 Duration: Instantaneous
 
-You unleash negative energy toward a creature you can see within range. The target makes a Constitution saving throw, taking  $7\mathrm\{d}8 + 30$  Necrotic damage on a failed save or half as much damage on a successful one.
+You unleash negative energy toward a creature you can see within range. The target makes a Constitution saving throw, taking  $7\mathrm{d}8 + 30$  Necrotic damage on a failed save or half as much damage on a successful one.
 
 A Humanoid killed by this spell rises at the start of your next turn as a Zombie (see "Monsters") that follows your verbal orders.
 
@@ -3615,7 +3444,6 @@ You touch the sapphire used in the casting and an object weighing 10 pounds or l
 Thereafter, you can take a Magic action to speak the object's name and crush the sapphire. The object instantly appears in your hand regardless of physical or planar distances, and the spell ends.
 
 If another creature is holding or carrying the object, crushing the sapphire doesn't transport it, but instead you learn who that creature is and where that creature is currently located.
-
 #### Irresistible Dance
 
 Level 6 Enchantment (Bard, Wizard)
@@ -3934,7 +3762,7 @@ Components: V, S
 
 Duration: Instantaneous
 
-You create three glowing darts of magical force. Each dart strikes a creature of your choice that you can see within range. A dart deals  $1\mathrm\{d}4 + 1$  Force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.
+You create three glowing darts of magical force. Each dart strikes a creature of your choice that you can see within range. A dart deals  $1\mathrm{d}4 + 1$  Force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.
 
 Using a Higher-Level Spell Slot. The spell creates one more dart for each spell slot level above 1.
 
@@ -4667,14 +4495,14 @@ Eight rays of light flash from you in a 60-foot Cone. Each creature in the Cone 
 
 #### Prismatic Rays
 
-Id8 Ray
+1d8 Ray
 
 I Red. Failed Save: 12d6 Fire damage. Successful Save: Half as much damage.  
 2 Orange. Failed Save: 12d6 Acid damage. Successful Save: Half as much damage.  
 3 Yellow. Failed Save: 12d6 Lightning damage. Successful Save: Half as much damage.  
 4 Green. Failed Save: 12d6 Poison damage. Successful Save: Half as much damage.
 
-#### Id8 Ray
+#### 1d8 Ray
 
 5 Blue. Failed Save: 12d6 Cold damage. Successful Save: Half as much damage.  
 6 Indigo. Failed Save: The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the Greater Restoration spell. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind.  
@@ -4924,7 +4752,7 @@ Components: V, S, M (a prayer wheel)
 
 Duration: I hour
 
-A creature you touch regains  $4\mathrm\{d}8 + 15$  Hit Points. For the duration, the target regains 1 Hit Point at the start of each of its turns, and any severed body parts regrow after 2 minutes.
+A creature you touch regains  $4\mathrm{d}8 + 15$  Hit Points. For the duration, the target regains 1 Hit Point at the start of each of its turns, and any severed body parts regrow after 2 minutes.
 
 #### Ray of Sickness
 
@@ -4956,7 +4784,7 @@ Duration: Instantaneous
 
 You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. Roll 1d10 and consult the table below to determine the body's species, or the GM chooses another playable species.
 
-Id10 Species
+1d10 Species
 
 I Roll again.
 
@@ -4968,7 +4796,7 @@ I Roll again.
 
 5 Gnome
 
-Id10 Species
+1d10 Species
 
 6 Goliath
 
@@ -5810,7 +5638,7 @@ Shared Resistances. When you summon the spirit, choose one of its Resistances. Y
 
 Multiattack. The spirit makes a number of Rend attacks equal to half the spell's level (round down), and it uses Breath Weapon.
 
-Rend. Melee Attack Roll: Bonus equals your spell attack modifier, reach 10 feet. Hit:  $1\mathrm\{d}6 + 4+$  the spell's level Piercing damage.
+Rend. Melee Attack Roll: Bonus equals your spell attack modifier, reach 10 feet. Hit:  $1\mathrm{d}6 + 4+$  the spell's level Piercing damage.
 
 Breath Weapon. Dexterity Saving Throw: DC equals your spell save DC, each creature in a 30-foot Cone. Failure: 2d6 damage of a type this spirit has Resistance to (your choice when you cast the spell). Success: Half damage.
 
@@ -6039,7 +5867,7 @@ Components: V
 
 Duration: Instantaneous
 
-You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take  $1\mathrm\{d}4 + 1$  turns in a row, during which you can use actions and move as normal.
+You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take  $1\mathrm{d}4 + 1$  turns in a row, during which you can use actions and move as normal.
 
 This spell ends if one of the actions you use during this period, or any effects that you create during it, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet from the location where you cast it.
 
@@ -6568,6 +6396,13 @@ Duration: 10 minutes
 You create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there makes a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.
 
 An affected creature is aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive yet must be truthful.
+
+
+
+
+
+
+
 
 # Rules Glossary
 
@@ -7124,7 +6959,7 @@ You stop being hidden immediately after any of the following occurs: you make a 
 
 When you make a High Jump, you leap into the air a number of feet equal to 3 plus your Strength modifier (minimum of 0 feet) if you move at least 10 feet on foot immediately before the jump. When you make a standing High Jump, you can jump only half that distance. Either way, each foot of the jump costs a foot of movement.
 
-You can extend your arms half your height above yourself during the jump. Thus, you can reach a distance equal to the height of the jump plus  $1\frac\{1}\{2}$  times your height.
+You can extend your arms half your height above yourself during the jump. Thus, you can reach a distance equal to the height of the jump plus  $1\frac{1}{2}$  times your height.
 
 #### Hit Point Dice
 
@@ -7539,7 +7374,7 @@ Attack Notation. The entry for a monster's attack starts by identifying whether 
 
 Saving Throw Effect Notation. If an effect forces a saving throw, the effect's entry starts by identifying the kind of saving throw required and then provides the save's DC, a description of which creatures must make the save, and what happens on a failed or a successful save.
 
-Damage Notation. A stat block usually provides both a static number and a die expression for each instance of damage. For example, an attack might deal 4  $(1\mathrm\{d}4 + 2)$  damage on a hit. The GM determines whether you use the static number or the die expression in parentheses; you don't use both.
+Damage Notation. A stat block usually provides both a static number and a die expression for each instance of damage. For example, an attack might deal 4  $(1\mathrm{d}4 + 2)$  damage on a hit. The GM determines whether you use the static number or the die expression in parentheses; you don't use both.
 
 #### Study [Action]
 
@@ -7697,7 +7532,7 @@ Miles per hour  $=$  Speed ÷ 10
 
 Miles per day (Normal pace) = Miles per hour × number of hours traveled (typically 8)
 
-Fast pace  $=$  Miles per day  $\times 1\frac\{1}\{3}$  (round down)
+Fast pace  $=$  Miles per day  $\times 1\frac{1}{3}$  (round down)
 
 Slow pace = Miles per day × 2/3 (round down)
 
@@ -7726,7 +7561,7 @@ Travel Terrain
 <table><tr><td>Terrain</td><td>Maximum Pace</td><td>Encounter Distance</td><td>Foraging DC</td><td>Navigation DC</td><td>Search DC</td></tr><tr><td>Arctic</td><td>Fast*</td><td>6d6 × 10 feet</td><td>20</td><td>10</td><td>10</td></tr><tr><td>Coastal</td><td>Normal</td><td>2d10 × 10 feet</td><td>10</td><td>5</td><td>15</td></tr><tr><td>Desert</td><td>Normal</td><td>6d6 × 10 feet</td><td>20</td><td>10</td><td>10</td></tr><tr><td>Forest</td><td>Normal</td><td>2d8 × 10 feet</td><td>10</td><td>15</td><td>15</td></tr><tr><td>Grassland</td><td>Fast</td><td>6d6 × 10 feet</td><td>15</td><td>5</td><td>15</td></tr><tr><td>Hill</td><td>Normal</td><td>2d10 × 10 feet</td><td>15</td><td>10</td><td>15</td></tr><tr><td>Mountain</td><td>Slow</td><td>4d10 × 10 feet</td><td>20</td><td>15</td><td>20</td></tr><tr><td>Swamp</td><td>Slow</td><td>2d8 × 10 feet</td><td>10</td><td>15</td><td>20</td></tr><tr><td>Underdark</td><td>Normal</td><td>2d6 × 10 feet</td><td>20</td><td>10</td><td>20</td></tr><tr><td>Urban</td><td>Normal</td><td>2d6 × 10 feet</td><td>20</td><td>15</td><td>15</td></tr><tr><td>Waterborne</td><td>Special†</td><td>6d6 × 10 feet</td><td>15</td><td>10</td><td>15</td></tr></table>
 
 *Appropriate equipment (such as skis) is necessary to keep up a Fast pace in Arctic terrain  
-$^\{\dagger}$ Characters' rate of travel while waterborne depends on the vehicle carrying them; see "Vehicles."
+$^{\dagger}$ Characters' rate of travel while waterborne depends on the vehicle carrying them; see "Vehicles."
 
 Intelligence or Wisdom. One or both abilities are ideal for a background that focuses on cerebral or spiritual matters.
 
@@ -7882,7 +7717,7 @@ A strong wind in a desert can create a sandstorm that imposes Disadvantage on Wi
 
 #### Thin Ice
 
-Thin ice has a weight tolerance of  $3\mathrm\{d}10 \times 10$  pounds per 10-foot-square area. Whenever the total weight on an area of thin ice exceeds its tolerance, the ice in that area breaks. All creatures on broken ice fall through. Below the ice is frigid water (see "Frigid Water" above).
+Thin ice has a weight tolerance of  $3\mathrm{d}10 \times 10$  pounds per 10-foot-square area. Whenever the total weight on an area of thin ice exceeds its tolerance, the ice in that area breaks. All creatures on broken ice fall through. Below the ice is frigid water (see "Frigid Water" above).
 
 #### Fear and Mental Stress
 
@@ -7914,7 +7749,7 @@ The Sample Mental Stress Effects table provides a few examples of such effects, 
 
 Sample Mental Stress Effects  
 
-<table><tr><td>Example</td><td>Save DC</td><td>Psychic Damage</td></tr><tr><td>A character ingests a hallucinogenic substance that distorts the character&####x27;s perception of reality.</td><td>10</td><td>Id6</td></tr><tr><td>A character touches a fiendish idol that tears at the character&####x27;s mind, threatening to shatter it.</td><td>15</td><td>3d6</td></tr><tr><td>A magical trap flings a character into the Far Realm until the end of that character&####x27;s next turn.</td><td>20</td><td>9d6</td></tr></table>
+<table><tr><td>Example</td><td>Save DC</td><td>Psychic Damage</td></tr><tr><td>A character ingests a hallucinogenic substance that distorts the character&####x27;s perception of reality.</td><td>10</td><td>1d6</td></tr><tr><td>A character touches a fiendish idol that tears at the character&####x27;s mind, threatening to shatter it.</td><td>15</td><td>3d6</td></tr><tr><td>A magical trap flings a character into the Far Realm until the end of that character&####x27;s next turn.</td><td>20</td><td>9d6</td></tr></table>
 
 #### Prolonged Effects
 
@@ -7922,7 +7757,7 @@ Exposure to mental stress can cause prolonged effects. Consider the following po
 
 Short-Term Effects. The character has the Frightened, Incapacitated, or Stunned condition for 1d10 minutes. This condition might be accompanied by alarming behavior or hallucinations. These effects can be suppressed with the Calm Emotions spell or removed by the Lesser Restoration spell.
 
-Long-Term Effects. The character has Disadvantage on some or all ability checks for  $1\mathrm\{d}10 \times 10$  hours, stemming from an unwillingness or inability to exert a particular set of abilities. The character might feel enervated and unable to exert much Strength, for example, or become so suspicious of others that Charisma checks are more difficult. These effects can be suppressed with the Calm Emotions spell or removed by the Lesser Restoration spell.
+Long-Term Effects. The character has Disadvantage on some or all ability checks for  $1\mathrm{d}10 \times 10$  hours, stemming from an unwillingness or inability to exert a particular set of abilities. The character might feel enervated and unable to exert much Strength, for example, or become so suspicious of others that Charisma checks are more difficult. These effects can be suppressed with the Calm Emotions spell or removed by the Lesser Restoration spell.
 
 Indefinite Effects. An indefinite effect is a long-term effect (see above) that lasts until removed by a Greater Restoration spell. It can be suppressed by a Calm Emotions spell.
 
@@ -8314,7 +8149,7 @@ When a character mixes two potions together, roll on the Potion Miscibility tabl
 
 Potion Miscibility  
 
-<table><tr><td>Id100</td><td>Result</td></tr><tr><td>01</td><td>Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius Sphere centered on itself. Each creature in that area takes 4d10 Force damage.</td></tr><tr><td>02–08</td><td>Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see “Poison” in “Gameplay Toolbox”).</td></tr><tr><td>09–15</td><td>Both potions lose their effects.</td></tr><tr><td>16–25</td><td>One potion loses its effect.</td></tr><tr><td>26–35</td><td>Both potions work, but with their numerical effects and durations halved. If a potion has no numerical effect and no duration, it instead loses its effect.</td></tr><tr><td>36–90</td><td>Both potions work normally.</td></tr><tr><td>91–99</td><td>Both potions work, but the numerical effects and duration of one potion are doubled. If neither potion has anything to double in this way, they work normally.</td></tr><tr><td>00</td><td>Only one potion works, but its effects are permanent. Choose the simplest effect to make permanent or the one that seems the most fun. For example, a Potion of Healing might increase the drinker&####x27;s Hit Point maximum by 2d4 + 2, or a Potion of Invisibility might give the drinker the Invisible condition indefinitely. At your discretion, a Dispel Magic spell or similar magic might end this lasting effect.</td></tr></table>
+<table><tr><td>1d100</td><td>Result</td></tr><tr><td>01</td><td>Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius Sphere centered on itself. Each creature in that area takes 4d10 Force damage.</td></tr><tr><td>02–08</td><td>Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see “Poison” in “Gameplay Toolbox”).</td></tr><tr><td>09–15</td><td>Both potions lose their effects.</td></tr><tr><td>16–25</td><td>One potion loses its effect.</td></tr><tr><td>26–35</td><td>Both potions work, but with their numerical effects and durations halved. If a potion has no numerical effect and no duration, it instead loses its effect.</td></tr><tr><td>36–90</td><td>Both potions work normally.</td></tr><tr><td>91–99</td><td>Both potions work, but the numerical effects and duration of one potion are doubled. If neither potion has anything to double in this way, they work normally.</td></tr><tr><td>00</td><td>Only one potion works, but its effects are permanent. Choose the simplest effect to make permanent or the one that seems the most fun. For example, a Potion of Healing might increase the drinker&####x27;s Hit Point maximum by 2d4 + 2, or a Potion of Invisibility might give the drinker the Invisible condition indefinitely. At your discretion, a Dispel Magic spell or similar magic might end this lasting effect.</td></tr></table>
 
 #### Rings
 
@@ -8500,21 +8335,21 @@ You can give a sentient item an objective it pursues, perhaps to the exclusion o
 
 Sentient Item's Alignment  
 
-<table><tr><td>Id100</td><td>Alignment</td><td>Id100</td><td>Alignment</td></tr><tr><td>01–15</td><td>Lawful Good</td><td>74–85</td><td>Chaotic Neutral</td></tr><tr><td>16–35</td><td>Neutral Good</td><td>86–89</td><td>Lawful Evil</td></tr><tr><td>36–50</td><td>Chaotic Good</td><td>90–96</td><td>Neutral Evil</td></tr><tr><td>51–63</td><td>Lawful Neutral</td><td>97–00</td><td>Chaotic Evil</td></tr><tr><td>64–73</td><td>Neutral</td><td></td><td></td></tr></table>
+<table><tr><td>1d100</td><td>Alignment</td><td>1d100</td><td>Alignment</td></tr><tr><td>01–15</td><td>Lawful Good</td><td>74–85</td><td>Chaotic Neutral</td></tr><tr><td>16–35</td><td>Neutral Good</td><td>86–89</td><td>Lawful Evil</td></tr><tr><td>36–50</td><td>Chaotic Good</td><td>90–96</td><td>Neutral Evil</td></tr><tr><td>51–63</td><td>Lawful Neutral</td><td>97–00</td><td>Chaotic Evil</td></tr><tr><td>64–73</td><td>Neutral</td><td></td><td></td></tr></table>
 
 Sentient Item's Communication  
 
-<table><tr><td>Id10</td><td>Communication</td></tr><tr><td>1-6</td><td>The item communicates by transmitting emotion to the creature carrying or wielding it.</td></tr><tr><td>7-9</td><td>The item speaks one or more languages.</td></tr><tr><td>10</td><td>The item speaks one or more languages. In addition, the item can communicate telepathically with any creature that carries or wields it.</td></tr></table>
+<table><tr><td>1d10</td><td>Communication</td></tr><tr><td>1-6</td><td>The item communicates by transmitting emotion to the creature carrying or wielding it.</td></tr><tr><td>7-9</td><td>The item speaks one or more languages.</td></tr><tr><td>10</td><td>The item speaks one or more languages. In addition, the item can communicate telepathically with any creature that carries or wields it.</td></tr></table>
 
 Sentient Item's Senses  
 
-<table><tr><td>Id4</td><td>Senses</td></tr><tr><td>1</td><td>Hearing and standard vision out to 30 feet</td></tr><tr><td>2</td><td>Hearing and standard vision out to 60 feet</td></tr><tr><td>3</td><td>Hearing and standard vision out to 120 feet</td></tr><tr><td>4</td><td>Hearing and Darkvision out to 120 feet</td></tr></table>
+<table><tr><td>1d4</td><td>Senses</td></tr><tr><td>1</td><td>Hearing and standard vision out to 30 feet</td></tr><tr><td>2</td><td>Hearing and standard vision out to 60 feet</td></tr><tr><td>3</td><td>Hearing and standard vision out to 120 feet</td></tr><tr><td>4</td><td>Hearing and Darkvision out to 120 feet</td></tr></table>
 
 Sentient Item's Special Purpose  
 
-<table><tr><td>Id10</td><td>Special Purpose</td></tr><tr><td>1</td><td>Aligned. The item seeks to defeat or destroy those of a diametrically opposed alignment. Such an item is never Neutral.</td></tr><tr><td>2</td><td>Bane. The item seeks to thwart or destroy creatures of a particular type, such as Constructs, Fiends, or Undead.</td></tr><tr><td>3</td><td>Creator Seeker. The item seeks its creator and wants to understand why it was created.</td></tr><tr><td>4</td><td>Destiny Seeker. The item believes it and its bearer have key roles to play in future events.</td></tr></table>
+<table><tr><td>1d10</td><td>Special Purpose</td></tr><tr><td>1</td><td>Aligned. The item seeks to defeat or destroy those of a diametrically opposed alignment. Such an item is never Neutral.</td></tr><tr><td>2</td><td>Bane. The item seeks to thwart or destroy creatures of a particular type, such as Constructs, Fiends, or Undead.</td></tr><tr><td>3</td><td>Creator Seeker. The item seeks its creator and wants to understand why it was created.</td></tr><tr><td>4</td><td>Destiny Seeker. The item believes it and its bearer have key roles to play in future events.</td></tr></table>
 
-#### Id10 Special Purpose
+#### 1d10 Special Purpose
 
 5 Destroyer. The item craves destruction and goads its user to fight arbitrarily.  
 6 Glory Seeker. The item seeks renown as the greatest magic item in the world by winning fame or notoriety for its user.  
@@ -8569,7 +8404,7 @@ This magic ammunition is meant to slay creatures of a particular type, which the
 
 After dealing its extra damage to a creature, the ammunition becomes nonmagical.
 
-<table><tr><td>Id100</td><td>Creature Type</td><td>Id100</td><td>Creature Type</td></tr><tr><td>01-10</td><td>Aberrations</td><td>51-60</td><td>Fey</td></tr><tr><td>11-15</td><td>Beasts</td><td>61-70</td><td>Fiends</td></tr><tr><td>16-20</td><td>Celestials</td><td>71-75</td><td>Giants</td></tr><tr><td>21-25</td><td>Constructs</td><td>76-80</td><td>Monstrosities</td></tr><tr><td>26-35</td><td>Dragons</td><td>81-85</td><td>Oozes</td></tr><tr><td>36-45</td><td>Elementals</td><td>86-90</td><td>Plants</td></tr><tr><td>46-50</td><td>Humanoids</td><td>91-00</td><td>Undead</td></tr></table>
+<table><tr><td>1d100</td><td>Creature Type</td><td>1d100</td><td>Creature Type</td></tr><tr><td>01-10</td><td>Aberrations</td><td>51-60</td><td>Fey</td></tr><tr><td>11-15</td><td>Beasts</td><td>61-70</td><td>Fiends</td></tr><tr><td>16-20</td><td>Celestials</td><td>71-75</td><td>Giants</td></tr><tr><td>21-25</td><td>Constructs</td><td>76-80</td><td>Monstrosities</td></tr><tr><td>26-35</td><td>Dragons</td><td>81-85</td><td>Oozes</td></tr><tr><td>36-45</td><td>Elementals</td><td>86-90</td><td>Plants</td></tr><tr><td>46-50</td><td>Humanoids</td><td>91-00</td><td>Undead</td></tr></table>
 
 #### Amulet of Health
 
@@ -8589,13 +8424,13 @@ Wondrous Item, Very Rare (Requires Attunement)
 
 While wearing this amulet, you can take a Magic action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence (Arcana) check. On a successful check, you cast Plane Shift. On a failed check, you and each creature and object within 15 feet of you travel to a random destination determined by rolling 1d100 and consulting the following table.
 
-#### Id100 Destination
+#### 1d100 Destination
 
 01-60 Random location on the plane you named  
-61-70 Random location on an Inner Plane determined by rolling Id6: on a 1, the Plane of Air; on a 2, the Plane of Earth; on a 3, the Plane of Fire; on a 4, the Plane of Water; on a 5, the Feywild; on a 6, the Shadowfell
+61-70 Random location on an Inner Plane determined by rolling 1d6: on a 1, the Plane of Air; on a 2, the Plane of Earth; on a 3, the Plane of Fire; on a 4, the Plane of Water; on a 5, the Feywild; on a 6, the Shadowfell
 
-71-80 Random location on an Outer Plane determined by rolling Id8: on a 1, Arborea; on a 2, Arcadia; on a 3, the Beastlands; on a 4, Bytopia; on a 5, Elysium; on a 6, Mechanus; on a 7, Mount Celestia; on an 8, Ysgard  
-81-90 Random location on an Outer Plane determined by rolling Id8: on a 1, the Abyss; on a 2, Acheron; on a 3, Carceri; on a 4, Gehenna; on a 5, Hades; on a 6, Limbo; on a 7, the Nine Hells; on an 8, Pandemonium
+71-80 Random location on an Outer Plane determined by rolling 1d8: on a 1, Arborea; on a 2, Arcadia; on a 3, the Beastlands; on a 4, Bytopia; on a 5, Elysium; on a 6, Mechanus; on a 7, Mount Celestia; on an 8, Ysgard  
+81-90 Random location on an Outer Plane determined by rolling 1d8: on a 1, the Abyss; on a 2, Acheron; on a 3, Carceri; on a 4, Gehenna; on a 5, Hades; on a 6, Limbo; on a 7, the Nine Hells; on an 8, Pandemonium
 
 91-00 Random location on the Astral Plane
 
@@ -8639,7 +8474,7 @@ Armor (Any Light, Medium, or Heavy), Rare (Requires Attunement)
 
 You have Resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly by rolling on the following table.
 
-<table><tr><td>Id10</td><td>Damage Type</td><td>Id10</td><td>Damage Type</td></tr><tr><td>1</td><td>Acid</td><td>6</td><td>Necrotic</td></tr><tr><td>2</td><td>Cold</td><td>7</td><td>Poison</td></tr><tr><td>3</td><td>Fire</td><td>8</td><td>Psychic</td></tr><tr><td>4</td><td>Force</td><td>9</td><td>Radiant</td></tr><tr><td>5</td><td>Lightning</td><td>10</td><td>Thunder</td></tr></table>
+<table><tr><td>1d10</td><td>Damage Type</td><td>1d10</td><td>Damage Type</td></tr><tr><td>1</td><td>Acid</td><td>6</td><td>Necrotic</td></tr><tr><td>2</td><td>Cold</td><td>7</td><td>Poison</td></tr><tr><td>3</td><td>Fire</td><td>8</td><td>Psychic</td></tr><tr><td>4</td><td>Force</td><td>9</td><td>Radiant</td></tr><tr><td>5</td><td>Lightning</td><td>10</td><td>Thunder</td></tr></table>
 
 #### Apparatus of the Crab Levers
 
@@ -8671,21 +8506,21 @@ If you dump one or more beans out of the bag, they explode in a 10-foot-radius S
 
 If you remove a bean from the bag, plant it in dirt or sand, and then water it, the bean disappears as it produces an effect 1 minute later from the ground where it was planted. The GM can choose an effect from the following table or determine it randomly.
 
-#### Id100 Effect
+#### 1d100 Effect
 
 01 5d4 toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitution saving throw or take 5d6 Poison damage and have the Poisoned condition for 1 hour. On an even roll, the eater gains 5d6 Temporary Hit Points for 1 hour.
 
-02-10 A geyser erupts and spouts water, beer, mayonnaise, tea, vinegar, wine, or oil (GM's choice) 30 feet into the air for Id4 minutes.
+02-10 A geyser erupts and spouts water, beer, mayonnaise, tea, vinegar, wine, or oil (GM's choice) 30 feet into the air for 1d4 minutes.
 
-#### Id100 Effect
+#### 1d100 Effect
 
 II-20 A Treant sprouts. Roll any die. On an odd roll, the treant is Chaotic Evil. On an even roll, the treant is Chaotic Good.  
 21-30 An animate but immobile stone statue in your likeness rises and makes verbal threats against you. If you leave it and others come near, it describes you as the most heinous of villains and directs the newcomers to find and attack you. If you are on the same plane of existence as the statue, it knows where you are. The statue becomes inanimate after 24 hours.  
 31-40 A campfire with green flames springs forth and burns for 24 hours or until it is extinguished.  
 41-50 Three Shrieker Fungi sprout.  
-51-60 Id4 + 4 bright-pink toads crawl forth. Whenever a toad is touched, it transforms into a Large or smaller monster of the GM's choice that acts in accordance with its alignment and nature. The monster remains for 1 minute, then disappears in a puff of bright-pink smoke.  
+51-60 1d4 + 4 bright-pink toads crawl forth. Whenever a toad is touched, it transforms into a Large or smaller monster of the GM's choice that acts in accordance with its alignment and nature. The monster remains for 1 minute, then disappears in a puff of bright-pink smoke.  
 61-70 A hungry Bulette burrows up and attacks.  
-71-80 A fruit tree grows. It has  $\text\{Id} 10 + 20$  fruit,  $\text\{Id} 8$  of which act as randomly determined portions. The tree vanishes after 1 hour. Picked fruit remains, retaining any magic for 30 days.  
+71-80 A fruit tree grows. It has  $\text{1d} 10 + 20$  fruit,  $\text{1d} 8$  of which act as randomly determined portions. The tree vanishes after 1 hour. Picked fruit remains, retaining any magic for 30 days.  
 81-90 A nest of  $1d4 + 3$  rainbow-colored eggs springs up. Any creature that eats an egg makes a DC 20 Constitution saving throw. On a successful save, a creature permanently increases its lowest ability score by 1, randomly choosing among equally low scores. On a failed save, the creature takes 10d6 Force damage from an internal explosion.  
 91-95 A pyramid with a 60-foot-square base bursts upward. Inside is a burial chamber containing a Mummy, a Mummy Lord, or some other Undead of the GM's choice. Its sarcophagus contains treasure of the GM's choice.  
 96-00 A giant beanstalk sprouts, growing to a height of the GM's choice. The top leads where the GM chooses, such as to a great view, a cloud giant's castle, or another plane of existence.
@@ -8726,21 +8561,21 @@ Once three fuzzy objects have been pulled from the bag, the bag can't be used ag
 
 Gray Bag of Tricks  
 
-<table><tr><td>Id8</td><td>Creature</td><td>Id8</td><td>Creature</td></tr><tr><td>1</td><td>Weasel</td><td>5</td><td>Panther</td></tr><tr><td>2</td><td>Giant Rat</td><td>6</td><td>Giant Badger</td></tr><tr><td>3</td><td>Badger</td><td>7</td><td>Dire Wolf</td></tr><tr><td>4</td><td>Boar</td><td>8</td><td>Giant Elk</td></tr></table>
+<table><tr><td>1d8</td><td>Creature</td><td>1d8</td><td>Creature</td></tr><tr><td>1</td><td>Weasel</td><td>5</td><td>Panther</td></tr><tr><td>2</td><td>Giant Rat</td><td>6</td><td>Giant Badger</td></tr><tr><td>3</td><td>Badger</td><td>7</td><td>Dire Wolf</td></tr><tr><td>4</td><td>Boar</td><td>8</td><td>Giant Elk</td></tr></table>
 
 Rust Bag of Tricks  
 
-<table><tr><td>Id8</td><td>Creature</td><td>Id8</td><td>Creature</td></tr><tr><td>1</td><td>Rat</td><td>5</td><td>Giant Goat</td></tr><tr><td>2</td><td>Owl</td><td>6</td><td>Giant Boar</td></tr><tr><td>3</td><td>Mastiff</td><td>7</td><td>Lion</td></tr><tr><td>4</td><td>Goat</td><td>8</td><td>Brown Bear</td></tr></table>
+<table><tr><td>1d8</td><td>Creature</td><td>1d8</td><td>Creature</td></tr><tr><td>1</td><td>Rat</td><td>5</td><td>Giant Goat</td></tr><tr><td>2</td><td>Owl</td><td>6</td><td>Giant Boar</td></tr><tr><td>3</td><td>Mastiff</td><td>7</td><td>Lion</td></tr><tr><td>4</td><td>Goat</td><td>8</td><td>Brown Bear</td></tr></table>
 
 Tan Bag of Tricks  
 
-<table><tr><td>Id8</td><td>Creature</td><td>Id8</td><td>Creature</td></tr><tr><td>1</td><td>Jackal</td><td>5</td><td>Black Bear</td></tr><tr><td>2</td><td>Ape</td><td>6</td><td>Giant Weasel</td></tr><tr><td>3</td><td>Baboon</td><td>7</td><td>Giant Hyena</td></tr><tr><td>4</td><td>Axe Beak</td><td>8</td><td>Tiger</td></tr></table>
+<table><tr><td>1d8</td><td>Creature</td><td>1d8</td><td>Creature</td></tr><tr><td>1</td><td>Jackal</td><td>5</td><td>Black Bear</td></tr><tr><td>2</td><td>Ape</td><td>6</td><td>Giant Weasel</td></tr><tr><td>3</td><td>Baboon</td><td>7</td><td>Giant Hyena</td></tr><tr><td>4</td><td>Axe Beak</td><td>8</td><td>Tiger</td></tr></table>
 
 #### Bead of Force
 
 Wondrous Item, Rare
 
-This small black sphere measures  $\frac\{3}\{4}$  of an inch in diameter and weighs an ounce. Typically,  $1\mathrm\{d}4 + 4$  Beads of Force are found together.
+This small black sphere measures  $\frac{3}{4}$  of an inch in diameter and weighs an ounce. Typically,  $1\mathrm{d}4 + 4$  Beads of Force are found together.
 
 You can take a Magic action to throw the bead up to 60 feet. The bead explodes in a 10-foot-radius Sphere on impact and is destroyed. Each creature
 
@@ -8884,7 +8719,7 @@ Alternatively, when you light the candle for the first time, you can cast Gate w
 
 links to a particular Outer Plane chosen by the GM or determined by rolling on the following table.
 
-<table><tr><td>Id100</td><td>Outer Plane</td><td>Id100</td><td>Outer Plane</td></tr><tr><td>01–05</td><td>Abyss</td><td>55–59</td><td>Gehenna</td></tr><tr><td>06–10</td><td>Acheron</td><td>60–64</td><td>Hades</td></tr><tr><td>11–17</td><td>Arborea</td><td>65–69</td><td>Limbo</td></tr><tr><td>18–25</td><td>Arcadia</td><td>70–77</td><td>Mechanus</td></tr><tr><td>26–33</td><td>Beastlands</td><td>78–85</td><td>Mount Celestia</td></tr><tr><td>34–41</td><td>Bytopia</td><td>86–90</td><td>Nine Hells</td></tr><tr><td>42–46</td><td>Carceri</td><td>91–95</td><td>Pandemonium</td></tr><tr><td>47–54</td><td>Elysium</td><td>96–00</td><td>Ysgard</td></tr></table>
+<table><tr><td>1d100</td><td>Outer Plane</td><td>1d100</td><td>Outer Plane</td></tr><tr><td>01–05</td><td>Abyss</td><td>55–59</td><td>Gehenna</td></tr><tr><td>06–10</td><td>Acheron</td><td>60–64</td><td>Hades</td></tr><tr><td>11–17</td><td>Arborea</td><td>65–69</td><td>Limbo</td></tr><tr><td>18–25</td><td>Arcadia</td><td>70–77</td><td>Mechanus</td></tr><tr><td>26–33</td><td>Beastlands</td><td>78–85</td><td>Mount Celestia</td></tr><tr><td>34–41</td><td>Bytopia</td><td>86–90</td><td>Nine Hells</td></tr><tr><td>42–46</td><td>Carceri</td><td>91–95</td><td>Pandemonium</td></tr><tr><td>47–54</td><td>Elysium</td><td>96–00</td><td>Ysgard</td></tr></table>
 
 #### Cape of the Mountebank
 
@@ -8902,7 +8737,7 @@ You can make this carpet hover and fly by taking a Magic action and using the ca
 
 Four sizes of Carpet of Flying exist. The GM chooses the size of a given carpet or determines it randomly by rolling on the following table. A carpet can carry up to twice the weight shown on the table, but its Fly Speed is halved if it carries more than its normal capacity.
 
-<table><tr><td>Id100</td><td>Size</td><td>Capacity</td><td>Fly Speed</td></tr><tr><td>01–20</td><td>3 ft. × 5 ft.</td><td>200 lb.</td><td>80 feet</td></tr><tr><td>21–55</td><td>4 ft. × 6 ft.</td><td>400 lb.</td><td>60 feet</td></tr><tr><td>56–80</td><td>5 ft. × 7 ft.</td><td>600 lb.</td><td>40 feet</td></tr><tr><td>81–00</td><td>6 ft. × 9 ft.</td><td>800 lb.</td><td>30 feet</td></tr></table>
+<table><tr><td>1d100</td><td>Size</td><td>Capacity</td><td>Fly Speed</td></tr><tr><td>01–20</td><td>3 ft. × 5 ft.</td><td>200 lb.</td><td>80 feet</td></tr><tr><td>21–55</td><td>4 ft. × 6 ft.</td><td>400 lb.</td><td>60 feet</td></tr><tr><td>56–80</td><td>5 ft. × 7 ft.</td><td>600 lb.</td><td>40 feet</td></tr><tr><td>81–00</td><td>6 ft. × 9 ft.</td><td>800 lb.</td><td>30 feet</td></tr></table>
 
 #### Censer of Controlling Air Elementals
 
@@ -9062,7 +8897,7 @@ Geyser. The decanter produces 30 gallons of water that gushes forth in a Line 30
 
 Wondrous Item, Uncommon
 
-This box contains a set of cards. A full deck has 34 cards: 32 depicting specific creatures and two with a mirrored surface. A deck found as treasure is usually missing  $1\mathrm\{d}20 - 1$  cards.
+This box contains a set of cards. A full deck has 34 cards: 32 depicting specific creatures and two with a mirrored surface. A deck found as treasure is usually missing  $1\mathrm{d}20 - 1$  cards.
 
 The magic of the deck functions only if its cards are drawn at random. You can take a Magic action to draw a card at random from the deck and throw
 
@@ -9072,7 +8907,7 @@ Any physical interaction with the illusory creature reveals it to be false, beca
 
 Deck of Illusions  
 
-<table><tr><td>Id100</td><td>Illusion*</td></tr><tr><td>01–03</td><td>Adult Red Dragon</td></tr><tr><td>04–06</td><td>Archmage</td></tr><tr><td>07–09</td><td>Assassin</td></tr><tr><td>10–12</td><td>Bandit Captain</td></tr><tr><td>13–15</td><td>Basilisk</td></tr><tr><td>16–18</td><td>Berserker</td></tr><tr><td>19–21</td><td>Bugbear Warrior</td></tr><tr><td>22–24</td><td>Cloud Giant</td></tr><tr><td>25–27</td><td>Druid</td></tr><tr><td>28–30</td><td>Erinyes</td></tr><tr><td>31–33</td><td>Ettin</td></tr><tr><td>34–36</td><td>Fire Giant</td></tr><tr><td>37–39</td><td>Frost Giant</td></tr><tr><td>40–42</td><td>Gnoll Warrior</td></tr><tr><td>43–45</td><td>Goblin Warrior</td></tr><tr><td>46–48</td><td>Guardian Naga</td></tr><tr><td>49–51</td><td>Hill Giant</td></tr><tr><td>52–54</td><td>Hobgoblin Warrior</td></tr><tr><td>55–57</td><td>Incubus</td></tr><tr><td>58–60</td><td>Iron Golem</td></tr><tr><td>61–63</td><td>Knight</td></tr><tr><td>64–66</td><td>Kobold Warrior</td></tr><tr><td>67–69</td><td>Lich</td></tr><tr><td>70–72</td><td>Medusa</td></tr><tr><td>73–75</td><td>Night Hag</td></tr><tr><td>76–78</td><td>Ogre</td></tr><tr><td>79–81</td><td>Oni</td></tr><tr><td>82–84</td><td>Priest</td></tr><tr><td>85–87</td><td>Succubus</td></tr><tr><td>88–90</td><td>Troll</td></tr><tr><td>91–93</td><td>Veteran Warrior</td></tr><tr><td>94–96</td><td>Wyvern</td></tr><tr><td>97–00</td><td>The card drawer</td></tr></table>
+<table><tr><td>1d100</td><td>Illusion*</td></tr><tr><td>01–03</td><td>Adult Red Dragon</td></tr><tr><td>04–06</td><td>Archmage</td></tr><tr><td>07–09</td><td>Assassin</td></tr><tr><td>10–12</td><td>Bandit Captain</td></tr><tr><td>13–15</td><td>Basilisk</td></tr><tr><td>16–18</td><td>Berserker</td></tr><tr><td>19–21</td><td>Bugbear Warrior</td></tr><tr><td>22–24</td><td>Cloud Giant</td></tr><tr><td>25–27</td><td>Druid</td></tr><tr><td>28–30</td><td>Erinyes</td></tr><tr><td>31–33</td><td>Ettin</td></tr><tr><td>34–36</td><td>Fire Giant</td></tr><tr><td>37–39</td><td>Frost Giant</td></tr><tr><td>40–42</td><td>Gnoll Warrior</td></tr><tr><td>43–45</td><td>Goblin Warrior</td></tr><tr><td>46–48</td><td>Guardian Naga</td></tr><tr><td>49–51</td><td>Hill Giant</td></tr><tr><td>52–54</td><td>Hobgoblin Warrior</td></tr><tr><td>55–57</td><td>Incubus</td></tr><tr><td>58–60</td><td>Iron Golem</td></tr><tr><td>61–63</td><td>Knight</td></tr><tr><td>64–66</td><td>Kobold Warrior</td></tr><tr><td>67–69</td><td>Lich</td></tr><tr><td>70–72</td><td>Medusa</td></tr><tr><td>73–75</td><td>Night Hag</td></tr><tr><td>76–78</td><td>Ogre</td></tr><tr><td>79–81</td><td>Oni</td></tr><tr><td>82–84</td><td>Priest</td></tr><tr><td>85–87</td><td>Succubus</td></tr><tr><td>88–90</td><td>Troll</td></tr><tr><td>91–93</td><td>Veteran Warrior</td></tr><tr><td>94–96</td><td>Wyvern</td></tr><tr><td>97–00</td><td>The card drawer</td></tr></table>
 
 *Stat blocks for these creatures (except the card drawer) appear in "Monsters."
 
@@ -9112,7 +8947,7 @@ While attuned to an orb, you can take a Magic action to peer into the orb's dept
 
 While you are Charmed by the orb, you can't voluntarily end your Attunement to it, and the orb casts Suggestion on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular society or organization, freedom from the orb, to spread suffering in the world, to advance the worship of Tiamat, or something else the GM decides.
 
-Spells. The orb has 7 charges and regains  $1\mathrm\{d}4 + 3$  expended charges daily at dawn. If you control the orb, you can cast one of the spells on the following table from it. The table indicates how many charges you must expend to cast the spell.
+Spells. The orb has 7 charges and regains  $1\mathrm{d}4 + 3$  expended charges daily at dawn. If you control the orb, you can cast one of the spells on the following table from it. The table indicates how many charges you must expend to cast the spell.
 
 <table><tr><td>Spell</td><td>Charge Cost</td></tr><tr><td>Cure Wounds (level 9 version)</td><td>4</td></tr><tr><td>Daylight</td><td>1</td></tr><tr><td>Death Ward</td><td>2</td></tr><tr><td>Detect Magic</td><td>0</td></tr><tr><td>Scrying (save DC 18)</td><td>3</td></tr></table>
 
@@ -9151,7 +8986,7 @@ This powder resembles fine sand. There is enough of it for one use. When you tak
 
 Wondrous Item, Uncommon
 
-This small packet contains  $1\mathrm\{d}6 + 4$  pinches of dust. As a Utilize action, you can sprinkle a pinch of the dust over water, turning up to a 15-foot Cube of water into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet's weight is negligible. A creature can take a Utilize action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so destroys the pellet and ends its magic.
+This small packet contains  $1\mathrm{d}6 + 4$  pinches of dust. As a Utilize action, you can sprinkle a pinch of the dust over water, turning up to a 15-foot Cube of water into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet's weight is negligible. A creature can take a Utilize action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so destroys the pellet and ends its magic.
 
 As a Utilize action, you can sprinkle a pinch of the dust on an Elemental within 5 feet of yourself that
 
@@ -9193,7 +9028,7 @@ When you take a Magic action to remove the stopper of this painted brass bottle,
 
 The first time the bottle is opened, the GM rolls on the following table to determine what happens.
 
-#### Id10 Effect
+#### 1d10 Effect
 
 Theefreetiattacksyou.Afterfightingfor5 rounds,theefreetidisappears,and the bottle losesitsmagic.  
 2-9 Theefreeti understands your languages and obeys your commands for 1 hour, after which it returns to the bottle, and a new stopper contains it. The stopper can't be removed for 24 hours. The next two times the bottle is opened, the same effect occurs. If the bottle is opened a fourth time, theefreeti escapes and disappears, and the bottle loses its magic.  
@@ -9287,7 +9122,7 @@ As a Bonus Action, you can direct the whip to fly up to 20 feet and repeat the a
 
 Feather Tokens  
 
-<table><tr><td>Id100</td><td>Token</td><td>Rarity</td></tr><tr><td>01–20</td><td>Anchor</td><td>Uncommon</td></tr><tr><td>21–35</td><td>Bird</td><td>Rare</td></tr><tr><td>36–50</td><td>Fan</td><td>Uncommon</td></tr><tr><td>51–65</td><td>Swan boat</td><td>Rare</td></tr><tr><td>66–90</td><td>Tree</td><td>Uncommon</td></tr><tr><td>91–00</td><td>Whip</td><td>Rare</td></tr></table>
+<table><tr><td>1d100</td><td>Token</td><td>Rarity</td></tr><tr><td>01–20</td><td>Anchor</td><td>Uncommon</td></tr><tr><td>21–35</td><td>Bird</td><td>Rare</td></tr><tr><td>36–50</td><td>Fan</td><td>Uncommon</td></tr><tr><td>51–65</td><td>Swan boat</td><td>Rare</td></tr><tr><td>66–90</td><td>Tree</td><td>Uncommon</td></tr><tr><td>91–00</td><td>Whip</td><td>Rare</td></tr></table>
 
 #### Figurine of Wondrous Power
 
@@ -9457,7 +9292,7 @@ Weapon (Maul or Warhammer), Legendary (Requires Attunement)
 
 You gain a  $+1$  bonus to attack rolls and damage rolls made with this magic weapon.
 
-The weapon has 5 charges. You can expend 1 charge and make a ranged attack with the weapon, hurling it as if it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunder-clap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have the Stunned condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains  $1\mathrm\{d}4 + 1$  expended charges daily at dawn.
+The weapon has 5 charges. You can expend 1 charge and make a ranged attack with the weapon, hurling it as if it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunder-clap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have the Stunned condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains  $1\mathrm{d}4 + 1$  expended charges daily at dawn.
 
 Giant's Bane. While you are attuned to the weapon and wearing either a Belt of Giant Strength or Gauntlets of Ogre Power to which you are also attuned, you gain the following benefits:
 
@@ -9497,9 +9332,9 @@ Unknown Spell. While holding the hat, you can try to cast a level  $1+$  spell y
 
 Any spell you cast from the hat uses your spell save DC and spell attack bonus.
 
-Id100 Effect
+1d100 Effect
 
-01-50 You cast a random spell determined by rolling IdIO: on a 1, Enlarge/Reduce (enlarge effect); on a 2, Enlarge/Reduce (reduce effect); on a 3, Faerie Fire; on a 4, Fireball; on a 5, Gust of Wind; on a 6, Invisibility (cast on yourself); on a 7, Lightning Bolt; on an 8, Phantasmal Force; on a 9, Polymorph; on a 10, Stinking Cloud.  
+01-50 You cast a random spell determined by rolling 1d10: on a 1, Enlarge/Reduce (enlarge effect); on a 2, Enlarge/Reduce (reduce effect); on a 3, Faerie Fire; on a 4, Fireball; on a 5, Gust of Wind; on a 6, Invisibility (cast on yourself); on a 7, Lightning Bolt; on an 8, Phantasmal Force; on a 9, Polymorph; on a 10, Stinking Cloud.  
 51-55 You have the Stunned condition until the end of your next turn, believing something awesome just happened.  
 56-60 A harmless swarm of butterflies fills a 10-foot Cube within 30 feet of yourself. The swarm disperses after 1 minute.  
 61-65 You pull a nonmagical object out of the hat. Roll ld4 to determine the object: on a 1, a vial of Acid; on a 2, a flask of Alchemist's Fire; on a 3, a Crowbar; on a 4, a lit Torch.  
@@ -9508,10 +9343,10 @@ Id100 Effect
 76-80 You pull a nonmagical object out of the hat. Roll ld4 to determine the object: on a 1, a Dagger; on a 2, a Rope with a Grappling Hook tied to one end; on a 3, a bag of Caltrops; on a 4, a gem worth 50 GP.  
 81-85 A creature appears in an unoccupied space as close to you as possible. The creature isn't under your control and acts as it normally would, and it disappears after 1 hour or when it drops to 0 Hit Points. Roll ld4 to determine the creature: on a 1, a Camel; on a 2, a Constrictor Snake; on a 3, an Elephant; on a 4, a Mule.
 
-Id100 Effect  
+1d100 Effect  
 86-90 A Hostile Swarm of Bats flies out of the hat, occupies your space, and attacks you.  
 91-95 A vertical, 10-foot-diameter, two-way portal to another plane of existence opens in an unoccupied space within 30 feet of you and remains open until the end of your next turn. The GM determines where it leads.  
-96-00 You pull a magic item out of the hat. Roll Id6 to determine the item's rarity: on a 1-3, Common; on a 4-5, Uncommon; on a 6, Rare. The GM chooses the item, which disappears after 1 hour if it's not consumed or destroyed before then.
+96-00 You pull a magic item out of the hat. Roll 1d6 to determine the item's rarity: on a 1-3, Common; on a 4-5, Uncommon; on a 6, Rare. The GM chooses the item, which disappears after 1 hour if it's not consumed or destroyed before then.
 
 #### Headband of Intellect
 
@@ -9583,7 +9418,7 @@ Four types of Horn of Valhalla are known to exist, each made of a different meta
 
 If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.
 
-<table><tr><td>Id100</td><td>Horn Type</td><td>Spirits</td><td>Requirement</td></tr><tr><td>01–40</td><td>Silver</td><td>2</td><td>None</td></tr><tr><td>41–75</td><td>Brass</td><td>3</td><td>Proficiency with all Simple weapons</td></tr><tr><td>76–90</td><td>Bronze</td><td>4</td><td>Training with all Medium armor</td></tr><tr><td>91–00</td><td>Iron</td><td>5</td><td>Proficiency with all Martial weapons</td></tr></table>
+<table><tr><td>1d100</td><td>Horn Type</td><td>Spirits</td><td>Requirement</td></tr><tr><td>01–40</td><td>Silver</td><td>2</td><td>None</td></tr><tr><td>41–75</td><td>Brass</td><td>3</td><td>Proficiency with all Simple weapons</td></tr><tr><td>76–90</td><td>Bronze</td><td>4</td><td>Training with all Medium armor</td></tr><tr><td>91–00</td><td>Iron</td><td>5</td><td>Proficiency with all Martial weapons</td></tr></table>
 
 #### Horseshoes of a Zephyr
 
@@ -9761,7 +9596,7 @@ To create a golem, you must spend the time shown on the table, working without i
 
 Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. See "Monsters" for the golem's stat block. The golem is under your control, and it understands and obeys your commands.
 
-<table><tr><td>Id20</td><td>Golem</td><td>Time</td><td>Cost</td></tr><tr><td>I-5</td><td>Clay Golem</td><td>30 days</td><td>65,000 GP</td></tr><tr><td>6-17</td><td>Flesh Golem</td><td>60 days</td><td>50,000 GP</td></tr><tr><td>18</td><td>Iron Golem</td><td>120 days</td><td>100,000 GP</td></tr><tr><td>19-20</td><td>Stone Golem</td><td>90 days</td><td>80,000 GP</td></tr></table>
+<table><tr><td>1d20</td><td>Golem</td><td>Time</td><td>Cost</td></tr><tr><td>I-5</td><td>Clay Golem</td><td>30 days</td><td>65,000 GP</td></tr><tr><td>6-17</td><td>Flesh Golem</td><td>60 days</td><td>50,000 GP</td></tr><tr><td>18</td><td>Iron Golem</td><td>120 days</td><td>100,000 GP</td></tr><tr><td>19-20</td><td>Stone Golem</td><td>90 days</td><td>80,000 GP</td></tr></table>
 
 #### Manual of Quickness of Action
 
@@ -9827,12 +9662,12 @@ Once a card is drawn, it disappears. Unless the card is the Fool or Jester, the 
 
 Mysterious Deck  
 
-<table><tr><td>Id100
-(13-Card Deck)</td><td>Id100
+<table><tr><td>1d100
+(13-Card Deck)</td><td>1d100
 (22-Card Deck)</td><td>Card</td></tr><tr><td>—</td><td>01–05</td><td>Balance</td></tr><tr><td>—</td><td>06–10</td><td>Comet</td></tr><tr><td>—</td><td>11–14</td><td>Donjon</td></tr><tr><td>01–08</td><td>15–18</td><td>Euryale</td></tr><tr><td>—</td><td>19–23</td><td>Fates</td></tr><tr><td>09–16</td><td>24–27</td><td>Flames</td></tr><tr><td>—</td><td>28–31</td><td>Fool</td></tr><tr><td>—</td><td>32–36</td><td>Gem</td></tr><tr><td>17–24</td><td>37–41</td><td>Jester</td></tr><tr><td>25–32</td><td>42–46</td><td>Key</td></tr><tr><td>33–40</td><td>47–51</td><td>Knight</td></tr><tr><td>41–48</td><td>52–56</td><td>Moon</td></tr><tr><td>—</td><td>57–60</td><td>Puzzle</td></tr><tr><td>49–56</td><td>61–64</td><td>Rogue</td></tr><tr><td>57–64</td><td>65–68</td><td>Ruin</td></tr><tr><td>—</td><td>69–73</td><td>Sage</td></tr></table>
 
-<table><tr><td>Id100
-(13-Card Deck)</td><td>Id100
+<table><tr><td>1d100
+(13-Card Deck)</td><td>1d100
 (22-Card Deck)</td><td>Card</td></tr><tr><td>65–72</td><td>74–77</td><td>Skull</td></tr><tr><td>73–80</td><td>78–82</td><td>Star</td></tr><tr><td>81–88</td><td>83–87</td><td>Sun</td></tr><tr><td>—</td><td>88–91</td><td>Talons</td></tr><tr><td>89–96</td><td>92–96</td><td>Throne</td></tr><tr><td>97–00</td><td>97–00</td><td>Void</td></tr></table>
 
 Each card's effect is described below.
@@ -9861,7 +9696,7 @@ Knight. You gain the service of a Knight, who magically appears in an unoccupied
 
 Moon. You gain the ability to cast Wish 1d3 times.
 
-Puzzle. Permanently reduce your Intelligence or Wisdom by  $1\mathrm\{d}4 + 1$  (to a minimum score of 1). You can draw one additional card beyond your declared draws.
+Puzzle. Permanently reduce your Intelligence or Wisdom by  $1\mathrm{d}4 + 1$  (to a minimum score of 1). You can draw one additional card beyond your declared draws.
 
 Rogue. An NPC of the GM's choice becomes Hostile toward you. You don't know the identity of this NPC until they or someone else reveals it. Nothing less than a Wish spell or divine intervention can end the NPC's hostility toward you.
 
@@ -9923,7 +9758,7 @@ While wearing this necklace, you can breathe normally in any environment, and yo
 
 Wondrous Item, Rare
 
-This necklace has  $1\mathrm\{d}6 + 3$  beads hanging from it. You can take a Magic action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a level 3 Fireball (save DC 15).
+This necklace has  $1\mathrm{d}6 + 3$  beads hanging from it. You can take a Magic action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a level 3 Fireball (save DC 15).
 
 You can hurl multiple beads, or even the whole necklace, at one time. When you do so, increase the damage of the Fireball by 1d6 for each bead after the first (maximum 12d6).
 
@@ -9931,11 +9766,11 @@ You can hurl multiple beads, or even the whole necklace, at one time. When you d
 
 Wondrous Item, Rare (Requires Attunement by a Cleric, Druid, or Paladin)
 
-This necklace has  $1\mathrm\{d}4 + 2$  magic beads made from aquamarine, black pearl, or topaz. It also has many nonmagical beads made from stones such as amber, bloodstone, citrine, coral, jade, pearl, or quartz. If a magic bead is removed from the necklace, that bead loses its magic.
+This necklace has  $1\mathrm{d}4 + 2$  magic beads made from aquamarine, black pearl, or topaz. It also has many nonmagical beads made from stones such as amber, bloodstone, citrine, coral, jade, pearl, or quartz. If a magic bead is removed from the necklace, that bead loses its magic.
 
 Six types of magic beads exist. The GM decides the type of each bead on the necklace or determines it randomly by rolling on the table below. A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a Bonus Action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.
 
-<table><tr><td>Id20</td><td>Bead</td><td>Spell</td></tr><tr><td>I-6</td><td>Bead of Blessing</td><td>Bless</td></tr><tr><td>7-12</td><td>Bead of Curing</td><td>Cure Wounds (level 2 version)</td></tr><tr><td>I3-16</td><td>Bead of Favor</td><td>Greater Restoration</td></tr><tr><td>I7-18</td><td>Bead of Smiting</td><td>Shining Smite</td></tr><tr><td>I9</td><td>Bead of summons</td><td>Guardian of Faith</td></tr><tr><td>20</td><td>Bead of Wind Walking</td><td>Wind Walk</td></tr></table>
+<table><tr><td>1d20</td><td>Bead</td><td>Spell</td></tr><tr><td>I-6</td><td>Bead of Blessing</td><td>Bless</td></tr><tr><td>7-12</td><td>Bead of Curing</td><td>Cure Wounds (level 2 version)</td></tr><tr><td>I3-16</td><td>Bead of Favor</td><td>Greater Restoration</td></tr><tr><td>I7-18</td><td>Bead of Smiting</td><td>Shining Smite</td></tr><tr><td>I9</td><td>Bead of summons</td><td>Guardian of Faith</td></tr><tr><td>20</td><td>Bead of Wind Walking</td><td>Wind Walk</td></tr></table>
 
 #### Nine Lives Stealer
 
@@ -9943,7 +9778,7 @@ Weapon (Any Simple or Martial), Very Rare (Requires Attunement)
 
 You gain a  $+2$  bonus to attack rolls and damage rolls made with this magic weapon.
 
-Life Stealing. The weapon has  $1\mathrm\{d}8 + 1$  charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+Life Stealing. The weapon has  $1\mathrm{d}8 + 1$  charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
 
 #### Oathbow
 
@@ -9993,7 +9828,7 @@ While this pearl is on your person, you can take a Magic action to regain one ex
 
 Wondrous Item, Uncommon (Requires Attunement)
 
-While wearing this pendant, you can take a Magic action to regain  $2\mathrm\{d}4 + 2$  Hit Points. Once used, this property can't be used again until the next dawn.
+While wearing this pendant, you can take a Magic action to regain  $2\mathrm{d}4 + 2$  Hit Points. Once used, this property can't be used again until the next dawn.
 
 In addition, you have Advantage on saving throws to avoid or end the Poisoned condition while you wear this pendant.
 
@@ -10163,7 +9998,7 @@ This potion's syrupy liquid looks like liquefied iron.
 
 Potion, Very Rare
 
-When you drink this potion, your physical age is reduced by  $1\mathrm\{d}6 + 6$  years, to a minimum of 13 years. Each time you subsequently drink a Potion of Longevity, there is 10 percent cumulative chance that you instead age by  $1\mathrm\{d}6 + 6$  years.
+When you drink this potion, your physical age is reduced by  $1\mathrm{d}6 + 6$  years, to a minimum of 13 years. Each time you subsequently drink a Potion of Longevity, there is 10 percent cumulative chance that you instead age by  $1\mathrm{d}6 + 6$  years.
 
 Suspended in this amber liquid is a tiny heart that, against all reason, is still beating. These ingredients vanish when the potion is opened.
 
@@ -10189,7 +10024,7 @@ Potion, Uncommon
 
 When you drink this potion, you have Resistance to one type of damage for 1 hour. The GM chooses the type or determines it randomly by rolling on the following table.
 
-<table><tr><td>Id10</td><td>Damage Type</td><td>Id10</td><td>Damage Type</td></tr><tr><td>1</td><td>Acid</td><td>6</td><td>Necrotic</td></tr><tr><td>2</td><td>Cold</td><td>7</td><td>Poison</td></tr><tr><td>3</td><td>Fire</td><td>8</td><td>Psychic</td></tr><tr><td>4</td><td>Force</td><td>9</td><td>Radiant</td></tr><tr><td>5</td><td>Lightning</td><td>10</td><td>Thunder</td></tr></table>
+<table><tr><td>1d10</td><td>Damage Type</td><td>1d10</td><td>Damage Type</td></tr><tr><td>1</td><td>Acid</td><td>6</td><td>Necrotic</td></tr><tr><td>2</td><td>Cold</td><td>7</td><td>Poison</td></tr><tr><td>3</td><td>Fire</td><td>8</td><td>Psychic</td></tr><tr><td>4</td><td>Force</td><td>9</td><td>Radiant</td></tr><tr><td>5</td><td>Lightning</td><td>10</td><td>Thunder</td></tr></table>
 
 #### Potion of Speed
 
@@ -10279,7 +10114,7 @@ Fire. You know Ignan, and you have Immunity to Fire damage.
 
 Water. You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater.
 
-Spellcasting. The ring has 5 charges and regains  $1\mathrm\{d}4 + 1$  expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.
+Spellcasting. The ring has 5 charges and regains  $1\mathrm{d}4 + 1$  expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.
 
 <table><tr><td>Plane</td><td>Spells (Charges)</td></tr><tr><td>Air</td><td>Chain Lightning (3 charges), Feather Fall (0 charges), Gust of Wind (2 charges), Wind Wall (1 charge)</td></tr><tr><td>Earth</td><td>Earthquake (5 charges), Stone Shape (2 charges), Stoneskin (3 charges), Wall of Stone (3 charges)</td></tr><tr><td>Fire</td><td>Burning Hands (1 charge), Fireball (2 charges), Fire Storm (4 charges), Wall of Fire (3 charges)</td></tr><tr><td>Water</td><td>Create or Destroy Water (1 charge), Ice Storm (2 charges), Tsunami (5 charges), Wall of Ice (3 charges), Water Walk (2 charges)</td></tr></table>
 
@@ -10335,7 +10170,7 @@ You gain a  $+1$  bonus to Armor Class and saving throws while wearing this ring
 
 Ring, Very Rare (Requires Attunement)
 
-While wearing this ring, you regain 1d6 Hit Points every 10 minutes if you have at least 1 Hit Point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after  $1\mathrm\{d}6 + 1$  days if you have at least 1 Hit Point the whole time.
+While wearing this ring, you regain 1d6 Hit Points every 10 minutes if you have at least 1 Hit Point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after  $1\mathrm{d}6 + 1$  days if you have at least 1 Hit Point the whole time.
 
 #### Ring of Resistance
 
@@ -10343,7 +10178,7 @@ Ring, Rare
 
 You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type, which the GM chooses or determines randomly by rolling on the following table.
 
-<table><tr><td>Id10</td><td>Damage Type</td><td>Gemstone</td></tr><tr><td>1</td><td>Acid</td><td>Pearl</td></tr><tr><td>2</td><td>Cold</td><td>Tourmaline</td></tr><tr><td>3</td><td>Fire</td><td>Garnet</td></tr><tr><td>4</td><td>Force</td><td>Sapphire</td></tr><tr><td>5</td><td>Lightning</td><td>Citrine</td></tr><tr><td>6</td><td>Necrotic</td><td>Jet</td></tr><tr><td>7</td><td>Poison</td><td>Amethyst</td></tr><tr><td>8</td><td>Psychic</td><td>Jade</td></tr><tr><td>9</td><td>Radiant</td><td>Topaz</td></tr><tr><td>10</td><td>Thunder</td><td>Spinel</td></tr></table>
+<table><tr><td>1d10</td><td>Damage Type</td><td>Gemstone</td></tr><tr><td>1</td><td>Acid</td><td>Pearl</td></tr><tr><td>2</td><td>Cold</td><td>Tourmaline</td></tr><tr><td>3</td><td>Fire</td><td>Garnet</td></tr><tr><td>4</td><td>Force</td><td>Sapphire</td></tr><tr><td>5</td><td>Lightning</td><td>Citrine</td></tr><tr><td>6</td><td>Necrotic</td><td>Jet</td></tr><tr><td>7</td><td>Poison</td><td>Amethyst</td></tr><tr><td>8</td><td>Psychic</td><td>Jade</td></tr><tr><td>9</td><td>Radiant</td><td>Topaz</td></tr><tr><td>10</td><td>Thunder</td><td>Spinel</td></tr></table>
 
 #### Ring of Shooting Stars
 
@@ -10371,7 +10206,7 @@ Shooting Stars. You can expend 1 to 3 charges as a Magic action. For every charg
 
 Ring, Rare (Requires Attunement)
 
-This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time. When found, it contains  $1\mathrm\{d}6 - 1$  levels of stored spells chosen by the GM.
+This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time. When found, it contains  $1\mathrm{d}6 - 1$  levels of stored spells chosen by the GM.
 
 Any creature can cast a spell of level 1 through 5 into the ring by touching the ring as the spell is cast. The spell has no effect other than to be stored in the ring. If the ring can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.
 
@@ -10494,7 +10329,7 @@ Sack
 
 In addition, the robe has 4d4 other patches. The GM chooses the patches or determines them randomly by rolling on the following table.
 
-Id100 Patch  
+1d100 Patch  
 01-08 Bag of 100 GP  
 09-15 Silver coffer (1 foot long, 6 inches wide and deep) worth 500 GP  
 16-22 Iron door (up to 10 feet wide and 10 feet high, barred on one side of your choice), which you can place in an opening you can reach; it conforms to fit the opening, attaching and hinging itself  
@@ -10506,7 +10341,7 @@ Id100 Patch
 69-75 Rowboat (12 feet long)  
 76-83 Spell Scroll containing one spell of level 1, 2, or 3 (your choice)
 
-Id100 Patch
+1d100 Patch
 
 84-90 2 Mastiffs
 
@@ -10670,7 +10505,7 @@ While holding this Shield, you have a +2 bonus to Armor Class. This bonus is in 
 
 The Shield has the following additional properties that you can use while holding it.
 
-Forceful Bash. When you take the Attack action, you can make one of the attack rolls using the Shield against a target within 5 feet of yourself. Apply your Proficiency Bonus and Strength modifier to the attack roll. On a hit, the Shield deals Force damage to the target equal to  $2\mathrm\{d}6 + 2$  plus your Strength modifier, and if the target is a creature, you can push it up to 10 feet directly away from yourself. If the creature is your size or smaller, you can also knock it down, giving it the Prone condition.
+Forceful Bash. When you take the Attack action, you can make one of the attack rolls using the Shield against a target within 5 feet of yourself. Apply your Proficiency Bonus and Strength modifier to the attack roll. On a hit, the Shield deals Force damage to the target equal to  $2\mathrm{d}6 + 2$  plus your Strength modifier, and if the target is a creature, you can push it up to 10 feet directly away from yourself. If the creature is your size or smaller, you can also knock it down, giving it the Prone condition.
 
 Protective Field. As a Reaction, when you or an ally you can see within 5 feet of you is targeted by an attack or makes a saving throw against an area of effect, you can use the Shield to create an immobile 5-foot Emanation originating from you. When the Emanation appears, any creatures or objects not fully contained within it are pushed into the nearest unoccupied spaces outside it. The attack or area of effect that triggered the Reaction has no effect on creatures and objects inside the Emanation, which lasts as long as you maintain Concentration, up to 1 minute. Nothing can pass into or out of the Emanation. A creature or object inside the Emanation can't be damaged by attacks or effects originating from outside, nor can a creature inside the Emanation damage anything outside it. Once this property is used, it can't be used again until the next dawn.
 
@@ -10684,7 +10519,7 @@ While you wear these light shoes, you can move up, down, and across vertical sur
 
 Wondrous Item, Legendary
 
-This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with Oil of Slipperiness. When found, a container contains  $1\mathrm\{d}6 + 1$  ounces.
+This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with Oil of Slipperiness. When found, a container contains  $1\mathrm{d}6 + 1$  ounces.
 
 One ounce of the glue can cover a 1-foot square surface. Applying an ounce of Sovereign Glue takes a Utilize action, and the applied glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of Universal Solvent or Oil of Etherealness, or with a Wish spell.
 
@@ -10724,7 +10559,7 @@ While in control of the sphere, you can take a Bonus Action to cause it to move 
 
 Sphere Interactions. If the sphere comes into contact with a planar portal (such as that created by the Gate spell) or an extradimensional space (such as that within a Portable Hole), the GM determines randomly what happens using the following table.
 
-#### Id100 Result
+#### 1d100 Result
 
 01-50 The sphere is destroyed.
 
@@ -10744,7 +10579,7 @@ Reflect Enchantment. If you succeed on a saving throw against an Enchantment spe
 
 Resist Enchantment. If you fail a saving throw against an Enchantment spell that targets only you, you can turn your failed save into a successful one. You can't use this property of the staff again until the next dawn.
 
-Regaining Charges. The staff regains  $1\mathrm\{d}8 + 2$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles to dust and is destroyed.
+Regaining Charges. The staff regains  $1\mathrm{d}8 + 2$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles to dust and is destroyed.
 
 #### Staff of Fire
 
@@ -10756,7 +10591,7 @@ Spells. The staff has 10 charges. While holding the staff, you can cast one of t
 
 <table><tr><td>Spell</td><td>Charge Cost</td><td>Spell</td><td>Charge Cost</td></tr><tr><td>Burning Hands</td><td>1</td><td>Wall of Fire</td><td>4</td></tr><tr><td>Fireball</td><td>3</td><td></td><td></td></tr></table>
 
-Regaining Charges. The staff regains  $1\mathrm\{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles into cinders and is destroyed.
+Regaining Charges. The staff regains  $1\mathrm{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles into cinders and is destroyed.
 
 #### Staff of Frost
 
@@ -10768,7 +10603,7 @@ Spells. The staff has 10 charges. While holding the staff, you can cast one of t
 
 <table><tr><td>Spell</td><td>Charge Cost</td><td>Spell</td><td>Charge Cost</td></tr><tr><td>Cone of Cold</td><td>5</td><td>Ice Storm</td><td>4</td></tr><tr><td>Fog Cloud</td><td>1</td><td>Wall of Ice</td><td>4</td></tr></table>
 
-Regaining Charges. The staff regains  $1\mathrm\{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff turns to water and is destroyed.
+Regaining Charges. The staff regains  $1\mathrm{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff turns to water and is destroyed.
 
 #### Staff of Healing
 
@@ -10778,7 +10613,7 @@ This staff has 10 charges. While holding the staff, you can cast one of the spel
 
 <table><tr><td>Spell</td><td>Charge Cost</td></tr><tr><td>Cure Wounds</td><td>1 charge per spell level (maximum 4 for a level 4 spell)</td></tr><tr><td>Lesser Restoration</td><td>2</td></tr><tr><td>Mass Cure Wounds</td><td>5</td></tr></table>
 
-Regaining Charges. The staff regains  $1\mathrm\{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff vanishes in a flash of light, lost forever.
+Regaining Charges. The staff regains  $1\mathrm{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff vanishes in a flash of light, lost forever.
 
 #### Staff of Power
 
@@ -10790,7 +10625,7 @@ Spells. While holding the staff, you can cast one of the spells on the following
 
 <table><tr><td>Spell</td><td>Charge Cost</td></tr><tr><td>Cone of Cold</td><td>5</td></tr><tr><td>Fireball (level 5 version)</td><td>5</td></tr><tr><td>Globe of Invulnerability</td><td>6</td></tr><tr><td>Hold Monster</td><td>5</td></tr><tr><td>Levitate</td><td>2</td></tr><tr><td>Lightning Bolt (level 5 version)</td><td>5</td></tr><tr><td>Magic Missile</td><td>1</td></tr><tr><td>Ray of Enfeeblement</td><td>1</td></tr><tr><td>Wall of Force</td><td>5</td></tr></table>
 
-Regaining Charges. The staff regains  $2\mathrm\{d}8 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff retains its  $+2$  bonus to attack rolls and damage rolls but loses all other properties. On a 20, the staff regains  $1\mathrm\{d}8 + 2$  charges.
+Regaining Charges. The staff regains  $2\mathrm{d}8 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff retains its  $+2$  bonus to attack rolls and damage rolls but loses all other properties. On a 20, the staff regains  $1\mathrm{d}8 + 2$  charges.
 
 Retributive Strike. You can take a Magic action to break the staff over your knee or against a solid surface. The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take Force damage equal to 16 times the number of charges in the staff. Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed save, a creature takes Force damage equal to 4 times the number of charges in the staff. On a successful save, a creature takes half as much damage.
 
@@ -10818,7 +10653,7 @@ Spells. While holding the staff, you can cast one of the spells on the following
 
 <table><tr><td>Spell</td><td>Charge Cost</td></tr><tr><td>Giant Insect</td><td>4</td></tr><tr><td>Insect Plague</td><td>5</td></tr></table>
 
-Regaining Charges. The staff regains  $1\mathrm\{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.
+Regaining Charges. The staff regains  $1\mathrm{d}6 + 4$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.
 
 #### Staff of the Magi
 
@@ -10832,7 +10667,7 @@ Spells. While holding the staff, you can cast one of the spells on the following
 
 <table><tr><td>Spell</td><td>Charge Cost</td></tr><tr><td>Arcane Lock</td><td>0</td></tr><tr><td>Conjure Elemental</td><td>7</td></tr><tr><td>Detect Magic</td><td>0</td></tr><tr><td>Dispel Magic</td><td>3</td></tr><tr><td>Enlarge/Reduce</td><td>0</td></tr><tr><td>Fireball (level 7 version)</td><td>7</td></tr><tr><td>Flaming Sphere</td><td>2</td></tr><tr><td>Ice Storm</td><td>4</td></tr><tr><td>Invisibility</td><td>2</td></tr><tr><td>Knock</td><td>2</td></tr><tr><td>Light</td><td>0</td></tr><tr><td>Lightning Bolt (level 7 version)</td><td>7</td></tr><tr><td>Mage Hand</td><td>0</td></tr><tr><td>Passwall</td><td>5</td></tr><tr><td>Plane Shift</td><td>7</td></tr><tr><td>Protection from Evil and Good</td><td>0</td></tr><tr><td>Telekinesis</td><td>5</td></tr><tr><td>Wall of Fire</td><td>4</td></tr><tr><td>Web</td><td>2</td></tr></table>
 
-Regaining Charges. The staff regains  $4\mathrm\{d}6 + 2$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 20, the staff regains  $1\mathrm\{d}12 + 1$  charges.
+Regaining Charges. The staff regains  $4\mathrm{d}6 + 2$  expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 20, the staff regains  $1\mathrm{d}12 + 1$  charges.
 
 Retributive Strike. You can take a Magic action to break the staff over your knee or against a solid surface. The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take Force damage equal to 16 times the number of charges in the staff. Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed save, a creature takes Force damage equal to 6 times the number of charges in the staff. On a successful save, a creature takes half as much damage.
 
@@ -10992,7 +10827,7 @@ This magic weapon has 3 charges, and it regains 1d3 expended charges daily at da
 
 Wondrous Item, Legendary
 
-This tube holds milky liquid with a strong alcohol smell. When found, a tube contains  $1\mathrm\{d}6 + 1$  ounces.
+This tube holds milky liquid with a strong alcohol smell. When found, a tube contains  $1\mathrm{d}6 + 1$  ounces.
 
 You can take a Utilize action to pour 1 or more ounces of solvent from the tube onto a surface within reach. Each ounce instantly dissolves up to 1 square foot of adhesive it touches, including Sovereign Glue.
 
@@ -11118,12 +10953,12 @@ Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If y
 
 #### Wand of Wonder Effects
 
-#### Id100 Effect
+#### 1d100 Effect
 
 01-20 You cast a spell originating from the chosen point. Roll 1d10 to determine the spell: on a 1-2, Darkness; on a 3-4, Faerie Fire; on a 5-6, Fireball; on a 7-8, Slow; on a 9-10, Stinking Cloud.  
 21-25 Nothing happens at the chosen point of origin. Instead, you have the Stunned condition until the start of your next turn, believing something awesome just happened.  
 26-30 You cast Gust of Wind. The Line created by the spell extends from you to the chosen point of origin.  
-31-35 Nothing happens at the chosen point of origin. Instead, you take Id6 Psychic damage.  
+31-35 Nothing happens at the chosen point of origin. Instead, you take 1d6 Psychic damage.  
 36-40 Heavy rain falls for 1 minute in a 120-foot-high, 60-foot-radius Cylinder centered on the chosen point of origin. During that time, the area of effect is Lightly Obscured.  
 41-45 A cloud of 600 oversized butterflies fills a 60-foot-high, 30-foot-radius Cylinder centered on the chosen point of origin. The butterflies remain for 10 minutes, during which time the area of effect is Heavily Obscured.  
 46-50 You cast Lightning Bolt. The Line created by the spell extends from you to the chosen point of origin.  
@@ -11131,7 +10966,7 @@ Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If y
 56-60 A magically formed creature appears in an unoccupied space as close to the chosen point of origin as possible. The creature isn't under your control, acts as it normally would, and disappears after 1 hour or when it drops to 0 Hit Points. Roll ld4 to determine which creature appears. On a 1, a Rhinoceros appears; on a 2, an Elephant appears; and on a 3-4, a Rat appears.  
 61-64 Grass covers a 60-foot-radius circle of ground, with the center of that circle as close to the chosen point of origin as possible. Grass that's already there grows to ten times its normal size and remains overgrown for 1 minute.
 
-#### Id100 Effect
+#### 1d100 Effect
 
 65-68 An object of the GM's choice disappears into the Ethereal Plane. The object must be neither worn nor carried, within 120 feet of the chosen point of origin, and no larger than 10 feet in any dimension. If there are no such objects in range, nothing happens.  
 69-72 Nothing happens at the chosen point of origin. Instead, you shrink as if you had cast Enlarge/ Reduce on yourself and remain in that state for I minute.  
@@ -11280,7 +11115,7 @@ Hit Dice by Size
 
 <table><tr><td>Monster Size</td><td>Hit Die</td><td>Average HP per Die</td></tr><tr><td>Tiny</td><td>d4</td><td>2½</td></tr><tr><td>Small</td><td>d6</td><td>3½</td></tr><tr><td>Medium</td><td>d8</td><td>4½</td></tr><tr><td>Large</td><td>d10</td><td>5½</td></tr><tr><td>Huge</td><td>d12</td><td>6½</td></tr><tr><td>Gargantuan</td><td>d20</td><td>10½</td></tr></table>
 
-A monster's Constitution modifier is multiplied by the number of Hit Dice it possesses, and the result is added to its Hit Points. For example, if a monster has a Constitution of 12 (+1 modifier) and 2d8 Hit Dice, it has  $2\mathrm\{d}8 + 2$  Hit Points (average 11).
+A monster's Constitution modifier is multiplied by the number of Hit Dice it possesses, and the result is added to its Hit Points. For example, if a monster has a Constitution of 12 (+1 modifier) and 2d8 Hit Dice, it has  $2\mathrm{d}8 + 2$  Hit Points (average 11).
 
 For more on Hit Points, see "Playing the Game."
 
@@ -11534,7 +11369,7 @@ Multiattack. The elemental makes two Thunderous Slam attacks.
 
 Thunderous Slam. Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Thunder damage.
 
-Whirlwind (Recharge 4-6). Strength Saving Throw: DC 13, one Medium or smaller creature in the elemental's space. Failure: 24  $(4\mathrm\{d}10 + 2)$  Thunder damage, and the target is pushed up to 20 feet straight away from the elemental and has the Prone condition. Success: Half damage only.
+Whirlwind (Recharge 4-6). Strength Saving Throw: DC 13, one Medium or smaller creature in the elemental's space. Failure: 24  $(4\mathrm{d}10 + 2)$  Thunder damage, and the target is pushed up to 20 feet straight away from the elemental and has the Prone condition. Success: Half damage only.
 
 #### Animated Objects
 
@@ -12126,7 +11961,7 @@ Medium Dragon (Chromatic), Chaotic Evil
 
 AC 17 Initiative +4 (14)
 
-HP 33  $(6\mathrm\{d}8 + 6)$
+HP 33  $(6\mathrm{d}8 + 6)$
 
 Speed 30 ft., Fly 60 ft., Swim 30 ft.
 
@@ -13740,7 +13575,7 @@ AC 13
 
 Initiative +2 (12)
 
-HP 44  $(8\mathrm\{d}8 + 8)$
+HP 44  $(8\mathrm{d}8 + 8)$
 
 Speed 30 ft.
 
@@ -13782,7 +13617,7 @@ AC 11
 
 Initiative +3 (13)
 
-HP 22  $(5\mathrm\{d}6 + 5)$
+HP 22  $(5\mathrm{d}6 + 5)$
 
 Speed 10 ft., Fly 30 ft.
 
@@ -14110,7 +13945,7 @@ AC 13
 
 Initiative +1 (11)
 
-HP 44  $(8\mathrm\{d}8 + 8)$
+HP 44  $(8\mathrm{d}8 + 8)$
 
 Speed 30 ft.
 
@@ -14334,7 +14169,7 @@ AC 13
 
 Initiative +2 (12)
 
-HP 44  $(8\mathrm\{d}8 + 8)$
+HP 44  $(8\mathrm{d}8 + 8)$
 
 Speed 30 ft., Climb 30 ft.
 
@@ -14402,7 +14237,7 @@ Multiattack. The ettin makes one Battleaxe attack and one Morningstar attack.
 
 Battleaxe. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.
 
-Morningstar. Melee Attack Roll: +7, reach 5 ft. Hit: 14  $(2\mathrm\{d}8 + 5)$  Piercing damage, and the target has Disadvantage on the next attack roll it makes before the end of its next turn.
+Morningstar. Melee Attack Roll: +7, reach 5 ft. Hit: 14  $(2\mathrm{d}8 + 5)$  Piercing damage, and the target has Disadvantage on the next attack roll it makes before the end of its next turn.
 
 #### Fire Elemental
 
@@ -14560,7 +14395,7 @@ Great Bow. Ranged Attack Roll: +9, range 150/600 ft. Hit: 17 (2d10 + 6) Piercing
 
 #### Bonus Actions
 
-War Cry (Recharge 5-6). The giant or one creature of its choice that can see or hear it gains 16  $(2\mathrm\{d}10 + 5)$  Temporary Hit Points and has Advantage on attack rolls until the start of the giant's next turn.
+War Cry (Recharge 5-6). The giant or one creature of its choice that can see or hear it gains 16  $(2\mathrm{d}10 + 5)$  Temporary Hit Points and has Advantage on attack rolls until the start of the giant's next turn.
 
 #### Fungi
 
@@ -15314,7 +15149,7 @@ AC 9
 
 Initiative -2 (13)
 
-HP 22  $(3\mathrm\{d}8 + 9)$
+HP 22  $(3\mathrm{d}8 + 9)$
 
 Speed 10 ft., Climb 10 ft.
 
@@ -15707,7 +15542,7 @@ AC 16
 
 Initiative +1 (11)
 
-HP 11  $(2\mathrm\{d}8 + 2)$
+HP 11  $(2\mathrm{d}8 + 2)$
 
 Speed 30 ft.
 
@@ -15811,7 +15646,7 @@ AC 11
 
 Initiative +1 (11)
 
-HP 38  $(7\mathrm\{d}8 + 7)$
+HP 38  $(7\mathrm{d}8 + 7)$
 
 Speed 20 ft., Fly 40 ft.
 
@@ -15987,7 +15822,7 @@ AC 18
 
 Initiative +3 (13)
 
-HP 11  $(2\mathrm\{d}8 + 2)$
+HP 11  $(2\mathrm{d}8 + 2)$
 
 Speed 30 ft.
 
@@ -16425,7 +16260,7 @@ AC 14
 
 Initiative +2 (12)
 
-HP7  $(3\mathrm\{d}6 - 3)$
+HP7  $(3\mathrm{d}6 - 3)$
 
 Speed 30 ft.
 
@@ -16493,7 +16328,7 @@ Fling. The kraken throws a Large or smaller creature Grappled by it to a space i
 
 Lightning Strike. Dexterity Saving Throw: DC 23, one creature the kraken can see within 120 feet. Failure: 33 (6d10) Lightning damage. Success: Half damage.
 
-Swallow. Dexterity Saving Throw: DC 25, one creature Grappled by the kraken (it can have up to four creatures swallowed at a time). Failure: 23  $(3\mathrm\{d}8 + 10)$  Piercing damage. If the target is Large or smaller, it is swallowed and no longer Grappled. A swallowed creature has the Restrained condition, has Total Cover against attacks and other effects outside the kraken, and takes 24 (7d6) Acid damage at the start of each of its turns. If the kraken takes 50 damage or more on a single
+Swallow. Dexterity Saving Throw: DC 25, one creature Grappled by the kraken (it can have up to four creatures swallowed at a time). Failure: 23  $(3\mathrm{d}8 + 10)$  Piercing damage. If the target is Large or smaller, it is swallowed and no longer Grappled. A swallowed creature has the Restrained condition, has Total Cover against attacks and other effects outside the kraken, and takes 24 (7d6) Acid damage at the start of each of its turns. If the kraken takes 50 damage or more on a single
 
 turn from a creature inside it, the kraken must succeed on a DC 25 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 10 feet of the kraken with the Prone condition. If the kraken dies, any swallowed creature no longer has the Restrained condition and can escape from the corpse using 15 feet of movement, exiting Prone.
 
@@ -16749,7 +16584,7 @@ AC 14
 
 Initiative +2 (12)
 
-HP 13  $(3\mathrm\{d}6 + 3)$
+HP 13  $(3\mathrm{d}6 + 3)$
 
 Speed 30 ft.
 
@@ -16983,7 +16818,7 @@ AC 11
 
 Initiative +1 (11)
 
-HP 18  $(4\mathrm\{d}6 + 4)$
+HP 18  $(4\mathrm{d}6 + 4)$
 
 Speed 30 ft., Fly 30 ft.
 
@@ -17259,7 +17094,7 @@ Rotting Fist. Melee Attack Roll: +9, reach 5 ft. Hit: 15 (2d10 + 4) Bludgeoning 
 
 Channel Negative Energy. Ranged Attack Roll: +9, range 60 ft. Hit: 25 (6d6 + 4) Necrotic damage.
 
-Dreadful Glare. Wisdom Saving Throw: DC 17, one creature the mummy can see within 60 feet. Failure: 25  $(6\mathrm\{d}6 + 4)$  Psychic damage, and the target has the paralyzed condition until the end of the mummy's next turn.
+Dreadful Glare. Wisdom Saving Throw: DC 17, one creature the mummy can see within 60 feet. Failure: 25  $(6\mathrm{d}6 + 4)$  Psychic damage, and the target has the paralyzed condition until the end of the mummy's next turn.
 
 Spellcasting. The mummy casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 17, +9 to hit with spell attacks):
 
@@ -17891,7 +17726,7 @@ AC 13
 
 Initiative  $+0$  (10)
 
-HP 11  $(2\mathrm\{d}8 + 2)$
+HP 11  $(2\mathrm{d}8 + 2)$
 
 Speed 30 ft.
 
@@ -17929,7 +17764,7 @@ AC 13
 
 Initiative  $+0$  (10)
 
-HP 38  $(7\mathrm\{d}8 + 7)$
+HP 38  $(7\mathrm{d}8 + 7)$
 
 Speed 30 ft.
 
@@ -17973,7 +17808,7 @@ AC 14
 
 Initiative +2 (12)
 
-HP 10  $(3\mathrm\{d}4 + 3)$
+HP 10  $(3\mathrm{d}4 + 3)$
 
 Speed 15 ft., Fly 60 ft.
 
@@ -18997,7 +18832,7 @@ AC 13
 
 Initiative +1 (11)
 
-HP 22  $(3\mathrm\{d}10 + 6)$
+HP 22  $(3\mathrm{d}10 + 6)$
 
 Speed 60 ft.
 
@@ -21379,7 +21214,7 @@ AC 12
 
 Initiative  $+0$  (10)
 
-HP 13  $(2\mathrm\{d}10 + 2)$
+HP 13  $(2\mathrm{d}10 + 2)$
 
 Speed 20 ft., Swim 30 ft.
 
@@ -22335,7 +22170,7 @@ AC 14
 
 Initiative +4 (14)
 
-HP 11  $(2\mathrm\{d}8 + 2)$
+HP 11  $(2\mathrm{d}8 + 2)$
 
 Speed 40 ft., Swim 40 ft.
 
@@ -22595,7 +22430,7 @@ Water Breathing. The shark can breathe only underwater.
 
 #### Actions
 
-Bite. Melee Attack Roll: +6 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 14  $(3\mathrm\{d}6 + 4)$  Piercing damage.
+Bite. Melee Attack Roll: +6 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 14  $(3\mathrm{d}6 + 4)$  Piercing damage.
 
 #### Hyena
 
@@ -22775,7 +22610,7 @@ Gore. Melee Attack Roll: +10, reach 10 ft. Hit: 18 (2d10 + 7) Piercing damage. I
 
 #### Bonus Actions
 
-Trample. Dexterity Saving Throw: DC 18, one creature within 5 feet that has the Prone condition. Failure: 29  $(4\mathrm\{d}10 + 7)$  Bludgeoning damage. Success: Half damage.
+Trample. Dexterity Saving Throw: DC 18, one creature within 5 feet that has the Prone condition. Failure: 29  $(4\mathrm{d}10 + 7)$  Bludgeoning damage. Success: Half damage.
 
 #### Mastiff
 
@@ -22785,7 +22620,7 @@ AC 12
 
 Initiative +2 (12)
 
-HP5  $(1\mathrm\{d}8 + 1)$
+HP5  $(1\mathrm{d}8 + 1)$
 
 Speed 40 ft.
 
@@ -22811,7 +22646,7 @@ AC 10
 
 Initiative  $+0$  (10)
 
-HP 11  $(2\mathrm\{d}8 + 2)$
+HP 11  $(2\mathrm{d}8 + 2)$
 
 Speed 40 ft.
 
@@ -23025,7 +22860,7 @@ AC 10
 
 Initiative +0 (10)
 
-HP 11  $(2\mathrm\{d}8 + 2)$
+HP 11  $(2\mathrm{d}8 + 2)$
 
 Speed 40 ft.
 
@@ -23431,7 +23266,7 @@ Water Breathing. The swarm can breathe only underwater.
 
 #### Actions
 
-Bites. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 8  $(2\mathrm\{d}4 + 3)$  Piercing damage, or 5  $(1\mathrm\{d}4 + 3)$  Piercing damage if the swarm is Bloodied.
+Bites. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 8  $(2\mathrm{d}4 + 3)$  Piercing damage, or 5  $(1\mathrm{d}4 + 3)$  Piercing damage if the swarm is Bloodied.
 
 #### Swarm of Rats
 
@@ -23473,7 +23308,7 @@ AC 12
 
 Initiative +2 (12)
 
-HP 11  $(2\mathrm\{d}8 + 2)$
+HP 11  $(2\mathrm{d}8 + 2)$
 
 Speed 10 ft., Fly 50 ft.
 
@@ -23731,7 +23566,7 @@ AC 12
 
 Initiative +2 (12)
 
-HP 11  $(2\mathrm\{d}8 + 2)$
+HP 11  $(2\mathrm{d}8 + 2)$
 
 Speed 40 ft.
 

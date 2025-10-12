@@ -1,11 +1,11 @@
 
 # Character Creation
 
-#### Choose a Character Sheet
+## Choose a Character Sheet
 
 You'll record the main details of your character on a character sheet. Throughout this chapter, we use the term "character sheet" to mean whatever you use to track your character's details, whether it's a printed character sheet, a digital character sheet, or plain paper. Choose whichever style of sheet works for you, and then embark on creating a character!
 
-#### Create Your Character
+## Create Your Character
 
 Here are the steps to make a character; each step is explored in detail:
 
@@ -15,7 +15,7 @@ Here are the steps to make a character; each step is explored in detail:
 4: Choose an Alignment. Alignment is a shorthand for your character's moral compass.  
 5: Fill in Details. Using the choices you've made, fill in the remaining details on your character sheet.
 
-#### Step I: Choose Class
+### Step I: Choose Class
 
 Choose a class, and write it on your character sheet. The Class Overview table summarizes the classes. See "Classes" for the classes' details.
 
@@ -26,7 +26,7 @@ Class Overview
 <table><tr><td>Class</td><td>Likes ...</td><td>Primary 
 Ability</td><td>Complexity</td></tr><tr><td>Rogue</td><td>Stealth</td><td>Dexterity</td><td>Low</td></tr><tr><td>Sorcerer</td><td>Power</td><td>Charisma</td><td>High</td></tr><tr><td>Warlock</td><td>Occult lore</td><td>Charisma</td><td>High</td></tr><tr><td>Wizard</td><td>Spellbooks</td><td>Intelligence</td><td>Average</td></tr></table>
 
-#### Write Your Level
+### Write Your Level
 
 Write your character's level on your character sheet. Typically, a character starts at level 1 and advances in level by adventuring and gaining Experience Points (XP).
 
@@ -34,17 +34,17 @@ Write Your XP. Also record your Experience Points. A level 1 character has 0 XP.
 
 Starting at a Higher Level. Your GM might start you at a higher level. If you start at level 3 or higher, write your chosen subclass on your character sheet. See the "Starting at Higher Levels" section later in "Character Creation" for more information.
 
-#### Note Armor Training
+### Note Armor Training
 
 Your class might give you training with certain categories of armor. Note your armor training on your character sheet. Armor training with a kind of armor means you can wear that armor effectively, gaining defensive bonuses from it. The categories of armor are described in "Equipment."
 
-#### Step 2: Character Origin
+### Step 2: Character Origin
 
 Determining your character's origin involves choosing a background, a species, and two languages.
 
 A character's background represents the place and occupation that were most formative for the character. The combination of background, species, and languages provides fertile soil for your imagination as you ponder your character's earliest days.
 
-#### Choose a Background
+### Choose a Background
 
 Choose your character's background, and write it on your character sheet. You can choose any of the backgrounds detailed in "Character Origins," and your GM might offer additional backgrounds as options.
 
@@ -68,19 +68,19 @@ Your class also gives proficiencies. Check your class description in "Classes" a
 
 The features table in your class description shows your Proficiency Bonus (described in "Playing the Game"), which is +2 for a level 1 character. Note this number on your character sheet. You'll fill in other numbers connected to these proficiencies in step 5.
 
-#### Choose Starting Equipment
+### Choose Starting Equipment
 
 Your background and class both provide starting equipment. Any coins that you gain at this step can be immediately spent on equipment from "Equipment."
 
 Record your chosen equipment on your character sheet. Equipment is described in "Equipment," but for now you can just write it all down and look up the specifics in "Equipment" later. Note any coins you have left after purchasing your equipment.
 
-#### Choose a Species
+### Choose a Species
 
 Choose a species for your character. The following species options are detailed in "Character Origins": Dragonborn, Dwarf, Elf, Gnome, Goliath, Halfling, Human, Orc, and Tiefling. Once you've chosen a species, write it on your character sheet. Then record your species' traits.
 
 Your character's size and Speed are determined by the character's species; record these in the appropriate places on your character sheet as well (you may write just the first letter of your size).
 
-#### Imagine Your Past and Present
+### Imagine Your Past and Present
 
 Let your character's background and species inspire how you imagine their past. That past fed into the character's present. With that in mind, consider answers to the following questions as your character:
 
@@ -91,7 +91,7 @@ Who was your dearest childhood friend?
 - Did you join an organization, such as a guild or religion? If so, are you still a member of it?  
 - What elements of your past inspire you to go on adventures now?
 
-#### Choose Languages
+### Choose Languages
 
 Your character knows at least three languages:
 
@@ -111,7 +111,7 @@ The Rare Languages table lists languages that are either secret or derived from 
 
 *Primordial includes the Aquan, Auran, Ignan, and Terran dialects. Creatures that know one of these dialects can communicate with those that know a different one.
 
-#### Step 3: Ability Scores
+### Step 3: Ability Scores
 
 To determine your character's ability scores, you first generate a set of six numbers using the instructions below and then assign them to your six abilities. "Playing the Game" explains what each ability means.
 
@@ -155,7 +155,7 @@ Ability Scores and Modifiers
 
 <table><tr><td>Score</td><td>Modifier</td><td>Score</td><td>Modifier</td></tr><tr><td>3</td><td>-4</td><td>12–13</td><td>+1</td></tr><tr><td>4–5</td><td>-3</td><td>14–15</td><td>+2</td></tr><tr><td>6–7</td><td>-2</td><td>16–17</td><td>+3</td></tr><tr><td>8–9</td><td>-1</td><td>18–19</td><td>+4</td></tr><tr><td>10–11</td><td>+0</td><td>20</td><td>+5</td></tr></table>
 
-#### Step 4: Alignment
+### Step 4: Alignment
 
 Choose your character's alignment from the options below, and note it on your character sheet.
 
@@ -191,7 +191,7 @@ Neutral Evil (NE). Neutral Evil is the alignment of those who are untroubled by 
 
 Chaotic Evil (CE). Chaotic Evil creatures act with arbitrary violence, spurred by their hatred or bloodlust. A villain pursuing schemes of vengeance and havoc is probably Chaotic Evil.
 
-#### Step 5: Character Creation Details
+### Step 5: Character Creation Details
 
 Now fill in the rest of your character sheet.
 
@@ -280,7 +280,7 @@ Fixed Hit Points by Class
 4: Adjust Proficiency Bonus. A character's Proficiency Bonus increases at certain levels, as shown in the Character Advancement table and your class features table in "Classes." When your Proficiency Bonus increases, increase all the numbers on your character sheet that include your Proficiency Bonus.  
 5: Adjust Ability Modifiers. If you choose a feat that increases one or more of your ability scores, your ability modifier also changes if the new score is an even number. When that happens, adjust all the numbers on your character sheet that use that ability modifier. When your Constitution modifier increases by 1, your Hit Point maximum increases by 1 for each level you have attained. For example, if a character reaches level 8 and increases their Constitution score from 17 to 18, the Constitution modifier increases to +4. The character's Hit Point maximum then increases by 8, in addition to the Hit Points gained for reaching level 8.
 
-#### Tiers of Play
+## Tiers of Play
 
 With each new level, characters acquire new capabilities that equip them to handle greater challenges. As characters advance in level, the tone of the game also changes, and the stakes of the campaign get higher. It's helpful to think of a character's (and a campaign's) arc in terms of four tiers of play,
 
@@ -406,7 +406,7 @@ Spell Slots per Spell Level
 
 <table><tr><td>Level</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>1</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>2</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>8</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>9</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr></table>
 
-#### Trinkets
+### Trinkets
 
 When you make your character, you can roll once on the Trinkets table to gain a Tiny trinket, a simple item lightly touched by mystery. The GM might also use this table. It can help stock a room in a dungeon or fill a creature's pockets.
 
