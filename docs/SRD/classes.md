@@ -1,4 +1,7 @@
 
+---
+sidebar_position: 4
+---
 # Classes
 
 #### Barbarian
