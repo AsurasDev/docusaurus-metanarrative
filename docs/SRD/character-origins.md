@@ -1,36 +1,36 @@
 # Character Origins
 
-#### Character Backgrounds
+## Character Backgrounds
 
 Your character's background is a collection of characteristics that represent the place and occupation that were most formative before your character embarked on a life of adventure.
 
-#### Parts of a Background
+## Parts of a Background
 
 A background includes the following parts.
 
-#### Ability Scores
+## Ability Scores
 
 A background lists three of your character's ability scores. Increase one by 2 and another one by 1, or increase all three by 1. None of these increases can raise a score above 20.
 
-#### Feat
+## Feat
 
 A background gives your character a specified Origin feat (described in "Feats").
 
-#### Skill Proficiencies
+## Skill Proficiencies
 
 A background gives your character proficiency in two specified skills.
 
-#### Tool Proficiency
+## Tool Proficiency
 
 Each background gives a character proficiency with one tool—either a specific tool or one chosen from the Artisan's Tools category. Tools are detailed in "Equipment."
 
-#### Equipment
+## Equipment
 
 Each background offers a choice between a package of equipment and 50 GP.
 
-#### Background Descriptions
+## Background Descriptions
 
-#### Acylate
+### Acylate
 
 Ability Scores: Intelligence, Wisdom, Charisma
 
@@ -77,7 +77,7 @@ Tool Proficiency: Choose one kind of Gaming Set (see "Equipment")
 
 Equipment: Choose A or B: (A) Spear, Shortbow, 20 Arrows, Gaming Set (same as above), Healer's Kit, Quiver, Traveler's Clothes, 14 GP; or (B) 50 GP
 
-#### Character Species
+## Character Species
 
 When you choose your character's species, you determine whether your character is a human or a member of a fantastical species, such as dragonborn or gnome.
 
@@ -87,7 +87,7 @@ Some species can trace their origin to a single world, plane of existence, or go
 
 Members of most species live for about 80 years, with exceptions noted in the text about the species in "Character Origins." Regardless of life span, members of all species reach physical maturity at about the same age. Your character can be any age that isn't beyond their species' normal life span.
 
-#### Parts of a Species
+### Parts of a Species
 
 A species includes the following parts.
 
@@ -109,9 +109,9 @@ Your character's species determines the character's Speed.
 
 Each species gives a character special traits—unique characteristics based on the species' physiology or magical nature. When you choose a species, your character gets all the special traits listed for it. Some traits involve making a choice from a handful of options.
 
-#### Species Descriptions
+## Species Descriptions
 
-#### Dragonborn
+### Dragonborn
 
 Creature Type: Humanoid
 
@@ -137,7 +137,7 @@ Darkvision. You have Darkvision with a range of 60 feet.
 
 Draconic Flight. When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.
 
-#### Dwarf
+### Dwarf
 
 Creature Type: Humanoid
 
@@ -157,7 +157,7 @@ Stonecunning. As a Bonus Action, you gain Tremorsense with a range of 60 feet fo
 
 You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.
 
-#### Elf
+### Elf
 
 Creature Type: Humanoid
 
@@ -186,7 +186,7 @@ Keen Senses. You have proficiency in the Insight, Perception, or Survival skill.
 
 Trance. You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.
 
-#### Gnome
+### Gnome
 
 Creature Type: Humanoid
 
@@ -208,7 +208,7 @@ Rock Gnome. You know the Mending and Prestidigitation cantrips. In addition, you
 
 effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.
 
-#### Goliath
+### Goliath
 
 Creature Type: Humanoid
 
@@ -236,7 +236,7 @@ Large Form. Starting at character level 5, you can change your size to Large as 
 
 Powerful Build. You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity.
 
-#### Halfling
+### Halfling
 
 Creature Type: Humanoid
 
@@ -254,7 +254,7 @@ Luck. When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and yo
 
 Naturally Stealthy. You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.
 
-#### Human
+### Human
 
 Creature Type: Humanoid
 
@@ -277,7 +277,7 @@ You also know the Poison Spray cantrip.</td><td>Ray of Sickness</td><td>Hold Per
 You also know the Chill Touch cantrip.</td><td>False Life</td><td>Ray of Enfeeblement</td></tr><tr><td>Infernal</td><td>You have Resistance to Fire damage. 
 You also know the Fire Bolt cantrip.</td><td>Hellish Rebuke</td><td>Darkness</td></tr></table>
 
-#### Orc
+### Orc
 
 Creature Type: Humanoid
 
@@ -295,7 +295,7 @@ Darkvision. You have Darkvision with a range of 120 feet.
 
 Relentless Endurance. When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest.
 
-#### Tiefling
+### Tiefling
 
 Creature Type: Humanoid
 
