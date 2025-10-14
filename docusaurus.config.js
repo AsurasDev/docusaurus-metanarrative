@@ -115,7 +115,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/SRD',
+                to: '/docs/SRD/gameplay/playing-the-game',
               },
             ],
           },
