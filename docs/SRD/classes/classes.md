@@ -4,15 +4,15 @@ sidebar_position: 4
 ---
 # Classes
 
-#### Barbarian
+## Barbarian
 
-Core Barbarian Traits  
+**Core Barbarian Traits**
 
 <table><tr><td>Primary Ability</td><td>Strength</td></tr><tr><td>Hit Point Die</td><td>D12 per Barbarian level</td></tr><tr><td>Saving Throw Proficiencies</td><td>Strength and Constitution</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Animal Handling, Athletics, Intimidation, Nature, Perception, or Survival</td></tr><tr><td>Weapon Proficiencies</td><td>Simple and Martial weapons</td></tr><tr><td>Armor Training</td><td>Light and Medium armor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Greataxe, 4 Handaxes, Explorer&####x27;s Pack, and 15 GP; or (B) 75 GP</td></tr></table>
 
-#### Becoming a Barbarian …
+### Becoming a Barbarian …
 
-#### As a Level I Character
+#### As a Level 1 Character
 
 - Gain all the traits in the Core Barbarian Traits table.
 
@@ -23,17 +23,17 @@ Core Barbarian Traits
 - Gain the following traits from the Core Barbarian Traits table: Hit Point Die, proficiency with Martial weapons, and training with Shields.  
 - Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table.
 
-#### Barbarian Class Features
+### Barbarian Class Features
 
 As a Barbarian, you gain the following class features when you reach the specified Barbarian levels. These features are listed in the Barbarian Features table.
 
-#### Level I: Rage
+#### Level 1: Rage
 
 You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.
 
 You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
 
-Barbarian Features  
+**Barbarian Features**
 
 <table><tr><td>Level</td><td>Proficiency Bonus</td><td>Class Features</td><td>Rages</td><td>Rage Damage</td><td>Weapon Mastery</td></tr><tr><td>1</td><td>+2</td><td>Rage, Unarmored Defense, Weapon Mastery</td><td>2</td><td>+2</td><td>2</td></tr><tr><td>2</td><td>+2</td><td>Danger Sense, Reckless Attack</td><td>2</td><td>+2</td><td>2</td></tr><tr><td>3</td><td>+2</td><td>Barbarian Subclass, Primal Knowledge</td><td>3</td><td>+2</td><td>2</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>3</td><td>+2</td><td>3</td></tr><tr><td>5</td><td>+3</td><td>Extra Attack, Fast Movement</td><td>3</td><td>+2</td><td>3</td></tr><tr><td>6</td><td>+3</td><td>Subclass feature</td><td>4</td><td>+2</td><td>3</td></tr><tr><td>7</td><td>+3</td><td>Feral Instinct, Instinctive Pounce</td><td>4</td><td>+2</td><td>3</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>4</td><td>+2</td><td>3</td></tr><tr><td>9</td><td>+4</td><td>Brutal Strike</td><td>4</td><td>+3</td><td>3</td></tr><tr><td>10</td><td>+4</td><td>Subclass feature</td><td>4</td><td>+3</td><td>4</td></tr><tr><td>11</td><td>+4</td><td>Relentless Rage</td><td>4</td><td>+3</td><td>4</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>5</td><td>+3</td><td>4</td></tr><tr><td>13</td><td>+5</td><td>Improved Brutal Strike</td><td>5</td><td>+3</td><td>4</td></tr><tr><td>14</td><td>+5</td><td>Subclass feature</td><td>5</td><td>+3</td><td>4</td></tr><tr><td>15</td><td>+5</td><td>Persistent Rage</td><td>5</td><td>+3</td><td>4</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>5</td><td>+4</td><td>4</td></tr><tr><td>17</td><td>+6</td><td>Improved Brutal Strike</td><td>6</td><td>+4</td><td>4</td></tr><tr><td>18</td><td>+6</td><td>Indomitable Might</td><td>6</td><td>+4</td><td>4</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>6</td><td>+4</td><td>4</td></tr><tr><td>20</td><td>+6</td><td>Primal Champion</td><td>6</td><td>+4</td><td>4</td></tr></table>
 
@@ -113,7 +113,7 @@ Forceful Blow. The target is pushed 15 feet straight away from you. You can then
 
 Hamstring Blow. The target's Speed is reduced by 15 feet until the start of your next turn. A target can be affected by only one Hamstring Blow at a time—the most recent one.
 
-#### Level II: Relentless Rage
+#### Level 11: Relentless Rage
 
 Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.
 
@@ -1359,15 +1359,15 @@ Radiant Damage. Whenever an enemy starts its turn in the aura, that creature tak
 
 Sunlight. The aura is filled with Bright Light that is sunlight.
 
-#### Ranger
+## Ranger
 
-Core Ranger Traits  
+**Core Ranger Traits**
 
 <table><tr><td>Primary Ability</td><td>Dexterity and Wisdom</td></tr><tr><td>Hit Point Die</td><td>D10 per Ranger level</td></tr><tr><td>Saving Throw Proficiencies</td><td>Strength and Dexterity</td></tr><tr><td>Skill Proficiencies</td><td>Choose 3: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</td></tr><tr><td>Weapon Proficiencies</td><td>Simple and Martial weapons</td></tr><tr><td>Armor Training</td><td>Light and Medium armor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Druidic Focus (sprig of mistletoe), Explorer&####x27;s Pack, and 7 GP; or (B) 150 GP</td></tr></table>
 
-#### Becoming a Ranger …
+### Becoming a Ranger …
 
-#### As a Level I Character
+#### As a Level 1 Character
 
 - Gain all the traits in the Core Ranger Traits table.  
 - Gain the Ranger's level 1 features, which are listed in the Ranger Features table.
@@ -1377,17 +1377,17 @@ Core Ranger Traits
 - Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.  
 - Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
 
-#### Ranger Class Features
+### Ranger Class Features
 
 As a Ranger, you gain the following class features when you reach the specified Ranger levels. These features are listed in the Ranger Features table.
 
-#### Level I: Spellcasting
+#### Level 1: Spellcasting
 
 You have learned to channel the magical essence of nature to cast spells. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the Ranger spell list later in the class's description.
 
 Spell Slots. The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
 
-Ranger Features  
+**Ranger Features**
 
 <table><tr><td rowspan="2">Level</td><td rowspan="2">Proficiency Bonus</td><td rowspan="2">Class Features</td><td rowspan="2">Favored Enemy</td><td rowspan="2">Prepared Spells</td><td colspan="5">—Spell Slots per Spell Level—</td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>1</td><td>+2</td><td>Spellcasting, Favored Enemy, Weapon Mastery</td><td>2</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>2</td><td>+2</td><td>Deft Explorer, Fighting Style</td><td>2</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3</td><td>+2</td><td>Ranger Subclass</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>+3</td><td>Extra Attack</td><td>3</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6</td><td>+3</td><td>Roving</td><td>3</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7</td><td>+3</td><td>Subclass feature</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>9</td><td>+4</td><td>Expertise</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr><tr><td>10</td><td>+4</td><td>Tireless</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr><tr><td>11</td><td>+4</td><td>Subclass feature</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr><tr><td>13</td><td>+5</td><td>Relentless Hunter</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr><tr><td>14</td><td>+5</td><td>Nature&####x27;s Veil</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr><tr><td>15</td><td>+5</td><td>Subclass feature</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr><tr><td>17</td><td>+6</td><td>Precise Hunter</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr><tr><td>18</td><td>+6</td><td>Feral Senses</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr><tr><td>20</td><td>+6</td><td>Foe Slayer</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr></table>
 
@@ -1485,7 +1485,7 @@ You gain an Epic Boon feat (see "Feats") or another feat of your choice for whic
 
 The damage die of your Hunter's Mark is a d10 rather than a d6.
 
-#### Ranger Spell List
+### Ranger Spell List
 
 This section presents the Ranger spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
 
@@ -1535,7 +1535,7 @@ Escape the Horde. Opportunity Attacks have Disadvantage against you.
 
 Multiattack Defense. When a creature hits you with an attack roll, that creature has Disadvantage on all other attack rolls against you this turn.
 
-#### Level II: Superior Hunter's Prey
+#### Level 11: Superior Hunter's Prey
 
 Once per turn when you deal damage to a creature marked by your Hunter's Mark, you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature.
 
@@ -1543,9 +1543,9 @@ Once per turn when you deal damage to a creature marked by your Hunter's Mark, y
 
 When you take damage, you can take a Reaction to give yourself Resistance to that damage and any other damage of the same type until the end of the current turn.
 
-#### Rogue
+## Rogue
 
-Core Rogue Traits  
+**Core Rogue Traits**
 
 <table><tr><td>Primary Ability</td><td>Dexterity</td></tr><tr><td>Hit Point Die</td><td>D8 per Rogue level</td></tr><tr><td>Saving Throw 
 Proficiencies</td><td>Dexterity and Intelligence</td></tr><tr><td>Skill Proficiencies</td><td>Choose 4: Acrobatics, 
@@ -1561,9 +1561,9 @@ Ath-
  Thieves’ Tools, Burglar’s Pack, 
  and 8 GP; or (B) 100 GP</td></tr></table>
 
-#### Becoming a Rogue …
+### Becoming a Rogue …
 
-#### As a Level I Character
+#### As a Level 1 Character
 
 - Gain all the traits in the Core Rogue Traits table.  
 - Gain the Rogue's level 1 features, which are listed in the Rogue Features table.
@@ -1573,21 +1573,21 @@ Ath-
 - Gain the following traits from the Core Rogue Traits table: Hit Point Die, proficiency in one skill of your choice from the Rogue's skill list, proficiency with Thieves' Tools, and training with Light armor.  
 - Gain the Rogue's level 1 features, which are listed in the Rogue Features table.
 
-#### Rogue Class Features
+### Rogue Class Features
 
 As a Rogue, you gain the following class features when you reach the specified Rogue levels. These features are listed in the Rogue Features table.
 
-#### Level I: Expertise
+#### Level 1: Expertise
 
 You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.
 
 At Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.
 
-#### Level I: Sneak Attack
+#### Level 1: Sneak Attack
 
 You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack
 
-Rogue Features  
+**Rogue Features**
 
 <table><tr><td>Level</td><td>Proficiency Bonus</td><td>Class Features</td><td>Sneak Attack</td></tr><tr><td>1</td><td>+2</td><td>Expertise, Sneak Attack, Thieves&####x27; Cant, Weapon Mastery</td><td>1d6</td></tr><tr><td>2</td><td>+2</td><td>Cunning Action</td><td>1d6</td></tr><tr><td>3</td><td>+2</td><td>Rogue Subclass, Steady Aim</td><td>2d6</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>2d6</td></tr><tr><td>5</td><td>+3</td><td>Cunning Strike, Uncanny Dodge</td><td>3d6</td></tr><tr><td>6</td><td>+3</td><td>Expertise</td><td>3d6</td></tr><tr><td>7</td><td>+3</td><td>Evasion, Reliable Talent</td><td>4d6</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>4d6</td></tr><tr><td>9</td><td>+4</td><td>Subclass feature</td><td>5d6</td></tr><tr><td>10</td><td>+4</td><td>Ability Score Improvement</td><td>5d6</td></tr><tr><td>11</td><td>+4</td><td>Improved Cunning Strike</td><td>6d6</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>6d6</td></tr><tr><td>13</td><td>+5</td><td>Subclass feature</td><td>7d6</td></tr><tr><td>14</td><td>+5</td><td>Devious Strikes</td><td>7d6</td></tr><tr><td>15</td><td>+5</td><td>Slippery Mind</td><td>8d6</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>8d6</td></tr><tr><td>17</td><td>+6</td><td>Subclass feature</td><td>9d6</td></tr><tr><td>18</td><td>+6</td><td>Elusive</td><td>9d6</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>10d6</td></tr><tr><td>20</td><td>+6</td><td>Stroke of Luck</td><td>10d6</td></tr></table>
 
@@ -1597,11 +1597,11 @@ You don't need Advantage on the attack roll if at least one of your allies is wi
 
 The extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table.
 
-#### Level I: Thieves' Cant
+#### Level 1: Thieves' Cant
 
 You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in "Character Creation."
 
-#### Level I: Weapon Mastery
+#### Level 1: Weapon Mastery
 
 Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.
 
@@ -1649,7 +1649,7 @@ You can nimbly dodge out of the way of certain dangers. When you're subjected to
 
 Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a d20 roll of 9 or lower as a 10.
 
-#### Level II: Improved Cunning Strike
+#### Level 11: Improved Cunning Strike
 
 You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect.
 
@@ -1681,7 +1681,7 @@ You have a marvelous knack for succeeding when you need to. If you fail a D20 Te
 
 Once you use this feature, you can't use it again until you finish a Short or Long Rest.
 
-#### Rogue Subclass: Thief
+### Rogue Subclass: Thief
 
 Hunt for Treasure as a Classic Adventurer
 
@@ -1723,9 +1723,9 @@ Scrolls. You can use any Spell Scroll, using Intelligence as your spellcasting a
 
 You are adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10.
 
-#### Sorcerer
+## Sorcerer
 
-Core Sorcerer Traits  
+**Core Sorcerer Traits**
 
 <table><tr><td>Primary Ability</td><td>Charisma</td></tr><tr><td>Hit Point Die</td><td>D6 per Sorcerer level</td></tr><tr><td>Saving Throw 
 Proficiencies</td><td>Constitution and Charisma</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Arcana, Deception, 
@@ -1735,9 +1735,9 @@ sion, or Religion</td></tr><tr><td>Weapon Proficiencies</td><td>Simple weapons</
 -crystal), Dungeoner&####x27;s Pack, 
 and 28 GP; or (B) 50 GP</td></tr></table>
 
-#### Becoming a Sorcerer …
+### Becoming a Sorcerer …
 
-#### As a Level I Character
+#### As a Level 1 Character
 
 - Gain all the traits in the Core Sorcerer Traits table.  
 - Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table.
@@ -1747,11 +1747,11 @@ and 28 GP; or (B) 50 GP</td></tr></table>
 - Gain the Hit Point Die from the Core Sorcerer Traits table.  
 - Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
 
-#### Sorcerer Class Features
+### Sorcerer Class Features
 
 As a Sorcerer, you gain the following class features when you reach the specified Sorcerer levels. These features are listed in the Sorcerer Features table.
 
-#### Level I: Spellcasting
+#### Level 1: Spellcasting
 
 Drawing from your innate magic, you can cast spells. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Sorcerer spells, which appear in the Sorcerer spell list later in the class's description.
 
@@ -1761,7 +1761,7 @@ When you reach Sorcerer levels 4 and 10, you learn another Sorcerer cantrip of y
 
 Spell Slots. The Sorcerer Features table shows how many spell slots you have to cast your level 1+
 
-Sorcerer Features  
+**Sorcerer Features**
 
 <table><tr><td rowspan="2">Level</td><td rowspan="2">Proficiency Bonus</td><td rowspan="2">Class Features</td><td rowspan="2">Sorcery Points</td><td rowspan="2">Cantrips</td><td rowspan="2">Prepared Spells</td><td colspan="8">——Spell Slots per Spell Level——</td><td></td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>1</td><td>+2</td><td>Spellcasting, Innate Sorcery</td><td>—</td><td>4</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>2</td><td>+2</td><td>Font of Magic, Metamagic</td><td>2</td><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3</td><td>+2</td><td>Sorcerer Subclass</td><td>3</td><td>4</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>4</td><td>5</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>+3</td><td>Sorcerous Restoration</td><td>5</td><td>5</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6</td><td>+3</td><td>Subclass feature</td><td>6</td><td>5</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7</td><td>+3</td><td>Sorcery Incarnate</td><td>7</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>8</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>9</td><td>+4</td><td>—</td><td>9</td><td>5</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>10</td><td>+4</td><td>Metamagic</td><td>10</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>11</td><td>+4</td><td>—</td><td>11</td><td>6</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>12</td><td>6</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>13</td><td>+5</td><td>—</td><td>13</td><td>6</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>14</td><td>+5</td><td>Subclass feature</td><td>14</td><td>6</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>15</td><td>+5</td><td>—</td><td>15</td><td>6</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>16</td><td>6</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>17</td><td>+6</td><td>Metamagic</td><td>17</td><td>6</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>18</td><td>+6</td><td>Subclass feature</td><td>18</td><td>6</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>19</td><td>6</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>20</td><td>+6</td><td>Arcane Apotheosis</td><td>20</td><td>6</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr></table>
 
@@ -1781,7 +1781,7 @@ Spellcasting Ability. Charisma is your spellcasting ability for your Sorcerer sp
 
 Spellcasting Focus. You can use an Arcane Focus as a Spellcasting Focus for your Sorcerer spells.
 
-#### Level I: Innate Sorcery
+#### Level 1: Innate Sorcery
 
 An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:
 
@@ -1804,7 +1804,7 @@ Creating Spell Slots. As a Bonus Action, you can transform unexpanded Sorcery Po
 
 Any spell slot you create with this feature vanishes when you finish a Long Rest.
 
-Creating Spell Slots  
+**Creating Spell Slots**
 
 <table><tr><td>Spell Slot Level</td><td>Sorcery Point Cost</td><td>Min. Sorcerer Level</td></tr><tr><td>1</td><td>2</td><td>2</td></tr><tr><td>2</td><td>3</td><td>3</td></tr><tr><td>3</td><td>5</td><td>5</td></tr><tr><td>4</td><td>6</td><td>7</td></tr><tr><td>5</td><td>7</td><td>9</td></tr></table>
 
@@ -1842,7 +1842,7 @@ You gain an Epic Boon feat (see "Feats") or another feat of your choice for whic
 
 While your Innate Sorcery feature is active, you can use one Metamagic option on each of your turns without spending Sorcery Points on it.
 
-#### Metamagic Options
+### Metamagic Options
 
 The following options are available to your Meta-magic feature. The options are presented in alphabetical order.
 
@@ -2000,9 +2000,9 @@ You can cast *Summon Dragon* without a Material component. You can also cast it 
 
 Whenever you start casting the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for that casting.
 
-#### Warlock
+## Warlock
 
-Core Warlock Traits  
+**Core Warlock Traits**
 
 <table><tr><td>Primary Ability</td><td>Charisma</td></tr><tr><td>Hit Point Die</td><td>D8 per Warlock level</td></tr><tr><td>Saving Throw 
 Proficiencies</td><td>Wisdom and Charisma</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Arcana, Deception, 
@@ -2013,9 +2013,9 @@ cane Focus (orb), Book (occult
 lore), Scholar&####x27;s Pack, and 15 
 GP; or (B) 100 GP</td></tr></table>
 
-#### Becoming a Warlock ...
+### Becoming a Warlock …
 
-#### As a Level I Character
+#### As a Level 1 Character
 
 - Gain all the traits in the Core Warlock Traits table.  
 - Gain the Warlock's level 1 features, which are listed in the Warlock Features table.
@@ -2025,11 +2025,11 @@ GP; or (B) 100 GP</td></tr></table>
 - Gain the following traits from the Core Warlock Traits table: Hit Point Die and training with Light armor.  
 - Gain the Warlock's level 1 features, which are listed in the Warlock Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
 
-#### Warlock Class Features
+### Warlock Class Features
 
 As a Warlock, you gain the following class features when you reach the specified Warlock levels. These features are listed in the Warlock Features table.
 
-#### Level I: Eldritch Invocations
+#### Level 1: Eldritch Invocations
 
 You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the "Eldritch Invocation Options" section later in this class's description.
 
@@ -2047,7 +2047,7 @@ When you gain certain Warlock levels, you gain more invocations of your choice, 
 
 You can't pick the same invocation more than once unless its description says otherwise.
 
-#### Level I: Pact Magic
+#### Level 1: Pact Magic
 
 Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. See " Spells" for the rules on spellcasting. The information below details how you use those rules with Warlock spells, which appear in the Warlock spell list later in the class's description.
 
@@ -2091,7 +2091,7 @@ In the past, you usually contacted your patron through intermediaries. Now you c
 
 Once you cast the spell with this feature, you can't do so in this way again until you finish a Long Rest.
 
-#### Level II: Mystic Arcanum
+#### Level 11: Mystic Arcanum
 
 Your patron grants you a magical secret called an arcanum. Choose one level 6 Warlock spell as this arcanum.
 
@@ -2109,7 +2109,7 @@ You gain an Epic Boon feat (see "Feats") or another feat of your choice for whic
 
 When you use your Magical Cunning feature, you regain all your expended Pact Magic spell slots.
 
-#### Eldritch Invocation Options
+### Eldritch Invocation Options
 
 Eldritch Invocation options appear in alphabetical order.
 
@@ -2317,53 +2317,53 @@ Prerequisite: Level 15+ Warlock
 
 You have Truesight with a range of 30 feet.
 
-#### Warlock Spell List
+### Warlock Spell List
 
 This section presents the Warlock spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
 
-Cantrips (Level 0 Warlock Spells)  
+**Cantrips (Level 0 Warlock Spells)**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Chill Touch</td><td>Necromancy</td><td>—</td></tr><tr><td>Eldritch Blast</td><td>Evocation</td><td>—</td></tr><tr><td>Mage Hand</td><td>Conjuration</td><td>—</td></tr><tr><td>Minor Illusion</td><td>Illusion</td><td>—</td></tr><tr><td>Poison Spray</td><td>Necromancy</td><td>—</td></tr><tr><td>Prestidigitation</td><td>Transmutation</td><td>—</td></tr><tr><td>True Strike</td><td>Divination</td><td>—</td></tr></table>
 
-Level I Warlock Spells  
+**Level 1 Warlock Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Bane</td><td>Enchantment</td><td>C</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Comprehend Languages</td><td>Divination</td><td>R</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Expeditious Retreat</td><td>Transmutation</td><td>C</td></tr><tr><td>Hellish Rebuke</td><td>Evocation</td><td>—</td></tr><tr><td>Hex</td><td>Enchantment</td><td>C</td></tr><tr><td>Hideous Laughter</td><td>Enchantment</td><td>C</td></tr><tr><td>Illusory Script</td><td>Illusion</td><td>R, M</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Speak with Animals</td><td>Divination</td><td>R</td></tr><tr><td>Unseen Servant</td><td>Conjuration</td><td>R</td></tr></table>
 
-Level 2 Warlock Spells  
+**Level 2 Warlock Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Darkness</td><td>Evocation</td><td>C</td></tr><tr><td>Enthrall</td><td>Enchantment</td><td>C</td></tr><tr><td>Hold Person</td><td>Enchantment</td><td>C</td></tr><tr><td>Invisibility</td><td>Illusion</td><td>C</td></tr><tr><td>Mind Spike</td><td>Divination</td><td>C</td></tr><tr><td>Mirror Image</td><td>Illusion</td><td>—</td></tr><tr><td>Misty Step</td><td>Conjuration</td><td>—</td></tr><tr><td>Ray of Enfeeblement</td><td>Necromancy</td><td>C</td></tr><tr><td>Spider Climb</td><td>Transmutation</td><td>C</td></tr><tr><td>Suggestion</td><td>Enchantment</td><td>C</td></tr></table>
 
-Level 3 Warlock Spells  
+**Level 3 Warlock Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Counterspell</td><td>Abjuration</td><td>—</td></tr><tr><td>Dispel Magic</td><td>Abjuration</td><td>—</td></tr><tr><td>Fear</td><td>Illusion</td><td>C</td></tr><tr><td>Fly</td><td>Transmutation</td><td>C</td></tr></table>
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Gaseous Form</td><td>Transmutation</td><td>C</td></tr><tr><td>Hypnotic Pattern</td><td>Illusion</td><td>C</td></tr><tr><td>Magic Circle</td><td>Abjuration</td><td>M</td></tr><tr><td>Major Image</td><td>Illusion</td><td>C</td></tr><tr><td>Remove Curse</td><td>Abjuration</td><td>—</td></tr><tr><td>Tongues</td><td>Divination</td><td>—</td></tr><tr><td>Vampiric Touch</td><td>Necromancy</td><td>C</td></tr></table>
 
-Level 4 Warlock Spells  
+**Level 4 Warlock Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Banishment</td><td>Abjuration</td><td>C</td></tr><tr><td>Blight</td><td>Necromancy</td><td>—</td></tr><tr><td>Charm Monster</td><td>Enchantment</td><td>—</td></tr><tr><td>Dimension Door</td><td>Conjuration</td><td>—</td></tr><tr><td>Hallucinatory Terrain</td><td>Illusion</td><td>—</td></tr></table>
 
-Level 5 Warlock Spells  
+**Level 5 Warlock Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Contact Other Plane</td><td>Divination</td><td>R</td></tr><tr><td>Dream</td><td>Illusion</td><td>—</td></tr><tr><td>Hold Monster</td><td>Enchantment</td><td>C</td></tr><tr><td>Mislead</td><td>Illusion</td><td>C</td></tr><tr><td>Planar Binding</td><td>Abjuration</td><td>M</td></tr><tr><td>Scrying</td><td>Divination</td><td>C, M</td></tr><tr><td>Teleportation Circle</td><td>Conjuration</td><td>M</td></tr></table>
 
-Level 6 Warlock Spells  
+**Level 6 Warlock Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Circle of Death</td><td>Necromancy</td><td>M</td></tr><tr><td>Create Undead</td><td>Necromancy</td><td>M</td></tr><tr><td>Eyebite</td><td>Necromancy</td><td>C</td></tr><tr><td>True Seeing</td><td>Divination</td><td>M</td></tr></table>
 
-Level 7 Warlock Spells  
+**Level 7 Warlock Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Etherealness</td><td>Conjuration</td><td>—</td></tr><tr><td>Finger of Death</td><td>Necromancy</td><td>—</td></tr><tr><td>Forcecage</td><td>Evocation</td><td>C, M</td></tr><tr><td>Plane Shift</td><td>Conjuration</td><td>M</td></tr></table>
 
-Level 8 Warlock Spells  
+**Level 8 Warlock Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Befuddlement</td><td>Enchantment</td><td>—</td></tr><tr><td>Demiplane</td><td>Conjuration</td><td>—</td></tr><tr><td>Dominate Monster</td><td>Enchantment</td><td>C</td></tr><tr><td>Glibness</td><td>Enchantment</td><td>—</td></tr><tr><td>Power Word Stun</td><td>Enchantment</td><td>—</td></tr></table>
 
-Level 9 Warlock Spells  
+**Level 9 Warlock Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Astral Projection</td><td>Necromancy</td><td>M</td></tr><tr><td>Foresight</td><td>Divination</td><td>—</td></tr><tr><td>Gate</td><td>Conjuration</td><td>C, M</td></tr><tr><td>Imprisonment</td><td>Abjuration</td><td>M</td></tr><tr><td>Power Word Kill</td><td>Enchantment</td><td>—</td></tr><tr><td>True Polymorph</td><td>Transmutation</td><td>C</td></tr><tr><td>Weird</td><td>Illusion</td><td>C</td></tr></table>
 
-#### Warlock Subclass: Fiend Patron
+### Warlock Subclass: Fiend Patron
 
 Make a Deal with the Lower Planes
 
@@ -2377,7 +2377,7 @@ When you reduce an enemy to 0 Hit Points, you gain Temporary Hit Points equal to
 
 The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared.
 
-Fiend Spells  
+**Fiend Spells**
 
 <table><tr><td>Warlock Level</td><td>Spells</td></tr><tr><td>3</td><td>Burning Hands, Command, 
 Scorching Ray, Suggestion</td></tr><tr><td>5</td><td>Fireball, Stinking Cloud</td></tr><tr><td>7</td><td>Fire Shield, Wall of Fire</td></tr><tr><td>9</td><td>Geas, Insect Plague</td></tr></table>
@@ -2398,15 +2398,15 @@ Once per turn when you hit a creature with an attack roll, you can try to instan
 
 Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a Pact Magic spell slot (no action required) to restore your use of it.
 
-#### Wizard
+## Wizard
 
-Core Wizard Traits  
+**Core Wizard Traits**
 
 <table><tr><td>Primary Ability</td><td>Intelligence</td></tr><tr><td>Hit Point Die</td><td>D6 per Wizard level</td></tr><tr><td>Saving Throw Proficiencies</td><td>Intelligence and Wisdom</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Arcana, History, Insight, Investigation, Medicine, Nature, or Religion</td></tr><tr><td>Weapon Proficiencies</td><td>Simple weapons</td></tr><tr><td>Armor Training</td><td>None</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) 2 Daggers, Arcane Focus (Quarterstaff), Robe, Spellbook, Scholar&####x27;s Pack, and 5 GP; or (B) 55 GP</td></tr></table>
 
-#### Becoming a Wizard ...
+### Becoming a Wizard …
 
-#### As a Level I Character
+#### As a Level 1 Character
 
 - Gain all the traits in the Core Wizard Traits table.  
 - Gain the Wizard's level 1 features, which are listed in the Wizard Features table.
@@ -2416,11 +2416,11 @@ Core Wizard Traits
 - Gain the Hit Point Die from the Core Wizard Traits table.  
 - Gain the Wizard's level 1 features, which are listed in the Wizard Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
 
-#### Wizard Class Features
+### Wizard Class Features
 
 As a Wizard, you gain the following class features when you reach the specified Wizard levels. These features are listed in the Wizard Features table.
 
-#### Level I: Spellcasting
+#### Level 1: Spellcasting
 
 As a student of arcane magic, you have learned to cast spells. See " Spells" for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the Wizard spell list later in the class's description.
 
@@ -2452,13 +2452,13 @@ Spellcasting Ability. Intelligence is your spellcasting ability for your Wizard 
 
 Spellcasting Focus. You can use an Arcane Focus or your spellbook as a Spellcasting Focus for your Wizard spells.
 
-#### Level I: Ritual Adept
+#### Level 1: Ritual Adept
 
 You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You
 
 needn't have the spell prepared, but you must read from the book to cast a spell in this way.
 
-#### Level I: Arcane Recovery
+#### Level 1: Arcane Recovery
 
 You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.
 
@@ -2472,7 +2472,7 @@ While studying magic, you also specialized in another field of study. Choose one
 
 You gain a Wizard subclass of your choice. The Evoker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Wizard levels. For the rest
 
-#### EXPANDING AND REPLACING A SPELLBOOK
+**EXPANDING AND REPLACING A SPELLBOOK**
 
 The spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.
 
@@ -2506,55 +2506,55 @@ You gain an Epic Boon feat (see "Feats") or another feat of your choice for whic
 
 Choose two level 3 spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can't cast them in this way again until you finish a Short or Long Rest. To cast either spell at a higher level, you must expend a spell slot.
 
-#### Wizard Spell List
+### Wizard Spell List
 
 This section presents the Wizard spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
 
-Cantrips (Level 0 Wizard Spells)  
+**Cantrips (Level 0 Wizard Spells)**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Acid Splash</td><td>Evocation</td><td>—</td></tr><tr><td>Chill Touch</td><td>Necromancy</td><td>—</td></tr><tr><td>Dancing Lights</td><td>Illusion</td><td>C</td></tr><tr><td>Elementalism</td><td>Transmutation</td><td>—</td></tr><tr><td>Fire Bolt</td><td>Evocation</td><td>—</td></tr><tr><td>Light</td><td>Evocation</td><td>—</td></tr></table>
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Mage Hand</td><td>Conjuration</td><td>—</td></tr><tr><td>Mending</td><td>Transmutation</td><td>—</td></tr><tr><td>Message</td><td>Transmutation</td><td>—</td></tr><tr><td>Minor Illusion</td><td>Illusion</td><td>—</td></tr><tr><td>Poison Spray</td><td>Necromancy</td><td>—</td></tr><tr><td>Prestidigitation</td><td>Transmutation</td><td>—</td></tr><tr><td>Ray of Frost</td><td>Evocation</td><td>—</td></tr><tr><td>Shocking Grasp</td><td>Evocation</td><td>—</td></tr><tr><td>True Strike</td><td>Divination</td><td>—</td></tr></table>
 
-Level I Wizard Spells  
+**Level 1 Wizard Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Alarm</td><td>Abjuration</td><td>R</td></tr><tr><td>Burning Hands</td><td>Evocation</td><td>—</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Chromatic Orb</td><td>Evocation</td><td>M</td></tr><tr><td>Color Spray</td><td>Illusion</td><td>—</td></tr><tr><td>Comprehend Languages</td><td>Divination</td><td>R</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Disguise Self</td><td>Illusion</td><td>—</td></tr><tr><td>Expeditious Retreat</td><td>Transmutation</td><td>C</td></tr><tr><td>False Life</td><td>Necromancy</td><td>–</td></tr><tr><td>Feather Fall</td><td>Transmutation</td><td>—</td></tr><tr><td>Find Familiar</td><td>Conjuration</td><td>R, M</td></tr><tr><td>Floating Disk</td><td>Conjuration</td><td>R</td></tr><tr><td>Fog Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Grease</td><td>Conjuration</td><td>—</td></tr><tr><td>Hideous Laughter</td><td>Enchantment</td><td>C</td></tr><tr><td>Ice Knife</td><td>Conjuration</td><td>—</td></tr><tr><td>Identify</td><td>Divination</td><td>R, M</td></tr><tr><td>Illusory Script</td><td>Illusion</td><td>R, M</td></tr><tr><td>Jump</td><td>Transmutation</td><td>—</td></tr><tr><td>Longstrider</td><td>Transmutation</td><td>—</td></tr><tr><td>Mage Armor</td><td>Abjuration</td><td>—</td></tr><tr><td>Magic Missile</td><td>Evocation</td><td>—</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Ray of Sickness</td><td>Necromancy</td><td>—</td></tr><tr><td>Shield</td><td>Abjuration</td><td>—</td></tr><tr><td>Silent Image</td><td>Illusion</td><td>C</td></tr><tr><td>Sleep</td><td>Enchantment</td><td>C</td></tr><tr><td>Thunderwave</td><td>Evocation</td><td>—</td></tr><tr><td>Unseen Servant</td><td>Conjuration</td><td>R</td></tr></table>
 
-Level 2 Wizard Spells  
+**Level 2 Wizard Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Acid Arrow</td><td>Evocation</td><td>—</td></tr><tr><td>Alter Self</td><td>Transmutation</td><td>C</td></tr><tr><td>Arcane Lock</td><td>Abjuration</td><td>M</td></tr><tr><td>Arcanist&####x27;s Magic Aura</td><td>Illusion</td><td>—</td></tr><tr><td>Augury</td><td>Divination</td><td>R, M</td></tr><tr><td>Blindness/Deafness</td><td>Transmutation</td><td>—</td></tr><tr><td>Blur</td><td>Illusion</td><td>C</td></tr><tr><td>Continual Flame</td><td>Evocation</td><td>M</td></tr><tr><td>Darkness</td><td>Evocation</td><td>C</td></tr><tr><td>Darkvision</td><td>Transmutation</td><td>—</td></tr><tr><td>Detect Thoughts</td><td>Divination</td><td>C</td></tr><tr><td>Dragon&####x27;s Breath</td><td>Transmutation</td><td>C</td></tr><tr><td>Enhance Ability</td><td>Transmutation</td><td>C</td></tr><tr><td>Enlarge/Reduce</td><td>Transmutation</td><td>C</td></tr><tr><td>Flaming Sphere</td><td>Evocation</td><td>C</td></tr><tr><td>Gentle Repose</td><td>Necromancy</td><td>R, M</td></tr><tr><td>Gust of Wind</td><td>Evocation</td><td>C</td></tr><tr><td>Hold Person</td><td>Enchantment</td><td>C</td></tr><tr><td>Invisibility</td><td>Illusion</td><td>C</td></tr><tr><td>Knock</td><td>Transmutation</td><td>—</td></tr><tr><td>Levitate</td><td>Transmutation</td><td>C</td></tr><tr><td>Locate Object</td><td>Divination</td><td>C</td></tr><tr><td>Magic Mouth</td><td>Illusion</td><td>R, M</td></tr><tr><td>Magic Weapon</td><td>Transmutation</td><td>—</td></tr><tr><td>Mind Spike</td><td>Divination</td><td>C</td></tr><tr><td>Mirror Image</td><td>Illusion</td><td>—</td></tr><tr><td>Misty Step</td><td>Conjuration</td><td>—</td></tr><tr><td>Ray of Enfeeblement</td><td>Necromancy</td><td>C</td></tr><tr><td>Rope Trick</td><td>Transmutation</td><td>—</td></tr><tr><td>Scorching Ray</td><td>Evocation</td><td>—</td></tr><tr><td>See Invisibility</td><td>Divination</td><td>—</td></tr><tr><td>Shatter</td><td>Evocation</td><td>—</td></tr><tr><td>Spider Climb</td><td>Transmutation</td><td>C</td></tr><tr><td>Suggestion</td><td>Enchantment</td><td>C</td></tr><tr><td>Web</td><td>Conjuration</td><td>C</td></tr></table>
 
-Level 3 Wizard Spells  
+**Level 3 Wizard Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Animate Dead</td><td>Necromancy</td><td>—</td></tr><tr><td>Bestow Curse</td><td>Necromancy</td><td>C</td></tr><tr><td>Blink</td><td>Transmutation</td><td>—</td></tr><tr><td>Clairvoyance</td><td>Divination</td><td>C, M</td></tr><tr><td>Counterspell</td><td>Abjuration</td><td>—</td></tr><tr><td>Dispel Magic</td><td>Abjuration</td><td>—</td></tr></table>
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Fear</td><td>Illusion</td><td>C</td></tr><tr><td>Fireball</td><td>Evocation</td><td>—</td></tr><tr><td>Fly</td><td>Transmutation</td><td>C</td></tr><tr><td>Gaseous Form</td><td>Transmutation</td><td>C</td></tr><tr><td>Glyph of Warding</td><td>Abjuration</td><td>M</td></tr><tr><td>Haste</td><td>Transmutation</td><td>C</td></tr><tr><td>Hypnotic Pattern</td><td>Illusion</td><td>C</td></tr><tr><td>Lightning Bolt</td><td>Evocation</td><td>—</td></tr><tr><td>Magic Circle</td><td>Abjuration</td><td>M</td></tr><tr><td>Major Image</td><td>Illusion</td><td>C</td></tr><tr><td>Nondetection</td><td>Abjuration</td><td>M</td></tr><tr><td>Phantom Steed</td><td>Illusion</td><td>R</td></tr><tr><td>Protection from Energy</td><td>Abjuration</td><td>C</td></tr><tr><td>Remove Curse</td><td>Abjuration</td><td>—</td></tr><tr><td>Sending</td><td>Divination</td><td>—</td></tr><tr><td>Sleet Storm</td><td>Conjuration</td><td>C</td></tr><tr><td>Slow</td><td>Transmutation</td><td>C</td></tr><tr><td>Speak with Dead</td><td>Necromancy</td><td>—</td></tr><tr><td>Stinking Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Tiny Hut</td><td>Evocation</td><td>R</td></tr><tr><td>Tongues</td><td>Divination</td><td>—</td></tr><tr><td>Vampirec Touch</td><td>Necromancy</td><td>C</td></tr><tr><td>Water Breathing</td><td>Transmutation</td><td>R</td></tr></table>
 
-Level 4 Wizard Spells  
+**Level 4 Wizard Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Arcane Eye</td><td>Divination</td><td>C</td></tr><tr><td>Banishment</td><td>Abjuration</td><td>C</td></tr><tr><td>Black Tentacles</td><td>Conjuration</td><td>C</td></tr><tr><td>Blight</td><td>Necromancy</td><td>—</td></tr><tr><td>Charm Monster</td><td>Enchantment</td><td>—</td></tr><tr><td>Confusion</td><td>Enchantment</td><td>C</td></tr><tr><td>Conjure Minor Elementals</td><td>Conjuration</td><td>C</td></tr><tr><td>Control Water</td><td>Transmutation</td><td>C</td></tr><tr><td>Dimension Door</td><td>Conjuration</td><td>—</td></tr><tr><td>Divination</td><td>Divination</td><td>R, M</td></tr><tr><td>Fabricate</td><td>Transmutation</td><td>—</td></tr><tr><td>Faithful Hound</td><td>Conjuration</td><td>—</td></tr><tr><td>Fire Shield</td><td>Evocation</td><td>—</td></tr><tr><td>Greater Invisibility</td><td>Illusion</td><td>C</td></tr><tr><td>Hallucinatory Terrain</td><td>Illusion</td><td>—</td></tr><tr><td>Ice Storm</td><td>Evocation</td><td>—</td></tr><tr><td>Locate Creature</td><td>Divination</td><td>C</td></tr><tr><td>Phantasmal Killer</td><td>Illusion</td><td>C</td></tr><tr><td>Polymorph</td><td>Transmutation</td><td>C</td></tr><tr><td>Private Sanctum</td><td>Abjuration</td><td>—</td></tr><tr><td>Resilient Sphere</td><td>Abjuration</td><td>C</td></tr><tr><td>Secret Chest</td><td>Conjuration</td><td>M</td></tr><tr><td>Stone Shape</td><td>Transmutation</td><td>—</td></tr><tr><td>Stoneskin</td><td>Transmutation</td><td>C, M</td></tr><tr><td>Vitriolic Sphere</td><td>Evocation</td><td>—</td></tr><tr><td>Wall of Fire</td><td>Evocation</td><td>C</td></tr></table>
 
-Level 5 Wizard Spells  
+**Level 5 Wizard Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Animate Objects</td><td>Transmutation</td><td>C</td></tr><tr><td>Arcane Hand</td><td>Evocation</td><td>C</td></tr><tr><td>Cloudkill</td><td>Conjuration</td><td>C</td></tr><tr><td>Cone of Cold</td><td>Evocation</td><td>—</td></tr><tr><td>Conjure Elemental</td><td>Conjuration</td><td>C</td></tr><tr><td>Contact Other Plane</td><td>Divination</td><td>R</td></tr><tr><td>Creation</td><td>Illusion</td><td>—</td></tr><tr><td>Dominate Person</td><td>Enchantment</td><td>C</td></tr><tr><td>Dream</td><td>Illusion</td><td>—</td></tr><tr><td>Geas</td><td>Enchantment</td><td>—</td></tr><tr><td>Hold Monster</td><td>Enchantment</td><td>C</td></tr><tr><td>Legend Lore</td><td>Divination</td><td>M</td></tr><tr><td>Mislead</td><td>Illusion</td><td>C</td></tr><tr><td>Modify Memory</td><td>Enchantment</td><td>C</td></tr><tr><td>Passwall</td><td>Transmutation</td><td>—</td></tr><tr><td>Planar Binding</td><td>Abjuration</td><td>M</td></tr><tr><td>Scrying</td><td>Divination</td><td>C, M</td></tr><tr><td>Seeming</td><td>Illusion</td><td>—</td></tr><tr><td>Summon Dragon</td><td>Conjuration</td><td>C, M</td></tr><tr><td>Telekinesis</td><td>Transmutation</td><td>C</td></tr><tr><td>Telepathic Bond</td><td>Divination</td><td>R</td></tr><tr><td>Teleportation Circle</td><td>Conjuration</td><td>M</td></tr><tr><td>Wall of Force</td><td>Evocation</td><td>C</td></tr><tr><td>Wall of Stone</td><td>Evocation</td><td>C</td></tr></table>
 
-Level 6 Wizard Spells  
+**Level 6 Wizard Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Chain Lightning</td><td>Evocation</td><td>—</td></tr><tr><td>Circle of Death</td><td>Necromancy</td><td>M</td></tr><tr><td>Contingency</td><td>Abjuration</td><td>M</td></tr><tr><td>Create Undead</td><td>Necromancy</td><td>M</td></tr><tr><td>Disintegrate</td><td>Transmutation</td><td>—</td></tr><tr><td>Eyebite</td><td>Necromancy</td><td>C</td></tr><tr><td>Flesh to Stone</td><td>Transmutation</td><td>C</td></tr><tr><td>Freezing Sphere</td><td>Evocation</td><td>—</td></tr><tr><td>Globe of Invulnerability</td><td>Abjuration</td><td>C</td></tr><tr><td>Guards and Wards</td><td>Abjuration</td><td>M</td></tr><tr><td>Instant summons</td><td>Conjuration</td><td>R, M</td></tr><tr><td>Irresistible Dance</td><td>Enchantment</td><td>C</td></tr><tr><td>Magic Jar</td><td>Necromancy</td><td>M</td></tr><tr><td>Mass Suggestion</td><td>Enchantment</td><td>—</td></tr><tr><td>Move Earth</td><td>Transmutation</td><td>C</td></tr><tr><td>Programmed Illusion</td><td>Illusion</td><td>M</td></tr><tr><td>Sunbeam</td><td>Evocation</td><td>C</td></tr><tr><td>True Seeing</td><td>Divination</td><td>M</td></tr><tr><td>Wall of Ice</td><td>Evocation</td><td>C</td></tr></table>
 
-Level 7 Wizard Spells  
+**Level 7 Wizard Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Arcane Sword</td><td>Evocation</td><td>C, M</td></tr><tr><td>Delayed Blast Fireball</td><td>Evocation</td><td>C</td></tr><tr><td>Etherealness</td><td>Conjuration</td><td>—</td></tr><tr><td>Finger of Death</td><td>Necromancy</td><td>—</td></tr><tr><td>Forcecage</td><td>Evocation</td><td>C, M</td></tr><tr><td>Magnificent Mansion</td><td>Conjuration</td><td>M</td></tr><tr><td>Mirage Arcane</td><td>Illusion</td><td>—</td></tr><tr><td>Plane Shift</td><td>Conjuration</td><td>M</td></tr><tr><td>Prismatic Spray</td><td>Evocation</td><td>—</td></tr><tr><td>Project Image</td><td>Illusion</td><td>C, M</td></tr><tr><td>Reverse Gravity</td><td>Transmutation</td><td>C</td></tr><tr><td>Sequester</td><td>Transmutation</td><td>M</td></tr><tr><td>Simulacrum</td><td>Illusion</td><td>M</td></tr><tr><td>Symbol</td><td>Abjuration</td><td>M</td></tr><tr><td>Teleport</td><td>Conjuration</td><td>—</td></tr></table>
 
-Level 8 Wizard Spells  
+**Level 8 Wizard Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Antimagic Field</td><td>Abjuration</td><td>C</td></tr><tr><td>Antipathy/Sympathy</td><td>Enchantment</td><td>—</td></tr><tr><td>Befuddlement</td><td>Enchantment</td><td>—</td></tr><tr><td>Clone</td><td>Necromancy</td><td>M</td></tr><tr><td>Control Weather</td><td>Transmutation</td><td>C</td></tr><tr><td>Demiplane</td><td>Conjuration</td><td>—</td></tr><tr><td>Dominate Monster</td><td>Enchantment</td><td>C</td></tr><tr><td>Incendiary Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Maze</td><td>Conjuration</td><td>C</td></tr><tr><td>Mind Blank</td><td>Abjuration</td><td>—</td></tr><tr><td>Power Word Stun</td><td>Enchantment</td><td>—</td></tr><tr><td>Sunburst</td><td>Evocation</td><td>—</td></tr></table>
 
-Level 9 Wizard Spells  
+**Level 9 Wizard Spells**
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Astral Projection</td><td>Necromancy</td><td>M</td></tr><tr><td>Foresight</td><td>Divination</td><td>—</td></tr><tr><td>Gate</td><td>Conjuration</td><td>C, M</td></tr><tr><td>Imprisonment</td><td>Abjuration</td><td>M</td></tr><tr><td>Meteor Swarm</td><td>Evocation</td><td>—</td></tr><tr><td>Power Word Kill</td><td>Enchantment</td><td>—</td></tr><tr><td>Prismatic Wall</td><td>Abjuration</td><td>—</td></tr><tr><td>Shapechange</td><td>Transmutation</td><td>C, M</td></tr><tr><td>Time Stop</td><td>Transmutation</td><td>—</td></tr><tr><td>True Polymorph</td><td>Transmutation</td><td>C</td></tr><tr><td>Weird</td><td>Illusion</td><td>C</td></tr><tr><td>Wish</td><td>Conjuration</td><td>—</td></tr></table>
 
-#### Wizard Subclass: Evoker
+### Wizard Subclass: Evoker
 
 Create Explosive Elemental Effects
 

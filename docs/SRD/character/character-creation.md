@@ -1,4 +1,3 @@
-
 # Character Creation
 
 ## Choose a Character Sheet
@@ -15,18 +14,18 @@ Here are the steps to make a character; each step is explored in detail:
 4: Choose an Alignment. Alignment is a shorthand for your character's moral compass.  
 5: Fill in Details. Using the choices you've made, fill in the remaining details on your character sheet.
 
-### Step I: Choose Class
+### Step 1: Choose a Class
 
 Choose a class, and write it on your character sheet. The Class Overview table summarizes the classes. See "Classes" for the classes' details.
 
-Class Overview  
+#### Class Overview
 
 <table><tr><td>Class</td><td>Likes ...</td><td>Primary Ability</td><td>Complexity</td></tr><tr><td>Barbarian</td><td>Battle</td><td>Strength</td><td>Average</td></tr><tr><td>Bard</td><td>Performing</td><td>Charisma</td><td>High</td></tr><tr><td>Cleric</td><td>Gods</td><td>Wisdom</td><td>Average</td></tr><tr><td>Druid</td><td>Nature</td><td>Wisdom</td><td>High</td></tr><tr><td>Fighter</td><td>Weapons</td><td>Strength or Dexterity</td><td>Low</td></tr><tr><td>Monk</td><td>Unarmed combat</td><td>Dexterity and Wisdom</td><td>High</td></tr><tr><td>Paladin</td><td>Defense</td><td>Strength and Charisma</td><td>Average</td></tr><tr><td>Ranger</td><td>Survival</td><td>Dexterity and Wisdom</td><td>Average</td></tr></table>
 
 <table><tr><td>Class</td><td>Likes ...</td><td>Primary 
 Ability</td><td>Complexity</td></tr><tr><td>Rogue</td><td>Stealth</td><td>Dexterity</td><td>Low</td></tr><tr><td>Sorcerer</td><td>Power</td><td>Charisma</td><td>High</td></tr><tr><td>Warlock</td><td>Occult lore</td><td>Charisma</td><td>High</td></tr><tr><td>Wizard</td><td>Spellbooks</td><td>Intelligence</td><td>Average</td></tr></table>
 
-### Write Your Level
+#### Write Your Level
 
 Write your character's level on your character sheet. Typically, a character starts at level 1 and advances in level by adventuring and gaining Experience Points (XP).
 
@@ -34,7 +33,7 @@ Write Your XP. Also record your Experience Points. A level 1 character has 0 XP.
 
 Starting at a Higher Level. Your GM might start you at a higher level. If you start at level 3 or higher, write your chosen subclass on your character sheet. See the "Starting at Higher Levels" section later in "Character Creation" for more information.
 
-### Note Armor Training
+#### Note Armor Training
 
 Your class might give you training with certain categories of armor. Note your armor training on your character sheet. Armor training with a kind of armor means you can wear that armor effectively, gaining defensive bonuses from it. The categories of armor are described in "Equipment."
 
@@ -44,13 +43,13 @@ Determining your character's origin involves choosing a background, a species, a
 
 A character's background represents the place and occupation that were most formative for the character. The combination of background, species, and languages provides fertile soil for your imagination as you ponder your character's earliest days.
 
-### Choose a Background
+#### Choose a Background
 
 Choose your character's background, and write it on your character sheet. You can choose any of the backgrounds detailed in "Character Origins," and your GM might offer additional backgrounds as options.
 
 The background you choose influences step 3, when you determine your character's ability scores. If you're having trouble choosing, the Ability Scores and Backgrounds table shows which backgrounds benefit which ability scores. Look for your class's primary ability there.
 
-Ability Scores and Backgrounds  
+#### Ability Scores and Backgrounds
 
 <table><tr><td>Ability</td><td>Background</td></tr><tr><td>Strength</td><td>Soldier</td></tr><tr><td>Dexterity</td><td>Soldier</td></tr><tr><td>Constitution</td><td>Soldier</td></tr><tr><td>Intelligence</td><td>Acolyte</td></tr></table>
 
@@ -68,19 +67,19 @@ Your class also gives proficiencies. Check your class description in "Classes" a
 
 The features table in your class description shows your Proficiency Bonus (described in "Playing the Game"), which is +2 for a level 1 character. Note this number on your character sheet. You'll fill in other numbers connected to these proficiencies in step 5.
 
-### Choose Starting Equipment
+#### Choose Starting Equipment
 
 Your background and class both provide starting equipment. Any coins that you gain at this step can be immediately spent on equipment from "Equipment."
 
 Record your chosen equipment on your character sheet. Equipment is described in "Equipment," but for now you can just write it all down and look up the specifics in "Equipment" later. Note any coins you have left after purchasing your equipment.
 
-### Choose a Species
+#### Choose a Species
 
 Choose a species for your character. The following species options are detailed in "Character Origins": Dragonborn, Dwarf, Elf, Gnome, Goliath, Halfling, Human, Orc, and Tiefling. Once you've chosen a species, write it on your character sheet. Then record your species' traits.
 
 Your character's size and Speed are determined by the character's species; record these in the appropriate places on your character sheet as well (you may write just the first letter of your size).
 
-### Imagine Your Past and Present
+#### Imagine Your Past and Present
 
 Let your character's background and species inspire how you imagine their past. That past fed into the character's present. With that in mind, consider answers to the following questions as your character:
 
@@ -91,7 +90,7 @@ Who was your dearest childhood friend?
 - Did you join an organization, such as a guild or religion? If so, are you still a member of it?  
 - What elements of your past inspire you to go on adventures now?
 
-### Choose Languages
+#### Choose Languages
 
 Your character knows at least three languages:
 
@@ -99,13 +98,13 @@ Common plus two languages you roll or choose from the Standard Languages table. 
 
 The Standard Languages table lists languages that are widespread in the setting. Every player character knows Common. The other standard languages originated with the first members of the most prominent species in the setting and have since spread widely.
 
-#### Standard Languages
+##### Standard Languages
 
 <table><tr><td>Id12</td><td>Language</td></tr><tr><td>—</td><td>Common</td></tr><tr><td>1</td><td>Common Sign Language</td></tr><tr><td>2</td><td>Draconic</td></tr><tr><td>3–4</td><td>Dwarvish</td></tr><tr><td>5–6</td><td>Elvish</td></tr><tr><td>7</td><td>Giant</td></tr><tr><td>8</td><td>Gnomish</td></tr><tr><td>9</td><td>Goblin</td></tr><tr><td>10–11</td><td>Halfling</td></tr><tr><td>12</td><td>Orc</td></tr></table>
 
 The Rare Languages table lists languages that are either secret or derived from other planes of existence and thus less widespread in the worlds of the Material Plane. Some features let a character learn a rare language.
 
-#### Rare Languages
+##### Rare Languages
 
 <table><tr><td>Language</td><td>Language</td></tr><tr><td>Abyssal</td><td>Primordial*</td></tr><tr><td>Celestial</td><td>Sylvan</td></tr><tr><td>Deep Speech</td><td>Thieves’ Cant</td></tr><tr><td>Druidic</td><td>Undercommon</td></tr><tr><td>Infernal</td><td></td></tr></table>
 

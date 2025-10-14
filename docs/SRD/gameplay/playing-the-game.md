@@ -1,5 +1,6 @@
-
-
+---
+sidebar_position: 1
+---
 # Playing the Game
 
 ## Rhythm of Play
@@ -15,13 +16,13 @@ Do. Typically, the characters stick together as they travel through a dungeon or
 
 This pattern holds during every game session (each time you sit down to play D&D), whether the
 
-#### EXCEPTIONS SUPERSEDE GENERAL RULES
-
-General rules govern each part of the game. For example, the combat rules tell you that melee attacks use Strength and ranged attacks use Dexterity. That's a general rule, and a general rule is in effect as long as something in the game doesn't explicitly say otherwise.
-
-The game also includes elements—class features, feats, weapon properties, spells, magic items, monster abilities, and the like—that sometimes contradict a general rule. When an exception and a general rule disagree, the exception wins. For example, if a feature says you can make melee attacks using your Charisma, you can do so, even though that statement disagrees with the general rule.
-
-adventurers are talking to a noble, exploring a ruin, or fighting a dragon. In certain situations—particularly combat—the action is more structured, and everyone takes turns.
+>#### EXCEPTIONS SUPERSEDE GENERAL RULES
+>
+>General rules govern each part of the game. For example, the combat rules tell you that melee attacks use Strength and ranged attacks use Dexterity. That's a general rule, and a general rule is in effect as long as something in the game doesn't explicitly say otherwise.
+>
+>The game also includes elements—class features, feats, weapon properties, spells, magic items, monster abilities, and the like—that sometimes contradict a general rule. When an exception and a general rule disagree, the exception wins. For example, if a feature says you can make melee attacks using your Charisma, you can do so, even though that statement disagrees with the general rule.
+>
+>adventurers are talking to a noble, exploring a ruin, or fighting a dragon. In certain situations—particularly combat—the action is more structured, and everyone takes turns.
 
 ## The Six Abilities
 
@@ -44,9 +45,9 @@ If an effect reduces a score to 0, that effect explains what happens.</td></tr><
 
 Each ability has a modifier that you apply whenever you make a D20 Test with that ability (explained in "D20 Tests"). An ability modifier is derived from its score, as shown in the Ability Modifiers table.
 
-#### ROUND DOWN
-
-Whenever you divide or multiply a number in the game, round down if you end up with a fraction, even if the fraction is one-half or greater. Some rules make an exception and tell you to round up.
+>#### ROUND DOWN
+>
+>Whenever you divide or multiply a number in the game, round down if you end up with a fraction, even if the fraction is one-half or greater. Some >rules make an exception and tell you to round up.
 
 Ability Modifiers  
 
@@ -101,33 +102,33 @@ Saving throws are named for the ability modifiers they use: a Constitution savin
 
 <table><tr><td>Ability</td><td>Make a Save To ...</td></tr><tr><td>Strength</td><td>Physically resist direct force</td></tr><tr><td>Dexterity</td><td>Dodge out of harm’s way</td></tr><tr><td>Constitution</td><td>Endure a toxic hazard</td></tr><tr><td>Intelligence</td><td>Recognize an illusion as fake</td></tr><tr><td>Wisdom</td><td>Resist a mental assault</td></tr><tr><td>Charisma</td><td>Assert your identity</td></tr></table>
 
-#### Proficiency Bonus
+### Proficiency Bonus
 
 You add your Proficiency Bonus to your saving throw if you have proficiency in that kind of save. See "Proficiency" later in "Playing the Game."
 
-#### Difficulty Class
+### Difficulty Class
 
 The Difficulty Class for a saving throw is determined by the effect that causes it or by the GM. For example, if a spell forces you to make a save, the DC is determined by the caster's spellcasting ability and Proficiency Bonus. Monster abilities that call for saves specify the DC.
 
-#### Attack Rolls
+### Attack Rolls
 
 An attack roll determines whether an attack hits a target. An attack roll hits if the roll equals or exceeds the target's Armor Class. Attack rolls usually occur in battle, described in "Combat" later in "Playing the Game," but the GM might also ask for an attack roll in other situations, such as an archery competition.
 
-#### Ability Modifier
+### Ability Modifier
 
 The Attack Roll Abilities table shows which ability modifier to use for different types of attack rolls.
 
-#### Attack Roll Abilities
+### Attack Roll Abilities
 
 <table><tr><td>Ability</td><td>Attack Type</td></tr><tr><td>Strength</td><td>Melee attack with a weapon or an Un-armed Strike (see “Rules Glossary”)</td></tr><tr><td>Dexterity</td><td>Ranged attack with a weapon</td></tr><tr><td>Varies</td><td>Spell attack (the ability used is determined by the spellcaster’s spellcasting feature, as explained in “ Spells”)</td></tr></table>
 
 Some features let you use different ability modifiers from those listed. For example, the Finesse property (see "Equipment") lets you use Strength or Dexterity with a weapon that has that property.
 
-#### Proficiency Bonus
+### Proficiency Bonus
 
 You add your Proficiency Bonus to your attack roll when you attack using a weapon you have proficiency with, as well as when you attack with a spell. See "Proficiency" later in "Playing the Game" for more information about weapon proficiencies.
 
-#### Armor Class
+### Armor Class
 
 A creature's Armor Class represents how well the creature avoids being wounded in combat. The AC of a character is determined at character creation (see "Character Creation"), whereas the AC of a monster appears in its stat block.
 
@@ -139,47 +140,47 @@ A creature's AC can then be modified by armor, magic items, spells, and more.
 
 Only One Base AC. Some spells and class features give characters a different way to calculate their AC. A character with multiple features that give different ways to calculate AC must choose which one to use; only one base calculation can be in effect for a creature.
 
-#### Rolling 20 or I
+### Rolling 20 or 1
 
 If you roll a 20 on the d20 (called a "natural 20") for an attack roll, the attack hits regardless of any modifiers or the target's AC. This is called a Critical Hit (see "Combat" later in "Playing the Game").
 
 If you roll a 1 on the d20 (a "natural 1") for an attack roll, the attack misses regardless of any modifiers or the target's AC.
 
-#### Advantage/Disadvantage
+### Advantage/Disadvantage
 
 Sometimes a D20 Test is modified by Advantage or Disadvantage. Advantage reflects the positive circumstances surrounding a d20 roll, while Disadvantage reflects negative circumstances.
 
 You usually acquire Advantage or Disadvantage through the use of special abilities and actions. The
 
-#### HEROIC INSPIRATION
+>#### HEROIC INSPIRATION
+>
+>Sometimes the GM or a rule gives you Heroic Inspiration. If you have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll.
 
-Sometimes the GM or a rule gives you Heroic Inspiration. If you have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll.
+>Only One at a Time. You can never have more than one instance of Heroic Inspiration. If something gives you Heroic Inspiration and you already have it, you can give it to a player character in your group who lacks it.
 
-Only One at a Time. You can never have more than one instance of Heroic Inspiration. If something gives you Heroic Inspiration and you already have it, you can give it to a player character in your group who lacks it.
+>Gaining Heroic Inspiration. Your GM can give you Heroic Inspiration for a variety of reasons. Typically, GMs award it when you do something particularly heroic, in character, or entertaining. It's a reward for making the game more fun for everyone playing.
 
-Gaining Heroic Inspiration. Your GM can give you Heroic Inspiration for a variety of reasons. Typically, GMs award it when you do something particularly heroic, in character, or entertaining. It's a reward for making the game more fun for everyone playing.
+>Other rules might allow your character to gain Heroic Inspiration independent of the GM's decision. For example, Human characters start each day with Heroic Inspiration.
 
-Other rules might allow your character to gain Heroic Inspiration independent of the GM's decision. For example, Human characters start each day with Heroic Inspiration.
+>GM can also decide that circumstances grant Advantage or impose Disadvantage.
 
-GM can also decide that circumstances grant Advantage or impose Disadvantage.
-
-#### Roll Two D20s
+### Roll Two D20s
 
 When a roll has either Advantage or Disadvantage, roll a second d20 when you make the roll. Use the higher of the two rolls if you have Advantage, and use the lower roll if you have Disadvantage. For example, if you have Disadvantage and roll an 18 and a 3, use the 3. If you instead have Advantage and roll those numbers, use the 18.
 
-#### They Don't Stack
+### They Don't Stack
 
 If multiple situations affect a roll and they all grant Advantage on it, you still roll only two d20s. Similarly, if multiple situations impose Disadvantage on a roll, you roll only two d20s.
 
 If circumstances cause a roll to have both Advantage and Disadvantage, the roll has neither of them, and you roll one d20. This is true even if multiple circumstances impose Disadvantage and only one grants Advantage or vice versa. In such a situation, you have neither Advantage nor Disadvantage.
 
-#### Interactions with Rerolls
+### Interactions with Rerolls
 
 When you have Advantage or Disadvantage and something in the game lets you reroll or replace the d20, you can reroll or replace only one die, not both. You choose which one.
 
 For example, if you have Heroic Inspiration (see the sidebar below) and roll a 3 and an 18 on an ability check that has Advantage or Disadvantage, you could expend your Heroic Inspiration to reroll one of those dice, not both of them.
 
-#### Proficiency
+## Proficiency
 
 Characters and monsters are good at various things. Some are skilled with many weapons, while others can use only a few. Some are better at understanding people's motives, and others are better at unlocking the secrets of the multiverse. All creatures have a Proficiency Bonus, which reflects the impact that training has on the creature's capabilities. A character's Proficiency Bonus increases as the character gains levels (described in "Character Creation"). A monster's Proficiency Bonus is based on its Challenge Rating (see "Rules Glossary"). The Proficiency Bonus table shows how the bonus is determined.
 
@@ -189,13 +190,13 @@ Proficiency Bonus
 
 <table><tr><td>Level or CR</td><td>Bonus</td><td>Level or CR</td><td>Bonus</td></tr><tr><td>Up to 4</td><td>+2</td><td>17–20</td><td>+6</td></tr><tr><td>5–8</td><td>+3</td><td>21–24</td><td>+7</td></tr><tr><td>9–12</td><td>+4</td><td>25–28</td><td>+8</td></tr><tr><td>13–16</td><td>+5</td><td>29–30</td><td>+9</td></tr></table>
 
-#### The Bonus Doesn't Stack
+### The Bonus Doesn't Stack
 
 Your Proficiency Bonus can't be added to a die roll or another number more than once. For example, if a rule allows you to make a Charisma (Deception or Persuasion) check, you add your Proficiency Bonus if you're proficient in either skill, but you don't add it twice if you're proficient in both skills.
 
 Occasionally, a Proficiency Bonus might be multiplied or divided (doubled or halved, for example) before being added. For example, the Expertise feature (see "Rules Glossary") doubles the Proficiency Bonus for certain ability checks. Whenever the bonus is used, it can be multiplied only once and divided only once.
 
-#### Skill Proficiencies
+### Skill Proficiencies
 
 Most ability checks involve using a skill, which represents a category of things creatures try to do with an ability check. The descriptions of the actions you take (see "Actions" later in "Playing the Game") specify which skill applies if you make an ability check for that action, and many other rules note when a skill is relevant. The GM has the ultimate say on whether a skill is relevant in a situation.
 
@@ -207,21 +208,21 @@ Skills
 
 that skill but doesn't add its Proficiency Bonus. For example, if a character tries to climb a cliff, the GM might ask for a Strength (Athletics) check. If the character has Athletics proficiency, the character adds their Proficiency Bonus to the Strength check. If the character lacks that proficiency, they make the check without adding their Proficiency Bonus.
 
-#### Skill List
+### Skill List
 
 The skills are shown on the Skills table, which notes example uses for each skill proficiency as well as the ability check the skill most often applies to.
 
-#### Determining Skills
+### Determining Skills
 
 A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in its stat block.
 
-#### Saving Throw Proficiencies
+### Saving Throw Proficiencies
 
 Proficiency in a saving throw lets a character add their Proficiency Bonus to saves that use a particular ability. For example, proficiency in Wisdom saves lets you add your Proficiency Bonus to your Wisdom saves. Some monsters also have saving throw proficiencies, as noted in their stat blocks.
 
 Each class gives proficiency in at least two saving throws, representing that class's training in evading or resisting certain threats. Wizards, for example, are proficient in Intelligence and Wisdom saves; they train to resist mental assault.
 
-#### Equipment Proficiencies
+### Equipment Proficiencies
 
 A character gains proficiency with various weapons and tools from their class and background. There are two categories of equipment proficiency:
 
@@ -229,7 +230,7 @@ Weapons. Anyone can wield a weapon, but proficiency makes you better at wielding
 
 Tools. If you have proficiency with a tool, you can add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in the skill that's also used with that check, you have Advantage on the check too. This means you can benefit from both skill proficiency and tool proficiency on the same ability check.
 
-#### Actions
+## Actions
 
 When you do something other than moving or communicating, you typically take an action. The Action table lists the game's main actions, which are defined in more detail in "Rules Glossary."
 
@@ -239,13 +240,13 @@ Actions
 
 Player characters and monsters can also do things not covered by these actions. Many class features and other abilities provide additional action options, and you can improvise other actions. When you describe an action not detailed elsewhere in the rules, the Game Master tells you whether that action is possible and what kind of D20 Test you need to make, if any.
 
-#### One Thing at a Time
+### One Thing at a Time
 
 The game uses actions to govern how much you can do at one time. You can take only one action at a time. This principle is most important in combat, as explained in "Combat" later in "Playing the Game."
 
 Actions can come up in other situations, too: in a social interaction, you can try to Influence a creature or use the Search action to read the creature's body language, but you can't do both at the same time. And when you're exploring a dungeon, you can't simultaneously use the Search action to look for traps and use the Help action to aid another character who's trying to open a stuck door (with the Utilize action).
 
-#### Bonus Actions
+### Bonus Actions
 
 Various class features, spells, and other abilities let you take an additional action on your turn called a Bonus Action. The Cunning Action feature, for
 
@@ -255,7 +256,7 @@ You can take only one Bonus Action on your turn, so you must choose which Bonus 
 
 You choose when to take a Bonus Action during your turn unless the Bonus Action's timing is specified. Anything that deprives you of your ability to take actions also prevents you from taking a Bonus Action.
 
-#### Reactions
+### Reactions
 
 Certain special abilities, spells, and situations allow you to take a special action called a Reaction. A Reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. The Opportunity Attack, described later in "Playing the Game," is the most common type of Reaction.
 
@@ -263,7 +264,7 @@ When you take a Reaction, you can't take another one until the start of your nex
 
 In terms of timing, a Reaction takes place immediately after its trigger unless the Reaction's description says otherwise.
 
-#### Social Interaction
+## Social Interaction
 
 During their adventures, player characters meet many different people and face some monsters that would rather talk than fight. In those situations, it's time for social interaction, which takes many forms. For example, you might try to convince a burglar to confess to wrongdoing or try to flatter a guard. The Game Master assumes the roles of any nonplayer characters who are participating.
 
@@ -271,7 +272,7 @@ An NPC's attitude toward your character is Friendly, Indifferent, or Hostile, as
 
 Social interactions progress in two ways: through roleplaying and ability checks.
 
-#### Roleplaying
+### Roleplaying
 
 Roleplaying is, literally, the act of playing out a role. In this case, it's you as a player determining how your character thinks, acts, and talks. Roleplaying is part of every aspect of the game, and it comes to the fore during social interactions.
 
@@ -285,33 +286,33 @@ When interacting with an NPC, pay attention to the GM's portrayal of the NPC's p
 
 If you offer NPCs something they want or play on their sympathies, fears, or goals, you can form friendships, ward off violence, or learn a key piece of information. On the other hand, if you insult a proud warrior or speak ill of a noble's allies, your efforts to convince or deceive will likely fail.
 
-#### Ability Checks
+### Ability Checks
 
 Ability checks can be key in determining the outcome of a social interaction. Your roleplaying efforts can alter an NPC's attitude, but there might still be an element of chance if the GM wants dice to play a role in determining an NPC's response to you. In such situations, the GM will typically ask you to take the Influence action.
 
 Pay attention to your skill proficiencies when thinking of how you will interact with an NPC; use an approach that relies on your group's skill proficiencies. For example, if the group needs to trick a guard into letting them into a castle, the Rogue who is proficient in Deception should lead the discussion.
 
-#### Exploration
+## Exploration
 
 Exploration involves delving into places that are dangerous and full of mystery. The rules in this section detail some of the ways adventurers interact with the environment in such places.
 
-#### Adventuring Equipment
+### Adventuring Equipment
 
 As adventurers explore, their equipment can help them in many ways. For example, they can reach out-of-the-way places with a Ladder, perceive things they wouldn't otherwise notice with a Torch or another light source, bypass locked doors and containers with Thieves' Tools, and create obstacles for pursuers with Caltrops.
 
 See "Equipment" for rules on many items that are useful on adventures. The items in the "Tools" and "Adventure Gear" sections are especially useful. The weapons in "Equipment" can also be used for more than battle; you could use a Quarterstaff, for example, to push a sinister-looking button that you're reluctant to touch.
 
-#### Vision and Light
+### Vision and Light
 
 Some adventuring tasks—such as noticing danger, hitting an enemy, and targeting certain spells—are affected by sight, so effects that obscure vision can hinder you, as explained below.
 
-#### Obscured Areas
+### Obscured Areas
 
 An area might be Lightly or Heavily Obscured. In a Lightly Obscured area—such as an area with Dim Light, patchy fog, or moderate foliage—you have Disadvantage on Wisdom (Perception) checks that rely on sight.
 
 A Heavily Obscured area—such as an area with Darkness, heavy fog, or dense foliage—is opaque. You have the Blinded condition (see “Rules Glossary”) when trying to see something there.
 
-#### Light
+### Light
 
 The presence or absence of light determines the category of illumination in an area, as defined below.
 
@@ -321,7 +322,7 @@ Dim Light. Dim Light, also called shadows, creates a Lightly Obscured area. An a
 
 Darkness. Darkness creates a Heavily Obscured area. Characters face Darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon, or in an area of magical Darkness.
 
-#### Special Senses
+### Special Senses
 
 Some creatures have special senses that help them perceive things in certain situations. "Rules Glossary" defines the following special senses:
 
@@ -333,43 +334,43 @@ Tremorsense
 
 Truesight
 
-#### Hiding
+### Hiding
 
 Adventurers and monsters often hide, whether to spy on one another, sneak past a guardian, or set an ambush. The Game Master decides when circumstances are appropriate for hiding. When you try to hide, you take the Hide action.
 
-#### Interacting with Objects
+### Interacting with Objects
 
 Interacting with objects is often simple to resolve. The player tells the GM that their character is doing something, such as moving a lever or opening
 
 a door, and the GM describes what happens. Sometimes, however, rules govern what you can do with an object, as detailed in the following sections.
 
-#### What Is an Object?
+### What Is an Object?
 
 For the purpose of the rules, an object is a discrete, inanimate item like a window, door, sword, book, table, chair, or stone. It isn't a building or a vehicle, which are composed of many objects.
 
-#### Time-Limited Object Interactions
+### Time-Limited Object Interactions
 
 When time is short, such as in combat, interactions with objects are limited: one free interaction per turn. That interaction must occur during a creature's movement or action. Any additional interactions require the Utilize action, as explained in "Combat" later in "Playing the Game."
 
-#### Finding Hidden Objects
+### Finding Hidden Objects
 
 When your character searches for hidden things, such as a secret door or a trap, the GM typically asks you to make a Wisdom (Perception) check, provided you describe the character searching in the hidden object's vicinity. On a success, you find the object, other important details, or both.
 
 If you describe your character searching nowhere near a hidden object, a Wisdom (Perception) check won't reveal the object, no matter the check's total.
 
-#### Carrying Objects
+### Carrying Objects
 
 You can usually carry your gear and treasure without worrying about the weight of those objects. If you try to haul an unusually heavy object or a massive number of lighter objects, the GM might require you to abide by the rules for carrying capacity in "Rules Glossary."
 
-#### Breaking Objects
+### Breaking Objects
 
 As an action, you can automatically break or otherwise destroy a fragile, nonmagical object, such as a glass container or a piece of paper. If you try to damage something more resilient, the GM might use the rules on breaking objects in "Rules Glossary."
 
-#### MARCHING ORDER
+>#### MARCHING ORDER
+>
+>The adventurers should establish a marching order while they travel, whether indoors or outdoors. A marching order makes it easier to determine which >characters are affected by traps, which ones can spot hidden enemies, and which ones are the closest to those enemies if a fight breaks out. You can >change your marching order outside combat and record the order any way you like: write it down, for example, or arrange miniatures to show it.
 
-The adventurers should establish a marching order while they travel, whether indoors or outdoors. A marching order makes it easier to determine which characters are affected by traps, which ones can spot hidden enemies, and which ones are the closest to those enemies if a fight breaks out. You can change your marching order outside combat and record the order any way you like: write it down, for example, or arrange miniatures to show it.
-
-#### Hazards
+### Hazards
 
 Monsters are the main perils characters face, but other dangers await. "Rules Glossary" defines the following hazards:
 
@@ -377,13 +378,13 @@ Burning Falling Suffocation
 
 Dehydration Malnutrition
 
-#### Travel
+### Travel
 
 During an adventure, the characters might travel long distances on trips that could take hours or days. The GM can summarize this travel without calculating exact distances or travel times, or the GM might have you use the travel pace rules below.
 
 If you need to know how fast you can move when every second matters, see the movement rules in "Combat" later in "Playing the Game."
 
-#### Travel Pace
+### Travel Pace
 
 While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a Short or Long Rest before they can move at that increased pace again (see "Equipment" for a selection of mounts for sale). "Gameplay Toolbox" has rules that affect which pace you can choose in certain types of terrain.
 
@@ -399,21 +400,21 @@ Normal. Traveling at a Normal pace imposes Disadvantage on Dexterity (Stealth) c
 
 Slow. Traveling at a Slow pace grants Advantage on Wisdom (Perception or Survival) checks.
 
-#### Vehicles
+### Vehicles
 
 Travelers in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel, and they don't choose a travel pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day. "Equipment" includes vehicles for sale.
 
-#### Combat
+## Combat
 
 Adventurers encounter many dangerous monsters and nefarious villains. In those moments, combat often breaks out.
 
-#### The Order of Combat
+### The Order of Combat
 
 A typical combat encounter is a clash between two sides: a flurry of weapon swings, feints, parries, footwork, and spellcasting. The game organizes combat into a cycle of rounds and turns. A round represents about 6 seconds in the game world.
 
 During a round, each participant in a battle takes a turn. The order of turns is determined at the beginning of combat when everyone rolls Initiative. Once everyone has taken a turn, the fight continues to the next round if neither side is defeated.
 
-#### Combat Step by Step
+### Combat Step by Step
 
 Combat unfolds in these steps:
 
@@ -421,7 +422,7 @@ Combat unfolds in these steps:
 2: Roll Initiative. Everyone involved in the combat encounter rolls Initiative, determining the order of combatants' turns.  
 3: Take Turns. Each participant in the battle takes a turn in Initiative order. When everyone involved in the combat has had a turn, the round ends. Repeat this step until the fighting stops.
 
-#### Initiative
+### Initiative
 
 Initiative determines the order of turns during combat. When combat starts, every participant rolls Initiative; they make a Dexterity check that determines their place in the Initiative order. The GM rolls for monsters. For a group of identical creatures, the GM makes a single roll, so each member of the group has the same Initiative.
 
@@ -433,7 +434,7 @@ Ties. If a tie occurs, the GM decides the order among tied monsters, and the pla
 
 order if the tie is between a monster and a player character.
 
-#### Your Turn
+### Your Turn
 
 On your turn, you can move a distance up to your Speed and take one action. You decide whether to move first or take your action first.
 
@@ -447,29 +448,29 @@ Interacting with Things. You can interact with one object or feature of the envi
 
 If you want to interact with a second object, you need to take the Utilize action. Some magic items and other special objects always require an action to use, as stated in their descriptions.
 
-#### PLAYING ON A GRID
+>#### PLAYING ON A GRID
+>
+>If you play using a square grid and miniatures or other tokens, follow these rules.
+>
+>Squares. Each square represents 5 feet.
+>
+>Speed. Rather than moving foot by foot, move square by square on the grid, using your Speed in 5-foot segments. You can translate your Speed into >squares by dividing it by 5. For example, a Speed of 30 feet translates into 6 squares. If you use a grid often, consider writing your Speed in >squares on your character sheet.
 
-If you play using a square grid and miniatures or other tokens, follow these rules.
-
-Squares. Each square represents 5 feet.
-
-Speed. Rather than moving foot by foot, move square by square on the grid, using your Speed in 5-foot segments. You can translate your Speed into squares by dividing it by 5. For example, a Speed of 30 feet translates into 6 squares. If you use a grid often, consider writing your Speed in squares on your character sheet.
-
-Entering a Square. To enter a square, you must have enough movement left to pay for entering. It costs 1 square of movement to enter an unoccupied square that's adjacent to your space (orthogonally or diagonally adjacent). A square of Difficult Terrain costs 2 squares to enter. Other effects might make a square cost even more.
-
-Corners. Diagonal movement can't cross the corner of a wall, a large tree, or another terrain feature that fills its space.
-
-Ranges. To determine the range on a grid between two things—whether creatures or objects—count squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route.
+>Entering a Square. To enter a square, you must have enough movement left to pay for entering. It costs 1 square of movement to enter an unoccupied >square that's adjacent to your space (orthogonally or diagonally adjacent). A square of Difficult Terrain costs 2 squares to enter. Other effects >might make a square cost even more.
+>
+>Corners. Diagonal movement can't cross the corner of a wall, a large tree, or another terrain feature that fills its space.
+>
+>Ranges. To determine the range on a grid between two things—whether creatures or objects—count squares from a square adjacent to one of them and stop >counting in the space of the other one. Count by the shortest route.
 
 The GM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the GM might require you to take the Utilize action to open a stuck door or turn a crank to lower a drawbridge.
 
 Doing Nothing on Your Turn. You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do, consider taking the defensive Dodge action or the Ready action to delay acting.
 
-#### Ending Combat
+### Ending Combat
 
 Combat ends when one side or the other is defeated, which can mean the creatures are killed or knocked out or have surrendered or fled. Combat can also end when both sides agree to end it.
 
-#### Movement and Position
+### Movement and Position
 
 On your turn, you can move a distance equal to your Speed or less. Or you can decide not to move.
 
@@ -479,21 +480,21 @@ However you're moving with your Speed, you deduct the distance of each part of y
 
 A character's Speed is determined during character creation. A monster's Speed is noted in the monster's stat block. See "Rules Glossary" for more about Speed as well as about special speeds, such as a Climb Speed, Fly Speed, or Swim Speed.
 
-#### Difficult Terrain
+### Difficult Terrain
 
 Combatants are often slowed down by Difficult Terrain. Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are examples of Difficult Terrain.
 
 Every foot of movement in Difficult Terrain costs 1 extra foot, even if multiple things in a space count as Difficult Terrain.
 
-#### Breaking Up Your Move
+### Breaking Up Your Move
 
 You can break up your move, using some of its movement before and after any action, Bonus Action, or Reaction you take on the same turn. For example, if you have a Speed of 30 feet, you could go 10 feet, take an action, and then go 20 feet.
 
-#### Dropping Prone
+### Dropping Prone
 
 On your turn, you can give yourself the Prone condition (see "Rules Glossary") without using an action or any of your Speed, but you can't do so if your Speed is 0.
 
-#### Creature Size
+### Creature Size
 
 A creature belongs to a size category, which determines the width of the square space the creature occupies on a map, as shown on the Creature Size and Space table. That table lists the sizes from smallest (Tiny) to largest (Gargantuan). A creature's space is the area that it effectively controls in combat and the area it needs to fight effectively.
 
@@ -503,7 +504,7 @@ Creature Size and Space
 
 <table><tr><td>Size</td><td>Space (Feet)</td><td>Space (Squares)</td></tr><tr><td>Tiny</td><td>2½ by 2½ feet</td><td>4 per square</td></tr><tr><td>Small</td><td>5 by 5 feet</td><td>1 square</td></tr><tr><td>Medium</td><td>5 by 5 feet</td><td>1 square</td></tr><tr><td>Large</td><td>10 by 10 feet</td><td>4 squares (2 by 2)</td></tr><tr><td>Huge</td><td>15 by 15 feet</td><td>9 squares (3 by 3)</td></tr><tr><td>Gargantuan</td><td>20 by 20 feet</td><td>16 squares (4 by 4)</td></tr></table>
 
-#### Moving around Other Creatures
+### Moving around Other Creatures
 
 During your move, you can pass through the space of an ally, a creature that has the Incapacitated condition (see "Rules Glossary"), a Tiny creature, or a creature that is two sizes larger or smaller than you.
 
@@ -511,17 +512,17 @@ Another creature's space is Difficult Terrain for you unless that creature is Ti
 
 You can't willingly end a move in a space occupied by another creature. If you somehow end a turn in a space with another creature, you have the Prone condition (see "Rules Glossary") unless you are Tiny or are of a larger size than the other creature.
 
-#### Making an Attack
+### Making an Attack
 
 When you take the Attack action, you make an attack. Some other actions, Bonus Actions, and Reactions also let you make an attack. Whether you strike with a Melee weapon, fire a Ranged weapon,
 
-#### UNSEEN ATTACKERS AND TARGETS
-
-When you make an attack roll against a target you can't see, you have Disadvantage on the roll. This is true whether you're guessing the target's location or targeting a creature you can hear but not see. If the target isn't in the location you targeted, you miss.
-
-When a creature can't see you, you have Advantage on attack rolls against it.
-
-If you are hidden when you make an attack roll, you give away your location when the attack hits or misses.
+>#### UNSEEN ATTACKERS AND TARGETS
+>
+>When you make an attack roll against a target you can't see, you have Disadvantage on the roll. This is true whether you're guessing the target's >location or targeting a creature you can hear but not see. If the target isn't in the location you targeted, you miss.
+>
+>When a creature can't see you, you have Advantage on attack rolls against it.
+>
+>If you are hidden when you make an attack roll, you give away your location when the attack hits or misses.
 
 or make an attack roll as part of a spell, an attack has the following structure:
 
@@ -529,7 +530,7 @@ or make an attack roll as part of a spell, an attack has the following structure
 2: Determine Modifiers. The GM determines whether the target has Cover (see the next section) and whether you have Advantage or Disadvantage against the target. In addition, spells, special abilities, and other effects can apply penalties or bonuses to your attack roll.  
 3: Resolve the Attack. Make the attack roll, as detailed earlier in "Playing the Game." On a hit, you roll damage unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage.
 
-#### Cover
+### Cover
 
 Walls, trees, creatures, and other obstacles can provide cover, making a target more difficult to harm. As detailed in the Cover table, there are three degrees of cover, each of which gives a different benefit to a target.
 
@@ -539,29 +540,29 @@ Cover
 
 <table><tr><td>Degree</td><td>Benefit to Target</td><td>Offered By ...</td></tr><tr><td>Half</td><td>+2 bonus to AC and Dexterity saving throws</td><td>Another creature or an object that covers at least half of the target</td></tr><tr><td>Three-Quarters</td><td>+5 bonus to AC and Dexterity saving throws</td><td>An object that covers at least three-quarters of the target</td></tr><tr><td>Total</td><td>Can’t be targeted directly</td><td>An object that covers the whole target</td></tr></table>
 
-#### Ranged Attacks
+### Ranged Attacks
 
 When you make a ranged attack, you fire a bow, hurl an axe, or otherwise send projectiles to strike a foe at a distance. Many spells also involve making a ranged attack.
 
-#### Range
+### Range
 
 You can make ranged attacks only against targets within a specified range. If a ranged attack, such as one made with a spell, has a single range, you can't attack a target beyond this range.
 
 Some ranged attacks, such as those made with a Longbow, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has Disadvantage when your target is beyond normal range, and you can't attack a target beyond long range.
 
-#### Ranged Attacks in Close Combat
+### Ranged Attacks in Close Combat
 
 Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack roll with a weapon, a spell, or some other means, you have Disadvantage on the roll if you are within 5 feet of an enemy who can see you and doesn't have the Incapacitated condition (see "Rules Glossary").
 
-#### Melee Attacks
+### Melee Attacks
 
 A melee attack allows you to attack a target within your reach. A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.
 
-#### Reach
+### Reach
 
 A creature has a 5-foot reach and can thus attack targets within 5 feet when making a melee attack. Certain creatures have melee attacks with a reach greater than 5 feet, as noted in their descriptions.
 
-#### Opportunity Attacks
+### Opportunity Attacks
 
 Combatants watch for enemies to drop their guard. If you move heedlessly past your foes, you put yourself in danger by provoking an Opportunity Attack.
 
@@ -569,15 +570,15 @@ Avoiding Opportunity Attacks. You can avoid provoking an Opportunity Attack by t
 
 Making an Opportunity Attack. You can make an Opportunity Attack when a creature that you can see leaves your reach. To make the attack, take a Reaction to make one melee attack with a weapon or an Unarmed Strike against that creature. The attack occurs right before it leaves your reach.
 
-#### Mounted Combat
+### Mounted Combat
 
 A willing creature that is at least one size larger than a rider and that has an appropriate anatomy can serve as a mount, using the following rules.
 
-#### Mounting and Dismounting
+### Mounting and Dismounting
 
 During your move, you can mount a creature that is within 5 feet of you or dismount. Doing so costs an amount of movement equal to half your Speed (round down). For example, if your Speed is 30 feet, you spend 15 feet of movement to mount a horse.
 
-#### Controlling a Mount
+### Controlling a Mount
 
 You can control a mount only if it has been trained to accept a rider. Domesticated horses, mules, and similar creatures have such training.
 
@@ -585,105 +586,104 @@ The Initiative of a controlled mount changes to match yours when you mount it. I
 
 In contrast, an independent mount—one that lets you ride but ignores your control—retains its place in the Initiative order and moves and acts as it likes.
 
-#### Falling Off
+### Falling Off
 
 If an effect is about to move your mount against its will while you're on it, you must succeed on a DC 10 Dexterity saving throw or fall off, landing with the Prone condition (see "Rules Glossary") in an unoccupied space within 5 feet of the mount.
 
 While mounted, you must make the same save if you're knocked Prone or the mount is.
 
-#### Underwater Combat
+### Underwater Combat
 
 A fight underwater follows these rules.
 
-#### Impeded Weapons
+### Impeded Weapons
 
 When making a melee attack roll with a weapon underwater, a creature that lacks a Swim Speed has Disadvantage on the attack roll unless the weapon deals Piercing damage.
 
 A ranged attack roll with a weapon underwater automatically misses a target beyond the weapon's normal range, and the attack roll has Disadvantage against a target within normal range.
 
-#### Fire Resistance
+### Fire Resistance
 
 Anything underwater has Resistance to Fire damage (explained in "Damage and Healing").
 
-#### Damage and Healing
+## Damage and Healing
 
 Injury and death are frequent threats, as detailed in the following rules.
 
-#### Hit Points
+### Hit Points
 
 Hit Points represent durability and the will to live. Creatures with more Hit Points are more difficult to kill. Your Hit Point maximum is the number of
 
-#### RESTING
+>#### RESTING
+>Adventurers can't spend every hour adventuring. They need rest. Any creature can take hour-long Short Rests in the midst of a day and an 8-hour Long Rest to end it. Regaining Hit Points is one of the main benefits of a rest. "Rules Glossary" provides the rules for Short and Long Rests.
+>
+>Hit Points you have when uninjured. Your current Hit Points can be any number from that maximum down to 0, which is the lowest Hit Points can go.
+>
+>Whenever you take damage, subtract it from your Hit Points. Hit Point loss has no effect on your capabilities until you reach 0 Hit Points.
+>
+>If you have half your Hit Points or fewer, you're Bloodied, which has no game effect on its own but which might trigger other game effects.
 
-Adventurers can't spend every hour adventuring. They need rest. Any creature can take hour-long Short Rests in the midst of a day and an 8-hour Long Rest to end it. Regaining Hit Points is one of the main benefits of a rest. "Rules Glossary" provides the rules for Short and Long Rests.
-
-Hit Points you have when uninjured. Your current Hit Points can be any number from that maximum down to 0, which is the lowest Hit Points can go.
-
-Whenever you take damage, subtract it from your Hit Points. Hit Point loss has no effect on your capabilities until you reach 0 Hit Points.
-
-If you have half your Hit Points or fewer, you're Bloodied, which has no game effect on its own but which might trigger other game effects.
-
-#### Damage Rolls
+### Damage Rolls
 
 Each weapon, spell, and damaging monster ability specifies the damage it deals. You roll the damage dice, add any modifiers, and deal the damage to your target. If there's a penalty to the damage, it's possible to deal 0 damage but not negative damage.
 
 When attacking with a weapon, you add your ability modifier—the same modifier used for the attack roll—to the damage roll. A spell tells you which dice to roll for damage and whether to add any modifiers. Unless a rule says otherwise, you don't add your ability modifier to a fixed damage amount that doesn't use a roll, such as the damage of a Blowgun. See "Equipment" for weapons' damage dice and "Spells" for spells' damage dice.
 
-#### Critical Hits
+### Critical Hits
 
 When you score a Critical Hit, you deal extra damage. Roll the attack's damage dice twice, add them together, and add any relevant modifiers as normal. For example, if you score a Critical Hit with a Dagger, roll 2d4 for the damage rather than 1d4, and add your relevant ability modifier. If the attack involves other damage dice, such as from the Rogue's Sneak Attack feature, you also roll those dice twice.
 
-#### Saving Throws and Damage
+### Saving Throws and Damage
 
 Damage dealt via saving throws uses these rules.
 
-#### Damage against Multiple Targets
+### Damage against Multiple Targets
 
 When you create a damaging effect that forces two or more targets to make saving throws against it at the same time, roll the damage once for all the targets. For example, when a wizard casts Fireball, the spell's damage is rolled once for all creatures caught in the blast.
 
-#### Half Damage
+### Half Damage
 
 Many saving throw effects deal half damage (round down) to a target when the target succeeds on the saving throw. The halved damage is equal to half the damage that would be dealt on a failed save.
 
-#### Damage Types
+### Damage Types
 
 Each instance of damage has a type, like Fire or Slashing. Damage types are listed in "Rules
 
 Glossary" and have no rules of their own, but other rules, such as Resistance, rely on damage types.
 
-#### Resistance and Vulnerability
+### Resistance and Vulnerability
 
 Some creatures and objects have Resistance or Vulnerability to certain damage types. If you have Resistance to a damage type, damage of that type is halved against you (round down). If you have Vulnerability to a damage type, damage of that type is doubled against you. For example, if you have Resistance to Cold damage, such damage is halved against you, and if you have Vulnerability to Fire damage, such damage is doubled against you.
 
-#### No Stacking
+### No Stacking
 
 Multiple instances of Resistance or Vulnerability that affect the same damage type count as only one instance. For example, if you have Resistance to Necrotic damage as well as Resistance to all damage, Necrotic damage is reduced by half against you.
 
-#### Order of Application
+### Order of Application
 
 Modifiers to damage are applied in the following order: adjustments such as bonuses, penalties, or multipliers are applied first; Resistance is applied second; and Vulnerability is applied third.
 
 For example, a creature has Resistance to all damage and Vulnerability to Fire damage, and it's within a magical aura that reduces all damage by 5. If it takes 28 Fire damage, the damage is first reduced by 5 (to 23), then halved for the creature's Resistance (and rounded down to 11), then doubled for its Vulnerability (to 22).
 
-#### Immunity
+### Immunity
 
 Some creatures and objects have Immunity to certain damage types and conditions. Immunity to a damage type means you don't take damage of that type, and Immunity to a condition means you aren't affected by it.
 
-#### Healing
+### Healing
 
 Hit Points can be restored by magic, such as the Cure Wounds spell or a Potion of Healing, or by a Short or Long Rest (see "Rules Glossary").
 
-#### KNOCKING OUT A CREATURE
-
-When you would reduce a creature to 0 Hit Points with a melee attack, you can instead reduce the creature to 1 Hit Point and give it the Unconscious condition. It then starts a Short Rest, at the end of which that condition ends on it. The condition ends early if the creature regains any Hit Points or if someone takes an action to administer first aid to it, making a successful DC 10 Wisdom (Medicine) check.
+>#### KNOCKING OUT A CREATURE
+>
+>When you would reduce a creature to 0 Hit Points with a melee attack, you can instead reduce the creature to 1 Hit Point and give it the Unconscious >condition. It then starts a Short Rest, at the end of which that condition ends on it. The condition ends early if the creature regains any Hit Points >or if someone takes an action to administer first aid to it, making a successful DC 10 Wisdom (Medicine) check.
 
 When you receive healing, add the restored Hit Points to your current Hit Points. Your Hit Points can't exceed your Hit Point maximum, so any Hit Points regained in excess of the maximum are lost. For example, if you receive 8 Hit Points of healing and have 14 Hit Points and a Hit Point maximum of 20, you regain 6 Hit Points, not 8.
 
-#### Dropping to 0 Hit Points
+### Dropping to 0 Hit Points
 
 When a creature drops to 0 Hit Points, it either dies outright or falls unconscious, as explained below.
 
-#### Instant Death
+### Instant Death
 
 Here are the main ways a creature can die instantly.
 
@@ -693,15 +693,15 @@ Hit Point Maximum of 0. A creature dies if its Hit Point maximum reaches 0. Cert
 
 Massive Damage. When damage reduces a character to 0 Hit Points and damage remains, the character dies if the remainder equals or exceeds their Hit Point maximum. For example, if your character has a Hit Point maximum of 12, currently has 6 Hit Points, and takes 18 damage, the character drops to 0 Hit Points, but 12 damage remains. The character then dies, since 12 equals their Hit Point maximum.
 
-#### Character Demise
+### Character Demise
 
 If your character dies, others might find a magical way to revive your character, such as with the Raise Dead spell. Or talk with the GM about making a new character to join the group. "Rules Glossary" has more information on being dead.
 
-#### Falling Unconscious
+### Falling Unconscious
 
 If you reach 0 Hit Points and don't die instantly, you have the Unconscious condition (see "Rules Glossary") until you regain any Hit Points, and you now face making Death Saving Throws (see below).
 
-#### Death Saving Throws
+### Death Saving Throws
 
 Whenever you start your turn with 0 Hit Points, you must make a Death Saving Throw to determine whether you creep closer to death or hang on to life. Unlike other saving throws, this one isn't tied to an ability score. You're in the hands of fate now.
 
@@ -713,29 +713,29 @@ Rolling a 1 or 20. When you roll a 1 on the d20 for a Death Saving Throw, you su
 
 Damage at 0 Hit Points. If you take any damage while you have 0 Hit Points, you suffer a Death Saving Throw failure. If the damage is from a Critical Hit, you suffer two failures instead. If the damage equals or exceeds your Hit Point maximum, you die.
 
-#### Stabilizing a Character
+### Stabilizing a Character
 
 You can take the Help action to try to stabilize a creature with 0 Hit Points, which requires a successful DC 10 Wisdom (Medicine) check.
 
 A Stable creature doesn't make Death Saving Throws even though it has 0 Hit Points, but it still has the Unconscious condition. If the creature takes damage, it stops being Stable and starts making Death Saving Throws again. A Stable creature that isn't healed regains 1 Hit Point after 1d4 hours.
 
-#### Temporary Hit Points
+### Temporary Hit Points
 
 Some spells and other effects confer Temporary Hit Points, which are a buffer against losing actual Hit Points, as explained below.
 
-#### Lose Temporary Hit Points First
+### Lose Temporary Hit Points First
 
 If you have Temporary Hit Points and take damage, those points are lost first, and any leftover damage carries over to your Hit Points. For example, if you have 5 Temporary Hit Points and take 7 damage, you lose those points and then lose 2 Hit Points.
 
-#### Duration
+### Duration
 
 Temporary Hit Points last until they're depleted or you finish a Long Rest (see "Rules Glossary").
 
-#### They Don't Stack
+### They Don't Stack
 
 Temporary Hit Points can't be added together. If you have Temporary Hit Points and receive more of them, you decide whether to keep the ones you have or to gain the new ones. For example, if a spell grants you 12 Temporary Hit Points when you already have 10, you can have 12 or 10, not 22.
 
-#### They're Not Hit Points or Healing
+### They're Not Hit Points or Healing
 
 Temporary Hit Points can't be added to your Hit Points, healing can't restore them, and receiving Temporary Hit Points doesn't count as healing. Because Temporary Hit Points aren't Hit Points, a creature can be at full Hit Points and receive Temporary Hit Points.
 
