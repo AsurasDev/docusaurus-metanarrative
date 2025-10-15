@@ -122,7 +122,7 @@ Charisma modifier (minimum of one creature) that you can see within 60 feet of y
 
 You and your allies have Immunity to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there.
 
-### Level 1I: Radiant Strikes
+### Level 11: Radiant Strikes
 
 Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Radiant damage.
 
