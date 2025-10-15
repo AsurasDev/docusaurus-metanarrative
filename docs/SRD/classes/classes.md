@@ -1,4 +1,3 @@
-
 ---
 sidebar_position: 1
 ---
@@ -55,11 +54,11 @@ Take a Bonus Action to extend your Rage.
 
 Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.
 
-#### Level I: Unarmored Defense
+#### Level 1: Unarmored Defense
 
 While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.
 
-#### Level I: Weapon Mastery
+#### Level 1: Weapon Mastery
 
 Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Great-axes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
 
@@ -149,7 +148,7 @@ You gain an Epic Boon feat (see "Feats") or another feat of your choice for whic
 
 You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25.
 
-#### Barbarian Subclass: Path of the Berserker
+### Barbarian Subclass: Path of the Berserker
 
 Channel Rage into Violent Fury
 
@@ -173,7 +172,7 @@ As a Bonus Action, you can strike terror into others with your menacing presence
 
 Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.
 
-#### Bard
+## Bard
 
 Core Bard Traits  
 
@@ -186,9 +185,9 @@ Instrument of your choice, En-
 tertainer&####x27;s Pack, and I9 GP; or 
 (B) 90 GP</td></tr></table>
 
-#### Becoming a Bard ...
+### Becoming a Bard ...
 
-#### As a Level I Character
+#### As a Level 1 Character
 
 - Gain all the traits in the Core Bard Traits table.
 
@@ -199,11 +198,11 @@ tertainer&####x27;s Pack, and I9 GP; or
 - Gain the following traits from the Core Bard Traits table: Hit Point Die, proficiency in one skill of your choice, proficiency with one Musical Instrument of your choice, and training with Light armor.  
 - Gain the Bard's level 1 features, which are listed in the Bard Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
 
-#### Bard Class Features
+### Bard Class Features
 
 As a Bard, you gain the following class features when you reach the specified Bard levels. These features are listed in the Bard Features table.
 
-#### Level I: Bardic Inspiration
+#### Level 1: Bardic Inspiration
 
 You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.
 
@@ -221,7 +220,7 @@ Number of Uses. You can confer a Bardic Inspiration die a number of times equal 
 
 At Higher Levels. Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.
 
-#### Level I: Spellcasting
+#### Level 1: Spellcasting
 
 You have learned to cast spells through your bardic arts. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Bard spells, which appear in the Bard spell list later in the class's description.
 
@@ -293,7 +292,7 @@ You gain an Epic Boon feat (see "Feats") or another feat of your choice for whic
 
 You have mastered two of the Words of Creation: the words of life and death. You therefore always have the Power Word Heal and Power Word Kill spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.
 
-#### Bard Spell List
+### Bard Spell List
 
 This section presents the Bard spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
 
@@ -303,7 +302,7 @@ Cantrips (Level 0 Bard Spells)
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Prestidigitation</td><td>Transmutation</td><td>—</td></tr><tr><td>Starry Wisp</td><td>Evocation</td><td>—</td></tr><tr><td>True Strike</td><td>Divination</td><td>—</td></tr><tr><td>Vicious Mockery</td><td>Enchantment</td><td>—</td></tr></table>
 
-Level I Bard Spells  
+Level 1 Bard Spells  
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Animal Friendship</td><td>Enchantment</td><td>—</td></tr><tr><td>Bane</td><td>Enchantment</td><td>C</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Color Spray</td><td>Illusion</td><td>—</td></tr><tr><td>Command</td><td>Enchantment</td><td>—</td></tr><tr><td>Comprehend Languages</td><td>Divination</td><td>R</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Disguise Self</td><td>Illusion</td><td>—</td></tr><tr><td>Dissonant Whispers</td><td>Enchantment</td><td>—</td></tr><tr><td>Faerie Fire</td><td>Evocation</td><td>C</td></tr><tr><td>Feather Fall</td><td>Transmutation</td><td>—</td></tr><tr><td>Healing Word</td><td>Abjuration</td><td>—</td></tr><tr><td>Heroism</td><td>Enchantment</td><td>C</td></tr><tr><td>Hideous Laughter</td><td>Enchantment</td><td>C</td></tr><tr><td>Identify</td><td>Divination</td><td>R, M</td></tr><tr><td>Illusory Script</td><td>Illusion</td><td>R, M</td></tr><tr><td>Longstrider</td><td>Transmutation</td><td>—</td></tr><tr><td>Silent Image</td><td>Illusion</td><td>C</td></tr><tr><td>Sleep</td><td>Enchantment</td><td>C</td></tr><tr><td>Speak with Animals</td><td>Divination</td><td>R</td></tr><tr><td>Thunderwave</td><td>Evocation</td><td>—</td></tr><tr><td>Unseen Servant</td><td>Conjuration</td><td>R</td></tr></table>
 
@@ -339,7 +338,7 @@ Level 9 Bard Spells
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Foresight</td><td>Divination</td><td>—</td></tr><tr><td>Power Word Heal</td><td>Enchantment</td><td>—</td></tr><tr><td>Power Word Kill</td><td>Enchantment</td><td>—</td></tr><tr><td>Prismatic Wall</td><td>Abjuration</td><td>—</td></tr><tr><td>True Polymorph</td><td>Transmutation</td><td>C</td></tr></table>
 
-#### Bard Subclass: College of Lore
+### Bard Subclass: College of Lore
 
 Plumb the Depths of Magical Knowledge
 
@@ -363,15 +362,15 @@ You always have the chosen spells prepared, and whenever you gain a Bard level, 
 
 When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration; roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn't expended.
 
-#### Cleric
+## Cleric
 
 Core Cleric Traits  
 
 <table><tr><td>Primary Ability</td><td>Wisdom</td></tr><tr><td>Hit Point Die</td><td>D8 per Cleric level</td></tr><tr><td>Saving Throw Proficiencies</td><td>Wisdom and Charisma</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: History, Insight, Medicine, Persuasion, or Religion</td></tr><tr><td>Weapon Proficiencies</td><td>Simple weapons</td></tr><tr><td>Armor Training</td><td>Light and Medium armor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Chain Shirt, Shield, Mace, Holy Symbol, Priest&####x27;s Pack, and 7 GP; or (B) 110 GP</td></tr></table>
 
-#### Becoming a Cleric ...
+### Becoming a Cleric ...
 
-#### As a Level I Character
+#### As a Level 1 Character
 
 - Gain all the traits in the Core Cleric Traits table.  
 - Gain the Cleric's level 1 features, which are listed in the Cleric Features table.
@@ -381,11 +380,11 @@ Core Cleric Traits
 - Gain the following traits from the Core Cleric Traits table: Hit Point Die and training with Light and Medium armor and Shields.  
 - Gain the Cleric's level 1 features, which are listed in the Cleric Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
 
-#### Cleric Class Features
+### Cleric Class Features
 
 As a Cleric, you gain the following class features when you reach the specified Cleric levels. These features are listed in the Cleric Features table.
 
-#### Level I: Spellcasting
+#### Level 1: Spellcasting
 
 You have learned to cast spells through prayer and meditation. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Cleric spells, which appear on the Cleric spell list later in the class's description.
 
@@ -413,7 +412,7 @@ Spellcasting Ability. Wisdom is your spellcasting ability for your Cleric spells
 
 Spellcasting Focus. You can use a Holy Symbol as a Spellcasting Focus for your Cleric spells.
 
-#### Level I: Divine Order
+#### Level 1: Divine Order
 
 You have dedicated yourself to one of the following sacred roles of your choice.
 
@@ -475,7 +474,7 @@ You gain an Epic Boon feat (see "Feats") or another feat of your choice for whic
 
 You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose Wish when you select a spell. If you do so, you can't use Divine Intervention again until you finish 2d4 Long Rests.
 
-#### Cleric Spell List
+### Cleric Spell List
 
 This section presents the Cleric spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
 
@@ -483,7 +482,7 @@ Cantrips (Level 0 Cleric Spells)
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Guidance</td><td>Divination</td><td>C</td></tr><tr><td>Light</td><td>Evocation</td><td>—</td></tr><tr><td>Mending</td><td>Transmutation</td><td>—</td></tr><tr><td>Resistance</td><td>Abjuration</td><td>C</td></tr><tr><td>Sacred Flame</td><td>Evocation</td><td>—</td></tr><tr><td>Spare the Dying</td><td>Necromancy</td><td>—</td></tr><tr><td>Thaumaturgy</td><td>Transmutation</td><td>—</td></tr></table>
 
-Level I Cleric Spells  
+Level 1 Cleric Spells  
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Bane</td><td>Enchantment</td><td>C</td></tr><tr><td>Bless</td><td>Enchantment</td><td>C, M</td></tr><tr><td>Command</td><td>Enchantment</td><td>—</td></tr><tr><td>Create or Destroy Water</td><td>Transmutation</td><td>—</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Evil and Good</td><td>Divination</td><td>C</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Detect Poison and Disease</td><td>Divination</td><td>C, R</td></tr><tr><td>Guiding Bolt</td><td>Evocation</td><td>—</td></tr><tr><td>Healing Word</td><td>Abjuration</td><td>—</td></tr><tr><td>Inflict Wounds</td><td>Necromancy</td><td>—</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Purify Food and Drink</td><td>Transmutation</td><td>R</td></tr><tr><td>Sanctuary</td><td>Abjuration</td><td>—</td></tr><tr><td>Shield of Faith</td><td>Abjuration</td><td>C</td></tr></table>
 
@@ -519,7 +518,7 @@ Level 9 Cleric Spells
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Astral Projection</td><td>Necromancy</td><td>M</td></tr><tr><td>Gate</td><td>Conjuration</td><td>C, M</td></tr><tr><td>Mass Heal</td><td>Abjuration</td><td>—</td></tr><tr><td>Power Word Heal</td><td>Enchantment</td><td>—</td></tr><tr><td>True Resurrection</td><td>Necromancy</td><td>M</td></tr></table>
 
-#### Cleric Subclass: Life Domain
+### Cleric Subclass: Life Domain
 
 Soothe the Hurts of the World
 
@@ -551,7 +550,7 @@ The healing spells you cast on others heal you as well. Immediately after you ca
 
 When you would normally roll one or more dice to restore Hit Points to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a spell, you restore 12.
 
-####  Druid
+##  Druid
 
 Core Druid Traits  
 
@@ -560,9 +559,9 @@ Proficiencies</td><td>Intelligence and Wisdom</td></tr><tr><td>Skill Proficienci
 Arcana, Insight, Medicine, Na-ture, Perception, Religion, or 
 Survival</td></tr><tr><td>Weapon Proficiencies</td><td>Simple weapons</td></tr><tr><td>Tool Proficiencies</td><td>Herbalism Kit</td></tr><tr><td>Armor Training</td><td>Light armor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Leather Ar-mor, Shield, Sickle, Druidic Foc-cus (Quarterstaff), Explorer&####x27;s Pack, Herbalism Kit, and 9 GP; or (B) 50 GP</td></tr></table>
 
-#### Becoming a Druid ...
+### Becoming a Druid ...
 
-#### As a Level I Character
+#### As a Level 1 Character
 
 - Gain all the traits in the Core Druid Traits table.  
 - Gain the Druid's level 1 features, which are listed in the Druid Features table.
@@ -572,11 +571,11 @@ Survival</td></tr><tr><td>Weapon Proficiencies</td><td>Simple weapons</td></tr><
 - Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.  
 - Gain the Druid's level 1 features, which are listed in the Druid Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
 
-#### Druid Class Features
+### Druid Class Features
 
 As a Druid, you gain the following class features when you reach the specified Druid levels. These features are listed in the Druid Features table.
 
-#### Level I: Spellcasting
+#### Level 1: Spellcasting
 
 You have learned to cast spells through studying the mystical forces of nature. See "Spells" for the rules on spellcasting. The information below details
 
@@ -606,7 +605,7 @@ Spellcasting Ability. Wisdom is your spellcasting ability for your Druid spells.
 
 Spellcasting Focus. You can use a Druidic Focus as a Spellcasting Focus for your Druid spells.
 
-#### Level I: Druidic
+#### Level 1: Druidic
 
 You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the Speak with Animals spell prepared.
 
@@ -704,7 +703,7 @@ Nature Magician. You can convert uses of Wild Shape into a spell slot (no action
 
 Longevity. The primal magic that you wield causes you to age more slowly. For every ten years that pass, your body ages only one year.
 
-#### Druid Spell List
+### Druid Spell List
 
 This section presents the Druid spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
 
@@ -712,7 +711,7 @@ Cantrips (Level 0 Druid Spells)
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Druidcraft</td><td>Transmutation</td><td>—</td></tr><tr><td>Elementalism</td><td>Transmutation</td><td>—</td></tr><tr><td>Guidance</td><td>Divination</td><td>C</td></tr><tr><td>Mending</td><td>Transmutation</td><td>—</td></tr><tr><td>Message</td><td>Transmutation</td><td>—</td></tr><tr><td>Poison Spray</td><td>Necromancy</td><td>—</td></tr><tr><td>Produce Flame</td><td>Conjuration</td><td>—</td></tr><tr><td>Resistance</td><td>Abjuration</td><td>C</td></tr><tr><td>Shillelagh</td><td>Transmutation</td><td>—</td></tr><tr><td>Spare the Dying</td><td>Necromancy</td><td>—</td></tr><tr><td>Starry Wisp</td><td>Evocation</td><td>—</td></tr></table>
 
-Level I Druid Spells  
+Level 1 Druid Spells  
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Animal Friendship</td><td>Enchantment</td><td>—</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Create or Destroy Water</td><td>Transmutation</td><td>—</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Detect Poison and Disease</td><td>Divination</td><td>C, R</td></tr><tr><td>Entangle</td><td>Conjuration</td><td>C</td></tr><tr><td>Faerie Fire</td><td>Evocation</td><td>C</td></tr><tr><td>Fog Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Goodberry</td><td>Conjuration</td><td>—</td></tr><tr><td>Healing Word</td><td>Abjuration</td><td>—</td></tr><tr><td>Ice Knife</td><td>Conjuration</td><td>—</td></tr><tr><td>Jump</td><td>Transmutation</td><td>—</td></tr><tr><td>Longstrider</td><td>Transmutation</td><td>—</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Purify Food and Drink</td><td>Transmutation</td><td>R</td></tr><tr><td>Speak with Animals</td><td>Divination</td><td>R</td></tr><tr><td>Thunderwave</td><td>Evocation</td><td>—</td></tr></table>
 
@@ -748,7 +747,7 @@ Level 9 Druid Spells
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Foresight</td><td>Divination</td><td>—</td></tr><tr><td>Shapechange</td><td>Transmutation</td><td>C, M</td></tr><tr><td>Storm of Vengeance</td><td>Conjuration</td><td>C</td></tr><tr><td>True Resurrection</td><td>Necromancy</td><td>M</td></tr></table>
 
-####  Druid Subclass: Circle of the Land
+###  Druid Subclass: Circle of the Land
 
 Celebrate Connection to the Natural World
 
@@ -800,7 +799,7 @@ As a Magic action, you can expend a use of your Wild Shape and cause spectral tr
 
 As a Bonus Action, you can move the Cube up to 60 feet to ground within 120 feet of yourself.
 
-#### Fighter
+## Fighter
 
 Core Fighter Traits  
 
@@ -818,9 +817,9 @@ Longbow, 20 Arrows, Quiver,
 Dungeoneer&####x27;s Pack, and II 
 GP; or (C) 155 GP</td></tr></table>
 
-#### Becoming a Fighter …
+### Becoming a Fighter …
 
-#### As a Level I Character
+#### As a Level 1 Character
 
 - Gain all the traits in the Core Fighter Traits table.  
 - Gain the Fighter's level 1 features, which are listed in the Fighter Features table.
@@ -830,11 +829,11 @@ GP; or (C) 155 GP</td></tr></table>
 - Gain the following traits from the Core Fighter Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.  
 - Gain the Fighter's level 1 features, which are listed in the Fighter Features table.
 
-#### Fighter Class Features
+### Fighter Class Features
 
 As a Fighter, you gain the following class features when you reach the specified Fighter levels. These features are listed on the Fighter Features table.
 
-#### Level I: Fighting Style
+#### Level 1: Fighting Style
 
 You have honed your martial prowess and gain a Fighting Style feat of your choice (see "Feats"). Defense is recommended.
 
@@ -844,7 +843,7 @@ Fighter Features
 
 <table><tr><td>Level</td><td>Proficiency Bonus</td><td>Class Features</td><td>Second Wind</td><td>Weapon Mastery</td></tr><tr><td>1</td><td>+2</td><td>Fighting Style, Second Wind, Weapon Mastery</td><td>2</td><td>3</td></tr><tr><td>2</td><td>+2</td><td>Action Surge (one use), Tactical Mind</td><td>2</td><td>3</td></tr><tr><td>3</td><td>+2</td><td>Fighter Subclass</td><td>2</td><td>3</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>3</td><td>4</td></tr><tr><td>5</td><td>+3</td><td>Extra Attack, Tactical Shift</td><td>3</td><td>4</td></tr><tr><td>6</td><td>+3</td><td>Ability Score Improvement</td><td>3</td><td>4</td></tr><tr><td>7</td><td>+3</td><td>Subclass feature</td><td>3</td><td>4</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>3</td><td>4</td></tr><tr><td>9</td><td>+4</td><td>Indomitable (one use), Tactical Master</td><td>3</td><td>4</td></tr><tr><td>10</td><td>+4</td><td>Subclass feature</td><td>4</td><td>5</td></tr><tr><td>11</td><td>+4</td><td>Two Extra Attacks</td><td>4</td><td>5</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>4</td><td>5</td></tr><tr><td>13</td><td>+5</td><td>Indomitable (two uses), Studied Attacks</td><td>4</td><td>5</td></tr><tr><td>14</td><td>+5</td><td>Ability Score Improvement</td><td>4</td><td>5</td></tr><tr><td>15</td><td>+5</td><td>Subclass feature</td><td>4</td><td>5</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>4</td><td>6</td></tr><tr><td>17</td><td>+6</td><td>Action Surge (two uses), Indomitable (three uses)</td><td>4</td><td>6</td></tr><tr><td>18</td><td>+6</td><td>Subclass feature</td><td>4</td><td>6</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>4</td><td>6</td></tr><tr><td>20</td><td>+6</td><td>Three Extra Attacks</td><td>4</td><td>6</td></tr></table>
 
-#### Level I: Second Wind
+#### Level 1: Second Wind
 
 You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.
 
@@ -852,7 +851,7 @@ You can use this feature twice. You regain one expended use when you finish a Sh
 
 When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.
 
-#### Level I: Weapon Mastery
+#### Level 1: Weapon Mastery
 
 Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
 
@@ -894,7 +893,7 @@ You can use this feature twice before a Long Rest starting at level 13 and three
 
 When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack.
 
-#### Level II: Two Extra Attacks
+#### Level 1I: Two Extra Attacks
 
 You can attack three times instead of once whenever you take the Attack action on your turn.
 
@@ -910,7 +909,7 @@ You gain an Epic Boon feat (see "Feats") or another feat of your choice for whic
 
 You can attack four times instead of once whenever you take the Attack action on your turn.
 
-#### Fighter Subclass: Champion
+### Fighter Subclass: Champion
 
 Pursue Physical Excellence in Combat
 
@@ -946,7 +945,7 @@ Defy Death. You have Advantage on Death Saving Throws. Moreover, when you roll 1
 
 Heroic Rally. At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.
 
-#### Monk
+## Monk
 
 Core Monk Traits  
 
@@ -962,9 +961,9 @@ for the tool proficiency above,
 Explorer&####x27;s Pack, and II GP; or 
 (B) 50 GP</td></tr></table>
 
-#### Becoming a Monk …
+### Becoming a Monk …
 
-#### As a Level I Character
+#### As a Level 1 Character
 
 - Gain all the traits in the Core Monk Traits table.  
 - Gain the Monk's level 1 features, which are listed in the Monk Features table.
@@ -974,7 +973,7 @@ Explorer&####x27;s Pack, and II GP; or
 - Gain the Hit Point Die trait from the Core Monk Traits table.  
 - Gain the Monk's level 1 features, which are listed in the Monk Features table.
 
-#### Monk Class Features
+### Monk Class Features
 
 As a Monk, you gain the following class features when you reach the specified Monk levels. These features are listed in the Monk Features table.
 
@@ -982,7 +981,7 @@ Monk Features
 
 <table><tr><td>Level</td><td>Proficiency Bonus</td><td>Class Features</td><td>Martial Arts</td><td>Focus Points</td><td>Unarmored Movement</td></tr><tr><td>1</td><td>+2</td><td>Martial Arts, Unarmored Defense</td><td>Id6</td><td>—</td><td>—</td></tr><tr><td>2</td><td>+2</td><td>Monk&####x27;s Focus, Unarmored Movement, Uncanny Metabolism</td><td>Id6</td><td>2</td><td>+10 ft.</td></tr><tr><td>3</td><td>+2</td><td>Deflect Attacks, Monk Subclass</td><td>Id6</td><td>3</td><td>+10 ft.</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement, Slow Fall</td><td>Id6</td><td>4</td><td>+10 ft.</td></tr><tr><td>5</td><td>+3</td><td>Extra Attack, Stunning Strike</td><td>Id8</td><td>5</td><td>+10 ft.</td></tr><tr><td>6</td><td>+3</td><td>Empowered Strikes, Subclass feature</td><td>Id8</td><td>6</td><td>+15 ft.</td></tr><tr><td>7</td><td>+3</td><td>Evasion</td><td>Id8</td><td>7</td><td>+15 ft.</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>Id8</td><td>8</td><td>+15 ft.</td></tr><tr><td>9</td><td>+4</td><td>Acrobatic Movement</td><td>Id8</td><td>9</td><td>+15 ft.</td></tr><tr><td>10</td><td>+4</td><td>Heightened Focus, Self-Restoration</td><td>Id8</td><td>10</td><td>+20 ft.</td></tr><tr><td>11</td><td>+4</td><td>Subclass feature</td><td>Id10</td><td>11</td><td>+20 ft.</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>Id10</td><td>12</td><td>+20 ft.</td></tr><tr><td>13</td><td>+5</td><td>Deflect Energy</td><td>Id10</td><td>13</td><td>+20 ft.</td></tr><tr><td>14</td><td>+5</td><td>Disciplined Survivor</td><td>Id10</td><td>14</td><td>+25 ft.</td></tr><tr><td>15</td><td>+5</td><td>Perfect Focus</td><td>Id10</td><td>15</td><td>+25 ft.</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>Id10</td><td>16</td><td>+25 ft.</td></tr><tr><td>17</td><td>+6</td><td>Subclass feature</td><td>Id12</td><td>17</td><td>+25 ft.</td></tr><tr><td>18</td><td>+6</td><td>Superior Defense</td><td>Id12</td><td>18</td><td>+30 ft.</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>Id12</td><td>19</td><td>+30 ft.</td></tr><tr><td>20</td><td>+6</td><td>Body and Mind</td><td>Id12</td><td>20</td><td>+30 ft.</td></tr></table>
 
-#### Level I: Martial Arts
+#### Level 1: Martial Arts
 
 Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:
 
@@ -997,7 +996,7 @@ Martial Arts Die. You can roll 1d6 in place of the normal damage of your Unarmed
 
 Dexterous Attacks. You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.
 
-#### Level I: Unarmored Defense
+#### Level 1: Unarmored Defense
 
 While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.
 
@@ -1113,7 +1112,7 @@ You gain an Epic Boon feat (see "Feels") or another feat of your choice for whic
 
 You have developed your body and mind to new heights. Your Dexterity and Wisdom scores increase by 4, to a maximum of 25.
 
-#### Monk Subclass: Warrior of the Open Hand
+### Monk Subclass: Warrior of the Open Hand
 
 Master Unarmed Combat Techniques
 
@@ -1135,7 +1134,7 @@ You gain the ability to heal yourself. As a Bonus Action, you can roll your Mart
 
 You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
 
-#### Level II: Fleet Step
+#### Level 1I: Fleet Step
 
 When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind immediately after that Bonus Action.
 
@@ -1145,16 +1144,16 @@ You gain the ability to set up lethal vibrations in someone's body. When you hit
 
 You can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly (no action required).
 
-#### Paladin
+## Paladin
 
 Core Paladin Traits  
 
 <table><tr><td>Primary Ability</td><td>Strength and Charisma</td></tr><tr><td>Hit Point Die</td><td>D10 per Paladin level</td></tr><tr><td>Saving Throw 
 Proficiencies</td><td>Wisdom and Charisma</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Athletics, Insight, Intimidation, Medicine, Persuasion, or Religion</td></tr><tr><td>Weapon Proficiencies</td><td>Simple and Martial weapons</td></tr><tr><td>Armor Training</td><td>Light, Medium, and Heavy armor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Chain Mail, Shield, Longsword, 6 Javelins, Holy Symbol, Priest&####x27;s Pack, and 9 GP; or (B) 150 GP</td></tr></table>
 
-#### Becoming a Paladin ...
+### Becoming a Paladin ...
 
-#### As a Level I Character
+#### As a Level 1 Character
 
 - Gain all the traits in the Core Paladin Traits table.
 
@@ -1165,11 +1164,11 @@ Proficiencies</td><td>Wisdom and Charisma</td></tr><tr><td>Skill Proficiencies</
 - Gain the following traits from the Core Paladin Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.  
 - Gain the Paladin's level 1 features, which are listed in the Paladin Features table. See the multiclassing rules in "Character Creation" to determine your available spell slots.
 
-#### Paladin Class Features
+### Paladin Class Features
 
 As a Paladin, you gain the following class features when you reach the specified Paladin levels. These features are listed in the Paladin Features table.
 
-#### Level I: Lay On Hands
+#### Level 1: Lay On Hands
 
 Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.
 
@@ -1181,7 +1180,7 @@ As a Bonus Action, you can touch a creature (which could be yourself) and draw p
 
 You can also expend 5 Hit Points from the pool of healing power to remove the Poisoned condition from the creature; those points don't also restore Hit Points to the creature.
 
-#### Level I: Spellcasting
+#### Level 1: Spellcasting
 
 You have learned to cast spells through prayer and meditation. See "Spells" for the rules on spellcasting. The information below details how you use those rules with Paladin spells, which appear in the Paladin spell list later in the class's description.
 
@@ -1199,7 +1198,7 @@ Spellcasting Ability. Charisma is your spellcasting ability for your Paladin spe
 
 Spellcasting Focus. You can use a Holy Symbol as a Spellcasting Focus for your Paladin spells.
 
-#### Level I: Weapon Mastery
+#### Level 1: Weapon Mastery
 
 Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.
 
@@ -1269,7 +1268,7 @@ Charisma modifier (minimum of one creature) that you can see within 60 feet of y
 
 You and your allies have Immunity to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there.
 
-#### Level II: Radiant Strikes
+#### Level 1I: Radiant Strikes
 
 Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Radiant damage.
 
@@ -1285,11 +1284,11 @@ Your Aura of Protection is now a 30-foot Emanation.
 
 You gain an Epic Boon feat (see "Feats") or another feat of your choice for which you qualify. Boon of Truesight is recommended.
 
-#### Paladin Spell List
+### Paladin Spell List
 
 This section presents the Paladin spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
 
-Level I Paladin Spells  
+Level 1 Paladin Spells  
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Bless</td><td>Enchantment</td><td>C, M</td></tr><tr><td>Command</td><td>Enchantment</td><td>—</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Evil and Good</td><td>Divination</td><td>C</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Detect Poison and Disease</td><td>Divination</td><td>C, R</td></tr><tr><td>Divine Favor</td><td>Transmutation</td><td>—</td></tr><tr><td>Divine Smite</td><td>Evocation</td><td>—</td></tr><tr><td>Heroism</td><td>Enchantment</td><td>C</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Purify Food and Drink</td><td>Transmutation</td><td>R</td></tr><tr><td>Searing Smite</td><td>Evocation</td><td>—</td></tr><tr><td>Shield of Faith</td><td>Abjuration</td><td>C</td></tr></table>
 
@@ -1309,7 +1308,7 @@ Level 5 Paladin Spells
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Dispel Evil and Good</td><td>Abjuration</td><td>C</td></tr><tr><td>Geas</td><td>Enchantment</td><td>—</td></tr><tr><td>Greater Restoration</td><td>Abjuration</td><td>M</td></tr><tr><td>Raise Dead</td><td>Necromancy</td><td>M</td></tr></table>
 
-#### Paladin Subclass: Oath of Devotion
+### Paladin Subclass: Oath of Devotion
 
 #### Uphold the Ideals of Justice and Order
 
@@ -1403,13 +1402,13 @@ Spellcasting Ability. Wisdom is your spellcasting ability for your Ranger spells
 
 Spellcasting Focus. You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells.
 
-#### Level I: Favored Enemy
+#### Level 1: Favored Enemy
 
 You always have the Hunter's Mark spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.
 
 The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.
 
-#### Level I: Weapon Mastery
+#### Level 1: Weapon Mastery
 
 Your training with weapons allows you to use the mastery properties of two kinds of weapons of your
 
@@ -1489,7 +1488,7 @@ The damage die of your Hunter's Mark is a d10 rather than a d6.
 
 This section presents the Ranger spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
 
-Level I Ranger Spells  
+Level 1 Ranger Spells  
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Alarm</td><td>Abjuration</td><td>R</td></tr><tr><td>Animal Friendship</td><td>Enchantment</td><td>—</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Detect Poison and Disease</td><td>Divination</td><td>C, R</td></tr><tr><td>Ensnaring Strike</td><td>Conjuration</td><td>C</td></tr><tr><td>Entangle</td><td>Conjuration</td><td>C</td></tr><tr><td>Fog Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Goodberry</td><td>Conjuration</td><td>—</td></tr><tr><td>Hunter&####x27;s Mark</td><td>Divination</td><td>C</td></tr><tr><td>Jump</td><td>Transmutation</td><td>—</td></tr><tr><td>Longstrider</td><td>Transmutation</td><td>—</td></tr><tr><td>Speak with Animals</td><td>Divination</td><td>R</td></tr></table>
 
@@ -1509,7 +1508,7 @@ Level 5 Ranger Spells
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Commune with Nature</td><td>Divination</td><td>R</td></tr><tr><td>Greater Restoration</td><td>Abjuration</td><td>M</td></tr><tr><td>Tree Stride</td><td>Conjuration</td><td>C</td></tr></table>
 
-#### Ranger Subclass: Hunter
+### Ranger Subclass: Hunter
 
 Protect Nature and People from Destruction
 
@@ -1914,7 +1913,7 @@ Cost: 1 Sorcery Point
 
 When you cast a spell, such as Charm Person, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1.
 
-#### Sorcerer Spell List
+### Sorcerer Spell List
 
 This section presents the Sorcerer spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column,  $C$  means the spell requires Concentration,  $R$  means it's a Ritual, and  $M$  means it requires a specific Material component.
 
@@ -1922,7 +1921,7 @@ Cantrips (Level 0 Sorcerer Spells)
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Acid Splash</td><td>Evocation</td><td>—</td></tr><tr><td>Chill Touch</td><td>Necromancy</td><td>—</td></tr><tr><td>Dancing Lights</td><td>Illusion</td><td>C</td></tr><tr><td>Elementalism</td><td>Transmutation</td><td>—</td></tr><tr><td>Fire Bolt</td><td>Evocation</td><td>—</td></tr><tr><td>Light</td><td>Evocation</td><td>—</td></tr><tr><td>Mage Hand</td><td>Conjuration</td><td>—</td></tr><tr><td>Mending</td><td>Transmutation</td><td>—</td></tr><tr><td>Message</td><td>Transmutation</td><td>—</td></tr><tr><td>Minor Illusion</td><td>Illusion</td><td>—</td></tr><tr><td>Poison Spray</td><td>Necromancy</td><td>—</td></tr><tr><td>Prestidigitation</td><td>Transmutation</td><td>—</td></tr><tr><td>Ray of Frost</td><td>Evocation</td><td>—</td></tr><tr><td>Shocking Grasp</td><td>Evocation</td><td>—</td></tr><tr><td>Sorcerous Burst</td><td>Evocation</td><td>—</td></tr><tr><td>True Strike</td><td>Divination</td><td>—</td></tr></table>
 
-Level I Sorcerer Spells  
+Level 1 Sorcerer Spells  
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Burning Hands</td><td>Evocation</td><td>—</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Chromatic Orb</td><td>Evocation</td><td>M</td></tr><tr><td>Color Spray</td><td>Illusion</td><td>—</td></tr><tr><td>Comprehend Languages</td><td>Divination</td><td>R</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Disguise Self</td><td>Illusion</td><td>—</td></tr><tr><td>Expeditious Retreat</td><td>Transmutation</td><td>C</td></tr><tr><td>False Life</td><td>Necromancy</td><td>–</td></tr><tr><td>Feather Fall</td><td>Transmutation</td><td>—</td></tr><tr><td>Fog Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Grease</td><td>Conjuration</td><td>—</td></tr><tr><td>Ice Knife</td><td>Conjuration</td><td>—</td></tr><tr><td>Jump</td><td>Transmutation</td><td>—</td></tr><tr><td>Mage Armor</td><td>Abjuration</td><td>—</td></tr><tr><td>Magic Missile</td><td>Evocation</td><td>—</td></tr><tr><td>Ray of Sickness</td><td>Necromancy</td><td>—</td></tr><tr><td>Shield</td><td>Abjuration</td><td>—</td></tr><tr><td>Silent Image</td><td>Illusion</td><td>C</td></tr><tr><td>Sleep</td><td>Enchantment</td><td>C</td></tr><tr><td>Thunderwave</td><td>Evocation</td><td>—</td></tr></table>
 
@@ -1960,7 +1959,7 @@ Level 9 Sorcerer Spells
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Gate</td><td>Conjuration</td><td>C, M</td></tr><tr><td>Meteor Swarm</td><td>Evocation</td><td>—</td></tr><tr><td>Power Word Kill</td><td>Enchantment</td><td>—</td></tr><tr><td>Time Stop</td><td>Transmutation</td><td>—</td></tr><tr><td>Wish</td><td>Conjuration</td><td>—</td></tr></table>
 
-#### Sorcerer Subclass: Draconic Sorcery
+### Sorcerer Subclass: Draconic Sorcery
 
 Breathe the Magic of Dragons
 
