@@ -1,4 +1,7 @@
 
+---
+sidebar_position: 2
+---
 # Gameplay Toolbox
 
 ## Travel Pace
