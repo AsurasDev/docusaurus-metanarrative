@@ -92,7 +92,7 @@ You can use this feature twice before a Long Rest starting at level 13 and three
 
 When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack.
 
-### Level 1I: Two Extra Attacks
+### Level 11: Two Extra Attacks
 
 You can attack three times instead of once whenever you take the Attack action on your turn.
 

@@ -187,7 +187,7 @@ You gain the ability to heal yourself. As a Bonus Action, you can roll your Mart
 
 You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
 
-### Level 1I: Fleet Step
+### Level 11: Fleet Step
 
 When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind immediately after that Bonus Action.
 
