@@ -1,0 +1,4 @@
+docusaurus:
+  label: 'Elemental'
+  permalink: '/elemental'
+  description: 'Docs related to the Docusaurus framework'

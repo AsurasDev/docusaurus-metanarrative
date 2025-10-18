@@ -1,9 +1,7 @@
----
-sidebar_position: 1
----
+
 # Monsters
 
-#### Stat Block Overview
+## Stat Block Overview
 
 A monster has a stat block that contains the rules necessary to use it in the game. Stat blocks are divided into the following parts:
 
@@ -23,15 +21,15 @@ Bonus Actions. This section provides a monster's Bonus Actions, if any.
 
 Reactions and Legendary Actions. These sections provide Reactions and Legendary Actions, if any.
 
-#### Parts of a Stat Block
+## Parts of a Stat Block
 
 The rules for a stat block are detailed in "Rules Glossary" and in this section.
 
-#### Size
+### Size
 
 A monster is Tiny, Small, Medium, Large, Huge, or Gargantuan. If size options are presented, you choose the creature's size from those options. See "Playing the Game" for information on size.
 
-#### Creature Type
+### Creature Type
 
 Each monster has a tag that identifies the type of creature it is. Certain spells, magic items, class features, and other effects in the game interact in special ways with creatures of a particular type.
 
@@ -69,23 +67,23 @@ Undead are spirits and the reanimated dead, such as ghosts, vampires, and zombie
 
 A monster might have one or more tags in parentheses following its type. Such tags provide additional categorization and have no rules of their own, but certain game effects might refer to them.
 
-#### Alignment
+### Alignment
 
 The alignment specified in a monster's stat block is a default suggestion of how to roleplay the monster, inspired by its traditional role in the game or real-world folklore. Change a monster's alignment to suit your storytelling needs. The Neutral alignment, in particular, is an invitation for you to consider whether an individual leans toward one of the other alignments.
 
 "Character Creation" describes the nine alignments and unaligned creatures.
 
-#### Armor Class
+### Armor Class
 
 A monster's Armor Class (AC) includes its natural armor, Dexterity, gear, and other defenses. See "Playing the Game" for information on Armor Class.
 
-#### Initiative
+### Initiative
 
 The Initiative entry specifies the monster's Initiative modifier followed by the monster's Initiative score in parentheses. Use the modifier when you roll to determine a monster's Initiative. A monster's Initiative modifier is typically equal to its Dexterity modifier, but some monsters have additional modifiers, such as Proficiency Bonus, applied to that number.
 
 If you don't want to roll a monster's Initiative, use the Initiative score as the monster's Initiative in combat. Initiative is further detailed in "Playing the Game."
 
-#### Hit Points
+### Hit Points
 
 A monster's Hit Points are presented as a number followed by parentheses, where the monster's Hit Point Dice are provided, along with any contribution from its Constitution. Either use the number for the monster's Hit Points or roll the die expression in parentheses to determine the monster's Hit Points randomly; don't use both.
 
@@ -99,37 +97,40 @@ A monster's Constitution modifier is multiplied by the number of Hit Dice it pos
 
 For more on Hit Points, see "Playing the Game."
 
-#### Speed
+### Speed
 
 The Speed entry specifies a monster's Speed. Some monsters have one or more of the following speeds: Burrow, Climb, Fly, Swim. Rules for Speed and these specials speeds appear in "Rules Glossary."
 
-#### Ability Scores
+### Ability Scores
 
 Every monster has six ability scores along with corresponding ability score modifiers and saving throw modifiers. For more information on ability scores and saving throws, see "Playing the Game."
 
-#### Skills
+### Skills
 
 The Skills entry specifies a monster's skill proficiencies, if any. For example, a monster that is very perceptive and stealthy might have bonuses to Wisdom (Perception) and Dexterity (Stealth) checks. A skill bonus is the sum of a monster's relevant ability modifier and its Proficiency Bonus. Other modifiers might apply.
 
-#### Resistances and Vulnerabilities
+### Resistances and Vulnerabilities
 
 These entries list a monster's Resistances and Vulnerabilities, if any. See "Playing the Game" for more information.
 
-#### RUNNING A MONSTER
+:::tip
+**RUNNING A MONSTER**
 
 To ensure a monster acts in accordance with its Challenge Rating, follow these rules during combat:
 
-Special Abilities. If the monster has a special ability that deals a lot of damage but has a limited number of uses, such as a recharging breath weapon or a spell it can cast only once per day, have it use that special ability as quickly and as often as possible.
+Special Abilities. If the monster has a special ability that deals a lot of damage but has a limited number of uses, such as a recharging breath >weapon or a spell it can cast only once per day, have it use that special ability as quickly and as often as possible.
 
 Multiattack. If the monster has Multiattack, have it use Multiattack on any of its turns in which it's not using one of its more powerful abilities.
 
-Bonus Actions, Reactions, Legendary Actions. If the monster has Bonus Actions, Reactions, or Legendary Actions in its stat block, make sure it uses them as often as it can.
+Bonus Actions, Reactions, Legendary Actions. If the monster has Bonus Actions, Reactions, or Legendary Actions in its stat block, make sure it uses >them as often as it can.
 
-#### Immunities
+:::
+
+### Immunities
 
 This entry lists the monster's Immunities, if any. If the monster has damage and condition Immunities, the damage types are listed before the conditions. See "Playing the Game" for details.
 
-#### Gear
+### Gear
 
 Monsters have proficiency with their equipment. If a monster has equipment that can be given away or retrieved, the items are listed in the Gear entry. The monster's stat block might include special flourishes that happen when the monster uses an item, and the stat block might ignore the rules in "Equipment" for that item. When used by someone else, a retrievable item uses its "Equipment" rules, ignoring any special flourishes in the stat block.
 
@@ -149,11 +150,11 @@ Beware of giving a monster combat-oriented magic items, since those might alter 
 
 a class tag after its creature type is considered a member of that class for Attunement purposes.
 
-#### Senses
+### Senses
 
 The Senses entry specifies a monster's Passive Perception score, as well as any special senses the monster possesses. Passive Perception and special senses are described in "Rules Glossary."
 
-#### Languages
+### Languages
 
 This entry lists languages that the monster can use to communicate. Sometimes a monster can understand a language but can't communicate with it, which is noted in its entry. "None" indicates that a creature doesn't comprehend any language.
 
@@ -161,7 +162,7 @@ This entry lists languages that the monster can use to communicate. Sometimes a 
 
 Telepathy is a magical ability that allows a creature to communicate mentally with another creature within a specified range. See "Rules Glossary" for more information.
 
-#### Challenge Rating
+### Challenge Rating
 
 Challenge Rating is defined in "Rules Glossary," while guidance on using CR to plan potential combat encounters is in "Gameplay Toolbox."
 
@@ -171,11 +172,9 @@ The number of Experience Points (XP) a monster is worth is based on its CR, as d
 
 Unless a rule says otherwise, a monster summoned by a spell or another magical ability is worth the XP noted in its stat block.
 
-Experience Points by Challenge Rating  
+**Experience Points by Challenge Rating** 
 
-<table><tr><td>CR</td><td>XP</td><td>CR</td><td>XP</td></tr><tr><td>0</td><td>0 or 10</td><td>14</td><td>11,500</td></tr><tr><td>1/8</td><td>25</td><td>15</td><td>13,000</td></tr><tr><td>1/4</td><td>50</td><td>16</td><td>15,000</td></tr><tr><td>1/2</td><td>100</td><td>17</td><td>18,000</td></tr><tr><td>1</td><td>200</td><td>18</td><td>20,000</td></tr><tr><td>2</td><td>450</td><td>19</td><td>22,000</td></tr><tr><td>3</td><td>700</td><td>20</td><td>25,000</td></tr><tr><td>4</td><td>1,100</td><td>21</td><td>33,000</td></tr><tr><td>5</td><td>1,800</td><td>22</td><td>41,000</td></tr><tr><td>6</td><td>2,300</td><td>23</td><td>50,000</td></tr><tr><td>7</td><td>2,900</td><td>24</td><td>62,000</td></tr><tr><td>8</td><td>3,900</td><td>25</td><td>75,000</td></tr><tr><td>9</td><td>5,000</td><td>26</td><td>90,000</td></tr><tr><td>10</td><td>5,900</td><td>27</td><td>105,000</td></tr></table>
-
-<table><tr><td>CR</td><td>XP</td><td>CR</td><td>XP</td></tr><tr><td>11</td><td>7,200</td><td>28</td><td>120,000</td></tr><tr><td>12</td><td>8,400</td><td>29</td><td>135,000</td></tr><tr><td>13</td><td>10,000</td><td>30</td><td>155,000</td></tr></table>
+<table><tr><td>CR</td><td>XP</td><td>CR</td><td>XP</td></tr><tr><td>0</td><td>0 or 10</td><td>14</td><td>11,500</td></tr><tr><td>1/8</td><td>25</td><td>15</td><td>13,000</td></tr><tr><td>1/4</td><td>50</td><td>16</td><td>15,000</td></tr><tr><td>1/2</td><td>100</td><td>17</td><td>18,000</td></tr><tr><td>1</td><td>200</td><td>18</td><td>20,000</td></tr><tr><td>2</td><td>450</td><td>19</td><td>22,000</td></tr><tr><td>3</td><td>700</td><td>20</td><td>25,000</td></tr><tr><td>4</td><td>1,100</td><td>21</td><td>33,000</td></tr><tr><td>5</td><td>1,800</td><td>22</td><td>41,000</td></tr><tr><td>6</td><td>2,300</td><td>23</td><td>50,000</td></tr><tr><td>7</td><td>2,900</td><td>24</td><td>62,000</td></tr><tr><td>8</td><td>3,900</td><td>25</td><td>75,000</td></tr><tr><td>9</td><td>5,000</td><td>26</td><td>90,000</td></tr><tr><td>10</td><td>5,900</td><td>27</td><td>105,000</td></tr><tr><td>11</td><td>7,200</td><td>28</td><td>120,000</td></tr><tr><td>12</td><td>8,400</td><td>29</td><td>135,000</td></tr><tr><td>13</td><td>10,000</td><td>30</td><td>155,000</td></tr></table>
 
 #### Proficiency Bonus
 
@@ -185,11 +184,11 @@ Proficiency Bonus by Challenge Rating
 
 <table><tr><td>CR</td><td>PB</td><td>CR</td><td>PB</td></tr><tr><td>0-4</td><td>+2</td><td>17-20</td><td>+6</td></tr><tr><td>5-8</td><td>+3</td><td>21-24</td><td>+7</td></tr><tr><td>9-12</td><td>+4</td><td>25-28</td><td>+8</td></tr><tr><td>13-16</td><td>+5</td><td>29-30</td><td>+9</td></tr></table>
 
-#### Traits
+### Traits
 
 A monster's traits, if any, are features that are active at all times or in certain situations.
 
-#### Actions
+### Actions
 
 A monster can take the actions in this section or take one of the actions available to all creatures, as described in "Playing the Game."
 
@@ -227,21 +226,21 @@ Spell Components. The Spellcasting trait notes whether the monster's spellcastin
 
 Casting Times of 1+ Minutes. If a spell has a casting time of 1 minute or more yet is listed in a spellcasting action, the monster doesn't cast the spell in just one action unless the action's description states otherwise; the monster must take the Magic action on each of its turns and maintain Concentration to cast the spell, as described in "Rules Glossary."
 
-#### Bonus Action
+### Bonus Action
 
 If a monster has Bonus Action options, they are listed in this section. See "Playing the Game" for details on Bonus Actions.
 
-#### Reactions
+### Reactions
 
 If the monster has Reaction options, those are listed in this section along with their triggers. See "Playing the Game" for details on Reactions.
 
-#### Legendary Actions
+### Legendary Actions
 
 If the monster has Legendary Action options, those are listed in this section. A Legendary Action is an action that a monster can take immediately after another creature's turn. Only one of these actions can be taken at a time and only after another creature's turn ends. The monster can't take a Legendary Action if it has the Incapacitated condition or is otherwise unable to take actions.
 
 The monster has a limited number of Legendary Action uses, and that number is specified in the stat block. The monster expends one use whenever it takes a Legendary Action, and it regains all expended uses at the start of each of its turns.
 
-#### Limited Usage
+### Limited Usage
 
 Some parts of a stat block have restrictions on the number of times they can be used. Here are the most common ways that usage is limited:
 
@@ -251,4 +250,10 @@ Recharge X-Y. This notation means a monster can use the stat block part once. At
 
 Recharge after a Short or Long Rest. This notation means the monster can use the stat block part once and must then finish a Short or Long Rest to use it again.
 
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+```
 

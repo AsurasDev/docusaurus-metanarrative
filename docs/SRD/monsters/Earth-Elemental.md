@@ -1,3 +1,9 @@
+---
+tags:
+  - Elemental
+  - Test
+---
+
 # Earth Elemental
 
 ## Earth Elemental
