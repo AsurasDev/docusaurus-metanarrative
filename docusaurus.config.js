@@ -114,8 +114,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/SRD/gameplay/playing-the-game',
+                label: '5th Edition SRD (2024)',
+                to: '/docs/5E-SRD/',
               },
             ],
           },
