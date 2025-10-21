@@ -12,13 +12,19 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "dev": "docusaurus start"
+    "dev": "docusaurus start",
+    "index:algolia": "node scripts/algolia_indexer.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.9.0",
     "@docusaurus/preset-classic": "3.9.0",
+    "@docusaurus/theme-search-algolia": "^3.9.2",
     "@mdx-js/react": "^3.0.0",
+    "algoliasearch": "^5.40.1",
     "clsx": "^2.0.0",
+    "dotenv": "^17.2.3",
+    "glob": "^11.0.3",
+    "gray-matter": "^4.0.3",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

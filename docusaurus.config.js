@@ -12,8 +12,8 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'MetaNarrative',
+  tagline: 'Un sitio para los juegos de rol de mesa',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -87,7 +87,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'MetaNarrative',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -156,6 +156,16 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+
+      algolia: {
+      appId: 'VHTP4VWBGO',
+      apiKey: '7f7afa7a3eb4c13b1dac83219b6178b9', // This is the public API key
+      indexName: 'test_SRD',
+      // Optional: You can also configure other options here,
+      // such as searchPagePath to customize or disable the search page.
+      // searchPagePath: 'search', // Example: custom search page path
+      // contextualSearch: true, // Example: enable contextual search
+    },
     }),
 };
 

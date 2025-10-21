@@ -39,3 +39,31 @@ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+## Algolia indexer
+
+This repo includes a script to index the `docs/` content into an Algolia index (`scripts/algolia_indexer.mjs`).
+
+Usage:
+
+1. Copy `.env.example` to `.env` and fill the following variables:
+
+```
+ALGOLIA_APP_ID=YourAlgoliaAppId
+ALGOLIA_API_KEY=YourAlgoliaAdminApiKey
+ALGOLIA_INDEX_NAME=YourAlgoliaIndexName
+```
+
+2. Dry run (prepare records without uploading):
+
+```bash
+ALGOLIA_DRY_RUN=1 node scripts/algolia_indexer.mjs
+```
+
+3. Real upload (will clear the target index and upload prepared records):
+
+```bash
+node scripts/algolia_indexer.mjs
+```
+
+Important: keep your `.env` file private (it's already in `.gitignore`).
