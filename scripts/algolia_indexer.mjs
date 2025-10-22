@@ -41,7 +41,17 @@ async function parseMarkdownFile(filePath) {
     // Divide el contenido encontrando encabezados y creando secciones
     const headingRegex = /^\s*(#{1,6})\s+(.*)$/gm;
     const records = [];
-    const relativePath = path.relative(process.cwd(), filePath);
+  const relativePath = path.relative(process.cwd(), filePath).replace(/\\/g, '/');
+
+  // Build a site-relative URL/permalink for the doc.
+  // e.g. docs/5E-SRD/monsters/Aboleth.md -> /docs/5E-SRD/monsters/Aboleth
+  // docs/5E-SRD/index.md -> /docs/5E-SRD
+  let docUrl = `/${relativePath}`;
+  docUrl = docUrl.replace(/\.mdx?$/i, '');
+  // remove trailing /index
+  docUrl = docUrl.replace(/\/index$/, '');
+  // ensure it starts with a single '/'
+  if (!docUrl.startsWith('/')) docUrl = '/' + docUrl;
 
     let lastIndex = 0;
     let match;
@@ -76,6 +86,8 @@ async function parseMarkdownFile(filePath) {
           heading: 'Introduction',
           content: intro,
           path: relativePath,
+          url: docUrl,
+          permalink: docUrl,
         });
       }
 
@@ -94,18 +106,22 @@ async function parseMarkdownFile(filePath) {
           heading: current.text,
           content: sectionContent,
           path: relativePath,
+          url: docUrl,
+          permalink: docUrl,
         });
       }
     }
 
     // Si no hay secciones, indexa el documento completo
     if (records.length === 0 && content.trim()) {
-        records.push({
-            objectID: relativePath,
-            title: mainTitle,
-            content: content.trim(),
-            path: relativePath
-        });
+    records.push({
+      objectID: relativePath,
+      title: mainTitle,
+      content: content.trim(),
+      path: relativePath,
+      url: docUrl,
+      permalink: docUrl,
+    });
     }
 
     return records;

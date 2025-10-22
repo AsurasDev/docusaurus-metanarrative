@@ -161,10 +161,18 @@ const config = {
       appId: 'VHTP4VWBGO',
       apiKey: '7f7afa7a3eb4c13b1dac83219b6178b9', // This is the public API key
       indexName: 'test_SRD',
-      // Optional: You can also configure other options here,
-      // such as searchPagePath to customize or disable the search page.
-      // searchPagePath: 'search', // Example: custom search page path
-      // contextualSearch: true, // Example: enable contextual search
+      // Disable contextualSearch to avoid DocSearch adding automatic facetFilters
+      // such as language:en and docusaurus_tag:... which restrict results to the
+      // current section. Set to `true` if you want contextual filtering.
+      contextualSearch: false,
+      // You can also override search parameters. Here we clear facetFilters so
+      // no default facet filters will be sent from the frontend.
+      searchParameters: {
+        facetFilters: [],
+      },
+  // Optional: You can also configure other options here,
+  // such as searchPagePath to customize or disable the search page.
+  // searchPagePath: 'search', // Example: custom search page path
     },
     }),
 };
