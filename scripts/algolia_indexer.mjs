@@ -20,6 +20,25 @@ const { ALGOLIA_APP_ID, ALGOLIA_API_KEY, ALGOLIA_INDEX_NAME } = process.env;
 // Directorio de la documentación
 const DOCS_PATH = 'docs';
 
+// Determine site base URL: use ALGOLIA_SITE_URL env var if provided, otherwise
+// try to read the `url` field from docusaurus.config.js.
+let SITE_BASE_URL = process.env.ALGOLIA_SITE_URL || '';
+if (!SITE_BASE_URL) {
+  try {
+    // docusaurus.config.js is ES module; import it dynamically
+    const cfgUrl = new URL('../docusaurus.config.js', import.meta.url).href;
+    const cfg = await import(cfgUrl);
+    const conf = cfg && (cfg.default || cfg);
+    if (conf && conf.url) SITE_BASE_URL = conf.url;
+  } catch (e) {
+    // ignore and leave SITE_BASE_URL empty
+  }
+}
+// Ensure SITE_BASE_URL ends with a slash only if it's just the origin
+if (SITE_BASE_URL && SITE_BASE_URL.endsWith('/')) {
+  SITE_BASE_URL = SITE_BASE_URL.replace(/\/+$/, '');
+}
+
 /**
  * Analiza un archivo Markdown, extrae el front matter y el contenido,
  * y lo divide en secciones basadas en los encabezados.
@@ -43,7 +62,7 @@ async function parseMarkdownFile(filePath) {
     const records = [];
   const relativePath = path.relative(process.cwd(), filePath).replace(/\\/g, '/');
 
-  // Build a site-relative URL/permalink for the doc.
+    // Build a site-relative URL/permalink for the doc.
   // e.g. docs/5E-SRD/monsters/Aboleth.md -> /docs/5E-SRD/monsters/Aboleth
   // docs/5E-SRD/index.md -> /docs/5E-SRD
   let docUrl = `/${relativePath}`;
@@ -52,6 +71,12 @@ async function parseMarkdownFile(filePath) {
   docUrl = docUrl.replace(/\/index$/, '');
   // ensure it starts with a single '/'
   if (!docUrl.startsWith('/')) docUrl = '/' + docUrl;
+    // Build absolute URL if SITE_BASE_URL is configured
+    let absoluteDocUrl = docUrl;
+    if (SITE_BASE_URL) {
+      // Avoid double slashes
+      absoluteDocUrl = SITE_BASE_URL.replace(/\/+$/, '') + docUrl;
+    }
 
     let lastIndex = 0;
     let match;
@@ -86,8 +111,8 @@ async function parseMarkdownFile(filePath) {
           heading: 'Introduction',
           content: intro,
           path: relativePath,
-          url: docUrl,
-          permalink: docUrl,
+          url: absoluteDocUrl,
+          permalink: absoluteDocUrl,
         });
       }
 
@@ -106,8 +131,8 @@ async function parseMarkdownFile(filePath) {
           heading: current.text,
           content: sectionContent,
           path: relativePath,
-          url: docUrl,
-          permalink: docUrl,
+          url: absoluteDocUrl,
+          permalink: absoluteDocUrl,
         });
       }
     }
@@ -119,8 +144,8 @@ async function parseMarkdownFile(filePath) {
       title: mainTitle,
       content: content.trim(),
       path: relativePath,
-      url: docUrl,
-      permalink: docUrl,
+      url: absoluteDocUrl,
+      permalink: absoluteDocUrl,
     });
     }
 

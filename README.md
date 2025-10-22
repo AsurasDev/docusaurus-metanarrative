@@ -67,3 +67,13 @@ node scripts/algolia_indexer.mjs
 ```
 
 Important: keep your `.env` file private (it's already in `.gitignore`).
+
+Optional: Absolute URLs in Algolia
+--
+The indexer will generate absolute URLs for search hits. You can specify the base URL used to build those absolute links by adding:
+
+```
+ALGOLIA_SITE_URL=https://your-site.example.com
+```
+
+If `ALGOLIA_SITE_URL` is not set, the indexer will try to read the `url` field from `docusaurus.config.js`.
